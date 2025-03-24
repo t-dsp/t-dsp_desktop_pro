@@ -1,0 +1,38 @@
+(footprint "Keystone_Electronics_621_2_REVERSE" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "H1" (at 0 8.12) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 9a1da8f8-094e-4265-8207-05f3a8b78a65)
+  )
+  (fp_text value "MountingHole" (at 0 7.12) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6df608d2-b85b-40a8-bf52-189a96d17b63)
+  )
+  (fp_text user ".343\" (short)" (at 5.03 0.05 90 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.1)) (justify left bottom))
+    (tstamp b5d83a69-4b43-4936-8c74-7b33de765661)
+  )
+  (fp_rect (start -3.2 -8.71) (end 3.2 0)
+    (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp 2844bec3-e5d8-49c1-9d68-7e769d49d73a))
+  (pad "1" thru_hole circle (at 0 -5.16 270) (size 3.45 3.45) (drill 2.45) (layers "*.Cu" "*.Mask") (tstamp 10ca9a57-4d92-446e-8c98-f7d9dce7cd08))
+  (pad "1" smd custom (at 0 -5.16 270) (size 3.45 3.45) (layers "F.Cu" "F.Mask")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_rect (start -3.55 -3.2) (end 5.16 3.2) (width 0.1) (fill yes))
+    ) (tstamp c3c23514-0e8d-404c-a9d9-378ea82dc3d9))
+  (group "" (id b83cfef1-abae-4579-86e5-c206bf2c2fe7)
+    (members
+      10ca9a57-4d92-446e-8c98-f7d9dce7cd08
+      2844bec3-e5d8-49c1-9d68-7e769d49d73a
+      b5d83a69-4b43-4936-8c74-7b33de765661
+      c3c23514-0e8d-404c-a9d9-378ea82dc3d9
+    )
+  )
+  (model "${KIPRJMOD}/3d_models/Bracket 4-40 621.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
+)

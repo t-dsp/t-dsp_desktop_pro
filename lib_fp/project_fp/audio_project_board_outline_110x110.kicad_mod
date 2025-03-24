@@ -1,0 +1,101 @@
+(footprint "audio_project_board_outline_110x110" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 62DFFFDB)
+  (attr through_hole)
+  (fp_text reference "H1" (at 0 8.12) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 9a1da8f8-094e-4265-8207-05f3a8b78a65)
+  )
+  (fp_text value "Short Side of 621 - .343 [8.7]" (at 0 3.81) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6df608d2-b85b-40a8-bf52-189a96d17b63)
+  )
+  (fp_line (start 103.65 -101.2939) (end 110 -101.2939) (layer "F.SilkS") (width 0.12) (tstamp 07dbe955-a739-4790-9383-e62edeaa3f82))
+  (fp_line (start 6.35 -1.5748) (end 0 -1.5748) (layer "F.SilkS") (width 0.12) (tstamp 21bc7808-ee7f-48e5-909e-010902d2a7a0))
+  (fp_line (start 6.35 0) (end 6.35 -8.7122) (layer "F.SilkS") (width 0.12) (tstamp 275ba565-5617-4ea2-bdb3-9aba91704f30))
+  (fp_line (start 103.65 0.0061) (end 103.65 -8.7061) (layer "F.SilkS") (width 0.12) (tstamp 2ed77323-34f2-44cc-b9b0-256fea7e7246))
+  (fp_line (start 110 0.0061) (end 110 -8.7061) (layer "F.SilkS") (width 0.12) (tstamp 3f7e6d5d-237f-40bb-abc1-8bb14860bf8f))
+  (fp_line (start 0 -108.4313) (end 6.35 -108.4313) (layer "F.SilkS") (width 0.12) (tstamp 4d5bb9f0-42fb-4127-990a-7b52d555c482))
+  (fp_line (start 110 -8.7061) (end 103.65 -8.7061) (layer "F.SilkS") (width 0.12) (tstamp 56ac77dc-5ae4-460b-a8a3-a1da5ce47cc1))
+  (fp_line (start 0 0) (end 0 -8.7122) (layer "F.SilkS") (width 0.12) (tstamp 574d23ee-7563-48a5-ad2c-7c11d3c907c0))
+  (fp_line (start 6.35 -8.7122) (end 0 -8.7122) (layer "F.SilkS") (width 0.12) (tstamp 5b577f83-d080-497b-9d8e-c8096052fb95))
+  (fp_line (start 110 -1.5687) (end 103.65 -1.5687) (layer "F.SilkS") (width 0.12) (tstamp 66660f73-7695-43df-b34d-61713db5fe1e))
+  (fp_line (start 103.65 -110.0061) (end 103.65 -101.2939) (layer "F.SilkS") (width 0.12) (tstamp 6c9ddc4e-86c3-4f29-82a2-3fb82efd8e17))
+  (fp_line (start 110.02 0.0061) (end 103.67 0.0061) (layer "F.SilkS") (width 0.12) (tstamp 9036091d-b306-406f-8804-0d550eb1d360))
+  (fp_line (start 0 -110.0061) (end 0 -101.2939) (layer "F.SilkS") (width 0.12) (tstamp 9668d050-1658-4ae1-9d2b-78ec2991430a))
+  (fp_line (start 6.35 0) (end 0 0) (layer "F.SilkS") (width 0.12) (tstamp 995713bb-c896-40cc-b9c3-42f81a8b8f75))
+  (fp_line (start 103.65 -110.0061) (end 110 -110.0061) (layer "F.SilkS") (width 0.12) (tstamp a17d338a-dbb4-416a-86ea-01f5adcbaafc))
+  (fp_line (start 0 -110.0061) (end 6.35 -110.0061) (layer "F.SilkS") (width 0.12) (tstamp da454a5c-c7e3-4ac4-99ea-d7ce97944551))
+  (fp_line (start 103.65 -108.4313) (end 110 -108.4313) (layer "F.SilkS") (width 0.12) (tstamp ea7871db-1558-4662-bf00-d3a4207bc91e))
+  (fp_line (start 110 -110.0061) (end 110 -101.2939) (layer "F.SilkS") (width 0.12) (tstamp f4b62382-b411-490b-974e-bf8ed1e8f76a))
+  (fp_line (start 6.35 -110.0061) (end 6.35 -101.2939) (layer "F.SilkS") (width 0.12) (tstamp f69b9334-25fc-4a27-bbac-cb557913c8f6))
+  (fp_line (start 0 -101.2939) (end 6.35 -101.2939) (layer "F.SilkS") (width 0.12) (tstamp ff0f7ee6-d428-41f8-b105-f1dcde501146))
+  (fp_line (start 0 0) (end 0 -110) (layer "Edge.Cuts") (width 0.12) (tstamp 39cfbb4d-eb51-4766-95a4-7bc9fe7baa31))
+  (fp_line (start 110 0) (end 110 -110) (layer "Edge.Cuts") (width 0.12) (tstamp 811e7e04-2dc8-4ca1-b18f-68a85b4b64a3))
+  (fp_line (start 0 0) (end 110 0) (layer "Edge.Cuts") (width 0.12) (tstamp 9a0593e7-161c-4c3b-842a-d6dd9c5a7d33))
+  (fp_line (start 0 -110) (end 110 -110) (layer "Edge.Cuts") (width 0.12) (tstamp b2d76ec2-bab6-4b88-b332-ef1382e28893))
+  (pad "1" thru_hole circle (at 3.175 -5.1562 270) (size 2.75 2.75) (drill 2.45) (layers *.Cu *.Mask) (tstamp 10ca9a57-4d92-446e-8c98-f7d9dce7cd08))
+  (pad "1" thru_hole circle (at 106.825 -5.1463 270) (size 2.75 2.75) (drill 2.45) (layers *.Cu *.Mask) (tstamp 90a428d3-d45a-4251-acfe-e51237e99361))
+  (pad "1" thru_hole circle (at 106.825 -104.8499 90) (size 2.75 2.75) (drill 2.45) (layers *.Cu *.Mask) (tstamp b78d61c2-5b43-47e9-ba8e-4e087df544d0))
+  (pad "1" thru_hole circle (at 3.175 -104.8499 90) (size 2.75 2.75) (drill 2.45) (layers *.Cu *.Mask) (tstamp d439cd07-6d69-4a89-a6ea-00ce10e2594d))
+  (group "" (id 112eb549-c63a-45c6-84ec-a4a29eacb7ce)
+    (members
+      4d5bb9f0-42fb-4127-990a-7b52d555c482
+      9668d050-1658-4ae1-9d2b-78ec2991430a
+      d439cd07-6d69-4a89-a6ea-00ce10e2594d
+      da454a5c-c7e3-4ac4-99ea-d7ce97944551
+      f69b9334-25fc-4a27-bbac-cb557913c8f6
+      ff0f7ee6-d428-41f8-b105-f1dcde501146
+    )
+  )
+  (group "" (id 2168b05f-acf6-44d7-a1f6-3db3d25175d7)
+    (members
+      07dbe955-a739-4790-9383-e62edeaa3f82
+      6c9ddc4e-86c3-4f29-82a2-3fb82efd8e17
+      a17d338a-dbb4-416a-86ea-01f5adcbaafc
+      b78d61c2-5b43-47e9-ba8e-4e087df544d0
+      ea7871db-1558-4662-bf00-d3a4207bc91e
+      f4b62382-b411-490b-974e-bf8ed1e8f76a
+    )
+  )
+  (group "" (id 428d4f49-674a-406f-a9ad-1469996a247c)
+    (members
+      2ed77323-34f2-44cc-b9b0-256fea7e7246
+      3f7e6d5d-237f-40bb-abc1-8bb14860bf8f
+      56ac77dc-5ae4-460b-a8a3-a1da5ce47cc1
+      66660f73-7695-43df-b34d-61713db5fe1e
+      9036091d-b306-406f-8804-0d550eb1d360
+      90a428d3-d45a-4251-acfe-e51237e99361
+    )
+  )
+  (group "" (id ab4e121c-071f-4432-a221-b67e64d6ff8d)
+    (members
+      10ca9a57-4d92-446e-8c98-f7d9dce7cd08
+      21bc7808-ee7f-48e5-909e-010902d2a7a0
+      275ba565-5617-4ea2-bdb3-9aba91704f30
+      574d23ee-7563-48a5-ad2c-7c11d3c907c0
+      5b577f83-d080-497b-9d8e-c8096052fb95
+      995713bb-c896-40cc-b9c3-42f81a8b8f75
+    )
+  )
+  (model "${KIPRJMOD}/3d_models/Bracket 4-40 621.STEP"
+    (offset (xyz 3.175 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 90 90))
+  )
+  (model "${KIPRJMOD}/3d_models/Bracket 4-40 621.STEP"
+    (offset (xyz 106.825 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 90 90))
+  )
+  (model "${KIPRJMOD}/3d_models/Bracket 4-40 621.STEP"
+    (offset (xyz 3.175 110 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 90 -90))
+  )
+  (model "${KIPRJMOD}/3d_models/Bracket 4-40 621.STEP"
+    (offset (xyz 106.825 110 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 90 -90))
+  )
+)

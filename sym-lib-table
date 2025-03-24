@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "lib_sch")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/lib_sch.kicad_sym")(options "")(descr ""))
+  (lib (name "SJ2_3574A_SMT_TR")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/SJ2_3574A_SMT_TR.kicad_sym")(options "")(descr ""))
+  (lib (name "SJ3-35083D-TR")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/SJ3-35083D-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "SJ3-35044A")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/SJ3-35044A.kicad_sym")(options "")(descr ""))
+  (lib (name "PEC12R-2220F-S0024")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/PEC12R-2220F-S0024.kicad_sym")(options "")(descr ""))
+)

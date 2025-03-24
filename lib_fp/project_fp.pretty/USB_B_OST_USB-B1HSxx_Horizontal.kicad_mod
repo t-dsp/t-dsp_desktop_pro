@@ -1,0 +1,320 @@
+(footprint "USB_B_OST_USB-B1HSxx_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "USB B receptacle, Horizontal, through-hole, http://www.on-shore.com/wp-content/uploads/2015/09/usb-b1hsxx.pdf")
+	(tags "USB-B receptacle horizontal through-hole")
+	(property "Reference" "REF**"
+		(at 6.76 -7.77 180)
+		(layer "F.SilkS")
+		(uuid "6e064c76-d2c0-4d6c-8216-73b8a572c723")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB B Device (Optional) - B1HSxx"
+		(at 6.76 10.27 180)
+		(layer "F.Fab")
+		(uuid "138f75c6-2435-4d9e-b03c-a7f0e7fe6e63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "project_fp:USB_B_OST_USB-B1HSxx_Horizontal"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9009298-db68-4d25-8bd4-22914a69655b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2629f2dc-5c3b-40cd-b3e8-9d58d9593aaa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a99e6a1-7447-4181-996a-89b1fab649f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.32 -1.77)
+		(end -2.32 -0.77)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a137ceb-6f58-4a65-88ec-221082bf4e45")
+	)
+	(fp_line
+		(start -2.32 -0.77)
+		(end -1.82 -1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec9a17e0-b05b-4191-af50-d95497802c7f")
+	)
+	(fp_line
+		(start -1.82 -1.27)
+		(end -2.32 -1.77)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83c8b042-8556-4adb-9628-2f80f6dbf344")
+	)
+	(fp_line
+		(start -1.6 -6.18)
+		(end -1.6 6.14)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "233bff80-4ca4-4253-ab16-9c057e4c6fa5")
+	)
+	(fp_line
+		(start -1.6 6.14)
+		(end 2.66 6.14)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5108c7e8-f3b0-4408-8daa-3232aea6cc97")
+	)
+	(fp_line
+		(start 2.66 -6.18)
+		(end -1.6 -6.18)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91525c9a-4117-4dc7-bac8-2ec1f1b5f31c")
+	)
+	(fp_line
+		(start 6.76 -6.18)
+		(end 15.12 -6.18)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a868a83a-f8a6-406a-8144-07f3eaaada07")
+	)
+	(fp_line
+		(start 15.12 -6.18)
+		(end 15.12 6.14)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6477e84f-b037-4aa8-a720-02f64e7188ae")
+	)
+	(fp_line
+		(start 15.12 6.14)
+		(end 6.76 6.14)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6cede5bf-3ca8-4e82-97e6-679e6f8343e9")
+	)
+	(fp_line
+		(start -1.99 -8.29)
+		(end -1.99 8.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca1021a0-812d-4d42-acbd-07ea4cdd6a8b")
+	)
+	(fp_line
+		(start -1.99 8.25)
+		(end 15.51 8.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a0d1cbb7-1f4f-4059-a75e-c35d373bfe65")
+	)
+	(fp_line
+		(start 15.51 -8.29)
+		(end -1.99 -8.29)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1783ebf0-8269-4f7c-b60d-0d91744e9dc8")
+	)
+	(fp_line
+		(start 15.51 8.25)
+		(end 15.51 -8.29)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba61e89e-bcc9-4ae3-b09f-6bb80ad07587")
+	)
+	(fp_line
+		(start -1.49 -5.07)
+		(end -0.49 -6.07)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5df3a8fe-bad0-4fcf-a856-1a235025261e")
+	)
+	(fp_line
+		(start -1.49 6.03)
+		(end -1.49 -5.07)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8530441f-4c61-4b67-ad5f-a9ff108e222c")
+	)
+	(fp_line
+		(start -0.49 -6.07)
+		(end 15.01 -6.07)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "daf2988d-775f-4dee-94e5-e7e5dba13136")
+	)
+	(fp_line
+		(start 15.01 -6.07)
+		(end 15.01 6.03)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "868f5bf6-5856-4076-b421-2854c02f3544")
+	)
+	(fp_line
+		(start 15.01 6.03)
+		(end -1.49 6.03)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d7f07ef1-c0f7-4497-820e-848c2762233e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.76 -0.02 180)
+		(layer "F.Fab")
+		(uuid "39c313b2-7e5f-4261-b0c7-c5ac22e97c93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 -1.27)
+		(size 1.7 1.7)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a2f31932-b9f9-4ecc-ad33-1b73b2af4dc8")
+	)
+	(pad "2" thru_hole circle
+		(at 0 1.23)
+		(size 1.7 1.7)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "80bb67fc-4470-46f1-a9fe-bb3d8cfcc90b")
+	)
+	(pad "3" thru_hole circle
+		(at 2 1.23)
+		(size 1.7 1.7)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bcefa3ed-949c-46f3-aa81-b536757d24f7")
+	)
+	(pad "4" thru_hole circle
+		(at 2 -1.27)
+		(size 1.7 1.7)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e869544d-42f7-471d-8faa-25784fc453e1")
+	)
+	(pad "5" thru_hole circle
+		(at 4.71 -6.04)
+		(size 3.5 3.5)
+		(drill 2.33)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "12865c27-16ef-4772-9844-af9fcf295b3e")
+	)
+	(pad "5" thru_hole circle
+		(at 4.71 6)
+		(size 3.5 3.5)
+		(drill 2.33)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cd5f30f8-d235-491d-a48c-feb81ae90c2c")
+	)
+	(model "E:/OneDrive/Desktop/teensy41_audio_project_board/teensy41_audio_project_board/3d_models/USB-B1HS - USB-B1H Interconnect USB Type B.stp"
+		(offset
+			(xyz -1 0 5.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

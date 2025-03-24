@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 1746311-1
+#
+DEF 1746311-1 J 0 40 Y Y 1 L N
+F0 "J" -301 200 50 H V L BNN
+F1 "1746311-1" -300 -400 50 H V L BNN
+F2 "TE_1746311-1" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F5 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1746311%7FG1%7Fpdf%7FEnglish%7FENG_CD_1746311_G1.pdf%7F1746311-1" 0 0 50 H I L BNN "DATASHEET"
+F6 "TE" 0 0 50 H I L BNN "MANUFACTURER"
+F7 "G1" 0 0 50 H I L BNN "PARTREV"
+DRAW
+S -300 -300 300 200 0 0 10 f
+X VDD 1 -400 100 100 R 40 40 0 0 P 
+X D- 2 -400 0 100 R 40 40 0 0 P 
+X D+ 3 -400 -100 100 R 40 40 0 0 P 
+X GND 4 -400 -200 100 R 40 40 0 0 P 
+X S 5 400 -200 100 L 40 40 0 0 P 
+X S 6 400 -200 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

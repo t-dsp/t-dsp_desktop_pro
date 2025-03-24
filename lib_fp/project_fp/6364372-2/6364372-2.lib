@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 6364372-2
+#
+DEF 6364372-2 J 0 40 Y Y 1 L N
+F0 "J" -200 331 50 H V L BNN
+F1 "6364372-2" -200 -501 50 H V L BNN
+F2 "TE_6364372-2" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Manufacturer Recommendation" 0 0 50 H I L BNN "STANDARD"
+F5 "TE Connectivity" 0 0 50 H I L BNN "MANUFACTURER"
+F6 "A1" 0 0 50 H I L BNN "PARTREV"
+DRAW
+S -200 -400 200 300 0 0 6 f
+X VUSB 1 -400 200 200 R 40 40 0 0 P 
+X D- 2 -400 100 200 R 40 40 0 0 P 
+X D+ 3 -400 0 200 R 40 40 0 0 P 
+X GND 4 -400 -100 200 R 40 40 0 0 P 
+X SHIELD SH1 -400 -300 200 R 40 40 0 0 P 
+X SHIELD SH2 -400 -300 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
