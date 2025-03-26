@@ -6,4 +6,5 @@
   (lib (name "SJ3-35044A")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/SJ3-35044A.kicad_sym")(options "")(descr ""))
   (lib (name "PEC12R-2220F-S0024")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/PEC12R-2220F-S0024.kicad_sym")(options "")(descr ""))
   (lib (name "SK6812_4020_SIDE_LED")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/SK6812_4020_SIDE_LED.kicad_sym")(options "")(descr ""))
+  (lib (name "SK6812")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/SK6812.kicad_sym")(options "")(descr ""))
 )

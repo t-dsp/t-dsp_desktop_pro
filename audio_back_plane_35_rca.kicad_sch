@@ -1988,6 +1988,409 @@
 				)
 			)
 		)
+		(symbol "Device:RotaryEncoder_Switch_MP"
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RotaryEncoder_Switch_MP"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder switch push button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RotaryEncoder*Switch*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_MP_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 2.667)
+					(mid -3.0988 -0.0635)
+					(end -0.381 -2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_MP_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PEC12R-2220F-S0024:PEC12R-2220F-S0024"
 			(pin_names
 				(offset 1.016)
@@ -2348,7 +2751,266 @@
 				)
 			)
 		)
-		(symbol "SK6812_4020_SIDE_LED:SK6812_4020_SIDE_LED"
+		(symbol "SK6812:SK6812"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SK6812"
+				(at -10.16 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SK6812:LED_SK6812"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Shenzhen LED Color Optoelectronic Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.7 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMD-4 Shenzhen LED Color Optoelectronic Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/SK6812/Shenzhen+LED+Color+Optoelectronic+Inc./view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "03"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SK6812/Shenzhen+LED+Color+Optoelectronic+Inc./view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "SK6812"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            SMD 5050  Full color RGB LED data transmission frequency up to 800Kbps, with 30 fps refresh rate, 5.00x5.00 mm\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Shenzhen LED Color"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812_0_0"
+				(rectangle
+					(start -10.16 -7.62)
+					(end 10.16 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SK6812_4020_SIDE_LED:SK6812_REVERSE_MOUNT"
 			(pin_names
 				(offset 0.254)
 			)
@@ -2363,15 +3025,15 @@
 					)
 				)
 			)
-			(property "Value" "SK6812_4020_SIDE_LED"
-				(at 13.716 -6.858 0)
+			(property "Value" "SK6812_REVERSE_MOUNT"
+				(at 11.43 1.7907 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "project_fp:LED_4691"
+			(property "Footprint" "project_fp:SK6812-32228SMD-Reverse-Mount"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -2401,7 +3063,7 @@
 				)
 			)
 			(property "Label" "SK6812_4020_SIDE_LED"
-				(at 15.24 -13.462 0)
+				(at 18.034 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2427,7 +3089,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SK6812_4020_SIDE_LED_0_0"
+			(symbol "SK6812_REVERSE_MOUNT_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -2437,7 +3099,7 @@
 					)
 				)
 			)
-			(symbol "SK6812_4020_SIDE_LED_0_1"
+			(symbol "SK6812_REVERSE_MOUNT_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -3.556) (xy 1.778 -3.556)
@@ -2534,25 +3196,7 @@
 					)
 				)
 			)
-			(symbol "SK6812_4020_SIDE_LED_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "SK6812_REVERSE_MOUNT_1_1"
 				(pin power_in line
 					(at 0 7.62 270)
 					(length 2.54)
@@ -2563,7 +3207,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2581,7 +3225,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2599,7 +3243,158 @@
 							)
 						)
 					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7651,6 +8446,12 @@
 		)
 	)
 	(junction
+		(at 1162.05 529.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03437658-255a-4be6-8eaa-451e34af6870")
+	)
+	(junction
 		(at 1085.85 557.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7891,6 +8692,12 @@
 		(uuid "ba7d5fa5-251e-42a6-9b49-602724a3e20d")
 	)
 	(junction
+		(at 1145.54 552.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc239314-feb9-4572-a025-5417dc8c6de6")
+	)
+	(junction
 		(at 796.29 551.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8020,6 +8827,16 @@
 			(type default)
 		)
 		(uuid "0171d818-06ce-410a-a3a4-9acf0cc3cccf")
+	)
+	(wire
+		(pts
+			(xy 1167.13 560.07) (xy 1153.16 560.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a3e50b-62aa-4d9a-9f8a-b669c520c23b")
 	)
 	(wire
 		(pts
@@ -8523,6 +9340,16 @@
 	)
 	(wire
 		(pts
+			(xy 1162.05 529.59) (xy 1191.26 529.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48e1faa9-4091-4abe-96f2-6a5e39e1dbca")
+	)
+	(wire
+		(pts
 			(xy 438.15 508) (xy 438.15 511.81)
 		)
 		(stroke
@@ -8943,6 +9770,16 @@
 	)
 	(wire
 		(pts
+			(xy 1183.64 537.21) (xy 1169.67 537.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7af17aff-5b13-45f0-b091-93a1ae51d67a")
+	)
+	(wire
+		(pts
 			(xy 436.88 508) (xy 438.15 508)
 		)
 		(stroke
@@ -9000,6 +9837,16 @@
 			(type default)
 		)
 		(uuid "80dfef85-a06a-4139-a7ec-a31144e89997")
+	)
+	(wire
+		(pts
+			(xy 1145.54 552.45) (xy 1174.75 552.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82083822-1f90-4c4c-827c-6cc3680b3fa6")
 	)
 	(wire
 		(pts
@@ -10274,6 +11121,18 @@
 		(uuid 0dfcc6ae-8ee2-4e98-a26b-a1d764901aa3)
 	)
 	(rectangle
+		(start 612.775 737.235)
+		(end 742.315 804.545)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 653b0d11-5422-4273-b70d-e251e6e2fa9d)
+	)
+	(rectangle
 		(start 751.205 658.495)
 		(end 880.745 725.805)
 		(stroke
@@ -10331,6 +11190,20 @@
 			(justify left bottom)
 		)
 		(uuid "13feeb90-7fec-4b2d-ae27-d8eb480131be")
+	)
+	(text "SWITCHES\n"
+		(exclude_from_sim no)
+		(at 631.19 759.46 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 10 10)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2299eb9c-7c01-4239-9dca-b57a892dceb0")
 	)
 	(text "w a0 0a 41 # Configure GPIO1 as PDMCLK with drive active high and low\nw a0 0d 02 # Configure GPI1 as input"
 		(exclude_from_sim no)
@@ -10834,6 +11707,28 @@
 			)
 		)
 	)
+	(global_label "T_BUTTON1"
+		(shape input)
+		(at 469.9 529.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03004d43-f61f-44b6-a07e-fbb374cee063")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 457.307 529.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "8_IN1"
 		(shape input)
 		(at 436.88 514.35 180)
@@ -10891,6 +11786,28 @@
 		(uuid "09718063-010d-4c89-9870-458b5d808255")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 1036.3062 524.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T_BUTTON1"
+		(shape input)
+		(at 675.64 774.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09a3db27-40f7-45f5-b423-a27b0da62ebf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 663.047 774.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11751,6 +12668,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 1174.75 567.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68176b62-1e17-4001-8925-884bab3abbf7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1167.8943 567.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3.3V"
 		(shape input)
 		(at 336.55 671.83 180)
@@ -12317,6 +13256,28 @@
 			)
 		)
 	)
+	(global_label "T_BUTTON2"
+		(shape input)
+		(at 469.9 532.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1bb2531-29ad-4ca4-a99a-1d3f69129eae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 457.307 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "9_OUT1C"
 		(shape input)
 		(at 438.15 516.89 180)
@@ -12645,6 +13606,28 @@
 			)
 		)
 	)
+	(global_label "T_BUTTON1"
+		(shape input)
+		(at 664.21 817.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2571a4f-0994-4877-9302-a06e2fe44100")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 651.617 817.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 1088.39 534.67 180)
@@ -12658,6 +13641,50 @@
 		(uuid "e5528ef9-2ac1-401e-b3ab-062dd9af8a66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 1173.48 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T_BUTTON2"
+		(shape input)
+		(at 708.66 817.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5f8797a-bf02-4f59-89a2-b1d125e35b5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 696.067 817.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T_BUTTON2"
+		(shape input)
+		(at 720.09 774.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e816ef2f-1a2f-466b-92b6-ffc099f24523")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 707.497 774.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14024,6 +15051,90 @@
 		)
 	)
 	(symbol
+		(lib_id "SK6812_4020_SIDE_LED:SK6812_REVERSE_MOUNT")
+		(at 1202.69 560.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2542462f-9458-4179-868a-1159c0a3fa02")
+		(property "Reference" "D7"
+			(at 1213.104 553.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 1213.358 556.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:LED_SK6812_EC15_1.5x1.5mm"
+			(at 1203.96 567.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SK6812_4020_SIDE_LED"
+			(at 1205.23 569.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1202.69 560.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "SK6812_4020_SIDE_LED"
+			(at 1220.724 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57b900ac-3034-4b96-85d3-315fef283873")
+		)
+		(pin "2"
+			(uuid "f4b48a6d-c5da-417e-8ed6-bd5700ff2b32")
+		)
+		(pin "3"
+			(uuid "8c41dad5-41ad-4b61-b080-d0722f1e9ebb")
+		)
+		(pin "4"
+			(uuid "e39952ca-a812-40f9-af1b-f09ae49b9281")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 524.51 720.09 180)
 		(unit 1)
@@ -14450,6 +15561,285 @@
 			(project "audio_back_plane_1"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812_4020_SIDE_LED:SK6812_REVERSE_MOUNT")
+		(at 1245.87 576.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40b92fe1-4ef2-45d0-b5e4-b07653a18cbe")
+		(property "Reference" "D11"
+			(at 1256.284 569.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 1256.538 572.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:LED_SK6812_EC15_1.5x1.5mm"
+			(at 1247.14 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SK6812_4020_SIDE_LED"
+			(at 1248.41 586.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1245.87 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "SK6812_4020_SIDE_LED"
+			(at 1263.904 591.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3c90c06-cc5d-4018-9040-254fdf5a018c")
+		)
+		(pin "2"
+			(uuid "42fc38e5-9eb2-4358-b289-c6017f362bf3")
+		)
+		(pin "3"
+			(uuid "40ba7f15-6c72-4e16-a561-d6c94737d6c4")
+		)
+		(pin "4"
+			(uuid "a7ef9cb0-a4e6-4eba-82f9-936aa2a452ac")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812:SK6812")
+		(at 1198.88 584.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41fe4bc4-1c16-484a-8d1b-84cfd0364059")
+		(property "Reference" "D9"
+			(at 1198.88 571.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 1198.88 574.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:LED_SK6812"
+			(at 1198.88 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1198.88 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1198.88 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Shenzhen LED Color Optoelectronic Inc."
+			(at 1198.88 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.7 mm"
+			(at 1198.88 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-4 Shenzhen LED Color Optoelectronic Inc."
+			(at 1198.88 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 1198.88 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SK6812/Shenzhen+LED+Color+Optoelectronic+Inc./view-part/?ref=eda"
+			(at 1198.88 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 1198.88 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "03"
+			(at 1198.88 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SK6812/Shenzhen+LED+Color+Optoelectronic+Inc./view-part/?ref=snap"
+			(at 1198.88 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SK6812"
+			(at 1198.88 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            SMD 5050  Full color RGB LED data transmission frequency up to 800Kbps, with 30 fps refresh rate, 5.00x5.00 mm\n                        \n"
+			(at 1198.88 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 1198.88 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Shenzhen LED Color"
+			(at 1198.88 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "406ab665-7e88-48ae-8fc5-4c16340d95f5")
+		)
+		(pin "3"
+			(uuid "c85d259e-6cc0-47ea-91f2-c73adb85a086")
+		)
+		(pin "4"
+			(uuid "b35e16da-09ca-4cb5-b2ac-52ed1c06f194")
+		)
+		(pin "2"
+			(uuid "d5dcc703-7e2c-4ab8-8796-af0c2eda7a3e")
+		)
+		(instances
+			(project ""
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -14928,6 +16318,90 @@
 		)
 	)
 	(symbol
+		(lib_id "SK6812_4020_SIDE_LED:SK6812_REVERSE_MOUNT")
+		(at 1272.54 561.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59dd7bb2-65cf-4aac-8d1d-fd180856dd13")
+		(property "Reference" "D10"
+			(at 1282.954 554.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 1283.208 557.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:LED_SK6812_EC15_1.5x1.5mm"
+			(at 1273.81 568.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SK6812_4020_SIDE_LED"
+			(at 1275.08 570.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1272.54 561.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "SK6812_4020_SIDE_LED"
+			(at 1290.574 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e80de4b-6867-45fa-aedb-04a1f0738ae0")
+		)
+		(pin "2"
+			(uuid "48d2036a-0026-4087-9125-e3c335f8f4de")
+		)
+		(pin "3"
+			(uuid "3a9f35d0-3fbb-4f4d-82c8-f8c104adf86e")
+		)
+		(pin "4"
+			(uuid "ef058e12-d927-403e-85e0-11902c45c418")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 463.55 704.85 0)
 		(unit 1)
@@ -15101,6 +16575,73 @@
 			(project "audio_back_plane_1"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 669.29 817.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c5746fb-b5bd-49f6-81bc-accdc16595b2")
+		(property "Reference" "SW5"
+			(at 669.29 812.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL1105WF160Q - 3.15mm actuator"
+			(at 668.02 828.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:Tactile_Switch_4.54.5MM"
+			(at 669.29 817.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 669.29 817.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 669.29 817.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a27aab7-5b12-4ac6-b884-121857c0c87b")
+		)
+		(pin "2"
+			(uuid "8dd07fd6-0921-48a6-b677-877f427c984d")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -15435,7 +16976,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SK6812_4020_SIDE_LED:SK6812_4020_SIDE_LED")
+		(lib_id "SK6812_4020_SIDE_LED:SK6812_REVERSE_MOUNT")
 		(at 1145.54 560.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15444,22 +16985,22 @@
 		(dnp no)
 		(uuid "61357cff-0939-4045-bc55-f2baae86e257")
 		(property "Reference" "D4"
-			(at 1173.48 555.7393 0)
+			(at 1155.954 553.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SK6812_4020_SIDE_LED"
-			(at 1163.32 557.53 0)
+		(property "Value" "SK6812"
+			(at 1156.208 556.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "project_fp:LED_4691"
+		(property "Footprint" "project_fp:LED_SK6812_EC15_1.5x1.5mm"
 			(at 1146.81 567.69 0)
 			(effects
 				(font
@@ -15489,7 +17030,7 @@
 			)
 		)
 		(property "Label" "SK6812_4020_SIDE_LED"
-			(at 1145.54 560.07 0)
+			(at 1163.574 575.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16669,6 +18210,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 725.17 774.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99422eda-c06e-443a-a6cb-e694ae127861")
+		(property "Reference" "SW4"
+			(at 725.17 769.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL1105WF160Q - 3.15mm actuator"
+			(at 723.9 784.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:Tactile_Switch_4.54.5MM"
+			(at 725.17 774.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 725.17 774.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 725.17 774.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c3ac3f5-1b92-4ac8-bfb1-bb29c97f3b0b")
+		)
+		(pin "2"
+			(uuid "80a76bfc-d17e-4382-b704-1ae58ffb66f0")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 345.44 675.64 0)
 		(unit 1)
@@ -16911,7 +18519,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SK6812_4020_SIDE_LED:SK6812_4020_SIDE_LED")
+		(lib_id "SK6812_4020_SIDE_LED:SK6812_REVERSE_MOUNT")
 		(at 1162.05 537.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16927,7 +18535,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812_4020_SIDE_LED"
+		(property "Value" "SK6812"
 			(at 1173.48 535.4193 0)
 			(effects
 				(font
@@ -16935,7 +18543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:LED_4691"
+		(property "Footprint" "project_fp:LED_SK6812_EC15_1.5x1.5mm"
 			(at 1163.32 544.83 0)
 			(effects
 				(font
@@ -16965,7 +18573,7 @@
 			)
 		)
 		(property "Label" "SK6812_4020_SIDE_LED"
-			(at 1162.05 537.21 0)
+			(at 1180.084 552.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17958,6 +19566,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 680.72 774.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6492115-f82b-4e20-9777-711504bf78b0")
+		(property "Reference" "SW2"
+			(at 680.72 769.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL1105WF160Q - 3.15mm actuator"
+			(at 679.45 784.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:Tactile_Switch_4.54.5MM"
+			(at 680.72 774.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 680.72 774.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 680.72 774.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ff8f0db-f408-4960-8246-99643b5f2f0d")
+		)
+		(pin "2"
+			(uuid "5c89afb7-80f5-4adb-b5c9-14538641527b")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 560.07 541.02 0)
 		(unit 1)
@@ -18388,6 +20063,237 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:RotaryEncoder_Switch_MP")
+		(at 298.45 415.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d37f6a32-d613-4086-aeef-351f116d1434")
+		(property "Reference" "SW1"
+			(at 298.45 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RotaryEncoder_Switch_MP"
+			(at 298.45 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:RotaryEncoder_Alps_EC11E_Vertical_H20mm"
+			(at 294.64 411.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 298.45 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
+			(at 298.45 430.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B"
+			(uuid "671a4995-ff83-4a51-85dc-b0586d944ba1")
+		)
+		(pin "S2"
+			(uuid "457a1272-2d18-48d0-8a03-d7a94a1a2381")
+		)
+		(pin "S1"
+			(uuid "c17ee900-1be2-4f89-8146-3c6612dc6ab2")
+		)
+		(pin "C"
+			(uuid "6d67659c-77c0-4e92-8419-6d1fc4d1ba37")
+		)
+		(pin "MP"
+			(uuid "f842b9c8-2a66-448d-8d15-dbfb16976f3e")
+		)
+		(pin "A"
+			(uuid "e85e738a-9975-4312-b85d-539ed052a7d0")
+		)
+		(instances
+			(project ""
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812_4020_SIDE_LED:SK6812_REVERSE_MOUNT")
+		(at 1191.26 537.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da61a96d-d47d-41bd-9c7a-88583f51819c")
+		(property "Reference" "D6"
+			(at 1202.69 532.8793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 1202.69 535.4193 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:LED_SK6812_EC15_1.5x1.5mm"
+			(at 1192.53 544.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SK6812_4020_SIDE_LED"
+			(at 1193.8 546.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1191.26 537.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "SK6812_4020_SIDE_LED"
+			(at 1209.294 552.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17ea7f5c-ef53-4a03-959c-7fb29c346b4e")
+		)
+		(pin "2"
+			(uuid "afc0e74e-7958-425d-b11d-c9870bf53d3c")
+		)
+		(pin "3"
+			(uuid "fd26d060-2936-4bb0-bde5-735594cd4913")
+		)
+		(pin "4"
+			(uuid "1e390ced-5fd6-4b97-9364-2d4010c1c9fa")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 713.74 817.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3088e0a-b1a8-426a-a5be-74be74a73bcc")
+		(property "Reference" "SW6"
+			(at 713.74 812.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL1105WF160Q - 3.15mm actuator"
+			(at 712.47 828.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:Tactile_Switch_4.54.5MM"
+			(at 713.74 817.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 713.74 817.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 713.74 817.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c3a099d-418a-4ba8-89a1-58e0941225a9")
+		)
+		(pin "2"
+			(uuid "203c39f2-158f-43e6-a82d-144f35484407")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "lib_sch:SPH0645LM4H")
 		(lib_id "lib_sch:SPH0645LM4H")
 		(at 815.34 551.18 0)
@@ -18539,6 +20445,90 @@
 			(project "audio_back_plane_1"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812_4020_SIDE_LED:SK6812_REVERSE_MOUNT")
+		(at 1229.36 560.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3c15a67-573a-4ce9-ae9f-ac66d93ad3c9")
+		(property "Reference" "D8"
+			(at 1239.774 553.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 1240.028 556.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:LED_SK6812_EC15_1.5x1.5mm"
+			(at 1230.63 567.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SK6812_4020_SIDE_LED"
+			(at 1231.9 569.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1229.36 560.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "SK6812_4020_SIDE_LED"
+			(at 1247.394 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee65e8b9-0f7f-4a30-a3a9-2e118e86ac07")
+		)
+		(pin "2"
+			(uuid "7e10bb7d-f2fe-4334-96d1-92066c380fe1")
+		)
+		(pin "3"
+			(uuid "3b053f5b-a821-454a-856a-d7e9ca972393")
+		)
+		(pin "4"
+			(uuid "816fa23d-df32-4d81-8c62-2a4af9e30f35")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -18896,6 +20886,90 @@
 			(project "audio_back_plane_35_rca"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812_4020_SIDE_LED:SK6812_REVERSE_MOUNT")
+		(at 1174.75 560.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff27ec20-a7f8-470b-aef7-8a1bf9fcf346")
+		(property "Reference" "D5"
+			(at 1185.164 553.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 1185.418 556.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:LED_SK6812_EC15_1.5x1.5mm"
+			(at 1176.02 567.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SK6812_4020_SIDE_LED"
+			(at 1177.29 569.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1174.75 560.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "SK6812_4020_SIDE_LED"
+			(at 1192.784 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be30cba4-c240-4ccc-a851-9fa2b51b2c0e")
+		)
+		(pin "2"
+			(uuid "f630a757-ce77-4f4a-b383-06b30fc56ce3")
+		)
+		(pin "3"
+			(uuid "a28f414d-df24-4bc5-b361-dddf5f96c904")
+		)
+		(pin "4"
+			(uuid "49425a17-1ac2-44f3-b397-d110cebb377a")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "D5")
 					(unit 1)
 				)
 			)
