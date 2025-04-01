@@ -12647,6 +12647,28 @@
 			)
 		)
 	)
+	(global_label "T_BUTTON2"
+		(shape input)
+		(at 781.05 778.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6053b0f4-c64e-4da8-9a01-7c133618e3c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 768.457 778.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 525.78 494.03 0)
@@ -15323,6 +15345,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 786.13 778.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b0b8691-2943-491e-a9eb-d7bc30cb0ae5")
+		(property "Reference" "SW7"
+			(at 786.13 773.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL1105WF160Q - 3.15mm actuator"
+			(at 784.86 788.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:Tactile_Switch_4.54.5MM"
+			(at 786.13 778.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 786.13 778.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 786.13 778.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbe4c27c-0f77-4ee3-b907-bbcd4ecd83c6")
+		)
+		(pin "2"
+			(uuid "157e021f-2396-456a-9784-40d349566b1a")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 527.05 601.98 0)
 		(unit 1)
@@ -16884,7 +16973,6 @@
 		)
 	)
 	(symbol
-		(lib_name "lib_sch:SPH0645LM4H")
 		(lib_id "lib_sch:SPH0645LM4H")
 		(at 815.34 575.31 0)
 		(unit 1)
@@ -20294,7 +20382,6 @@
 		)
 	)
 	(symbol
-		(lib_name "lib_sch:SPH0645LM4H")
 		(lib_id "lib_sch:SPH0645LM4H")
 		(at 815.34 551.18 0)
 		(unit 1)
