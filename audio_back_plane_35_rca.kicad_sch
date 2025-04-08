@@ -20791,7 +20791,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:audio_project_board_outline_60.96x45"
+		(property "Footprint" "project_fp:audio_project_board_outline_60.96x100"
 			(at 830.58 694.436 0)
 			(effects
 				(font
