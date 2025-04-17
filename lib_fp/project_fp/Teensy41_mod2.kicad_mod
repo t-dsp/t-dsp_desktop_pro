@@ -652,14 +652,6 @@
 		(remove_unused_layers no)
 		(uuid "1e1d666f-1b8c-4207-8cbd-de10b154d887")
 	)
-	(pad "49" thru_hole circle
-		(at -26.67 -5.08)
-		(size 1.6 1.6)
-		(drill 1.1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "948d8850-7757-4625-8dee-5ab287d184e9")
-	)
 	(pad "55" thru_hole rect
 		(at -22.9108 4.5692)
 		(size 1.6 1.6)

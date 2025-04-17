@@ -8,4 +8,7 @@
   (lib (name "SK6812_4020_SIDE_LED")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/SK6812_4020_SIDE_LED.kicad_sym")(options "")(descr ""))
   (lib (name "SK6812")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/SK6812.kicad_sym")(options "")(descr ""))
   (lib (name "tft_320x240")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/tft_320x240.kicad_sym")(options "")(descr ""))
+  (lib (name "SSD1306-128x64_OLED")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/SSD1306-128x64_OLED.kicad_sym")(options "")(descr ""))
+  (lib (name "EN11_HSM1AF15")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/EN11_HSM1AF15.kicad_sym")(options "")(descr ""))
+  (lib (name "project_sch")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/project_sch.kicad_sym")(options "")(descr ""))
 )
