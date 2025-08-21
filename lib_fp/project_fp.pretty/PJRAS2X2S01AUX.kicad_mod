@@ -1,10 +1,10 @@
 (footprint "PJRAS2X2S01AUX"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -7.7 -0.15 -90)
+		(at -7.7 -0.15 270)
 		(layer "F.SilkS")
 		(uuid "4201190c-ccf1-4784-ace0-be7a91d17ee9")
 		(effects
@@ -16,26 +16,13 @@
 		)
 	)
 	(property "Value" "RCA 2X2 - PJRAS2X2S01AUX"
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(uuid "0426e5f3-fcab-4dbd-90be-03eeb866a8d4")
 		(effects
 			(font
 				(size 1 0.9)
 				(thickness 0.05)
-			)
-		)
-	)
-	(property "Footprint" "project_fp:PJRAS2X2S01AUX"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7cdf00fb-898f-4188-8f6d-e02f91c6d263")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -66,7 +53,7 @@
 		)
 	)
 	(property "Label" "RCA IO"
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "49e83900-753e-48a6-8834-ed1fcac26b70")
@@ -78,7 +65,7 @@
 		)
 	)
 	(property "Package / Case" "through-hole"
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "1687f53d-ba6e-467a-a241-de42e9b6a7fe")
@@ -424,8 +411,8 @@
 		(remove_unused_layers no)
 		(uuid "344740aa-12a9-4d07-9d96-dcf7e88151e9")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d_models/pjras2x2s_Series.STEP"
-		(hide yes)
 		(offset
 			(xyz -9 0 28.5)
 		)
