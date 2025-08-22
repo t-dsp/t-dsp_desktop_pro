@@ -1,12 +1,12 @@
 (footprint "35RAPC3BH3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 3.9 -0.625 90)
 		(layer "F.SilkS")
-		(uuid "6a965919-fcca-4ac0-8742-7cbceca06e7c")
+		(uuid "f587198d-fefc-4896-850a-e6b55c50f7c9")
 		(effects
 			(font
 				(size 1 1)
@@ -14,10 +14,10 @@
 			)
 		)
 	)
-	(property "Value" "3.5mm TRS - 35RAPC3BH3"
+	(property "Value" "3.5MM JACK"
 		(at 5.825 -3.825 0)
 		(layer "F.Fab")
-		(uuid "d6e0d413-3bb0-4e48-aa69-8645fbe7d300")
+		(uuid "da47e6a1-843a-40a6-a565-0de300ebe3c1")
 		(effects
 			(font
 				(size 1 1)
@@ -25,11 +25,11 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Datasheet" "~"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "aafd6672-9147-42cb-afca-9fbaf96c4168")
+		(uuid "67e0c910-6169-4af7-bba3-5f235c40703c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37,23 +37,11 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "62e89a02-ac50-4405-9422-b0468a3fb11a")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Description" "Audio Jack - Conn 3.5MM Stereo Jack F 5 POS Solder RA Thru-Hole 5 Terminal 1 Port"
+	(property "Description" ""
 		(at 1.375 8.775 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "de1d073b-8832-46d8-942e-196422414e43")
+		(uuid "49d7ea33-807c-417f-824a-b1670c9bd8d6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,11 +49,11 @@
 			)
 		)
 	)
-	(property "Label" "MIDI IN"
+	(property "Label" "IN2"
 		(at 0.25 11.175 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2ae5d440-1c47-43e8-9563-eaf2e60bbabc")
+		(uuid "bd36e863-d939-4100-bccd-a4a8bcd5b2c5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -77,7 +65,7 @@
 		(at 0.3 12.275 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3f0efba5-0c4f-462b-a9d0-bee390f546a8")
+		(uuid "ca3470d7-03c3-465f-932f-5b962b04b30d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -85,11 +73,11 @@
 			)
 		)
 	)
-	(property "Manufacturer_Part_Number" "35RAPC4BHN2"
+	(property "Manufacturer_Part_Number" "35RAPC3BH3"
 		(at 1.375 8.775 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "34781ae5-7a90-44ea-8328-448bf938bc19")
+		(uuid "553803c9-1344-4852-b5f7-6f32cb584552")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -101,7 +89,7 @@
 		(at 1.375 8.775 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e99c9f68-3880-403a-9966-a5c6e95ea8e7")
+		(uuid "0ecd3601-bb9e-4e4f-bfaf-91a6ccd55738")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -109,14 +97,27 @@
 			)
 		)
 	)
-	(property "mouser" "502-35RAPC4BHN2"
+	(property "mouser" "502-35RAPC3BH3"
 		(at 1.375 8.775 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "52ccc3ed-682b-4207-83f3-bcfd89fb292b")
+		(uuid "34b4d3eb-6762-4754-a5cc-ee3cd51d2e4a")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "2020-10-01 PARTS" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5234b0ed-052f-4877-893f-c89bcb516a6a")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -130,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "342ac1a7-992b-4aac-9b80-85b61ef6d5e8")
+		(uuid "82012004-63da-449e-a5b3-2fe4530784c7")
 	)
 	(fp_line
 		(start 0 -6)
@@ -140,7 +141,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "cd254259-f29a-44aa-bcdf-b66e1a983e16")
+		(uuid "68769e77-8896-455e-abf4-68f52e3fd081")
 	)
 	(fp_line
 		(start 0 -6)
@@ -150,7 +151,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "bac747a1-624a-467e-8af4-f2ad3373f627")
+		(uuid "aa4acdf6-40b6-4126-b83b-cca2044454ae")
 	)
 	(fp_line
 		(start 0 -3)
@@ -160,7 +161,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "db7129d5-acb1-42c6-8a3e-80d8b95bdd73")
+		(uuid "4385b57e-f9d0-46e5-a061-da060aa18911")
 	)
 	(fp_line
 		(start 0 3)
@@ -170,7 +171,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c8765827-46da-4c9e-aefb-0b1c49a8fe62")
+		(uuid "78908372-a826-498e-87e8-146fb09fba24")
 	)
 	(fp_line
 		(start 0 5.5)
@@ -180,7 +181,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e8af1afb-31ea-4c1c-9817-638ca51833e1")
+		(uuid "bbc3d495-4cf4-43d0-a168-3e01cbe25de5")
 	)
 	(fp_line
 		(start 14 -6)
@@ -190,7 +191,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3319d069-90e3-4e88-bf9e-1ab1056621b1")
+		(uuid "9ff58a9f-967d-4137-bce6-6f66fc4a994e")
 	)
 	(fp_line
 		(start -0.025 -6.025)
@@ -200,7 +201,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "619dd05d-5dd1-412f-a3ce-24de592d4fa9")
+		(uuid "5d16b6e3-7f05-465f-90d7-ab42532d9499")
 	)
 	(fp_line
 		(start -0.025 -6.025)
@@ -210,7 +211,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "4c7db67b-22fd-4fc3-b021-985d2a65bd70")
+		(uuid "b9064228-63ce-4fac-8c6c-473e57a2f426")
 	)
 	(fp_line
 		(start -0.025 5.475)
@@ -220,7 +221,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3a3a1726-c06b-43ad-a555-18b9e490fe49")
+		(uuid "7a3cd1e8-ccdf-43de-9af8-0dbc714cb439")
 	)
 	(fp_line
 		(start 13.975 -6.025)
@@ -230,7 +231,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "31654d02-7250-4518-baf0-41410b31fdbf")
+		(uuid "ddde2762-8c9b-4fb7-9942-e659ce6ae92a")
 	)
 	(fp_line
 		(start 0 0)
@@ -240,12 +241,12 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "1a5bb238-1e02-4b40-bb87-6b088c0183b6")
+		(uuid "a86cfc6d-761c-4003-8b16-2800070737e3")
 	)
 	(fp_text user "${Label}"
 		(at 14.85 0.05 90)
 		(layer "F.SilkS")
-		(uuid "722a8cce-f5fb-422a-993e-86ce9d183925")
+		(uuid "c6e20b3d-6de1-4323-b799-108bc233aff1")
 		(effects
 			(font
 				(size 1 1)
@@ -260,7 +261,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
-		(uuid "37d9b5dd-214e-4643-8f14-09082753b6e9")
+		(uuid "2b607abd-467b-4323-bf21-9d8b7b882d9e")
 	)
 	(pad "2" thru_hole roundrect
 		(at 9.8 -5.2)
@@ -269,7 +270,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
-		(uuid "282aec28-de56-4036-a3cd-820a2e9f6098")
+		(uuid "114d507c-4952-4ef0-9d7a-587ee10d9c0e")
 	)
 	(pad "3" thru_hole roundrect
 		(at 8.4 -2.5)
@@ -278,7 +279,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
-		(uuid "4399ff72-81dd-487f-8859-8b2f4a40d4c1")
+		(uuid "e1e18e05-3a23-4c5a-866a-8033f7a9d9ee")
 	)
 	(pad "4" thru_hole roundrect
 		(at 13 4 270)
@@ -287,7 +288,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
-		(uuid "e1ae0009-e54e-4ae8-997f-f7575f4fd897")
+		(uuid "358811cb-4066-4424-ba9e-4cd22955190e")
 	)
 	(pad "5" thru_hole roundrect
 		(at 5.4 4.5 180)
@@ -296,8 +297,9 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
-		(uuid "ab3ff159-eb4b-4335-9ab0-3efe374f1097")
+		(uuid "661bddf7-8fe4-41f9-8cf9-d8b14b7de5c0")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d_models/35RAPC3BH3.STEP"
 		(offset
 			(xyz 0 0 3)
