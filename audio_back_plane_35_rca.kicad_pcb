@@ -15245,7 +15245,7 @@
 			(net 18 "GND")
 			(pinfunction "GROUND")
 			(pintype "power_out")
-			(uuid "9f10c583-7eb5-4890-89a6-be7e72e86548")
+			(uuid "0b2207c5-d2a8-4113-b844-babbd734d037")
 		)
 		(pad "4" smd rect
 			(at 1.251999 0.8375 180)
@@ -29195,7 +29195,7 @@
 			(net 25 "USB_SHIELD2")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "649aaeaa-eb61-4f78-a8f1-f368de092e6c")
+			(uuid "40b609f8-5bee-4a29-b6df-738b1fcd57d8")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d_models/c-292303-5-f-3d.stp"
@@ -29218,7 +29218,7 @@
 		(property "Reference" "board_outline2"
 			(at 57.15 3.69 90)
 			(layer "F.Fab")
-			(uuid "bde20aac-f382-4714-b5ee-a1cf2c239a3c")
+			(uuid "433a057b-14e8-4830-8075-bf424ad74bd0")
 			(effects
 				(font
 					(size 1 1)
@@ -29229,7 +29229,7 @@
 		(property "Value" "board_outline"
 			(at 56.89 1.72 90)
 			(layer "F.Fab")
-			(uuid "f77839c7-b43f-4b5f-9f0c-24274904c594")
+			(uuid "6e88bad8-0d28-46e2-a107-b4a09eb2ca0e")
 			(effects
 				(font
 					(size 1 1)
@@ -29241,7 +29241,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f8c43ee-c06a-4634-8466-5f3c4bdb3f0d")
+			(uuid "54b63777-a509-43f8-848a-49d37c716c15")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29253,7 +29253,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "18e90e83-01fa-41a5-9237-dda74add904b")
+			(uuid "655e125b-321b-4e07-93a4-95db710b3222")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29854,7 +29854,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "b54be7f0-70b1-44e1-8d70-d4edc7da00ec")
+			(uuid "d5f97826-60f5-47e5-ab1b-c3aff8a829e1")
 		)
 		(pad "2" thru_hole circle
 			(at 94.834 -3.175 270)
@@ -29886,7 +29886,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "fbbde46d-ad34-4bf2-96f8-f07f14c2a6ec")
+			(uuid "4943fc42-a9b1-4dac-a5e2-132ec412e1ed")
 		)
 		(pad "3" thru_hole circle
 			(at 5.16 -116.825 90)
@@ -29918,7 +29918,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "dbd10717-2048-4f3b-a62a-0257929eb184")
+			(uuid "a5be6c7e-6ae7-4fc7-b8c7-a77d15353d2e")
 		)
 		(pad "4" thru_hole circle
 			(at 94.84 -116.825 270)
@@ -29950,24 +29950,24 @@
 					(fill yes)
 				)
 			)
-			(uuid "64035c3a-6192-41aa-b7ec-ded21715ae80")
+			(uuid "22e1df72-d866-491d-b1bb-0879763c4f30")
 		)
 		(group ""
 			(uuid "5b3979f8-51a6-49c2-8b24-2c1accc0b6d3")
 			(members "4b9e3217-640c-4f0d-a898-3a14035274b5" "89bc5b7e-46e7-4dea-9360-9f7e5c9ac98b"
-				"dbd10717-2048-4f3b-a62a-0257929eb184" "dbd10717-2048-4f3b-a62a-0257929eb184"
+				"dbd10717-2048-4f3b-a62a-0257929eb184"
 			)
 		)
 		(group ""
 			(uuid "5ed88a72-c934-4c5a-aabb-9c2f1524c0df")
 			(members "0d6df446-7633-4aff-b4ab-fa3ceff43b6b" "a9a1ddc2-af3d-485a-afe3-b56c8ed8edf0"
-				"b54be7f0-70b1-44e1-8d70-d4edc7da00ec" "b54be7f0-70b1-44e1-8d70-d4edc7da00ec"
+				"b54be7f0-70b1-44e1-8d70-d4edc7da00ec"
 			)
 		)
 		(group ""
 			(uuid "62849aac-16dd-4773-9b07-e9d363729c34")
 			(members "8274bd94-4726-4f87-9f26-31187bdef494" "bf085654-a5cf-45de-a787-2063609df081"
-				"fbbde46d-ad34-4bf2-96f8-f07f14c2a6ec" "fbbde46d-ad34-4bf2-96f8-f07f14c2a6ec"
+				"fbbde46d-ad34-4bf2-96f8-f07f14c2a6ec"
 			)
 		)
 		(embedded_fonts no)
@@ -33354,7 +33354,7 @@
 			(net 18 "GND")
 			(pinfunction "GROUND")
 			(pintype "power_out")
-			(uuid "256e69ee-48ac-4e55-8244-3b0532e63777")
+			(uuid "aa2e39f8-d648-41bd-8602-cb5581eed728")
 		)
 		(pad "4" smd rect
 			(at 1.251999 0.8375 180)
