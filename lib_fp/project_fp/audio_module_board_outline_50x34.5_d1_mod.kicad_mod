@@ -2016,13 +2016,13 @@
 	)
 	(model "C:/github/kicad/tac5212_audio_board_single_ended/3d_models/T-DSP_TAC5212_PRO_AUDIO_MODULE.step"
 		(offset
-			(xyz 0 0 10)
+			(xyz 2 1 10)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
