@@ -32591,7 +32591,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37e62073-1e53-436f-bb41-4d0560dbf27a")
@@ -34109,7 +34109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:PJRAS2X1S01X"
+		(property "Footprint" "project_fp:PJRAS2X1S01X_MOD2"
 			(at 547.3692 676.91 0)
 			(effects
 				(font
@@ -37192,7 +37192,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73e856ce-cd09-490a-8ef0-cd7c1f3bc93d")
@@ -37691,7 +37691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:PJRAS2X1S01X"
+		(property "Footprint" "project_fp:PJRAS2X1S01X_MOD2"
 			(at 524.5092 586.74 0)
 			(effects
 				(font
@@ -39261,7 +39261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:PJRAS2X1S01X"
+		(property "Footprint" "project_fp:PJRAS2X1S01X_MOD2"
 			(at 547.37 662.94 0)
 			(effects
 				(font
@@ -39873,7 +39873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:PJRAS2X1S01X"
+		(property "Footprint" "project_fp:PJRAS2X1S01X_MOD2"
 			(at 524.51 572.77 0)
 			(effects
 				(font
@@ -41910,7 +41910,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfe7f61e-af49-4e7e-a2e6-acd8891a9d24")
@@ -42744,7 +42744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "project_fp:LED_GPIO_PinHeader_1x04_P2.54mm_Vertical"
 			(at 1007.11 383.54 0)
 			(effects
 				(font
@@ -44649,7 +44649,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df667a67-466f-44a1-956d-d0ce4cfd267a")

@@ -67,7 +67,7 @@
 	(attr through_hole exclude_from_bom)
 	(fp_line
 		(start -1.33 -1.33)
-		(end 0 -1.33)
+		(end 2.6 -1.33)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -107,7 +107,7 @@
 	)
 	(fp_line
 		(start -1.33 11.49)
-		(end 1.33 11.49)
+		(end 2.6 11.49)
 		(stroke
 			(width 0.12)
 			(type solid)
