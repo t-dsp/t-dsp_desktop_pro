@@ -2,7 +2,6 @@
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
-	(locked yes)
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 57.15 3.69 180)
@@ -208,8 +207,48 @@
 		(layer "Edge.Cuts")
 		(uuid "132de39a-4abf-4279-8d6b-9c5fb4201ed5")
 	)
+	(fp_line
+		(start 5.16 -116.825)
+		(end 0 -116.825)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "4259d5e3-c2e0-4e88-a86d-e37b735a7971")
+	)
+	(fp_line
+		(start 5.16 -3.175)
+		(end 0 -3.175)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "6aaa188b-7f7a-4eab-b85e-f77d14400a71")
+	)
+	(fp_line
+		(start 94.834 -3.175)
+		(end 99.994 -3.175)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "70ec897d-6eec-4faa-9fd1-eae71efcc44a")
+	)
+	(fp_line
+		(start 94.84 -116.825)
+		(end 100 -116.825)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "21e0670a-fecb-4968-8ff8-6952a5d2ebfe")
+	)
 	(fp_text user "HOLE: 6.35mm"
-		(at 103.3 6.46 0)
+		(at 57.0636 -36.54 0)
 		(unlocked yes)
 		(layer "Dwgs.User")
 		(uuid "8489650f-6c1c-4e5f-8dc8-785095265e91")
@@ -278,7 +317,7 @@
 		(layer "F.Fab")
 		(uuid "20ed47a6-6b12-4cae-aa76-6caefc5f1692")
 		(pts
-			(xy 183.105 143.755) (xy 183.105 140.58)
+			(xy 28.4 -45.85) (xy 28.4 -49.025)
 		)
 		(height -3.82)
 		(orientation 1)
@@ -299,7 +338,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "3.1750 mm"
-			(at 178.135 142.1675 90)
+			(at 23.43 -47.4375 90)
 			(layer "F.Fab")
 			(uuid "20ed47a6-6b12-4cae-aa76-6caefc5f1692")
 			(effects
@@ -315,7 +354,7 @@
 		(layer "F.Fab")
 		(uuid "570422ea-b58f-46f3-9b51-144a21577ca1")
 		(pts
-			(xy 283.099 143.78) (xy 277.939 138.62)
+			(xy 66.85 -30.55) (xy 61.69 -35.71)
 		)
 		(height 3.527777)
 		(orientation 0)
@@ -336,7 +375,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "5.1600 mm"
-			(at 280.519 146.207777 0)
+			(at 64.27 -28.122223 0)
 			(layer "F.Fab")
 			(uuid "570422ea-b58f-46f3-9b51-144a21577ca1")
 			(effects
@@ -352,7 +391,7 @@
 		(layer "F.Fab")
 		(uuid "84527446-d518-4420-b39e-c54d50e16bbb")
 		(pts
-			(xy 183.1126 23.755) (xy 183.1126 26.93)
+			(xy 13.1 -107.575) (xy 13.1 -104.4)
 		)
 		(height -4.7276)
 		(orientation 1)
@@ -373,7 +412,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "3.1750 mm"
-			(at 177.235 25.3425 90)
+			(at 7.2224 -105.9875 90)
 			(layer "F.Fab")
 			(uuid "84527446-d518-4420-b39e-c54d50e16bbb")
 			(effects
@@ -389,7 +428,7 @@
 		(layer "F.Fab")
 		(uuid "8f6b0ac7-e028-4698-94f7-7b50daf24c99")
 		(pts
-			(xy 183.105 143.755) (xy 188.265 138.595)
+			(xy 28.4 -45.85) (xy 33.56 -51.01)
 		)
 		(height 7.296462)
 		(orientation 0)
@@ -410,7 +449,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "5.1600 mm"
-			(at 185.685 149.901462 0)
+			(at 30.98 -39.703538 0)
 			(layer "F.Fab")
 			(uuid "8f6b0ac7-e028-4698-94f7-7b50daf24c99")
 			(effects
@@ -426,7 +465,7 @@
 		(layer "F.Fab")
 		(uuid "a09bf582-540e-49b6-8fd6-4c69d66a1e9c")
 		(pts
-			(xy 283.105 143.755) (xy 283.105 140.58)
+			(xy 66.856 -30.575) (xy 66.856 -33.75)
 		)
 		(height 4.025)
 		(orientation 1)
@@ -447,7 +486,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "3.1750 mm"
-			(at 286.03 142.1675 90)
+			(at 69.781 -32.1625 90)
 			(layer "F.Fab")
 			(uuid "a09bf582-540e-49b6-8fd6-4c69d66a1e9c")
 			(effects
@@ -463,7 +502,7 @@
 		(layer "F.Fab")
 		(uuid "ab4b9965-d9e8-498a-9588-9c9b67c8fc61")
 		(pts
-			(xy 283.105 23.755) (xy 277.945 28.915)
+			(xy 61.475 -82.225) (xy 56.315 -77.065)
 		)
 		(height -5.895092)
 		(orientation 0)
@@ -484,7 +523,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "5.1600 mm"
-			(at 280.525 16.709908 0)
+			(at 58.895 -89.270092 0)
 			(layer "F.Fab")
 			(uuid "ab4b9965-d9e8-498a-9588-9c9b67c8fc61")
 			(effects
@@ -500,7 +539,7 @@
 		(layer "F.Fab")
 		(uuid "bd143fd3-752c-41ad-b1cb-d576649dff57")
 		(pts
-			(xy 183.105 23.755) (xy 188.265 28.915)
+			(xy 13.0924 -107.575) (xy 18.2524 -102.415)
 		)
 		(height -4.089614)
 		(orientation 0)
@@ -521,7 +560,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "5.1600 mm"
-			(at 185.685 18.515386 0)
+			(at 15.6724 -112.814614 0)
 			(layer "F.Fab")
 			(uuid "bd143fd3-752c-41ad-b1cb-d576649dff57")
 			(effects
@@ -537,7 +576,7 @@
 		(layer "F.Fab")
 		(uuid "bf6aff68-ccb3-49e3-92b0-bf322c934348")
 		(pts
-			(xy 283.105 23.755) (xy 283.105 26.93)
+			(xy 61.475 -82.225) (xy 61.475 -79.05)
 		)
 		(height 5.825)
 		(orientation 1)
@@ -558,7 +597,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "3.1750 mm"
-			(at 287.83 25.3425 90)
+			(at 66.2 -80.6375 90)
 			(layer "F.Fab")
 			(uuid "bf6aff68-ccb3-49e3-92b0-bf322c934348")
 			(effects
@@ -672,12 +711,6 @@
 			)
 		)
 		(uuid "30582e05-b56b-4912-8226-b5f763d46c9f")
-	)
-	(group ""
-		(uuid "56e59ee4-8f37-466a-a692-4d23ae0d3aa6")
-		(members "0dbde279-e7fa-4f0e-ad16-c58a77b8407b" "30582e05-b56b-4912-8226-b5f763d46c9f"
-			"904dd0a2-c59f-4462-90d8-230f8804c32e" "c9171597-bff9-4a9e-b106-1eefd7ca8da7"
-		)
 	)
 	(group ""
 		(uuid "5760ed98-3e9e-426a-b0f5-b88eebbdb08a")

@@ -1167,7 +1167,7 @@
 		(layer "F.Fab")
 		(uuid "11f24022-774f-4646-bf07-970651f33581")
 		(pts
-			(xy 98.38 80.6075) (xy 136.48 80.6075)
+			(xy 1.99 -1.95) (xy 40.09 -1.95)
 		)
 		(height 13.3)
 		(orientation 0)
@@ -1188,7 +1188,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "38.1000 mm"
-			(at 117.43 92.8075 0)
+			(at 21.04 10.25 0)
 			(layer "F.Fab")
 			(uuid "11f24022-774f-4646-bf07-970651f33581")
 			(effects
@@ -1204,7 +1204,7 @@
 		(layer "F.Fab")
 		(uuid "85c11810-8522-4bad-ac48-bca4d891c429")
 		(pts
-			(xy 98.38 57.7475) (xy 108.54 57.7475)
+			(xy 1.99 -24.81) (xy 12.15 -24.81)
 		)
 		(height -5.34)
 		(orientation 0)
@@ -1225,7 +1225,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "10.1600 mm"
-			(at 103.46 51.3075 0)
+			(at 7.07 -31.25 0)
 			(layer "F.Fab")
 			(uuid "85c11810-8522-4bad-ac48-bca4d891c429")
 			(effects
@@ -1241,7 +1241,7 @@
 		(layer "F.Fab")
 		(uuid "9739b226-5ec3-4fb5-845a-f450e8d8f24f")
 		(pts
-			(xy 98.38 80.6075) (xy 113.635 80.6075)
+			(xy 1.99 -1.95) (xy 17.245 -1.95)
 		)
 		(height 7.8)
 		(orientation 0)
@@ -1262,7 +1262,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "15.2550 mm"
-			(at 106.0075 87.3075 0)
+			(at 9.6175 4.75 0)
 			(layer "F.Fab")
 			(uuid "9739b226-5ec3-4fb5-845a-f450e8d8f24f")
 			(effects
@@ -1278,7 +1278,7 @@
 		(layer "F.Fab")
 		(uuid "a1121916-cf33-4a2b-bd5c-a035dd1a644e")
 		(pts
-			(xy 96.42 55.9475) (xy 138.42 55.9475)
+			(xy 0.03 -26.61) (xy 42.03 -26.61)
 		)
 		(height -9.54)
 		(orientation 0)
@@ -1299,7 +1299,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "42.0000 mm"
-			(at 117.42 45.3075 0)
+			(at 21.03 -37.25 0)
 			(layer "F.Fab")
 			(uuid "a1121916-cf33-4a2b-bd5c-a035dd1a644e")
 			(effects
@@ -1315,7 +1315,7 @@
 		(layer "F.Fab")
 		(uuid "b2219ceb-f106-4451-992e-131095cab430")
 		(pts
-			(xy 96.42 55.9475) (xy 96.42 82.4075)
+			(xy 0.03 -26.61) (xy 0.03 -0.15)
 		)
 		(height -5.5)
 		(orientation 1)
@@ -1336,7 +1336,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "26.4600 mm"
-			(at 89.82 69.1775 90)
+			(at -6.57 -13.38 90)
 			(layer "F.Fab")
 			(uuid "b2219ceb-f106-4451-992e-131095cab430")
 			(effects
@@ -1352,7 +1352,7 @@
 		(layer "F.Fab")
 		(uuid "c61a32b1-1a73-444b-9405-e3b234c74c76")
 		(pts
-			(xy 108.54 57.7475) (xy 136.48 57.7475)
+			(xy 12.15 -24.81) (xy 40.09 -24.81)
 		)
 		(height -5.34)
 		(orientation 0)
@@ -1373,7 +1373,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "27.9400 mm"
-			(at 122.51 51.3075 0)
+			(at 26.12 -31.25 0)
 			(layer "F.Fab")
 			(uuid "c61a32b1-1a73-444b-9405-e3b234c74c76")
 			(effects
@@ -1389,7 +1389,7 @@
 		(layer "F.Fab")
 		(uuid "f331601e-6b12-45d7-829e-30cf2b85f723")
 		(pts
-			(xy 136.48 57.7475) (xy 136.48 80.6075)
+			(xy 40.09 -24.81) (xy 40.09 -1.95)
 		)
 		(height 8.44)
 		(orientation 1)
@@ -1410,7 +1410,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "22.8600 mm"
-			(at 143.82 69.1775 90)
+			(at 47.43 -13.38 90)
 			(layer "F.Fab")
 			(uuid "f331601e-6b12-45d7-829e-30cf2b85f723")
 			(effects

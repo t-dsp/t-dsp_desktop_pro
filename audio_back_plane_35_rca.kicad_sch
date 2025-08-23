@@ -325,253 +325,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_Coaxial_x2"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Coaxial_x2"
-				(at 2.921 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "double coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_Coaxial_x2_0_1"
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 2.54)
-					(mid 0.222 0.7321)
-					(end -1.778 2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 -2.54)
-					(mid 0.222 -4.3479)
-					(end -1.778 -3.048)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.778 3.048)
-					(mid 0.2221 4.3484)
-					(end 1.778 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.778 -2.032)
-					(mid 0.2221 -0.7316)
-					(end 1.778 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0 -4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_x2_1_1"
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "IN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "IN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "EXT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_A"
 			(pin_names
 				(offset 1.016)
@@ -5984,6 +5737,467 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PJRAS2X1S01X:PJRAS2X1S01X"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "PJRAS2X1S01X"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "PJRAS2X1S01X:PJRAS2X1S01X"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Switchcraft Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Connector, 2POS RA SHLD PHJK RE | Switchcraft PJRAS2X1S01X"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DATASHEET" "http://datasheets.diptrace.com/con_rca_jack/pjras2x1s__x_series_cd.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "PJRAS2X1S01X"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Switchcraft"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PJRAS2X1S01X_1_0"
+				(polyline
+					(pts
+						(xy -8.888 3.175) (xy -8.888 -2.54)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.888 3.175) (xy -6.983 3.175)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.888 -2.54) (xy 7.609 -2.54)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.983 3.175) (xy -6.983 -2.54)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.078 2.54) (xy -3.173 0.635)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.173 0.635) (xy -1.268 2.54)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.268 2.54) (xy 7.609 2.54)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.244 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.244 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "L"
+					(at 2.54 1.27 0)
+					(effects
+						(font
+							(size 1.48 1.48)
+						)
+						(justify left top)
+					)
+				)
+				(pin passive line
+					(at 11.43 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "T1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PJRAS2X1S01X_2_0"
+				(polyline
+					(pts
+						(xy -8.889 3.175) (xy -8.889 -2.54)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.889 3.175) (xy -6.984 3.175)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.889 -2.54) (xy 7.608 -2.54)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.984 3.175) (xy -6.984 -2.54)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.079 2.54) (xy -3.174 0.635)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.174 0.635) (xy -1.269 2.54)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.269 2.54) (xy 7.608 2.54)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.243 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.243 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "R"
+					(at 2.539 1.27 0)
+					(effects
+						(font
+							(size 1.48 1.48)
+						)
+						(justify left top)
+					)
+				)
+				(pin passive line
+					(at 11.4292 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "T2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.4292 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -17590,12 +17804,6 @@
 		(uuid "50c5a1b4-1021-4d44-995e-1f83ca6c230a")
 	)
 	(junction
-		(at 537.21 561.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54e2269e-2c5c-4ac3-84c3-3cc283223c85")
-	)
-	(junction
 		(at 935.99 563.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18180,7 +18388,7 @@
 	)
 	(wire
 		(pts
-			(xy 488.95 617.22) (xy 488.95 584.2)
+			(xy 492.76 617.22) (xy 492.76 570.23)
 		)
 		(stroke
 			(width 0)
@@ -18290,6 +18498,16 @@
 	)
 	(wire
 		(pts
+			(xy 506.73 589.28) (xy 513.08 589.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d940669-82d3-4a4d-a5e0-1b3453b1fae3")
+	)
+	(wire
+		(pts
 			(xy 467.36 769.62) (xy 467.36 793.75)
 		)
 		(stroke
@@ -18377,6 +18595,16 @@
 			(type default)
 		)
 		(uuid "14a1f675-dd4f-4d1b-be32-a76916a1d5b0")
+	)
+	(wire
+		(pts
+			(xy 515.62 679.45) (xy 535.94 679.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1714e3f5-a250-48d0-bdc8-e117808492de")
 	)
 	(wire
 		(pts
@@ -18660,7 +18888,7 @@
 	)
 	(wire
 		(pts
-			(xy 490.22 669.29) (xy 510.54 669.29)
+			(xy 490.22 674.37) (xy 535.94 674.37)
 		)
 		(stroke
 			(width 0)
@@ -19250,16 +19478,6 @@
 	)
 	(wire
 		(pts
-			(xy 543.56 553.72) (xy 553.72 553.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d75821d-b206-4853-bbc1-e3956dd8440d")
-	)
-	(wire
-		(pts
 			(xy 392.43 690.88) (xy 392.43 688.34)
 		)
 		(stroke
@@ -19277,6 +19495,16 @@
 			(type default)
 		)
 		(uuid "4dbd1e08-48b0-43a5-8a5e-e0ef247df0bc")
+	)
+	(wire
+		(pts
+			(xy 524.51 665.48) (xy 535.94 665.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc0c7c9-c5b8-44a7-8cc6-5c91a3ac45b3")
 	)
 	(wire
 		(pts
@@ -19320,17 +19548,7 @@
 	)
 	(wire
 		(pts
-			(xy 537.21 561.34) (xy 553.72 561.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5040a552-6f9e-49a9-8c0d-075a0aebf446")
-	)
-	(wire
-		(pts
-			(xy 509.27 614.68) (xy 495.3 614.68)
+			(xy 509.27 614.68) (xy 499.11 614.68)
 		)
 		(stroke
 			(width 0)
@@ -19450,7 +19668,7 @@
 	)
 	(wire
 		(pts
-			(xy 490.22 701.04) (xy 490.22 669.29)
+			(xy 490.22 701.04) (xy 490.22 674.37)
 		)
 		(stroke
 			(width 0)
@@ -19490,7 +19708,7 @@
 	)
 	(wire
 		(pts
-			(xy 495.3 614.68) (xy 495.3 589.28)
+			(xy 499.11 614.68) (xy 499.11 584.2)
 		)
 		(stroke
 			(width 0)
@@ -19920,7 +20138,7 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 617.22) (xy 488.95 617.22)
+			(xy 509.27 617.22) (xy 492.76 617.22)
 		)
 		(stroke
 			(width 0)
@@ -19990,16 +20208,6 @@
 	)
 	(wire
 		(pts
-			(xy 551.18 570.23) (xy 551.18 563.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80fd301a-2fae-4e51-bac7-7095fa83de26")
-	)
-	(wire
-		(pts
 			(xy 483.87 1043.94) (xy 488.95 1043.94)
 		)
 		(stroke
@@ -20007,16 +20215,6 @@
 			(type default)
 		)
 		(uuid "813f4d88-a02c-48ca-896f-d82b0a1214ff")
-	)
-	(wire
-		(pts
-			(xy 551.18 563.88) (xy 553.72 563.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "813f74aa-a234-42be-a99e-5aef39218286")
 	)
 	(wire
 		(pts
@@ -20130,7 +20328,7 @@
 	)
 	(wire
 		(pts
-			(xy 488.95 584.2) (xy 509.27 584.2)
+			(xy 492.76 570.23) (xy 513.08 570.23)
 		)
 		(stroke
 			(width 0)
@@ -20240,7 +20438,7 @@
 	)
 	(wire
 		(pts
-			(xy 508 698.5) (xy 492.76 698.5)
+			(xy 508 698.5) (xy 476.25 698.5)
 		)
 		(stroke
 			(width 0)
@@ -20670,16 +20868,6 @@
 	)
 	(wire
 		(pts
-			(xy 537.21 576.58) (xy 537.21 561.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a610fa22-66f4-4672-976c-34eab045e4b5")
-	)
-	(wire
-		(pts
 			(xy 626.11 989.33) (xy 626.11 984.25)
 		)
 		(stroke
@@ -20930,7 +21118,7 @@
 	)
 	(wire
 		(pts
-			(xy 495.3 589.28) (xy 509.27 589.28)
+			(xy 499.11 584.2) (xy 513.08 584.2)
 		)
 		(stroke
 			(width 0)
@@ -21157,16 +21345,6 @@
 			(type default)
 		)
 		(uuid "c251ae02-9c5c-4b20-925a-3e3d2f4e82da")
-	)
-	(wire
-		(pts
-			(xy 543.56 551.18) (xy 543.56 553.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2779e8f-f71e-4532-b0b1-abe97ed38f94")
 	)
 	(wire
 		(pts
@@ -21580,7 +21758,7 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 698.5) (xy 492.76 674.37)
+			(xy 476.25 698.5) (xy 476.25 660.4)
 		)
 		(stroke
 			(width 0)
@@ -21707,6 +21885,16 @@
 			(type default)
 		)
 		(uuid "e5854fde-e941-4be9-b263-917902288163")
+	)
+	(wire
+		(pts
+			(xy 506.73 575.31) (xy 513.08 575.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e61ae5fc-4244-426e-bfce-827f80dbba21")
 	)
 	(wire
 		(pts
@@ -21990,7 +22178,7 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 674.37) (xy 510.54 674.37)
+			(xy 476.25 660.4) (xy 535.94 660.4)
 		)
 		(stroke
 			(width 0)
@@ -22007,16 +22195,6 @@
 			(type default)
 		)
 		(uuid "f9bb66f1-e464-4591-8327-17d68e0ae8db")
-	)
-	(wire
-		(pts
-			(xy 537.21 551.18) (xy 537.21 561.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb61459c-cf87-4796-bba6-447e396a7d6a")
 	)
 	(wire
 		(pts
@@ -33481,6 +33659,71 @@
 		)
 	)
 	(symbol
+		(lib_id "TEENSY_4.0_PCM5242-rescue:GND-power")
+		(at 506.73 589.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a87840f-035f-4e61-9aae-b85e68449923")
+		(property "Reference" "#PWR01"
+			(at 506.73 595.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 506.984 594.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 506.73 589.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 506.73 589.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 506.73 589.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff404487-f818-48aa-9e23-aad4f5bac29b")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 325.12 332.74 0)
 		(unit 1)
@@ -33840,6 +34083,182 @@
 		)
 	)
 	(symbol
+		(lib_id "PJRAS2X1S01X:PJRAS2X1S01X")
+		(at 547.3692 676.91 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "504ed497-f502-4180-8d44-2eb1b510760f")
+		(property "Reference" "J1"
+			(at 547.3747 669.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PJRAS2X1S01X"
+			(at 547.3747 671.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:PJRAS2X1S01X"
+			(at 547.3692 676.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 547.3692 676.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 547.3692 676.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Switchcraft Inc."
+			(at 547.3692 676.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Connector, 2POS RA SHLD PHJK RE | Switchcraft PJRAS2X1S01X"
+			(at 547.3692 676.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 547.3692 676.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 547.3692 676.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=eda"
+			(at 547.3692 676.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET" "http://datasheets.diptrace.com/con_rca_jack/pjras2x1s__x_series_cd.pdf"
+			(at 547.3692 676.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=snap"
+			(at 547.3692 676.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "PJRAS2X1S01X"
+			(at 547.3692 676.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 547.3692 676.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Switchcraft"
+			(at 547.3692 676.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "S2"
+			(uuid "d7351e2a-693c-486c-90a2-424c203f6d92")
+		)
+		(pin "T1"
+			(uuid "46fec850-05b9-41de-b24f-85e1e3237516")
+		)
+		(pin "T2"
+			(uuid "2ac2f879-dbed-4d4d-9312-40c8b96a931d")
+		)
+		(pin "S1"
+			(uuid "b4c5844f-b2f8-4556-b5d3-aca1d4808a25")
+		)
+		(instances
+			(project ""
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "J1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "global_lib:TAC5212_breakout")
 		(at 416.56 703.58 0)
 		(unit 1)
@@ -34070,71 +34489,6 @@
 			(project "audio_back_plane_1"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "board_outline1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TEENSY_4.0_PCM5242-rescue:GND-power")
-		(at 514.35 594.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "530f3f51-0e79-497d-9d28-20ee08de4402")
-		(property "Reference" "#PWR03"
-			(at 514.35 600.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 518.414 595.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 514.35 594.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 514.35 594.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 514.35 594.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5daf0d1-03b4-4bd4-a822-32c39abd86b7")
-		)
-		(instances
-			(project "audio_back_plane_35_rca"
-				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -35093,71 +35447,6 @@
 			(project "audio_back_plane_1"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TEENSY_4.0_PCM5242-rescue:GND-power")
-		(at 551.18 570.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f19c831-d011-40d3-9ba6-9f2ebc3188a9")
-		(property "Reference" "#PWR01"
-			(at 551.18 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 550.672 567.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 551.18 570.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 551.18 570.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 551.18 570.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a16eb6da-f3de-44c8-9306-eb3867de88a5")
-		)
-		(instances
-			(project "audio_back_plane_35_rca"
-				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -37376,6 +37665,182 @@
 		)
 	)
 	(symbol
+		(lib_id "PJRAS2X1S01X:PJRAS2X1S01X")
+		(at 524.5092 586.74 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bf4f2fd-87e6-44ec-b51b-e3fa5e2d8144")
+		(property "Reference" "J2"
+			(at 524.5147 579.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PJRAS2X1S01X"
+			(at 524.5147 581.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:PJRAS2X1S01X"
+			(at 524.5092 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 524.5092 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 524.5092 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Switchcraft Inc."
+			(at 524.5092 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Connector, 2POS RA SHLD PHJK RE | Switchcraft PJRAS2X1S01X"
+			(at 524.5092 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 524.5092 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 524.5092 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=eda"
+			(at 524.5092 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET" "http://datasheets.diptrace.com/con_rca_jack/pjras2x1s__x_series_cd.pdf"
+			(at 524.5092 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=snap"
+			(at 524.5092 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "PJRAS2X1S01X"
+			(at 524.5092 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 524.5092 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Switchcraft"
+			(at 524.5092 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "S2"
+			(uuid "bcab9f6e-ae18-4f5c-82ab-c3eb1f32ef97")
+		)
+		(pin "T1"
+			(uuid "46fec850-05b9-41de-b24f-85e1e3237517")
+		)
+		(pin "T2"
+			(uuid "c7d04cb6-ac5f-4ae1-926b-ca61ff34ec9e")
+		)
+		(pin "S1"
+			(uuid "b4c5844f-b2f8-4556-b5d3-aca1d4808a26")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "J2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 496.57 1071.88 0)
 		(unit 1)
@@ -38770,6 +39235,182 @@
 		)
 	)
 	(symbol
+		(lib_id "PJRAS2X1S01X:PJRAS2X1S01X")
+		(at 547.37 662.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "907bd318-14ba-4865-a4d0-363295124885")
+		(property "Reference" "J1"
+			(at 547.3745 655.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PJRAS2X1S01X"
+			(at 547.3745 657.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:PJRAS2X1S01X"
+			(at 547.37 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 547.37 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 547.37 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Switchcraft Inc."
+			(at 547.37 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Connector, 2POS RA SHLD PHJK RE | Switchcraft PJRAS2X1S01X"
+			(at 547.37 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 547.37 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 547.37 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=eda"
+			(at 547.37 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET" "http://datasheets.diptrace.com/con_rca_jack/pjras2x1s__x_series_cd.pdf"
+			(at 547.37 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=snap"
+			(at 547.37 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "PJRAS2X1S01X"
+			(at 547.37 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 547.37 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Switchcraft"
+			(at 547.37 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "S2"
+			(uuid "d7351e2a-693c-486c-90a2-424c203f6d92")
+		)
+		(pin "T1"
+			(uuid "46fec850-05b9-41de-b24f-85e1e3237516")
+		)
+		(pin "T2"
+			(uuid "2ac2f879-dbed-4d4d-9312-40c8b96a931d")
+		)
+		(pin "S1"
+			(uuid "b4c5844f-b2f8-4556-b5d3-aca1d4808a25")
+		)
+		(instances
+			(project ""
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 547.37 1071.88 0)
 		(unit 1)
@@ -39200,6 +39841,182 @@
 			(project "audio_back_plane_35_rca"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PJRAS2X1S01X:PJRAS2X1S01X")
+		(at 524.51 572.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bc090d0-67c6-4396-8acd-e8ca749dcd81")
+		(property "Reference" "J2"
+			(at 524.5145 565.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PJRAS2X1S01X"
+			(at 524.5145 567.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:PJRAS2X1S01X"
+			(at 524.51 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 524.51 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 524.51 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Switchcraft Inc."
+			(at 524.51 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Connector, 2POS RA SHLD PHJK RE | Switchcraft PJRAS2X1S01X"
+			(at 524.51 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 524.51 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 524.51 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=eda"
+			(at 524.51 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET" "http://datasheets.diptrace.com/con_rca_jack/pjras2x1s__x_series_cd.pdf"
+			(at 524.51 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=snap"
+			(at 524.51 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "PJRAS2X1S01X"
+			(at 524.51 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 524.51 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Switchcraft"
+			(at 524.51 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "S2"
+			(uuid "d7351e2a-693c-486c-90a2-424c203f6d92")
+		)
+		(pin "T1"
+			(uuid "387e6400-24ad-4d67-bf2c-c49f74374d99")
+		)
+		(pin "T2"
+			(uuid "2ac2f879-dbed-4d4d-9312-40c8b96a931d")
+		)
+		(pin "S1"
+			(uuid "f8fa72f4-361a-48f6-a838-14f9d9f9d2e1")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -39933,6 +40750,71 @@
 		)
 	)
 	(symbol
+		(lib_id "TEENSY_4.0_PCM5242-rescue:GND-power")
+		(at 506.73 575.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac16c419-1cf9-4410-a4e3-055d631c35b8")
+		(property "Reference" "#PWR03"
+			(at 506.73 581.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 506.984 580.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 506.73 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 506.73 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 506.73 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "864be138-1b87-49c6-a067-349997e9f850")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 83.82 726.44 0)
 		(unit 1)
@@ -40096,79 +40978,6 @@
 			(project "audio_back_plane_35_rca"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial_x2")
-		(at 515.62 671.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b24703b9-ee7a-48a6-b5d6-bcadf88dfe12")
-		(property "Reference" "J3"
-			(at 519.43 670.8531 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RCA-IN"
-			(at 519.43 673.3931 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "project_fp:PJRAS2X1_NOT-VERIFIED"
-			(at 515.62 674.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 515.62 674.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "double coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 515.62 671.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9a74fd66-9e1b-43ba-b6a4-9c4b1a32eb65")
-		)
-		(pin "1"
-			(uuid "64f1fa92-078d-48b5-9d5b-ea92fbd60efc")
-		)
-		(pin "2"
-			(uuid "a4d30447-437f-4dee-9df1-e25766a0c6f8")
-		)
-		(instances
-			(project ""
-				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -43081,8 +43890,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8a5c30a-e31f-4e5e-892f-a64982c90e5b")
-		(property "Reference" "T_PROG2"
-			(at 337.566 267.9699 0)
+		(property "Reference" "ESP_PROG1"
+			(at 337.82 267.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43091,7 +43900,7 @@
 			)
 		)
 		(property "Value" "header"
-			(at 337.566 270.5099 0)
+			(at 337.82 270.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43146,7 +43955,7 @@
 		(instances
 			(project "audio_back_plane_35_rca"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
-					(reference "T_PROG2")
+					(reference "ESP_PROG1")
 					(unit 1)
 				)
 			)
@@ -44000,6 +44809,71 @@
 			(project "audio_back_plane_35_rca"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TEENSY_4.0_PCM5242-rescue:GND-power")
+		(at 524.51 665.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1e50201-d7d2-4390-a037-5ac5d6d52aaf")
+		(property "Reference" "#PWR016"
+			(at 524.51 671.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 528.574 667.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 665.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 524.51 665.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 524.51 665.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "435ac115-6bd9-484c-86d5-940adb18e5b9")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -44964,79 +45838,6 @@
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "U6")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial_x2")
-		(at 514.35 586.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f077a118-75ad-483d-a7b8-e2b8ea0bb3ee")
-		(property "Reference" "J6"
-			(at 518.16 585.7631 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RCA-OUT"
-			(at 518.16 588.3031 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "project_fp:PJRAS2X1_NOT-VERIFIED"
-			(at 514.35 589.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 514.35 589.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "double coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 514.35 586.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2df67a0d-33b1-42ec-8317-fa97e1d6a738")
-		)
-		(pin "1"
-			(uuid "16280d5e-8014-4636-88a7-dcffb043c45d")
-		)
-		(pin "2"
-			(uuid "4c46eff9-8aeb-426b-84f5-ac4d49b8d2cf")
-		)
-		(instances
-			(project "audio_back_plane_35_rca"
-				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
-					(reference "J6")
-					(unit 1)
 				)
 			)
 		)

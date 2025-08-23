@@ -228,7 +228,7 @@
 		(uuid "c76e07a2-9823-4827-bb8f-753ad61a4c01")
 	)
 	(fp_text user "EN"
-		(at -2.05 -0.325 90)
+		(at 2.35 -0.2 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "1e589299-c248-4597-ad69-103ee8787f0e")
@@ -240,7 +240,7 @@
 		)
 	)
 	(fp_text user "ESP32"
-		(at -3.125 2.725 90)
+		(at 3.525 2.575 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "62290aa7-fb80-492f-8bc8-c04e2fd64887")
@@ -252,7 +252,7 @@
 		)
 	)
 	(fp_text user "G"
-		(at -2.05 2.675 90)
+		(at 2.35 2.8 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "85f3c2a7-5061-48e9-bf8b-ede538bde717")
@@ -264,7 +264,7 @@
 		)
 	)
 	(fp_text user "IO0"
-		(at -2.125 5.1 90)
+		(at 2.2 5.225 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "8814036b-8bb8-4a50-a4ec-f9f91fe2e6eb")
