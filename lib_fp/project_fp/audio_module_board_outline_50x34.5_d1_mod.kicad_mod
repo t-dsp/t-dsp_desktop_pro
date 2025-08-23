@@ -2016,7 +2016,7 @@
 	)
 	(model "C:/github/kicad/tac5212_audio_board_single_ended/3d_models/T-DSP_TAC5212_PRO_AUDIO_MODULE.step"
 		(offset
-			(xyz 2 1 10)
+			(xyz 2 2 9)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -18830,16 +18830,6 @@
 	)
 	(wire
 		(pts
-			(xy 473.71 1339.85) (xy 474.98 1339.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00b36e77-819e-4a58-a19d-2a11e0576dcc")
-	)
-	(wire
-		(pts
 			(xy 673.1 1022.35) (xy 668.02 1022.35)
 		)
 		(stroke
@@ -18890,7 +18880,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 1344.93) (xy 474.98 1344.93)
+			(xy 458.47 1332.23) (xy 474.98 1332.23)
 		)
 		(stroke
 			(width 0)
@@ -19030,7 +19020,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 1337.31) (xy 466.09 1337.31)
+			(xy 461.01 1347.47) (xy 467.36 1347.47)
 		)
 		(stroke
 			(width 0)
@@ -19230,16 +19220,6 @@
 	)
 	(wire
 		(pts
-			(xy 506.73 1329.69) (xy 500.38 1329.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18f6af61-ff09-4f2a-b434-1f4d3e41dd81")
-	)
-	(wire
-		(pts
 			(xy 441.96 665.48) (xy 441.96 668.02)
 		)
 		(stroke
@@ -19360,6 +19340,16 @@
 	)
 	(wire
 		(pts
+			(xy 461.01 1339.85) (xy 474.98 1339.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0212e8-9887-4967-9224-d2db8a9ffb52")
+	)
+	(wire
+		(pts
 			(xy 464.82 375.92) (xy 474.98 375.92)
 		)
 		(stroke
@@ -19430,16 +19420,6 @@
 	)
 	(wire
 		(pts
-			(xy 473.71 1342.39) (xy 474.98 1342.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "214b2bec-a0b8-4935-af54-8bc46eeaaa28")
-	)
-	(wire
-		(pts
 			(xy 492.76 643.89) (xy 492.76 619.76)
 		)
 		(stroke
@@ -19470,7 +19450,7 @@
 	)
 	(wire
 		(pts
-			(xy 527.05 1332.23) (xy 500.38 1332.23)
+			(xy 527.05 1342.39) (xy 500.38 1342.39)
 		)
 		(stroke
 			(width 0)
@@ -19530,7 +19510,7 @@
 	)
 	(wire
 		(pts
-			(xy 527.05 1344.93) (xy 500.38 1344.93)
+			(xy 527.05 1332.23) (xy 500.38 1332.23)
 		)
 		(stroke
 			(width 0)
@@ -19647,16 +19627,6 @@
 			(type default)
 		)
 		(uuid "2ee4becf-01dc-427b-bef9-fff8c4597218")
-	)
-	(wire
-		(pts
-			(xy 473.71 1332.23) (xy 474.98 1332.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f36d558-54a2-4def-9a31-7e3bb22f16e2")
 	)
 	(wire
 		(pts
@@ -19850,6 +19820,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 327.66) (xy 105.41 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3960f24e-001f-4cb5-9d74-4386732da9b8")
+	)
+	(wire
+		(pts
 			(xy 477.52 793.75) (xy 467.36 793.75)
 		)
 		(stroke
@@ -20020,7 +20000,7 @@
 	)
 	(wire
 		(pts
-			(xy 527.05 1337.31) (xy 500.38 1337.31)
+			(xy 527.05 1347.47) (xy 500.38 1347.47)
 		)
 		(stroke
 			(width 0)
@@ -20050,17 +20030,7 @@
 	)
 	(wire
 		(pts
-			(xy 506.73 1334.77) (xy 500.38 1334.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "428785c5-5ef9-45ac-8463-c3e1e850380f")
-	)
-	(wire
-		(pts
-			(xy 527.05 1339.85) (xy 500.38 1339.85)
+			(xy 527.05 1334.77) (xy 500.38 1334.77)
 		)
 		(stroke
 			(width 0)
@@ -20117,16 +20087,6 @@
 			(type default)
 		)
 		(uuid "44806351-71d7-47a4-96c2-4fde1a8e76fe")
-	)
-	(wire
-		(pts
-			(xy 473.71 1337.31) (xy 474.98 1337.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44add8ad-bdda-4f3e-9af1-6d03c918cfe1")
 	)
 	(wire
 		(pts
@@ -20380,7 +20340,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 1342.39) (xy 466.09 1342.39)
+			(xy 461.01 1337.31) (xy 467.36 1337.31)
 		)
 		(stroke
 			(width 0)
@@ -20400,7 +20360,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 1339.85) (xy 466.09 1339.85)
+			(xy 461.01 1334.77) (xy 467.36 1334.77)
 		)
 		(stroke
 			(width 0)
@@ -20600,16 +20560,6 @@
 	)
 	(wire
 		(pts
-			(xy 473.71 1347.47) (xy 474.98 1347.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e4f342f-75da-4b9b-861a-8035a5ff8c26")
-	)
-	(wire
-		(pts
 			(xy 140.97 411.48) (xy 140.97 397.51)
 		)
 		(stroke
@@ -20690,7 +20640,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 1334.77) (xy 474.98 1334.77)
+			(xy 461.01 1344.93) (xy 474.98 1344.93)
 		)
 		(stroke
 			(width 0)
@@ -20750,7 +20700,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 1332.23) (xy 466.09 1332.23)
+			(xy 461.01 1342.39) (xy 467.36 1342.39)
 		)
 		(stroke
 			(width 0)
@@ -20920,7 +20870,7 @@
 	)
 	(wire
 		(pts
-			(xy 527.05 1347.47) (xy 500.38 1347.47)
+			(xy 527.05 1329.69) (xy 500.38 1329.69)
 		)
 		(stroke
 			(width 0)
@@ -21110,7 +21060,7 @@
 	)
 	(wire
 		(pts
-			(xy 527.05 1329.69) (xy 514.35 1329.69)
+			(xy 527.05 1339.85) (xy 508 1339.85)
 		)
 		(stroke
 			(width 0)
@@ -21610,7 +21560,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 1347.47) (xy 466.09 1347.47)
+			(xy 459.74 1329.69) (xy 467.36 1329.69)
 		)
 		(stroke
 			(width 0)
@@ -21950,7 +21900,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 327.66) (xy 105.41 327.66)
+			(xy 87.63 327.66) (xy 91.44 327.66)
 		)
 		(stroke
 			(width 0)
@@ -22530,7 +22480,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 330.2) (xy 105.41 330.2)
+			(xy 73.66 330.2) (xy 87.63 330.2)
 		)
 		(stroke
 			(width 0)
@@ -22670,7 +22620,17 @@
 	)
 	(wire
 		(pts
-			(xy 527.05 1334.77) (xy 514.35 1334.77)
+			(xy 95.25 330.2) (xy 105.41 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb3e036-69eb-4a5e-ab63-cb7c32eb1633")
+	)
+	(wire
+		(pts
+			(xy 527.05 1344.93) (xy 508 1344.93)
 		)
 		(stroke
 			(width 0)
@@ -22980,7 +22940,7 @@
 	)
 	(wire
 		(pts
-			(xy 527.05 1342.39) (xy 500.38 1342.39)
+			(xy 527.05 1337.31) (xy 500.38 1337.31)
 		)
 		(stroke
 			(width 0)
@@ -24161,7 +24121,7 @@
 	)
 	(global_label "6_OUT1D"
 		(shape input)
-		(at 461.01 1334.77 180)
+		(at 461.01 1344.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24171,7 +24131,7 @@
 		)
 		(uuid "00955a34-9dab-40ce-9480-1499e46535ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 450.4006 1334.6906 0)
+			(at 450.4006 1344.8506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24684,7 +24644,7 @@
 	)
 	(global_label "9_OUT1C+"
 		(shape input)
-		(at 461.01 1337.31 180)
+		(at 461.01 1347.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24694,7 +24654,7 @@
 		)
 		(uuid "121e01fe-f7c6-4d77-9edb-0b6ab64d2b58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 448.1672 1337.31 0)
+			(at 448.1672 1347.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24870,6 +24830,28 @@
 		(uuid "19ca1e46-3403-4139-8cfd-e1299d36b17c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 463.1653 791.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 487.68 1352.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1af0d9a6-c7ee-4872-9491-67d1a1bd7045")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 487.7594 1358.7447 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25206,7 +25188,7 @@
 	)
 	(global_label "MCLK1"
 		(shape input)
-		(at 527.05 1347.47 0)
+		(at 527.05 1329.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25216,7 +25198,7 @@
 		)
 		(uuid "24f142df-7919-4653-aba6-28e7e1835c4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 536.2642 1347.47 0)
+			(at 536.2642 1329.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25489,7 +25471,7 @@
 	)
 	(global_label "6_OUT1D+"
 		(shape input)
-		(at 527.05 1334.77 0)
+		(at 527.05 1344.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25499,7 +25481,7 @@
 		)
 		(uuid "2de028a9-dce2-4741-b1e0-0638214aa24a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 539.8928 1334.77 0)
+			(at 539.8928 1344.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25598,7 +25580,7 @@
 	)
 	(global_label "7_OUT1A"
 		(shape input)
-		(at 527.05 1332.23 0)
+		(at 527.05 1342.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25608,7 +25590,7 @@
 		)
 		(uuid "340f070d-777b-4d35-b848-8bb38f6b2f32")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 538.139 1332.23 0)
+			(at 538.139 1342.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25859,7 +25841,7 @@
 	)
 	(global_label "BCLK1+"
 		(shape input)
-		(at 461.01 1342.39 180)
+		(at 461.01 1334.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25869,7 +25851,7 @@
 		)
 		(uuid "3d378e85-bdbf-4f78-bbf3-df174d76ee89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 450.4048 1342.39 0)
+			(at 450.4048 1334.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25925,7 +25907,7 @@
 	)
 	(global_label "MCLK1+"
 		(shape input)
-		(at 461.01 1347.47 180)
+		(at 459.74 1329.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25935,7 +25917,7 @@
 		)
 		(uuid "4031087d-f07f-4e86-9a59-b7549434151a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 450.2234 1347.47 0)
+			(at 448.9534 1329.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26493,7 +26475,7 @@
 	)
 	(global_label "8_IN1+"
 		(shape input)
-		(at 527.05 1329.69 0)
+		(at 527.05 1339.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -26503,7 +26485,7 @@
 		)
 		(uuid "57834580-d136-452c-b2bd-81e7b89b1137")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 536.2685 1329.6106 0)
+			(at 536.2685 1339.7706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26603,7 +26585,7 @@
 	)
 	(global_label "LRCK1"
 		(shape input)
-		(at 527.05 1339.85 0)
+		(at 527.05 1337.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -26613,7 +26595,7 @@
 		)
 		(uuid "59e69289-8176-4f2f-b5e9-e5dbda13985c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 536.0828 1339.85 0)
+			(at 536.0828 1337.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26948,7 +26930,7 @@
 	)
 	(global_label "LRCK1+"
 		(shape input)
-		(at 461.01 1339.85 180)
+		(at 461.01 1337.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -26958,7 +26940,7 @@
 		)
 		(uuid "642afd6c-3cdd-46e4-affc-363a6da86f42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 450.4048 1339.85 0)
+			(at 450.4048 1337.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27536,7 +27518,7 @@
 	)
 	(global_label "6_OUT1D"
 		(shape input)
-		(at 92.71 327.66 180)
+		(at 87.63 327.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27546,7 +27528,7 @@
 		)
 		(uuid "7d685745-97c5-4823-8a9d-4c4cc3cabdee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.1006 327.5806 0)
+			(at 77.0206 327.5806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27775,7 +27757,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 527.05 1344.93 0)
+		(at 527.05 1332.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27785,7 +27767,7 @@
 		)
 		(uuid "8c8b7068-ba20-416c-9d68-654a2ac64c79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 533.9057 1344.93 0)
+			(at 533.9057 1332.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28733,7 +28715,7 @@
 	)
 	(global_label "BCLK1"
 		(shape input)
-		(at 527.05 1342.39 0)
+		(at 527.05 1334.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -28743,7 +28725,7 @@
 		)
 		(uuid "b47aa6df-3b25-46e5-a364-cbd68ce77047")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 536.0828 1342.39 0)
+			(at 536.0828 1334.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28776,7 +28758,7 @@
 	)
 	(global_label "8_IN1"
 		(shape input)
-		(at 474.98 1329.69 180)
+		(at 461.01 1339.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -28786,7 +28768,7 @@
 		)
 		(uuid "b575ffb8-7e20-457c-ad5a-fadf2f771477")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 467.3339 1329.6106 0)
+			(at 453.3639 1339.7706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29013,7 +28995,7 @@
 	)
 	(global_label "9_OUT1C"
 		(shape input)
-		(at 527.05 1337.31 0)
+		(at 527.05 1347.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -29023,7 +29005,7 @@
 		)
 		(uuid "c2087ac2-f20c-4224-b1fa-a6fb6023891c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 538.3204 1337.31 0)
+			(at 538.3204 1347.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29057,7 +29039,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 461.01 1344.93 180)
+		(at 458.47 1332.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -29067,7 +29049,7 @@
 		)
 		(uuid "c58a62f8-455a-44d8-a49f-02192d585e67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 454.8153 1345.0094 0)
+			(at 452.2753 1332.3094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29079,7 +29061,7 @@
 	)
 	(global_label "7_OUT1A+"
 		(shape input)
-		(at 461.01 1332.23 180)
+		(at 461.01 1342.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -29089,7 +29071,7 @@
 		)
 		(uuid "c5910824-cf77-4b0b-b5ef-6a5545c69e1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 448.3486 1332.23 0)
+			(at 448.3486 1342.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30902,6 +30884,118 @@
 			(project "audio_back_plane_35_rca"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 327.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05ce3ba9-ab50-4b61-aafa-490cf38ada5b")
+		(property "Reference" "R38"
+			(at 93.599 327.279 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+			)
+		)
+		(property "Value" "49.9 ohm"
+			(at 94.869 328.168 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 95.25 325.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 95.25 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 95.25 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0805"
+			(at 95.25 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 95.25 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "603-RC0805DR-072K2L"
+			(at 95.25 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8240abdc-b76d-4044-92e2-74d9d12fd876")
+		)
+		(pin "2"
+			(uuid "8f8f0575-f408-4dc7-be53-f4e208e89c54")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -34315,7 +34409,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 469.9 1342.39 270)
+		(at 471.17 1337.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34323,7 +34417,7 @@
 		(dnp no)
 		(uuid "3f42b88e-dbfc-4318-b36c-dfda32fbac74")
 		(property "Reference" "R15"
-			(at 468.249 1342.009 90)
+			(at 469.519 1336.929 90)
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -34331,7 +34425,7 @@
 			)
 		)
 		(property "Value" "49.9 ohm"
-			(at 469.519 1342.898 90)
+			(at 470.789 1337.818 90)
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -34339,7 +34433,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 469.9 1340.612 90)
+			(at 471.17 1335.532 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34348,7 +34442,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 469.9 1342.39 0)
+			(at 471.17 1337.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34357,7 +34451,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 469.9 1342.39 0)
+			(at 471.17 1337.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34366,7 +34460,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 469.9 1342.39 0)
+			(at 471.17 1337.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34375,7 +34469,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 469.9 1342.39 0)
+			(at 471.17 1337.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34384,7 +34478,7 @@
 			)
 		)
 		(property "Package / Case" "R0805"
-			(at 469.9 1342.39 0)
+			(at 471.17 1337.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34393,7 +34487,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 469.9 1342.39 0)
+			(at 471.17 1337.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34402,7 +34496,7 @@
 			)
 		)
 		(property "mouser" "603-RC0805DR-072K2L"
-			(at 469.9 1342.39 0)
+			(at 471.17 1337.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35336,7 +35430,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 469.9 1337.31 270)
+		(at 471.17 1347.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35344,7 +35438,7 @@
 		(dnp no)
 		(uuid "4eafb4ea-6782-4109-b7e4-613bcd47cc7f")
 		(property "Reference" "R34"
-			(at 468.249 1336.929 90)
+			(at 469.519 1347.089 90)
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -35352,7 +35446,7 @@
 			)
 		)
 		(property "Value" "49.9 ohm"
-			(at 469.519 1337.818 90)
+			(at 470.789 1347.978 90)
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -35360,7 +35454,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 469.9 1335.532 90)
+			(at 471.17 1345.692 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35369,7 +35463,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 469.9 1337.31 0)
+			(at 471.17 1347.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35378,7 +35472,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 469.9 1337.31 0)
+			(at 471.17 1347.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35387,7 +35481,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 469.9 1337.31 0)
+			(at 471.17 1347.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35396,7 +35490,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 469.9 1337.31 0)
+			(at 471.17 1347.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35405,7 +35499,7 @@
 			)
 		)
 		(property "Package / Case" "R0805"
-			(at 469.9 1337.31 0)
+			(at 471.17 1347.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35414,7 +35508,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 469.9 1337.31 0)
+			(at 471.17 1347.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35423,7 +35517,7 @@
 			)
 		)
 		(property "mouser" "603-RC0805DR-072K2L"
-			(at 469.9 1337.31 0)
+			(at 471.17 1347.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38435,7 +38529,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 469.9 1332.23 270)
+		(at 471.17 1342.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38443,7 +38537,7 @@
 		(dnp no)
 		(uuid "70880a53-c044-4e20-8a77-33965851145f")
 		(property "Reference" "R33"
-			(at 468.249 1331.849 90)
+			(at 469.519 1342.009 90)
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -38451,7 +38545,7 @@
 			)
 		)
 		(property "Value" "49.9 ohm"
-			(at 469.519 1332.738 90)
+			(at 470.789 1342.898 90)
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -38459,7 +38553,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 469.9 1330.452 90)
+			(at 471.17 1340.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38468,7 +38562,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 469.9 1332.23 0)
+			(at 471.17 1342.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38477,7 +38571,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 469.9 1332.23 0)
+			(at 471.17 1342.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38486,7 +38580,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 469.9 1332.23 0)
+			(at 471.17 1342.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38495,7 +38589,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 469.9 1332.23 0)
+			(at 471.17 1342.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38504,7 +38598,7 @@
 			)
 		)
 		(property "Package / Case" "R0805"
-			(at 469.9 1332.23 0)
+			(at 471.17 1342.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38513,7 +38607,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 469.9 1332.23 0)
+			(at 471.17 1342.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38522,7 +38616,7 @@
 			)
 		)
 		(property "mouser" "603-RC0805DR-072K2L"
-			(at 469.9 1332.23 0)
+			(at 471.17 1342.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39425,7 +39519,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
+		(property "Footprint" "project_fp:TAC5212_GPIO_PinHeader_2x02_P2.54mm_Vertical"
 			(at 463.55 718.82 0)
 			(effects
 				(font
@@ -40046,7 +40140,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 469.9 1339.85 270)
+		(at 471.17 1334.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40054,7 +40148,7 @@
 		(dnp no)
 		(uuid "8111e7e2-8508-489a-a300-418ec6e748ed")
 		(property "Reference" "R14"
-			(at 468.249 1339.469 90)
+			(at 469.519 1334.389 90)
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -40062,7 +40156,7 @@
 			)
 		)
 		(property "Value" "49.9 ohm"
-			(at 469.519 1340.358 90)
+			(at 470.789 1335.278 90)
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -40070,7 +40164,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 469.9 1338.072 90)
+			(at 471.17 1332.992 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40079,7 +40173,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 469.9 1339.85 0)
+			(at 471.17 1334.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40088,7 +40182,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 469.9 1339.85 0)
+			(at 471.17 1334.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40097,7 +40191,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 469.9 1339.85 0)
+			(at 471.17 1334.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40106,7 +40200,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 469.9 1339.85 0)
+			(at 471.17 1334.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40115,7 +40209,7 @@
 			)
 		)
 		(property "Package / Case" "R0805"
-			(at 469.9 1339.85 0)
+			(at 471.17 1334.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40124,7 +40218,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 469.9 1339.85 0)
+			(at 471.17 1334.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40133,7 +40227,7 @@
 			)
 		)
 		(property "mouser" "603-RC0805DR-072K2L"
-			(at 469.9 1339.85 0)
+			(at 471.17 1334.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40158,7 +40252,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 469.9 1347.47 270)
+		(at 471.17 1329.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40166,7 +40260,7 @@
 		(dnp no)
 		(uuid "81ca75a9-ff01-4966-8775-6c260cc75d1b")
 		(property "Reference" "R32"
-			(at 468.249 1347.089 90)
+			(at 469.519 1329.309 90)
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -40174,7 +40268,7 @@
 			)
 		)
 		(property "Value" "49.9 ohm"
-			(at 469.519 1347.978 90)
+			(at 470.789 1330.198 90)
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -40182,7 +40276,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 469.9 1345.692 90)
+			(at 471.17 1327.912 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40191,7 +40285,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 469.9 1347.47 0)
+			(at 471.17 1329.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40200,7 +40294,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 469.9 1347.47 0)
+			(at 471.17 1329.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40209,7 +40303,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 469.9 1347.47 0)
+			(at 471.17 1329.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40218,7 +40312,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 469.9 1347.47 0)
+			(at 471.17 1329.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40227,7 +40321,7 @@
 			)
 		)
 		(property "Package / Case" "R0805"
-			(at 469.9 1347.47 0)
+			(at 471.17 1329.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40236,7 +40330,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 469.9 1347.47 0)
+			(at 471.17 1329.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40245,7 +40339,7 @@
 			)
 		)
 		(property "mouser" "603-RC0805DR-072K2L"
-			(at 469.9 1347.47 0)
+			(at 471.17 1329.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41230,7 +41324,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 510.54 1329.69 90)
+		(at 504.19 1339.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41238,7 +41332,7 @@
 		(dnp no)
 		(uuid "8a5d802e-a027-432f-9074-e6de349b2015")
 		(property "Reference" "R36"
-			(at 512.191 1330.071 90)
+			(at 505.841 1340.231 90)
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -41246,7 +41340,7 @@
 			)
 		)
 		(property "Value" "49.9 ohm"
-			(at 510.921 1329.182 90)
+			(at 504.571 1339.342 90)
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -41254,7 +41348,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 510.54 1331.468 90)
+			(at 504.19 1341.628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41263,7 +41357,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 510.54 1329.69 0)
+			(at 504.19 1339.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41272,7 +41366,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 510.54 1329.69 0)
+			(at 504.19 1339.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41281,7 +41375,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 510.54 1329.69 0)
+			(at 504.19 1339.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41290,7 +41384,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 510.54 1329.69 0)
+			(at 504.19 1339.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41299,7 +41393,7 @@
 			)
 		)
 		(property "Package / Case" "R0805"
-			(at 510.54 1329.69 0)
+			(at 504.19 1339.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41308,7 +41402,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 510.54 1329.69 0)
+			(at 504.19 1339.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41317,7 +41411,7 @@
 			)
 		)
 		(property "mouser" "603-RC0805DR-072K2L"
-			(at 510.54 1329.69 0)
+			(at 504.19 1339.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48257,6 +48351,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 91.44 330.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f45617f6-6eac-497f-a632-82745052551a")
+		(property "Reference" "R39"
+			(at 89.789 329.819 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+			)
+		)
+		(property "Value" "49.9 ohm"
+			(at 91.059 330.708 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 91.44 328.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 91.44 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 91.44 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0805"
+			(at 91.44 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 91.44 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "603-RC0805DR-072K2L"
+			(at 91.44 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a2fb7f0-6e12-4599-867a-f544f60e1f09")
+		)
+		(pin "2"
+			(uuid "562eab59-0f47-44cd-91e6-9c7ed53add79")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TEENSY_4.0_ESP32_AUDIO-rescue:C_Small-Device")
 		(at 535.94 767.08 0)
 		(unit 1)
@@ -48653,7 +48859,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 510.54 1334.77 90)
+		(at 504.19 1344.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48661,7 +48867,7 @@
 		(dnp no)
 		(uuid "f9dafeac-5639-44c6-baae-1a854d87a66a")
 		(property "Reference" "R37"
-			(at 512.191 1335.151 90)
+			(at 505.841 1345.311 90)
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -48669,7 +48875,7 @@
 			)
 		)
 		(property "Value" "49.9 ohm"
-			(at 510.921 1334.262 90)
+			(at 504.571 1344.422 90)
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -48677,7 +48883,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 510.54 1336.548 90)
+			(at 504.19 1346.708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48686,7 +48892,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 510.54 1334.77 0)
+			(at 504.19 1344.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48695,7 +48901,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 510.54 1334.77 0)
+			(at 504.19 1344.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48704,7 +48910,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 510.54 1334.77 0)
+			(at 504.19 1344.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48713,7 +48919,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 510.54 1334.77 0)
+			(at 504.19 1344.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48722,7 +48928,7 @@
 			)
 		)
 		(property "Package / Case" "R0805"
-			(at 510.54 1334.77 0)
+			(at 504.19 1344.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48731,7 +48937,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 510.54 1334.77 0)
+			(at 504.19 1344.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48740,7 +48946,7 @@
 			)
 		)
 		(property "mouser" "603-RC0805DR-072K2L"
-			(at 510.54 1334.77 0)
+			(at 504.19 1344.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)

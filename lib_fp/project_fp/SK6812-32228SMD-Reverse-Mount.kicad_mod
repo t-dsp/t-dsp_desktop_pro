@@ -209,13 +209,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d_models/4691.step"
 		(offset
-			(xyz -0.05 0 0)
+			(xyz -0.05 -0.75 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 180)
 		)
 	)
 )
