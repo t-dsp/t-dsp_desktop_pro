@@ -490,6 +490,7 @@
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/lib_fp/project_fp/USB4085-GF-A_REVA4.step"
+		(hide yes)
 		(offset
 			(xyz 0 0 0.5)
 		)
@@ -497,18 +498,18 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -0 -90 -0)
 		)
 	)
 	(model "${KIPRJMOD}/3d_models/USB4085-GF-A.stp"
 		(offset
-			(xyz 12 0.25 1.9)
+			(xyz -12 -1.75 1.4)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 -180)
 		)
 	)
 )
