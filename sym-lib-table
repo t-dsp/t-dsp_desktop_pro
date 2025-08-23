@@ -12,4 +12,5 @@
   (lib (name "EN11_HSM1AF15")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/EN11_HSM1AF15.kicad_sym")(options "")(descr ""))
   (lib (name "project_sch")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/project_sch.kicad_sym")(options "")(descr ""))
   (lib (name "PJRAS2X1S01X")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/PJRAS2X1S01X.kicad_sym")(options "")(descr ""))
+  (lib (name "LED_4691_SK6812_SIDE_MOUNT")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/LED_4691_SK6812_SIDE_MOUNT.kicad_sym")(options "")(descr ""))
 )
