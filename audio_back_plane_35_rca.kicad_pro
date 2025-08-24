@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.024,
-          "height": 1.624,
-          "width": 1.624
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,92 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|211235000|128435000|23f31850-725b-47b8-bd36-b13d4d5d1778|94fff3d2-5f6c-46d9-a1fa-ffd3f80d26b4",
+          "GPIO HEADER"
+        ],
+        [
+          "courtyards_overlap|213707500|176762262|0f0da7d0-234a-4e3d-a97d-d8947e88e7fe|4cd72bfa-855a-44d0-9196-1deec90ca540",
+          "GPIO HEADER"
+        ],
+        [
+          "courtyards_overlap|213745000|143645000|8660aa3d-a013-4564-8845-5f057d3c0190|8bcd42f2-724f-44ae-937b-e31cf87496c5",
+          "GPIO HEADER"
+        ],
+        [
+          "courtyards_overlap|213745000|153805000|8660aa3d-a013-4564-8845-5f057d3c0190|c1737404-d4c0-48ef-86d7-822a324e8f8b",
+          "GPIO HEADER"
+        ],
+        [
+          "courtyards_overlap|213745000|166535000|c1737404-d4c0-48ef-86d7-822a324e8f8b|dfcae4ee-3bc3-40e7-83b9-19c9188cfae1",
+          "GPIO HEADER"
+        ],
+        [
+          "courtyards_overlap|213745000|176762262|2e96154c-c1a7-4381-942b-5e24de9bda91|4cd72bfa-855a-44d0-9196-1deec90ca540",
+          "GPIO HEADER"
+        ],
+        [
+          "courtyards_overlap|213754625|166535000|2e96154c-c1a7-4381-942b-5e24de9bda91|dfcae4ee-3bc3-40e7-83b9-19c9188cfae1",
+          "GPIO HEADER"
+        ],
+        [
+          "courtyards_overlap|213775000|128435000|4e2a54ac-88b1-4468-b227-fd16f2fcc6ea|94fff3d2-5f6c-46d9-a1fa-ffd3f80d26b4",
+          "GPIO HEADER"
+        ],
+        [
+          "courtyards_overlap|214320921|130945000|4e2a54ac-88b1-4468-b227-fd16f2fcc6ea|8660aa3d-a013-4564-8845-5f057d3c0190",
+          "GPIO HEADER"
+        ],
+        [
+          "courtyards_overlap|214472869|176762262|4cd72bfa-855a-44d0-9196-1deec90ca540|dfcae4ee-3bc3-40e7-83b9-19c9188cfae1",
+          "GPIO HEADER"
+        ],
+        [
+          "courtyards_overlap|214696886|166535000|8660aa3d-a013-4564-8845-5f057d3c0190|dfcae4ee-3bc3-40e7-83b9-19c9188cfae1",
+          "GPIO HEADER"
+        ],
+        [
+          "courtyards_overlap|214757500|184432262|4cd72bfa-855a-44d0-9196-1deec90ca540|d8372413-232a-4d27-b5e4-51df5c068467",
+          "GPIO HEADER"
+        ],
+        [
+          "courtyards_overlap|214765000|130945000|8660aa3d-a013-4564-8845-5f057d3c0190|94fff3d2-5f6c-46d9-a1fa-ffd3f80d26b4",
+          "GPIO HEADER"
+        ],
+        [
+          "courtyards_overlap|214765000|176762262|0f0da7d0-234a-4e3d-a97d-d8947e88e7fe|dfcae4ee-3bc3-40e7-83b9-19c9188cfae1",
+          "GPIO HEADER"
+        ],
+        [
+          "courtyards_overlap|214795000|166505000|2e96154c-c1a7-4381-942b-5e24de9bda91|8660aa3d-a013-4564-8845-5f057d3c0190",
+          "GPIO HEADER"
+        ],
+        [
+          "courtyards_overlap|216894456|184432262|0f0da7d0-234a-4e3d-a97d-d8947e88e7fe|d8372413-232a-4d27-b5e4-51df5c068467",
+          "GPIO HEADER"
+        ],
+        [
+          "courtyards_overlap|216960543|128435000|23f31850-725b-47b8-bd36-b13d4d5d1778|4e2a54ac-88b1-4468-b227-fd16f2fcc6ea",
+          "GPIO HEADER"
+        ],
+        [
+          "courtyards_overlap|217035757|176762262|0f0da7d0-234a-4e3d-a97d-d8947e88e7fe|2e96154c-c1a7-4381-942b-5e24de9bda91",
+          "GPIO HEADER"
+        ],
+        [
+          "courtyards_overlap|217305000|143645000|4e2a54ac-88b1-4468-b227-fd16f2fcc6ea|8bcd42f2-724f-44ae-937b-e31cf87496c5",
+          "GPIO HEADER"
+        ],
+        [
+          "courtyards_overlap|217335000|153805000|8bcd42f2-724f-44ae-937b-e31cf87496c5|c1737404-d4c0-48ef-86d7-822a324e8f8b",
+          "GPIO HEADER"
+        ],
+        [
+          "courtyards_overlap|217335000|166505000|2e96154c-c1a7-4381-942b-5e24de9bda91|c1737404-d4c0-48ef-86d7-822a324e8f8b",
+          "GPIO HEADER"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -101,7 +186,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
