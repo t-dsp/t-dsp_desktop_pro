@@ -18331,7 +18331,7 @@
 		)
 		(uuid "ca53a5f1-f074-4f69-9713-dfae902499b4")
 	)
-	(text "B) High-speed first, analog last (when fast buses are critical)\n\nL1: High-speed signals and clocks\n\nL2: Solid GND\n\nL3: High-speed or dense digital fanout\n\nL4: Power\n\nL5: Solid GND\n\nL6: Analog signals and sensitive I/O"
+	(text "KiCad 8-Layer Stackup:\nF.Cu    - TOP: Components, ANALOG routes to jacks, ground fill\nIn1.Cu  - GND: Solid ground plane\nIn2.Cu  - SIG1: TDM/high-speed digital, ground fill\nIn3.Cu  - GND: Solid ground plane (isolation!)\nIn4.Cu  - SIG2: More TDM/digital signals, ground fill\nIn5.Cu  - PWR: Power planes (3.3V/5V)\nIn6.Cu  - GND: Solid ground plane\nB.Cu    - BOTTOM: Components, ANALOG routes to jacks, ground fill"
 		(exclude_from_sim no)
 		(at -372.872 299.72 0)
 		(effects
