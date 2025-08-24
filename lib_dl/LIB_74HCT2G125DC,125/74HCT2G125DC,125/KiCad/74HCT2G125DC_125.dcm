@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HCT2G125DC,125
+D 74HC(T)2G125 - Dual buffer/line driver; 3-state@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT2G125.pdf
+$ENDCMP
+#
+#End Doc Library

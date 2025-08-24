@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "74HCT2G125DC_125"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "SOP50P310X100-8N")
+        (spec "System")
+    )
+)

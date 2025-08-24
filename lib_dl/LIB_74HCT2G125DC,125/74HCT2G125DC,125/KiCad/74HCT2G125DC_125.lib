@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 74HCT2G125DC,125
+#/1595455/257563/2.50/8/2/Integrated Circuit
+DEF 74HCT2G125DC,125 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "74HCT2G125DC,125" 950 200 50 H V L CNN
+F2 "SOP50P310X100-8N" 950 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT2G125.pdf" 950 0 50 H I L CNN
+F4 "74HC(T)2G125 - Dual buffer/line driver; 3-state@en-us" 950 -100 50 H I L CNN "Description"
+F5 "1" 950 -200 50 H I L CNN "Height"
+F6 "771-HCT2G125DC125" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Nexperia/74HCT2G125DC125?qs=P62ublwmbi%252B%252B1eQ2FD8Fxg%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Nexperia" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "74HCT2G125DC,125" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~1OE 1 0 0 200 R 50 50 0 0 P
+X 1A 2 0 -100 200 R 50 50 0 0 P
+X 2Y 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X VCC 8 1100 0 200 L 50 50 0 0 P
+X ~2OE 7 1100 -100 200 L 50 50 0 0 P
+X 1Y 6 1100 -200 200 L 50 50 0 0 P
+X 2A 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
