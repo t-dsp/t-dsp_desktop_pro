@@ -41644,7 +41644,7 @@
 	)
 	(symbol
 		(lib_id "PJRAS2X1S01X:PJRAS2X1S01X")
-		(at 547.37 662.94 0)
+		(at 547.37 662.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41652,7 +41652,7 @@
 		(dnp no)
 		(uuid "907bd318-14ba-4865-a4d0-363295124885")
 		(property "Reference" "J1"
-			(at 547.3655 655.32 0)
+			(at 547.3745 670.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41660,7 +41660,7 @@
 			)
 		)
 		(property "Value" "PJRAS2X1S01X"
-			(at 547.3655 657.86 0)
+			(at 547.3745 668.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
