@@ -15,4 +15,5 @@
   (lib (name "LED_4691_SK6812_SIDE_MOUNT")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/LED_4691_SK6812_SIDE_MOUNT.kicad_sym")(options "")(descr ""))
   (lib (name "SN74LVC2G125DCTR")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/SN74LVC2G125DCTR.kicad_sym")(options "")(descr ""))
   (lib (name "74HCT2G125DC_125")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/74HCT2G125DC_125.kicad_sym")(options "")(descr ""))
+  (lib (name "JUMPER")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/JUMPER.kicad_sym")(options "")(descr ""))
 )
