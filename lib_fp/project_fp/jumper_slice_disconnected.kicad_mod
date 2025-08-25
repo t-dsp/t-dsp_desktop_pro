@@ -1,29 +1,151 @@
-(footprint "jumper_slice_disconnected" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 5EB366B2)
-  (property "Digikey" "-")
-  (property "Manufacturer" "-")
-  (property "Manufacturer_Part_Number" "~jumper")
-  (property "Package / Case" "jumper")
-  (property "Sheetfile" "teensy41_digital_audio_board.kicad_sch")
-  (property "Sheetname" "")
-  (property "exclude_from_bom" "")
-  (property "mouser" "-")
-  (attr through_hole exclude_from_bom)
-  (fp_text reference "REF**" (at 0.5 1) (layer "F.SilkS")
-    (effects (font (size 0.8 0.8) (thickness 0.18)))
-    (tstamp 0422fada-f622-4487-b077-aded61356cb8)
-  )
-  (fp_text value "jumper" (at 0.5 -2.5) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 2c8beb21-cf89-4a22-ba85-186dd7f70c04)
-  )
-  (fp_poly (pts
-      (xy 0.254 0.254)
-      (xy -0.254 0.254)
-      (xy -0.254 -0.254)
-      (xy 0.254 -0.254)
-    ) (layer "F.Mask") (width 0.01) (fill solid) (tstamp 1d4b3101-069e-4fbf-b361-c50a35b31698))
-  (pad "1" smd rect (at -0.5 0) (size 0.508 0.508) (layers "F.Cu" "F.Mask") (tstamp ad5f1042-ce2f-4c75-8d06-7ed11ad7cae9))
-  (pad "2" smd rect (at 0.5 0) (size 0.508 0.508) (layers "F.Cu" "F.Mask") (tstamp 158b8b9e-b8e7-4085-bb0f-e85a7c1a7349))
+(footprint "jumper_slice_disconnected"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 1 0)
+		(layer "F.SilkS")
+		(uuid "0422fada-f622-4487-b077-aded61356cb8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.18)
+			)
+		)
+	)
+	(property "Value" "jumper"
+		(at 0.5 -2.5 0)
+		(layer "F.Fab")
+		(uuid "2c8beb21-cf89-4a22-ba85-186dd7f70c04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ac01f3c-6eaa-4664-a536-63d55b3568fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88b8a16e-b2d0-4d94-874d-361cc971c258")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey" "-"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b657ff56-e080-411f-a6b7-38e3b280e693")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "-"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3173ebc6-d031-42dd-9a3a-752210ea0d44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "~jumper"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d3aa0da-7860-4497-8bda-181016740fa4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package / Case" "jumper"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27ae8fbf-15d9-4c9c-b409-21bb58bc5d80")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "exclude_from_bom" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7aa0b5ba-34f4-4887-a1fb-ddb864f4aaea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "mouser" "-"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20938364-1b3c-4fcd-80e0-516453f35aa6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_bom)
+	(net_tie_pad_groups "1,2")
+	(fp_poly
+		(pts
+			(xy 0.254 0.254) (xy -0.254 0.254) (xy -0.254 -0.254) (xy 0.254 -0.254)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "1d4b3101-069e-4fbf-b361-c50a35b31698")
+	)
+	(pad "1" smd rect
+		(at -0.5 0)
+		(size 0.508 0.508)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ad5f1042-ce2f-4c75-8d06-7ed11ad7cae9")
+	)
+	(pad "2" smd rect
+		(at 0.5 0)
+		(size 0.508 0.508)
+		(layers "F.Cu" "F.Mask")
+		(uuid "158b8b9e-b8e7-4085-bb0f-e85a7c1a7349")
+	)
+	(embedded_fonts no)
 )
