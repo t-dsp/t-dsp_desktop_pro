@@ -619,12 +619,18 @@
         "microvia_drill": 0.1,
         "name": "5v",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "AUDIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -636,6 +642,10 @@
       {
         "netclass": "5v",
         "pattern": "5v"
+      },
+      {
+        "netclass": "AUDIO",
+        "pattern": "AUDIO*"
       }
     ]
   },

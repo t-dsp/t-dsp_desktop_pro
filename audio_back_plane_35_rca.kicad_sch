@@ -3957,6 +3957,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -5058,183 +5184,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "JUMPER:JUMPER_SMALL"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "G1"
-				(at 1.778 1.1684 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Value" "jumper"
-				(at 1.778 -1.143 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "project_fp:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-				(at -1.778 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "-"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "~jumper"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Package / Case" "jumper"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "mouser" "-"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey" "-"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "2020-10-01 PARTS" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "JUMPER_SMALL_1_1"
-				(text "X"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 1.27 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -1.27 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -16011,6 +15960,118 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "project_sch:NetTie_2_mod"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2_mod"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_mod_1_1"
+				(pin passive line
+					(at -1.27 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "teensy:Teensy4.1"
 			(pin_names
 				(offset 1.016)
@@ -18020,18 +18081,6 @@
 		(uuid "001d6dbf-c7a3-467a-b718-89a592a9f0c4")
 	)
 	(junction
-		(at 495.3 636.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0298b4b1-6fd5-4876-b2e8-5f9354b0ddf0")
-	)
-	(junction
-		(at 486.41 638.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06f24e10-75ff-446e-bb47-e02aaf373e61")
-	)
-	(junction
 		(at 462.28 363.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18048,6 +18097,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d30eaec-d892-44ef-93d1-809d4408babb")
+	)
+	(junction
+		(at 505.46 614.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fca2513-6056-444c-91b7-a8899aabfa1c")
 	)
 	(junction
 		(at 932.18 628.65)
@@ -18080,22 +18135,10 @@
 		(uuid "1538d8f0-5eb9-401c-94d9-289c74ec1c2a")
 	)
 	(junction
-		(at 515.62 701.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c44c7fc-3fb4-44b7-b0dc-29d6d7c62e48")
-	)
-	(junction
 		(at 918.21 590.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d0534a3-302c-47ee-9d2e-00f3ef52fe80")
-	)
-	(junction
-		(at 515.62 703.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d35f9c0-664b-495b-8cf3-46a6f0417205")
 	)
 	(junction
 		(at 111.76 1807.21)
@@ -18224,12 +18267,6 @@
 		(uuid "4583e21f-8053-44bd-90e5-f85ae682a922")
 	)
 	(junction
-		(at 523.24 695.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46d5bd04-ea6c-493d-b6a7-cbfb4f52d968")
-	)
-	(junction
 		(at 111.76 1814.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18308,6 +18345,12 @@
 		(uuid "68d56206-ca9d-4da2-b716-7ed18156be00")
 	)
 	(junction
+		(at 523.24 695.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "722aac76-a4ac-4438-bb4f-339d2847f632")
+	)
+	(junction
 		(at 243.84 1803.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18344,6 +18387,12 @@
 		(uuid "7cdd6dc6-5cb9-4d3b-aae5-a594109a54de")
 	)
 	(junction
+		(at 486.41 638.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80d75a29-04b1-466a-a23e-46b318e11c08")
+	)
+	(junction
 		(at 157.48 1584.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18362,6 +18411,12 @@
 		(uuid "85282bbe-9576-47f0-9a6a-788499391593")
 	)
 	(junction
+		(at 495.3 636.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87d411f2-0ca1-408b-8ab1-84d8eebf2f6f")
+	)
+	(junction
 		(at 495.3 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18372,6 +18427,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89a3bee8-9804-4fb3-9a0c-3f3c58476011")
+	)
+	(junction
+		(at 496.57 619.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c87535f-d620-452e-a244-b453ebab0f85")
 	)
 	(junction
 		(at 325.12 284.48)
@@ -18404,10 +18465,22 @@
 		(uuid "908965cb-065e-4a77-b464-9404b708a581")
 	)
 	(junction
+		(at 515.62 701.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "912eeaa7-9721-4a38-b88d-9e562a9bc9ad")
+	)
+	(junction
 		(at 535.94 769.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "938eb2af-5ddb-40b8-8aee-f41b28d2d1c7")
+	)
+	(junction
+		(at 515.62 703.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9418f532-347b-44fc-8d52-b93691abd2b9")
 	)
 	(junction
 		(at 441.96 670.56)
@@ -18426,12 +18499,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cd4dc17-6858-42b3-b909-5710a4b05942")
-	)
-	(junction
-		(at 496.57 619.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d152155-8a2d-4e7e-a29f-5ce0f1424567")
 	)
 	(junction
 		(at 195.58 363.22)
@@ -18458,12 +18525,6 @@
 		(uuid "a48d1b57-b7c7-4e7c-a96b-6731ba340cc6")
 	)
 	(junction
-		(at 505.46 614.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5285479-1734-4d1e-ac33-55b531453a0a")
-	)
-	(junction
 		(at 495.3 290.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18486,12 +18547,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af8f6d59-d436-4727-b80c-cb3e8bf588a5")
-	)
-	(junction
-		(at 523.24 698.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "afe6bd29-6446-437a-b3c5-f80985f7d5bb")
 	)
 	(junction
 		(at 535.94 788.67)
@@ -18524,12 +18579,6 @@
 		(uuid "b8a081d7-7ef0-45fb-bca3-14d875866e60")
 	)
 	(junction
-		(at 505.46 612.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "baada693-ec9f-4d0a-a597-de965c020b9e")
-	)
-	(junction
 		(at 107.95 397.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18554,6 +18603,12 @@
 		(uuid "be03993e-1302-4541-a80d-bfc7dd83856e")
 	)
 	(junction
+		(at 505.46 612.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be0eb339-b640-45de-b1ea-94e13ba149b7")
+	)
+	(junction
 		(at 392.43 693.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18570,6 +18625,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2143116-5463-42d3-9316-5719c1aa001f")
+	)
+	(junction
+		(at 496.57 617.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6b382b2-afad-4135-80e7-4850f68325d0")
 	)
 	(junction
 		(at 402.59 425.45)
@@ -18674,6 +18735,12 @@
 		(uuid "ea5dfd34-6352-42ab-a981-67d5d469a00d")
 	)
 	(junction
+		(at 523.24 698.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee4d3b6b-05b1-4575-a715-bddb5c3516c9")
+	)
+	(junction
 		(at 495.3 295.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18696,12 +18763,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa983e6d-33db-446f-b744-ae1cd0dbf108")
-	)
-	(junction
-		(at 496.57 617.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb480fdc-c1b1-4238-8254-357002905c1a")
 	)
 	(junction
 		(at 1372.87 1074.42)
@@ -19086,6 +19147,16 @@
 	)
 	(wire
 		(pts
+			(xy 523.24 695.96) (xy 528.32 695.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c778f43-7aa8-490d-b6f7-4a9aee446800")
+	)
+	(wire
+		(pts
 			(xy 495.3 298.45) (xy 495.3 300.99)
 		)
 		(stroke
@@ -19323,6 +19394,16 @@
 			(type default)
 		)
 		(uuid "19597245-3f3d-4628-bea2-b7fad053f5b6")
+	)
+	(wire
+		(pts
+			(xy 505.46 612.14) (xy 509.27 612.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "196b316d-dcf0-4791-a71e-72617b13945a")
 	)
 	(wire
 		(pts
@@ -19636,16 +19717,6 @@
 	)
 	(wire
 		(pts
-			(xy 515.62 701.04) (xy 528.32 701.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "254a7c44-7fea-4d37-949b-74739f0d1cf4")
-	)
-	(wire
-		(pts
 			(xy 703.58 1515.11) (xy 711.2 1515.11)
 		)
 		(stroke
@@ -19753,6 +19824,16 @@
 			(type default)
 		)
 		(uuid "2be302d0-6b01-4e2b-8ff8-065c8b17e225")
+	)
+	(wire
+		(pts
+			(xy 523.24 698.5) (xy 528.32 698.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d32a4e2-c369-43d3-96f3-9fd83877d7dc")
 	)
 	(wire
 		(pts
@@ -20016,7 +20097,7 @@
 	)
 	(wire
 		(pts
-			(xy 496.57 617.22) (xy 492.76 617.22)
+			(xy 492.76 617.22) (xy 496.57 617.22)
 		)
 		(stroke
 			(width 0)
@@ -20516,16 +20597,6 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 614.68) (xy 505.46 614.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50dc9327-5e7d-464d-bcdc-d02a9bd75638")
-	)
-	(wire
-		(pts
 			(xy 1372.87 1017.27) (xy 1372.87 1016)
 		)
 		(stroke
@@ -20863,16 +20934,6 @@
 			(type default)
 		)
 		(uuid "619a3a7b-e011-44b3-86aa-4eeeffd39ada")
-	)
-	(wire
-		(pts
-			(xy 495.3 636.27) (xy 510.54 636.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61bfd87f-05b4-4e6c-a3e7-4115bfe9df59")
 	)
 	(wire
 		(pts
@@ -21226,6 +21287,16 @@
 	)
 	(wire
 		(pts
+			(xy 496.57 619.76) (xy 509.27 619.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7520d83d-c065-486f-9a47-c5c9ee9f605b")
+	)
+	(wire
+		(pts
 			(xy 152.4 1498.6) (xy 153.67 1498.6)
 		)
 		(stroke
@@ -21263,6 +21334,16 @@
 			(type default)
 		)
 		(uuid "7726ae7c-2962-4969-93cc-bc9d3050579e")
+	)
+	(wire
+		(pts
+			(xy 496.57 617.22) (xy 509.27 617.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7756285e-d762-4843-8131-d0d8c1c7ba2e")
 	)
 	(wire
 		(pts
@@ -21333,16 +21414,6 @@
 			(type default)
 		)
 		(uuid "7b0a2e2b-c876-4570-8b98-d8d5e136665f")
-	)
-	(wire
-		(pts
-			(xy 509.27 617.22) (xy 496.57 617.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bce4e88-dcb6-43a1-bac9-5cd0fa053c58")
 	)
 	(wire
 		(pts
@@ -21466,6 +21537,16 @@
 	)
 	(wire
 		(pts
+			(xy 515.62 701.04) (xy 528.32 701.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83284888-d1ef-430f-ad48-ffd423d38b9f")
+	)
+	(wire
+		(pts
 			(xy 441.96 680.72) (xy 441.96 683.26)
 		)
 		(stroke
@@ -21473,16 +21554,6 @@
 			(type default)
 		)
 		(uuid "834b695f-1188-4805-8db6-52119ce8c600")
-	)
-	(wire
-		(pts
-			(xy 486.41 638.81) (xy 510.54 638.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "838cd49b-3d24-4021-8913-51e978702c39")
 	)
 	(wire
 		(pts
@@ -21513,6 +21584,16 @@
 			(type default)
 		)
 		(uuid "8662c794-0acd-4eae-bcb8-c4f99cdb19ee")
+	)
+	(wire
+		(pts
+			(xy 505.46 614.68) (xy 509.27 614.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ce7259-ea94-41e0-a4f8-d3c9fc43d92a")
 	)
 	(wire
 		(pts
@@ -21616,6 +21697,16 @@
 	)
 	(wire
 		(pts
+			(xy 495.3 636.27) (xy 510.54 636.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b691cee-e55a-4a9d-9701-6c13d0d33e1e")
+	)
+	(wire
+		(pts
 			(xy 49.53 1549.4) (xy 49.53 1551.94)
 		)
 		(stroke
@@ -21673,16 +21764,6 @@
 			(type default)
 		)
 		(uuid "8e011526-4dd2-4d71-bb55-36abb43799e2")
-	)
-	(wire
-		(pts
-			(xy 528.32 698.5) (xy 523.24 698.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f905b9d-4d93-4d2e-8279-f959898d7e91")
 	)
 	(wire
 		(pts
@@ -22926,16 +23007,6 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 695.96) (xy 528.32 695.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d46c1d4a-a6d8-49ea-ac10-5d388ddc5b0f")
-	)
-	(wire
-		(pts
 			(xy 49.53 1493.52) (xy 50.8 1493.52)
 		)
 		(stroke
@@ -23056,6 +23127,16 @@
 	)
 	(wire
 		(pts
+			(xy 515.62 703.58) (xy 528.32 703.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0555b2-fab6-4d7f-87c5-732cc927d6ef")
+	)
+	(wire
+		(pts
 			(xy 495.3 698.5) (xy 495.3 660.4)
 		)
 		(stroke
@@ -23136,16 +23217,6 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 612.14) (xy 509.27 612.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0213864-0295-4155-b70f-804e30edf5e7")
-	)
-	(wire
-		(pts
 			(xy 1372.87 1101.09) (xy 1372.87 1109.98)
 		)
 		(stroke
@@ -23163,16 +23234,6 @@
 			(type default)
 		)
 		(uuid "e14f1064-536f-4a18-8a28-b06de67dc181")
-	)
-	(wire
-		(pts
-			(xy 515.62 703.58) (xy 528.32 703.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1bd7752-1c52-4a4f-8be5-fa5960ae04a3")
 	)
 	(wire
 		(pts
@@ -23366,6 +23427,16 @@
 	)
 	(wire
 		(pts
+			(xy 486.41 638.81) (xy 510.54 638.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaca706d-a847-4deb-86e7-f2b71f957927")
+	)
+	(wire
+		(pts
 			(xy 100.33 538.48) (xy 102.87 538.48)
 		)
 		(stroke
@@ -23373,16 +23444,6 @@
 			(type default)
 		)
 		(uuid "eafed342-d1f8-49cb-9573-c275725654d6")
-	)
-	(wire
-		(pts
-			(xy 496.57 619.76) (xy 509.27 619.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb47ee3d-7cf1-48cb-b1ef-aa6e649a1fd0")
 	)
 	(wire
 		(pts
@@ -23396,7 +23457,7 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 614.68) (xy 499.11 614.68)
+			(xy 499.11 614.68) (xy 505.46 614.68)
 		)
 		(stroke
 			(width 0)
@@ -24583,6 +24644,16 @@
 		)
 		(uuid "68d77aec-a0ef-4c2e-95ac-603fc0bea319")
 	)
+	(label "AUDIO_OUTP"
+		(at 449.58 688.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b5fa7c5-c405-461f-a18d-3a9dcded15a4")
+	)
 	(label "ESP32_IO1"
 		(at 96.52 358.14 180)
 		(effects
@@ -24602,6 +24673,16 @@
 			(justify right bottom)
 		)
 		(uuid "76fbd738-ef65-4b98-a40e-a6722505b2a4")
+	)
+	(label "AUDIO_OUT2P"
+		(at 448.31 693.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7947cd16-17fa-4c3e-8cca-1b4512e63583")
 	)
 	(label "ESP32_IO12_VSPI_MISO"
 		(at 402.59 325.12 0)
@@ -24662,6 +24743,16 @@
 			(justify left bottom)
 		)
 		(uuid "9d789d97-3653-43e3-83f6-062fe0a65b1d")
+	)
+	(label "AUDIO_IN2P"
+		(at 449.58 703.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a90aab41-4ba6-47ba-9418-1fe0ff3baa08")
 	)
 	(label "OUTPUTA"
 		(at 185.42 350.52 180)
@@ -24732,6 +24823,16 @@
 			(justify left bottom)
 		)
 		(uuid "fa6552f8-4b77-496c-8cc9-69b592c82dfe")
+	)
+	(label "AUDIO_IN1P"
+		(at 449.58 698.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe649bd3-7318-49b2-8878-e1f8d0c7be1b")
 	)
 	(label "4_BCLK2"
 		(at 82.55 322.58 180)
@@ -35869,6 +35970,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 515.62 711.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d29a685-c005-4706-973a-507ac0d0cd9d")
+		(property "Reference" "NT1"
+			(at 515.62 706.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 515.62 708.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 515.62 711.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 515.62 711.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 515.62 711.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db73d493-e721-40b8-807e-fd4efe038636")
+		)
+		(pin "2"
+			(uuid "5db21c81-5a18-476b-9d2b-5ef63e7a3aae")
+		)
+		(instances
+			(project ""
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 425.45 384.81 270)
 		(unit 1)
@@ -42419,8 +42588,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JUMPER:JUMPER_SMALL")
-		(at 496.57 618.49 0)
+		(lib_id "project_sch:NetTie_2_mod")
+		(at 496.57 618.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -42429,33 +42598,24 @@
 		(fields_autoplaced yes)
 		(uuid "83fb38c9-eb7c-43b9-8bba-c0985f2fef49")
 		(property "Reference" "J8"
-			(at 499.11 617.2199 0)
+			(at 497.84 617.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "jumper"
-			(at 499.11 619.7599 0)
+			(at 497.84 619.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "project_fp:jumper_slice_disconnected"
-			(at 494.792 618.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 496.57 618.49 0)
 			(effects
 				(font
@@ -42464,7 +42624,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 496.57 618.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
 			(at 496.57 618.49 0)
 			(effects
 				(font
@@ -43078,8 +43247,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JUMPER:JUMPER_SMALL")
-		(at 495.3 635 0)
+		(lib_id "project_sch:NetTie_2_mod")
+		(at 495.3 635 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -43088,33 +43257,24 @@
 		(fields_autoplaced yes)
 		(uuid "89d9f6ac-9a8f-466c-8d02-70d6c6425da4")
 		(property "Reference" "J6"
-			(at 497.84 633.7299 0)
+			(at 496.57 633.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "jumper"
-			(at 497.84 636.2699 0)
+			(at 496.57 636.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "project_fp:jumper_slice_disconnected"
-			(at 493.522 635 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 495.3 635 0)
 			(effects
 				(font
@@ -43123,7 +43283,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 495.3 635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
 			(at 495.3 635 0)
 			(effects
 				(font
@@ -43934,8 +44103,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JUMPER:JUMPER_SMALL")
-		(at 515.62 702.31 0)
+		(lib_id "project_sch:NetTie_2_mod")
+		(at 515.62 702.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -43944,33 +44113,24 @@
 		(fields_autoplaced yes)
 		(uuid "9191b0d9-ad4a-4dfe-a74f-86d9ed70dc5e")
 		(property "Reference" "J4"
-			(at 518.16 701.0399 0)
+			(at 516.89 701.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "jumper"
-			(at 518.16 703.5799 0)
+			(at 516.89 703.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "project_fp:jumper_slice_disconnected"
-			(at 513.842 702.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 515.62 702.31 0)
 			(effects
 				(font
@@ -43979,7 +44139,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 515.62 702.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
 			(at 515.62 702.31 0)
 			(effects
 				(font
@@ -47266,8 +47435,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JUMPER:JUMPER_SMALL")
-		(at 505.46 613.41 0)
+		(lib_id "project_sch:NetTie_2_mod")
+		(at 505.46 613.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -47276,33 +47445,24 @@
 		(fields_autoplaced yes)
 		(uuid "c9ba5427-b0ad-48ab-896d-7d1489d726b6")
 		(property "Reference" "J9"
-			(at 508 612.1399 0)
+			(at 506.73 612.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "jumper"
-			(at 508 614.6799 0)
+			(at 506.73 614.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "project_fp:jumper_slice_disconnected"
-			(at 503.682 613.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 505.46 613.41 0)
 			(effects
 				(font
@@ -47311,7 +47471,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 505.46 613.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
 			(at 505.46 613.41 0)
 			(effects
 				(font
@@ -48913,8 +49082,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JUMPER:JUMPER_SMALL")
-		(at 523.24 697.23 0)
+		(lib_id "project_sch:NetTie_2_mod")
+		(at 523.24 697.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -48923,33 +49092,24 @@
 		(fields_autoplaced yes)
 		(uuid "d9de1f98-6004-4ff6-9b54-d4187bff31ff")
 		(property "Reference" "J5"
-			(at 525.78 695.9599 0)
+			(at 524.51 695.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "jumper"
-			(at 525.78 698.4999 0)
+			(at 524.51 698.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "project_fp:jumper_slice_disconnected"
-			(at 521.462 697.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 523.24 697.23 0)
 			(effects
 				(font
@@ -48958,7 +49118,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 523.24 697.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
 			(at 523.24 697.23 0)
 			(effects
 				(font
@@ -49959,8 +50128,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JUMPER:JUMPER_SMALL")
-		(at 486.41 640.08 0)
+		(lib_id "project_sch:NetTie_2_mod")
+		(at 486.41 640.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -49969,33 +50138,24 @@
 		(fields_autoplaced yes)
 		(uuid "e7b919f7-f078-42df-81c4-ab69f5497a32")
 		(property "Reference" "J7"
-			(at 488.95 638.8099 0)
+			(at 487.68 638.8099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "jumper"
-			(at 488.95 641.3499 0)
+			(at 487.68 641.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "project_fp:jumper_slice_disconnected"
-			(at 484.632 640.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 486.41 640.08 0)
 			(effects
 				(font
@@ -50004,7 +50164,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 486.41 640.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
 			(at 486.41 640.08 0)
 			(effects
 				(font

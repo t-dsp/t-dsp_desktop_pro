@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(tags "net tie")
 	(property "Reference" "REF**"
 		(at 0.5 1 0)
 		(layer "F.SilkS")
@@ -121,11 +122,11 @@
 			)
 		)
 	)
-	(attr smd exclude_from_bom)
-	(net_tie_pad_groups "1,2")
+	(attr smd exclude_from_bom allow_soldermask_bridges)
+	(net_tie_pad_groups "1, 2")
 	(fp_poly
 		(pts
-			(xy 0.254 0.254) (xy -0.254 0.254) (xy -0.254 -0.254) (xy 0.254 -0.254)
+			(xy 0.246 0.254) (xy -0.246 0.254) (xy -0.246 -0.254) (xy 0.246 -0.254)
 		)
 		(stroke
 			(width 0.01)
