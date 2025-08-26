@@ -358,6 +358,376 @@
 	(net 162 "Net-(HPTRS4-Pad3)")
 	(net 163 "Net-(BAT2-Pin_1)")
 	(net 164 "Net-(BAT2-Pin_2)")
+	(net 165 "unconnected-(IC2-OUT-Pad5)")
+	(net 166 "unconnected-(IC2-ILM-Pad7)")
+	(net 167 "unconnected-(IC2-GND_2-Pad9)")
+	(net 168 "unconnected-(IC2-EN{slash}UVLO-Pad2)")
+	(net 169 "unconnected-(IC2-GND_1-Pad8)")
+	(net 170 "unconnected-(IC2-DVDT-Pad1)")
+	(net 171 "unconnected-(IC2-~{FLT}-Pad6)")
+	(net 172 "unconnected-(IC2-IN_2-Pad4)")
+	(net 173 "unconnected-(IC2-IN_1-Pad3)")
+	(net 174 "unconnected-(C23-Pad1)")
+	(net 175 "unconnected-(C23-Pad2)")
+	(net 176 "unconnected-(C24-Pad1)")
+	(net 177 "unconnected-(C24-Pad2)")
+	(net 178 "unconnected-(CC3-Pad1)")
+	(net 179 "unconnected-(CC3-Pad2)")
+	(net 180 "unconnected-(CC4-Pad1)")
+	(net 181 "unconnected-(CC4-Pad2)")
+	(net 182 "unconnected-(D4-A1-Pad1)")
+	(net 183 "unconnected-(D4-A2-Pad2)")
+	(net 184 "unconnected-(U15-CC2-Pad14)")
+	(net 185 "unconnected-(U15-VDC_OUT-Pad11)")
+	(net 186 "unconnected-(U15-HPI_SCL-Pad13)")
+	(net 187 "unconnected-(U15-ISNK_COARSE-Pad5)")
+	(net 188 "unconnected-(U15-CC1-Pad15)")
+	(net 189 "unconnected-(U15-VBUS_MIN-Pad1)")
+	(net 190 "unconnected-(U15-NC-Pad16)")
+	(net 191 "unconnected-(U15-~{HPI_INT}-Pad7)")
+	(net 192 "unconnected-(U15-SAFE_PWR_EN-Pad4)")
+	(net 193 "unconnected-(U15-VBUS_IN-Pad18)")
+	(net 194 "unconnected-(U15-NC-Pad21)")
+	(net 195 "unconnected-(U15-ISNK_FINE-Pad6)")
+	(net 196 "unconnected-(U15-HPI_SDA-Pad12)")
+	(net 197 "unconnected-(U15-VBUS_FET_EN-Pad3)")
+	(net 198 "Net-(U15-GND-Pad19)")
+	(net 199 "unconnected-(U15-NC-Pad20)")
+	(net 200 "unconnected-(U15-VBUS_MAX-Pad2)")
+	(net 201 "unconnected-(U15-FLIP-Pad10)")
+	(net 202 "unconnected-(U15-VCCD-Pad24)")
+	(net 203 "unconnected-(U15-FAULT-Pad9)")
+	(net 204 "unconnected-(U15-GPIO_1-Pad8)")
+	(net 205 "unconnected-(U15-VDDD-Pad23)")
+	(net 206 "unconnected-(U15-NC-Pad17)")
+	(footprint "project_fp:TPS259531DSGT"
+		(layer "F.Cu")
+		(uuid "00b38be0-588a-4e08-8962-cb483d32dd37")
+		(at 241.5 113)
+		(descr "DSG0008A 1")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC2"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "2808e482-34cf-44c9-9b53-02ed1dd02ee7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "TPS259531DSGT"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0c614f43-1efd-40a1-892d-eb20008319b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/TPS2595"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23594bdc-2e50-4247-9082-498e349f3b58")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "2.7V to 18V, 4A, 34m eFuse with fast overvoltage protection"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efc8a412-49ea-4a09-8e2d-86ad3cb5f854")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c4a47a9-3c1d-4847-9bfc-ce98a07870d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "595-TPS259531DSGT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe174718-8568-4846-868e-5a4454566b13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS259531DSGT?qs=W0yvOO0ixfHjdZF3aZpCfQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c6f4bbc-f246-4b69-874a-8fcec10c0b52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7758e8b9-e420-4998-80b4-529bf5597ce6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPS259531DSGT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae367728-87c0-4b89-af60-14e9c147b413")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a610cf2e-e1a3-464a-aedc-ba66b26d5c06")
+		(sheetname "/")
+		(sheetfile "audio_back_plane_35_rca.kicad_sch")
+		(attr smd)
+		(fp_circle
+			(center -1.4 -1.4)
+			(end -1.4 -1.275)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "48b872b4-08a3-4a22-a343-fbec86b2b795")
+		)
+		(fp_line
+			(start -1.625 -1.3)
+			(end 1.625 -1.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f626af31-bcc1-40d5-ba51-5c8d8bb9a830")
+		)
+		(fp_line
+			(start -1.625 1.3)
+			(end -1.625 -1.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3472d653-28a7-486e-861c-63011fe0a65f")
+		)
+		(fp_line
+			(start 1.625 -1.3)
+			(end 1.625 1.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c584dc3d-d4cd-4e8c-9174-d6a9171eca02")
+		)
+		(fp_line
+			(start 1.625 1.3)
+			(end -1.625 1.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bd028373-e33a-4fa5-824e-20104d355155")
+		)
+		(fp_line
+			(start -1 -1)
+			(end 1 -1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bf210310-1980-4113-a377-57b0d07ab465")
+		)
+		(fp_line
+			(start -1 -0.5)
+			(end -0.5 -1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d0f34d5d-4fed-4733-85ef-f5a9f5147e7b")
+		)
+		(fp_line
+			(start -1 1)
+			(end -1 -1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "81adf0d4-cb2a-4a67-90bd-fea7fd3957c5")
+		)
+		(fp_line
+			(start 1 -1)
+			(end 1 1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "58b01bea-222a-443d-828c-bf04729fc743")
+		)
+		(fp_line
+			(start 1 1)
+			(end -1 1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "828d1620-b7e5-4506-a228-eb7ae5f81795")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7433353a-c49d-4d5a-a832-0d2ea98f971d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.05 -0.75 90)
+			(size 0.3 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 170 "unconnected-(IC2-DVDT-Pad1)")
+			(pinfunction "DVDT")
+			(pintype "passive")
+			(uuid "83e2b4ce-7b6a-4383-9ba9-087db97876f6")
+		)
+		(pad "2" smd rect
+			(at -1.05 -0.25 90)
+			(size 0.3 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 168 "unconnected-(IC2-EN{slash}UVLO-Pad2)")
+			(pinfunction "EN/UVLO")
+			(pintype "passive")
+			(uuid "5306593b-a0f0-490e-b484-acb625803374")
+		)
+		(pad "3" smd rect
+			(at -1.05 0.25 90)
+			(size 0.3 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 173 "unconnected-(IC2-IN_1-Pad3)")
+			(pinfunction "IN_1")
+			(pintype "passive")
+			(uuid "d7d25230-f949-4c65-b829-4e3fa5b6528a")
+		)
+		(pad "4" smd rect
+			(at -1.05 0.75 90)
+			(size 0.3 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 172 "unconnected-(IC2-IN_2-Pad4)")
+			(pinfunction "IN_2")
+			(pintype "passive")
+			(uuid "becdc2f5-93e1-4a4f-91cf-2f07da334d50")
+		)
+		(pad "5" smd rect
+			(at 1.05 0.75 90)
+			(size 0.3 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 165 "unconnected-(IC2-OUT-Pad5)")
+			(pinfunction "OUT")
+			(pintype "passive")
+			(uuid "01a396dc-0e61-493a-949f-4c018f9f0571")
+		)
+		(pad "6" smd rect
+			(at 1.05 0.25 90)
+			(size 0.3 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 171 "unconnected-(IC2-~{FLT}-Pad6)")
+			(pinfunction "~{FLT}")
+			(pintype "passive")
+			(uuid "bdcf6395-f694-42d2-871b-43b4eba95550")
+		)
+		(pad "7" smd rect
+			(at 1.05 -0.25 90)
+			(size 0.3 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 166 "unconnected-(IC2-ILM-Pad7)")
+			(pinfunction "ILM")
+			(pintype "passive")
+			(uuid "2a3850d6-57dc-4e83-8f29-8f5cb7ba7041")
+		)
+		(pad "8" smd rect
+			(at 1.05 -0.75 90)
+			(size 0.3 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 169 "unconnected-(IC2-GND_1-Pad8)")
+			(pinfunction "GND_1")
+			(pintype "passive")
+			(uuid "77bd563e-f544-4690-8b0b-609771863e0b")
+		)
+		(pad "9" smd rect
+			(at 0 0)
+			(size 1 1.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 167 "unconnected-(IC2-GND_2-Pad9)")
+			(pinfunction "GND_2")
+			(pintype "passive")
+			(uuid "39c9503a-a936-43b0-8215-60ffa5a1f3ca")
+		)
+		(embedded_fonts no)
+		(model "TPS259531DSGT.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "04828840-f2a0-4e6d-ab35-802510124213")
@@ -398,7 +768,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -410,7 +780,7 @@
 				)
 			)
 		)
-		(property "Digikey" "P100BYCT-ND"
+		(property "Digikey" "-"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -422,7 +792,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "-"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -434,7 +804,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CMP0805AFX-1000ELF"
+		(property "Manufacturer_Part_Number" "ERJ-PB6D5101V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -458,7 +828,7 @@
 				)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
+		(property "mouser" "-"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -707,7 +1077,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm*")
-		(path "/e6089f48-815d-4c66-b608-4f60fde0d5b9")
+		(path "/f02ffa41-a425-4ac1-9f7e-133a2899fa66")
 		(sheetname "/")
 		(sheetfile "audio_back_plane_35_rca.kicad_sch")
 		(attr smd)
@@ -922,7 +1292,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -934,7 +1304,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Net tie, 2 pins"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1018,6 +1388,19 @@
 				)
 			)
 		)
+		(property "2020-10-01 PARTS" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e23deaa-b10c-4b3d-a354-69773c5f0afa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Net*Tie*")
 		(path "/9191b0d9-ad4a-4dfe-a74f-86d9ed70dc5e")
 		(sheetname "/")
@@ -1083,7 +1466,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1095,7 +1478,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Net tie, 2 pins"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1175,6 +1558,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "2020-10-01 PARTS" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ccf53772-dc64-49e3-8605-f9ed76169643")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1281,7 +1677,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kyocera AVX"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1294,7 +1690,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
+		(property "Manufacturer_Part_Number" "C0805C104K5RAC7411"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1320,7 +1716,7 @@
 				)
 			)
 		)
-		(property "mouser" "581-08055C104M4T4A"
+		(property "mouser" "80-C0805C104K5RACLR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1508,7 +1904,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1520,7 +1916,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1804,7 +2200,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1816,7 +2212,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1856,7 +2252,7 @@
 		(path "/d8a5c30a-e31f-4e5e-892f-a64982c90e5b")
 		(sheetname "/")
 		(sheetfile "audio_back_plane_35_rca.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 2.6 -1.33)
@@ -2998,7 +3394,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3034,7 +3430,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CMP0805AFX-1000ELF"
+		(property "Manufacturer_Part_Number" "CR0805-FX-2200ELF"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3058,7 +3454,7 @@
 				)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
+		(property "mouser" "652-CR0805FX-2200ELF"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3256,7 +3652,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Switchcraft"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3268,7 +3664,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Audio Jack - Conn 3.5MM Stereo Jack F 5 POS Solder RA Thru-Hole 5 Terminal 1 Port"
 			(at 1.375 8.775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3280,7 +3676,7 @@
 				)
 			)
 		)
-		(property "Label" "IN2"
+		(property "Label" "MIDI IN"
 			(at 0.25 11.175 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3304,7 +3700,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "35RAPC3BH3"
+		(property "Manufacturer_Part_Number" "35RAPC4BHN2"
 			(at 1.375 8.775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3328,7 +3724,7 @@
 				)
 			)
 		)
-		(property "mouser" "502-35RAPC3BH3"
+		(property "mouser" "502-35RAPC4BHN2"
 			(at 1.375 8.775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4749,7 +5145,7 @@
 				)
 			)
 		)
-		(property "Label" "TEENSY"
+		(property "Label" "ESP32"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5099,7 +5495,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5123,7 +5519,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5135,7 +5531,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CMP0805AFX-1000ELF"
+		(property "Manufacturer_Part_Number" "RC0805JR-0747RL"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5159,7 +5555,7 @@
 				)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
+		(property "mouser" "603-RC0805JR-0747RL"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5331,6 +5727,670 @@
 			)
 		)
 	)
+	(footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.75x2.75mm"
+		(layer "F.Cu")
+		(uuid "31928f4a-9287-4086-a286-ff41f6643a68")
+		(at 241.28 106.62)
+		(descr "QFN, 24 Pin (https://www.infineon.com/dgdl/Infineon-EZ-PD_BCR_Datasheet_USB_Type-C_Port_Controller_for_Power_Sinks-DataSheet-v03_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee7ce9d70ad), generated with kicad-footprint-generator ipc_noLead_generator.py")
+		(tags "QFN NoLead")
+		(property "Reference" "U15"
+			(at 0 -3.33 0)
+			(layer "F.SilkS")
+			(uuid "68acb3c0-95b1-47c6-83bd-6fad33de2511")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CYPD3177-24LQ"
+			(at 0 3.33 0)
+			(layer "F.Fab")
+			(uuid "123a49ad-dfee-4b4a-bd1e-c63d54f660b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-EZ-PD_BCR_Datasheet_USB_Type-C_Port_Controller_for_Power_Sinks-DataSheet-v03_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee7ce9d70ad"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6def2f57-8542-4253-87d1-f423ab8d8aa6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Stand-alone USB PD controller (with sink Auto-run mode), QFN-24"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "794323ed-5ce5-4312-be47-6d8e506537ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "QFN*1EP?4x4mm*P0.5mm*")
+		(path "/ddb26e7b-fee1-47e6-8345-7e8edcb88ee1")
+		(sheetname "/")
+		(sheetfile "audio_back_plane_35_rca.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.11 -1.635)
+			(end -2.11 -1.87)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ad7ddb94-9ca2-476f-8f0a-1c2755326a26")
+		)
+		(fp_line
+			(start -2.11 2.11)
+			(end -2.11 1.635)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "17822d49-44ae-4be5-a778-bf9c20e3fb8b")
+		)
+		(fp_line
+			(start -1.635 -2.11)
+			(end -1.81 -2.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e743c98c-5a8e-401e-9e22-3249cb186a26")
+		)
+		(fp_line
+			(start -1.635 2.11)
+			(end -2.11 2.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "38881460-9eed-455c-860f-11cbe69ec6a1")
+		)
+		(fp_line
+			(start 1.635 -2.11)
+			(end 2.11 -2.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4b7923f3-9a89-4a97-bcb0-918e1452f00f")
+		)
+		(fp_line
+			(start 1.635 2.11)
+			(end 2.11 2.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8761acc3-b45b-4150-ac33-f54d11cd8578")
+		)
+		(fp_line
+			(start 2.11 -2.11)
+			(end 2.11 -1.635)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6bc0ba2f-d173-4a0e-b0f9-274b7f9f9367")
+		)
+		(fp_line
+			(start 2.11 2.11)
+			(end 2.11 1.635)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1a472127-2946-4bb6-af10-0e60a897d38c")
+		)
+		(fp_poly
+			(pts
+				(xy -2.11 -2.11) (xy -2.35 -2.44) (xy -1.87 -2.44)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "edfa554b-a5e6-4d5e-a7d3-2c48c3761d64")
+		)
+		(fp_line
+			(start -2.63 -1.63)
+			(end -2.25 -1.63)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3ae4602f-40d6-4ca3-bc18-574de388ca23")
+		)
+		(fp_line
+			(start -2.63 1.63)
+			(end -2.63 -1.63)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4b36587c-b2dd-41ae-88f9-18752b1b78f5")
+		)
+		(fp_line
+			(start -2.25 -2.25)
+			(end -1.63 -2.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "044909f6-642d-43d8-966d-cf5795dbce13")
+		)
+		(fp_line
+			(start -2.25 -1.63)
+			(end -2.25 -2.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4ca300d0-3b6e-47c8-8f38-4a9edfb110d9")
+		)
+		(fp_line
+			(start -2.25 1.63)
+			(end -2.63 1.63)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a4f2869c-fd97-464b-b72a-19aeea3b4bf9")
+		)
+		(fp_line
+			(start -2.25 2.25)
+			(end -2.25 1.63)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "492b6f5b-aec8-4b4b-b8ed-c6a64678dda6")
+		)
+		(fp_line
+			(start -1.63 -2.63)
+			(end 1.63 -2.63)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "18a9e268-35c8-4eab-9c43-cc433bf7f393")
+		)
+		(fp_line
+			(start -1.63 -2.25)
+			(end -1.63 -2.63)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cd0e3161-d80a-44b4-9d77-a4e41e68c851")
+		)
+		(fp_line
+			(start -1.63 2.25)
+			(end -2.25 2.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fca600ac-e420-415a-95c5-dcbb8b67c1b5")
+		)
+		(fp_line
+			(start -1.63 2.63)
+			(end -1.63 2.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "88ba749d-7f7d-4d34-be60-fd4f3456a48f")
+		)
+		(fp_line
+			(start 1.63 -2.63)
+			(end 1.63 -2.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a3d1da5d-66e3-4d2d-92cb-7f0475158bcd")
+		)
+		(fp_line
+			(start 1.63 -2.25)
+			(end 2.25 -2.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "26bd8d51-0517-4fe8-a598-0e8af74e8603")
+		)
+		(fp_line
+			(start 1.63 2.25)
+			(end 1.63 2.63)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cb946881-b142-428b-a5e4-16923e20a4b1")
+		)
+		(fp_line
+			(start 1.63 2.63)
+			(end -1.63 2.63)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "62365633-dd5a-460b-b9cd-ab5b874d6dfb")
+		)
+		(fp_line
+			(start 2.25 -2.25)
+			(end 2.25 -1.63)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "12436e02-12ee-4a6f-81f4-041beb85c345")
+		)
+		(fp_line
+			(start 2.25 -1.63)
+			(end 2.63 -1.63)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6c839695-589b-4f10-a4ef-4f22993f573b")
+		)
+		(fp_line
+			(start 2.25 1.63)
+			(end 2.25 2.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4096573a-3e23-4133-b8ba-92621d8247f9")
+		)
+		(fp_line
+			(start 2.25 2.25)
+			(end 1.63 2.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "79dca455-20b8-4b6b-9e92-f95527d94120")
+		)
+		(fp_line
+			(start 2.63 -1.63)
+			(end 2.63 1.63)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b4077482-f532-42d8-82c9-28798d95b3a6")
+		)
+		(fp_line
+			(start 2.63 1.63)
+			(end 2.25 1.63)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cffdb683-63d7-4102-adf0-f51ea1f09a52")
+		)
+		(fp_poly
+			(pts
+				(xy -2 -1) (xy -2 2) (xy 2 2) (xy 2 -2) (xy -1 -2)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "7c511263-a496-4911-91f6-e252156a6b3b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "6284b745-a8e8-48db-91c6-0f7d09d1242d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" smd roundrect
+			(at -0.69 -0.69)
+			(size 1.11 1.11)
+			(layers "F.Paste")
+			(roundrect_rratio 0.225225)
+			(uuid "0dda7fdf-7a9c-498b-a3a2-80d486c04deb")
+		)
+		(pad "" smd roundrect
+			(at -0.69 0.69)
+			(size 1.11 1.11)
+			(layers "F.Paste")
+			(roundrect_rratio 0.225225)
+			(uuid "44ece18c-282b-4d60-8d95-de548bfe8b4b")
+		)
+		(pad "" smd roundrect
+			(at 0.69 -0.69)
+			(size 1.11 1.11)
+			(layers "F.Paste")
+			(roundrect_rratio 0.225225)
+			(uuid "1506fc84-813b-4ccb-ae9f-916fdcc8202e")
+		)
+		(pad "" smd roundrect
+			(at 0.69 0.69)
+			(size 1.11 1.11)
+			(layers "F.Paste")
+			(roundrect_rratio 0.225225)
+			(uuid "128942cc-e445-49db-a38f-f72d2810436c")
+		)
+		(pad "1" smd roundrect
+			(at -1.975 -1.25)
+			(size 0.8 0.25)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 189 "unconnected-(U15-VBUS_MIN-Pad1)")
+			(pinfunction "VBUS_MIN")
+			(pintype "input")
+			(uuid "3cbe81a7-0457-4e57-a274-956dea02ed67")
+		)
+		(pad "2" smd roundrect
+			(at -1.975 -0.75)
+			(size 0.8 0.25)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 200 "unconnected-(U15-VBUS_MAX-Pad2)")
+			(pinfunction "VBUS_MAX")
+			(pintype "input")
+			(uuid "ad36e42d-73b2-46ea-84ed-02699b2877bb")
+		)
+		(pad "3" smd roundrect
+			(at -1.975 -0.25)
+			(size 0.8 0.25)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 197 "unconnected-(U15-VBUS_FET_EN-Pad3)")
+			(pinfunction "VBUS_FET_EN")
+			(pintype "output")
+			(uuid "8e998acf-ed44-49a9-bade-4a38e4e8643a")
+		)
+		(pad "4" smd roundrect
+			(at -1.975 0.25)
+			(size 0.8 0.25)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 192 "unconnected-(U15-SAFE_PWR_EN-Pad4)")
+			(pinfunction "SAFE_PWR_EN")
+			(pintype "output")
+			(uuid "6c4d80e1-f04d-4ebc-a622-f12935eef869")
+		)
+		(pad "5" smd roundrect
+			(at -1.975 0.75)
+			(size 0.8 0.25)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 187 "unconnected-(U15-ISNK_COARSE-Pad5)")
+			(pinfunction "ISNK_COARSE")
+			(pintype "input")
+			(uuid "2990e472-e432-458d-a64d-b9f598ae3951")
+		)
+		(pad "6" smd roundrect
+			(at -1.975 1.25)
+			(size 0.8 0.25)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 195 "unconnected-(U15-ISNK_FINE-Pad6)")
+			(pinfunction "ISNK_FINE")
+			(pintype "input")
+			(uuid "87f623b3-5798-4327-bbce-9cfa5bd4bff5")
+		)
+		(pad "7" smd roundrect
+			(at -1.25 1.975)
+			(size 0.25 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 191 "unconnected-(U15-~{HPI_INT}-Pad7)")
+			(pinfunction "~{HPI_INT}")
+			(pintype "input")
+			(uuid "58b9bbfb-721e-4a3d-9536-afb02d3b68a9")
+		)
+		(pad "8" smd roundrect
+			(at -0.75 1.975)
+			(size 0.25 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 204 "unconnected-(U15-GPIO_1-Pad8)")
+			(pinfunction "GPIO_1")
+			(pintype "bidirectional")
+			(uuid "d271ee00-11a2-4794-a05e-323dceb7d562")
+		)
+		(pad "9" smd roundrect
+			(at -0.25 1.975)
+			(size 0.25 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 203 "unconnected-(U15-FAULT-Pad9)")
+			(pinfunction "FAULT")
+			(pintype "output")
+			(uuid "b746a682-5718-4897-8ff4-a4eda546bdf0")
+		)
+		(pad "10" smd roundrect
+			(at 0.25 1.975)
+			(size 0.25 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 201 "unconnected-(U15-FLIP-Pad10)")
+			(pinfunction "FLIP")
+			(pintype "output")
+			(uuid "b0d25342-3257-41ae-8245-a4fadc7e7416")
+		)
+		(pad "11" smd roundrect
+			(at 0.75 1.975)
+			(size 0.25 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 185 "unconnected-(U15-VDC_OUT-Pad11)")
+			(pinfunction "VDC_OUT")
+			(pintype "output")
+			(uuid "17ba1d2f-08c6-4b46-9485-fc3c1662d544")
+		)
+		(pad "12" smd roundrect
+			(at 1.25 1.975)
+			(size 0.25 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 196 "unconnected-(U15-HPI_SDA-Pad12)")
+			(pinfunction "HPI_SDA")
+			(pintype "bidirectional")
+			(uuid "8e145646-010e-4d1d-9687-db39bc2c3f7e")
+		)
+		(pad "13" smd roundrect
+			(at 1.975 1.25)
+			(size 0.8 0.25)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 186 "unconnected-(U15-HPI_SCL-Pad13)")
+			(pinfunction "HPI_SCL")
+			(pintype "bidirectional")
+			(uuid "19b88c40-e2a1-4998-a9e3-5ea55a3aa1b4")
+		)
+		(pad "14" smd roundrect
+			(at 1.975 0.75)
+			(size 0.8 0.25)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 184 "unconnected-(U15-CC2-Pad14)")
+			(pinfunction "CC2")
+			(pintype "bidirectional")
+			(uuid "099e61cb-e98d-45ee-8247-4321c3165ca4")
+		)
+		(pad "15" smd roundrect
+			(at 1.975 0.25)
+			(size 0.8 0.25)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 188 "unconnected-(U15-CC1-Pad15)")
+			(pinfunction "CC1")
+			(pintype "bidirectional")
+			(uuid "36bad1a7-b5e7-40a1-950b-4cb6ac30d3f8")
+		)
+		(pad "16" smd roundrect
+			(at 1.975 -0.25)
+			(size 0.8 0.25)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 190 "unconnected-(U15-NC-Pad16)")
+			(pinfunction "NC")
+			(pintype "no_connect")
+			(uuid "47718486-8812-46a9-81aa-9acf3e41955f")
+		)
+		(pad "17" smd roundrect
+			(at 1.975 -0.75)
+			(size 0.8 0.25)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 206 "unconnected-(U15-NC-Pad17)")
+			(pinfunction "NC")
+			(pintype "no_connect")
+			(uuid "fa8a1480-83b0-4bfc-8c8c-a77442a395d3")
+		)
+		(pad "18" smd roundrect
+			(at 1.975 -1.25)
+			(size 0.8 0.25)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 193 "unconnected-(U15-VBUS_IN-Pad18)")
+			(pinfunction "VBUS_IN")
+			(pintype "power_in")
+			(uuid "73ece9f2-9d39-4524-9c5a-2dcf0b5f66d4")
+		)
+		(pad "19" smd roundrect
+			(at 1.25 -1.975)
+			(size 0.25 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 198 "Net-(U15-GND-Pad19)")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "8fd2a672-43b3-4f4d-9cab-2cd17914f3f9")
+		)
+		(pad "20" smd roundrect
+			(at 0.75 -1.975)
+			(size 0.25 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 199 "unconnected-(U15-NC-Pad20)")
+			(pinfunction "NC")
+			(pintype "no_connect")
+			(uuid "9cd27b28-f94e-47a8-a3b5-df1b7bff506f")
+		)
+		(pad "21" smd roundrect
+			(at 0.25 -1.975)
+			(size 0.25 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 194 "unconnected-(U15-NC-Pad21)")
+			(pinfunction "NC")
+			(pintype "no_connect")
+			(uuid "74b7ab94-4502-4cb6-9e06-9c4130675aee")
+		)
+		(pad "22" smd roundrect
+			(at -0.25 -1.975)
+			(size 0.25 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 198 "Net-(U15-GND-Pad19)")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "b083beab-e642-4f28-9de3-dabbe325680e")
+		)
+		(pad "23" smd roundrect
+			(at -0.75 -1.975)
+			(size 0.25 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 205 "unconnected-(U15-VDDD-Pad23)")
+			(pinfunction "VDDD")
+			(pintype "power_out")
+			(uuid "d78da020-9500-4942-970e-36e2af4621f1")
+		)
+		(pad "24" smd roundrect
+			(at -1.25 -1.975)
+			(size 0.25 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 202 "unconnected-(U15-VCCD-Pad24)")
+			(pinfunction "VCCD")
+			(pintype "power_out")
+			(uuid "b1ee131e-dbd9-4528-8c1f-a3dbb6dfb126")
+		)
+		(pad "25" smd rect
+			(at 0 0)
+			(size 2.75 2.75)
+			(property pad_prop_heatsink)
+			(layers "F.Cu" "F.Mask")
+			(net 198 "Net-(U15-GND-Pad19)")
+			(pinfunction "GND")
+			(pintype "passive")
+			(zone_connect 2)
+			(uuid "bf1fdb32-18ca-4ff0-8767-a7befb7a2f5e")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_P0.5mm_EP2.75x2.75mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3468309d-0694-410f-8ddf-4048ffb88520")
@@ -5371,7 +6431,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -5643,7 +6703,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" "RES SMD 2.21 KOHM 1% 1/5W 0402"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5655,7 +6715,7 @@
 				)
 			)
 		)
-		(property "Digikey" "P100BYCT-ND"
+		(property "Digikey" "ERJ-PA2F2211X-ND"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5667,7 +6727,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5679,7 +6739,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CMP0805AFX-1000ELF"
+		(property "Manufacturer_Part_Number" "RC0805DR-072K2L"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5703,7 +6763,7 @@
 				)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
+		(property "mouser" "603-RC0805DR-072K2L"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6492,7 +7552,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" "RES SMD 2.21 KOHM 1% 1/5W 0402"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6504,7 +7564,7 @@
 				)
 			)
 		)
-		(property "Digikey" "P100BYCT-ND"
+		(property "Digikey" "ERJ-PA2F2211X-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6516,7 +7576,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6528,7 +7588,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CMP0805AFX-1000ELF"
+		(property "Manufacturer_Part_Number" "RC0805DR-072K2L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6552,7 +7612,7 @@
 				)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
+		(property "mouser" "603-RC0805DR-072K2L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6751,7 +7811,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6763,7 +7823,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Net tie, 2 pins"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6847,6 +7907,19 @@
 				)
 			)
 		)
+		(property "2020-10-01 PARTS" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88adc578-b34c-46c8-98d4-ecb26e429da1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Net*Tie*")
 		(path "/e7b919f7-f078-42df-81c4-ab69f5497a32")
 		(sheetname "/")
@@ -6913,7 +7986,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6925,7 +7998,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6937,7 +8010,7 @@
 				)
 			)
 		)
-		(property "Digikey" "P100BYCT-ND"
+		(property "Digikey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6949,7 +8022,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6961,7 +8034,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CMP0805AFX-1000ELF"
+		(property "Manufacturer_Part_Number" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6985,7 +8058,7 @@
 				)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
+		(property "mouser" "603-RC0805DR-072K2L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7186,7 +8259,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7238,7 +8311,7 @@
 		(path "/1934ba5f-73a3-4c29-9e7c-f1e463ce40cb")
 		(sheetname "/")
 		(sheetfile "audio_back_plane_35_rca.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -2.6 -1.33)
 			(end 0 -1.33)
@@ -7985,7 +9058,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7997,7 +9070,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8005,6 +9078,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "ESP32"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "692734c2-7b8c-4d96-888d-6c91039c3a24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "2020-10-01 PARTS" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49a3e739-1c32-4d61-888c-cf2aaa2538b4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8403,7 +9502,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kyocera AVX"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8416,7 +9515,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
+		(property "Manufacturer_Part_Number" "C0805C104K5RAC7411"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8442,7 +9541,7 @@
 				)
 			)
 		)
-		(property "mouser" "581-08055C104M4T4A"
+		(property "mouser" "80-C0805C104K5RACLR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8920,6 +10019,136 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Switchcraft Inc."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe733167-371c-409b-a44c-c887f9b0605e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "Connector, 2POS RA SHLD PHJK RE | Switchcraft PJRAS2X1S01X"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70da5e86-f1ef-4ea5-b290-b0d6290c00b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df42d591-3b29-41ce-94ac-3029bdd27986")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9630cce0-2376-44f1-8472-3fb0fd774a99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87250825-4f3a-4209-8b48-90c9a16234c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DATASHEET" "http://datasheets.diptrace.com/con_rca_jack/pjras2x1s__x_series_cd.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2b8982f-50c7-4730-b176-e778a8147ff9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0ac1dd4-d15a-4b9d-84f2-f807a90fc4ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "PJRAS2X1S01X"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f9ae3bb-af8c-4250-81bf-711c6ae7f8f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97e2e63e-21ba-4d9f-8441-6486a7d3ba01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Switchcraft"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b825dcd0-898a-4848-b4fb-e901f953dd93")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9432,7 +10661,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9468,7 +10697,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CMP0805AFX-1000ELF"
+		(property "Manufacturer_Part_Number" "CR0805-FX-2200ELF"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9492,7 +10721,7 @@
 				)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
+		(property "mouser" "652-CR0805FX-2200ELF"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10233,7 +11462,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "SK6812_4020_SIDE_LED"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10253,6 +11482,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "SK6812_4020_SIDE_LED"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03ca69bd-f027-4563-8520-8f6c50d0a493")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10422,7 +11664,7 @@
 			(net 85 "ESP32_LED+")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "d69af1d1-6ee8-4a5f-b1c8-fe46eaf5c17f")
+			(uuid "fd7dbc8a-e589-47f4-865a-3095ee8314d9")
 		)
 		(pad "2" smd rect
 			(at 0.3 1.175)
@@ -10449,7 +11691,7 @@
 			(net 153 "ESP32_LED_OUT")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "5a48f687-ee02-4ffa-b68d-d30cf61c852b")
+			(uuid "f3373c42-c4d0-4e65-8aca-41d58f83f4ea")
 		)
 		(pad "4" smd rect
 			(at -1.56 1.175)
@@ -10513,7 +11755,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" "RES SMD 2.21 KOHM 1% 1/5W 0402"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10525,7 +11767,7 @@
 				)
 			)
 		)
-		(property "Digikey" "P100BYCT-ND"
+		(property "Digikey" "ERJ-PA2F2211X-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10537,7 +11779,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10549,7 +11791,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CMP0805AFX-1000ELF"
+		(property "Manufacturer_Part_Number" "RC0805DR-072K2L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10573,7 +11815,7 @@
 				)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
+		(property "mouser" "603-RC0805DR-072K2L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10773,7 +12015,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10785,7 +12027,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10857,7 +12099,7 @@
 				)
 			)
 		)
-		(property "2020-10-01 PARTS" ""
+		(property "2020-10-01 PARTS" "RPC0805JT100K"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11317,7 +12559,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11329,7 +12571,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11341,7 +12583,7 @@
 				)
 			)
 		)
-		(property "Digikey" "P100BYCT-ND"
+		(property "Digikey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11353,7 +12595,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11365,7 +12607,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CMP0805AFX-1000ELF"
+		(property "Manufacturer_Part_Number" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11389,7 +12631,7 @@
 				)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
+		(property "mouser" "603-RC0805DR-072K2L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11418,7 +12660,7 @@
 		(path "/8d49cb4b-e44a-4a23-9d4a-db15ccb4ba93")
 		(sheetname "/")
 		(sheetfile "audio_back_plane_35_rca.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.227064 -0.735)
 			(end 0.227064 -0.735)
@@ -11601,7 +12843,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11625,7 +12867,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "Panasonic"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11637,7 +12879,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CMP0805AFX-1000ELF"
+		(property "Manufacturer_Part_Number" "ERA-6AED152V"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11661,7 +12903,7 @@
 				)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
+		(property "mouser" "667-ERA-6AED152V"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11861,7 +13103,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11881,6 +13123,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package / Case" "through-hole"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37e56567-e14d-4b45-9a7e-54d47b4cfa62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "through-hole"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "601a7ca7-e610-4d79-8086-db992b4389ec")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12357,7 +13625,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12369,7 +13637,7 @@
 				)
 			)
 		)
-		(property "Digikey" "P100BYCT-ND"
+		(property "Digikey" "-"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12381,7 +13649,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "-"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12393,7 +13661,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CMP0805AFX-1000ELF"
+		(property "Manufacturer_Part_Number" "ERJ-PB6D5101V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12417,7 +13685,7 @@
 				)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
+		(property "mouser" "-"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13475,7 +14743,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -13499,7 +14767,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -13511,7 +14779,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CMP0805AFX-1000ELF"
+		(property "Manufacturer_Part_Number" "RC0805JR-0747RL"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -13535,7 +14803,7 @@
 				)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
+		(property "mouser" "603-RC0805JR-0747RL"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -13736,7 +15004,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14287,6 +15555,278 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x14_P2.54mm_Vertical.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "87a0bfd1-6a19-4d78-91f3-d4f25e2086fa")
+		(at 240.5 120.5)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "CC4"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "f531b8da-c7e6-41b0-9c86-a199fde5cdd5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "ed975bb5-80e2-4bba-ab39-85dbf908102e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a95dca11-b0fd-48ba-8242-b6dd4bff9ae0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2dd2e01-29f1-4b6a-a4ff-f7b569b8d37f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "-"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71b3c9e9-8878-4d35-989b-950a7707c56e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "-"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93c00e41-baf2-4a1a-9062-572feedf5fa4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-PB6D5101V"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c0f5bc6-7394-46d7-8cd6-ea85f4f17e6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package / Case" "R0805"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c1cf154-62c9-4c64-9cd4-815c6f0cd4ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser" "-"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f596e32-01c3-4283-9ed3-c9d60fbcc21f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "2020-10-01 PARTS" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39244d94-f461-4f86-8800-886fc3743be9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/2a22cd98-487d-4040-9993-b9abf7bd8fbf")
+		(sheetname "/")
+		(sheetfile "audio_back_plane_35_rca.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3614a342-e3b1-485f-bf4f-067abd8b6f2b")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7120e51e-a67a-48e1-991d-2abd3f9c51c9")
+		)
+		(fp_line
+			(start -1.85 -0.95)
+			(end 1.85 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "321cf6b3-1481-4f9d-a4e8-aff1b0e55ac6")
+		)
+		(fp_line
+			(start -1.85 0.95)
+			(end -1.85 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "da08c15b-c2ad-4309-b35e-4db12b4da37d")
+		)
+		(fp_line
+			(start 1.85 -0.95)
+			(end 1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "93c89e3d-b31d-4905-a905-aa317be73af4")
+		)
+		(fp_line
+			(start 1.85 0.95)
+			(end -1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "111d44cb-3286-4290-b603-707f90cfdfd6")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fe68da97-3eaa-4b5e-a3d5-1a37f195888a")
+		)
+		(fp_line
+			(start -1 0.625)
+			(end -1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "42acd852-9be5-404a-ae16-dc4b5ebd77fc")
+		)
+		(fp_line
+			(start 1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7a315aa2-c3dc-4b95-b439-cd3c3df822c3")
+		)
+		(fp_line
+			(start 1 0.625)
+			(end -1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bd2914e4-c92c-4fdd-8a0e-7732a236c064")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0e84cdb7-5ec8-40be-b9c9-008002cf0ab2")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0 180)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.2083333333)
+			(net 180 "unconnected-(CC4-Pad1)")
+			(pintype "passive")
+			(uuid "17d6cc69-e1b1-4c42-a9f1-7e256cd55ec7")
+		)
+		(pad "2" smd roundrect
+			(at 1 0 180)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.2083333333)
+			(net 181 "unconnected-(CC4-Pad2)")
+			(pintype "passive")
+			(uuid "27c7e54a-65dd-4d07-9770-398e4f9715a4")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16543,7 +18083,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16903,7 +18443,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" "RES SMD 2.21 KOHM 1% 1/5W 0402"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -16915,7 +18455,7 @@
 				)
 			)
 		)
-		(property "Digikey" "P100BYCT-ND"
+		(property "Digikey" "ERJ-PA2F2211X-ND"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -16927,7 +18467,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -16939,7 +18479,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CMP0805AFX-1000ELF"
+		(property "Manufacturer_Part_Number" "RC0805DR-072K2L"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -16963,7 +18503,7 @@
 				)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
+		(property "mouser" "603-RC0805DR-072K2L"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -17185,7 +18725,7 @@
 				)
 			)
 		)
-		(property "Label" "IN2"
+		(property "Label" "OUT"
 			(at 0.25 11.175 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -17490,7 +19030,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17502,7 +19042,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17514,7 +19054,7 @@
 				)
 			)
 		)
-		(property "Digikey" "P100BYCT-ND"
+		(property "Digikey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17526,7 +19066,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17538,7 +19078,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CMP0805AFX-1000ELF"
+		(property "Manufacturer_Part_Number" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17562,7 +19102,7 @@
 				)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
+		(property "mouser" "603-RC0805DR-072K2L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17591,7 +19131,7 @@
 		(path "/598fd08a-882e-48d7-84e3-bc7565397896")
 		(sheetname "/")
 		(sheetfile "audio_back_plane_35_rca.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.227064 -0.735)
 			(end 0.227064 -0.735)
@@ -18028,7 +19568,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18040,7 +19580,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18322,7 +19862,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -18334,7 +19874,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Net tie, 2 pins"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -18418,6 +19958,19 @@
 				)
 			)
 		)
+		(property "2020-10-01 PARTS" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d196318-d1ed-4b47-8b54-c48ea72dc103")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Net*Tie*")
 		(path "/d9de1f98-6004-4ff6-9b54-d4187bff31ff")
 		(sheetname "/")
@@ -18485,7 +20038,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -18497,7 +20050,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -18740,7 +20293,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -18752,7 +20305,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Net tie, 2 pins"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -18832,6 +20385,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "2020-10-01 PARTS" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d06f4f8-549e-4401-9eba-657bad73c09d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19186,6 +20752,136 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Switchcraft Inc."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "814d9eed-1ff2-416b-b313-5b88795b9a73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "Connector, 2POS RA SHLD PHJK RE | Switchcraft PJRAS2X1S01X"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58517206-1a01-4d35-9023-2e4bb8058fb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bc8932a-6f54-4687-ad7b-590a5c194b36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c69bb4ec-56a1-4cb2-9c47-ed9f3a6916f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9640e43d-2910-49ca-a115-f47a9940a66c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DATASHEET" "http://datasheets.diptrace.com/con_rca_jack/pjras2x1s__x_series_cd.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0fa6b51-702b-4a47-b9fe-c01d7962569f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81b836b3-5bf8-46df-97ee-2658152532f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "PJRAS2X1S01X"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae102d74-b2d2-4b48-ad41-82599ad8decb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc76ff86-524a-4d6b-b6f5-56ed4ba46cdd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Switchcraft"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa963516-57fc-4766-855e-63164e6d7d1a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19660,6 +21356,278 @@
 	)
 	(footprint "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
+		(uuid "9c709557-5f6e-4bac-9c6b-ef011180a639")
+		(at 240.5 117.55)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "CC3"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "29053fa4-4255-4178-8215-00a474dd8859")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "c9c87c68-3c57-4a45-9f8b-173e5f344579")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b92ee52-f70a-4b8d-ae55-c5157ad37743")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afb686a7-8829-4f45-8c94-40b99031e5c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "-"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ea1fa49-e6a5-4e14-bf6a-b6b78a8766de")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "-"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab2edf83-40f8-4cf4-9c7c-eddde1ae12ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-PB6D5101V"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33fff809-a673-49dd-ac2c-29f372f32497")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package / Case" "R0805"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbee62e0-877a-481d-b39a-3313592118dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser" "-"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fd156f7-d1b7-4af5-b781-733373272cf6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "2020-10-01 PARTS" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f39e7878-7f23-41e4-b9c6-3be9b5490a3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/98cb2870-1938-421d-9884-ed2821fd3e45")
+		(sheetname "/")
+		(sheetfile "audio_back_plane_35_rca.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "26a2f862-33dc-421b-81e7-54d5dd87fa2e")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0d1ca148-696b-49ff-ba25-927867470c1d")
+		)
+		(fp_line
+			(start -1.85 -0.95)
+			(end 1.85 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9b0535b0-925d-4085-b606-44165d4c171c")
+		)
+		(fp_line
+			(start -1.85 0.95)
+			(end -1.85 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d95da756-3546-4ff4-b252-b798256a6650")
+		)
+		(fp_line
+			(start 1.85 -0.95)
+			(end 1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0005898c-0414-40d0-8afc-fe027e0c73e3")
+		)
+		(fp_line
+			(start 1.85 0.95)
+			(end -1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a880af22-eb20-4463-bcf0-67f463ab4904")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "73755610-2856-4d43-956a-68bf70cd5726")
+		)
+		(fp_line
+			(start -1 0.625)
+			(end -1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9ad9e916-f5e3-4d55-8dea-4819da93cdf1")
+		)
+		(fp_line
+			(start 1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "42cc8561-4cae-458e-abd5-07cf44c09a70")
+		)
+		(fp_line
+			(start 1 0.625)
+			(end -1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f373dd58-920b-4905-9a6c-5d5450ff68bb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "bc704105-8f79-4688-804f-e5355ba50b6a")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0 180)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.2083333333)
+			(net 178 "unconnected-(CC3-Pad1)")
+			(pintype "passive")
+			(uuid "db064759-3b15-48fd-bb82-54e9bed86ce9")
+		)
+		(pad "2" smd roundrect
+			(at 1 0 180)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.2083333333)
+			(net 179 "unconnected-(CC3-Pad2)")
+			(pintype "passive")
+			(uuid "f6fe9947-bdc7-4b71-bdba-5a9a3846e35d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "project_fp:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(layer "F.Cu")
 		(uuid "9d5bb1bd-ee6f-47ec-b7c5-e3f25a074c76")
 		(at 171.5 181 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -19958,7 +21926,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19970,7 +21938,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 100UF 6.3V X5R 1206"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19994,7 +21962,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kyocera AVX"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20007,7 +21975,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
+		(property "Manufacturer_Part_Number" "CC1206MKX5R5BB107"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20020,7 +21988,7 @@
 				)
 			)
 		)
-		(property "Package / Case" "C0805"
+		(property "Package / Case" "C1206"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20039,6 +22007,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1efd5adf-0971-4fbe-8d4a-403e3a4380e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "13-CC1206MKX5R5BB107CT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9766efa-2a39-420d-95f9-b7bfaa7a769c")
 			(effects
 				(font
 					(size 1 1)
@@ -20630,7 +22611,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" "RES SMD 2.21 KOHM 1% 1/5W 0402"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -20642,7 +22623,7 @@
 				)
 			)
 		)
-		(property "Digikey" "P100BYCT-ND"
+		(property "Digikey" "ERJ-PA2F2211X-ND"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -20654,7 +22635,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -20666,7 +22647,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CMP0805AFX-1000ELF"
+		(property "Manufacturer_Part_Number" "RC0805DR-072K2L"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -20690,7 +22671,7 @@
 				)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
+		(property "mouser" "603-RC0805DR-072K2L"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -20926,7 +22907,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kyocera AVX"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20939,7 +22920,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
+		(property "Manufacturer_Part_Number" "C0805C104K5RAC7411"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20965,7 +22946,7 @@
 				)
 			)
 		)
-		(property "mouser" "581-08055C104M4T4A"
+		(property "mouser" "80-C0805C104K5RACLR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21420,7 +23401,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21789,7 +23770,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "SK6812_4020_SIDE_LED"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -21809,6 +23790,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "SK6812_4020_SIDE_LED"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "628c6324-addd-4289-a55f-747e5a3a5ffc")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -21978,7 +23972,7 @@
 			(net 84 "TEENSY_LED+")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "5d95674d-249a-4b60-8a9c-bf8cc4dd7b68")
+			(uuid "f20a336a-b477-4402-8eb6-fd57a9b5f151")
 		)
 		(pad "2" smd rect
 			(at 0.3 1.175)
@@ -22005,7 +23999,7 @@
 			(net 152 "TEENSY_LED_OUT")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "f3457212-1c66-428d-ade4-7b8e9250231b")
+			(uuid "8d0a4dcb-dfd2-46c5-be43-7c5c829f5d56")
 		)
 		(pad "4" smd rect
 			(at -1.56 1.175)
@@ -22069,7 +24063,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -22105,7 +24099,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CMP0805AFX-1000ELF"
+		(property "Manufacturer_Part_Number" "CR0805-FX-2200ELF"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -22129,7 +24123,7 @@
 				)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
+		(property "mouser" "652-CR0805FX-2200ELF"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -22351,7 +24345,7 @@
 				)
 			)
 		)
-		(property "Label" "IN2"
+		(property "Label" "IN1"
 			(at 0.25 11.175 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -22657,7 +24651,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23047,6 +25041,279 @@
 			)
 		)
 	)
+	(footprint "Diode_SMD:D_SMF"
+		(layer "F.Cu")
+		(uuid "c93daaf3-6559-4c48-b8ba-d4d0f7d24a6d")
+		(at 233.5 122)
+		(descr "Diode SMF (DO-219AB), http://www.vishay.com/docs/95572/smf_do-219ab.pdf")
+		(tags "Diode SMF (DO-214AB)")
+		(property "Reference" "D4"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "34029af4-26c9-47ba-a3ed-b07addf514be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SMF5V0A"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "e41e1c4c-f68c-4572-9f92-61bbe13c6ddb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?85881"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d592acf2-755e-4d9c-86b5-8a011a488dc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c7b8ac3-e377-46fa-ac8c-e6da0c26c248")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "D*SMF*")
+		(path "/868c83a3-6192-46cb-977f-2ef7baec3ed3")
+		(sheetname "/")
+		(sheetfile "audio_back_plane_35_rca.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.36 -1.01)
+			(end -2.36 1.01)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d7bcb7e0-b0ff-4657-84cd-1000412a2048")
+		)
+		(fp_line
+			(start -2.36 -1.01)
+			(end 1.4 -1.01)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7ca55a54-bc54-4d73-81f5-ea60e2e6d701")
+		)
+		(fp_line
+			(start -2.36 1.01)
+			(end 1.4 1.01)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3bde1cd0-29d6-478c-aace-97cd9ee850ea")
+		)
+		(fp_line
+			(start -2.35 -1.15)
+			(end 2.35 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "feddbab5-ab83-4310-8f8d-24507667889f")
+		)
+		(fp_line
+			(start -2.35 1.15)
+			(end -2.35 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3d80770d-aadb-4c2e-bdef-5a9de7a788ca")
+		)
+		(fp_line
+			(start 2.35 -1.15)
+			(end 2.35 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "14a1c0a5-01d2-4fb2-9ae4-c41d57da3402")
+		)
+		(fp_line
+			(start 2.35 1.15)
+			(end -2.35 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "78a27dfd-28f0-4141-9513-26b119682a78")
+		)
+		(fp_line
+			(start -1.4 0.9)
+			(end -1.4 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "79fa11bf-b26d-4ff7-acd7-776982473d14")
+		)
+		(fp_line
+			(start -0.3 -0.4)
+			(end -0.3 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "48111f8a-22ea-43ee-a5ed-26ff7da56e78")
+		)
+		(fp_line
+			(start -0.3 0)
+			(end -0.9 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d0408802-cf18-4cf6-93f0-7f0106842be9")
+		)
+		(fp_line
+			(start -0.3 0)
+			(end 0.3 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "082edb9b-1cef-4424-b620-a87a2895cb87")
+		)
+		(fp_line
+			(start -0.3 0.00102)
+			(end 0.3 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ac2ec6af-49cb-4e76-9768-45f789df0c9f")
+		)
+		(fp_line
+			(start 0.3 0)
+			(end 0.9 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2a9da6de-9449-429e-8acc-996a1e92aa2b")
+		)
+		(fp_line
+			(start 0.3 0.4)
+			(end 0.3 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eb2b8f45-3a18-4aef-ab36-16f2c2d68520")
+		)
+		(fp_line
+			(start 1.4 -0.9)
+			(end -1.4 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "32ed8275-913c-4283-9244-d56d60c2ab0b")
+		)
+		(fp_line
+			(start 1.4 -0.9)
+			(end 1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1651dd11-d8a4-4d38-bf8a-6870f2487132")
+		)
+		(fp_line
+			(start 1.4 0.9)
+			(end -1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "06083558-0536-4d5d-ab44-7b80a0ec6758")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 0)
+			(layer "F.Fab")
+			(uuid "0e1b4bc5-f2da-4ae5-8f56-9d7e4640633d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.45 0)
+			(size 1.3 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.1923076923)
+			(net 182 "unconnected-(D4-A1-Pad1)")
+			(pinfunction "A1")
+			(pintype "passive")
+			(uuid "7d64a571-54e2-4917-b5c4-5290b283999f")
+		)
+		(pad "2" smd roundrect
+			(at 1.45 0)
+			(size 1.3 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.1923076923)
+			(net 183 "unconnected-(D4-A2-Pad2)")
+			(pinfunction "A2")
+			(pintype "passive")
+			(uuid "fc6c9cc8-9aab-4e98-9d46-dc849d9c3206")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMF.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "project_fp:SOP50P310X100-8N"
 		(layer "F.Cu")
 		(uuid "cb569cb4-f43a-4bec-a5ee-0d4cd6d3ca94")
@@ -23076,7 +25343,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT2G125.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23088,7 +25355,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "74HC(T)2G125 - Dual buffer/line driver; 3-state@en-us"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23096,6 +25363,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "def0c30b-6994-4c2b-be6a-f0281769847c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "771-HCT2G125DC125"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bedac83-9f3f-4fc2-8d24-1fbd35faf5e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74HCT2G125DC125?qs=P62ublwmbi%252B%252B1eQ2FD8Fxg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bd8ddb8-bba3-46df-92a7-d89d26922368")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f82c232-deba-4a8c-a2dc-0c10a2f2a262")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74HCT2G125DC,125"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99219cf2-1662-467d-b5d4-b6008304a7fb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -23368,7 +25700,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23380,7 +25712,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23392,7 +25724,7 @@
 				)
 			)
 		)
-		(property "Digikey" "P100BYCT-ND"
+		(property "Digikey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23404,7 +25736,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23416,7 +25748,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CMP0805AFX-1000ELF"
+		(property "Manufacturer_Part_Number" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23440,7 +25772,7 @@
 				)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
+		(property "mouser" "603-RC0805DR-072K2L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23640,7 +25972,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23652,7 +25984,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23724,7 +26056,7 @@
 				)
 			)
 		)
-		(property "2020-10-01 PARTS" ""
+		(property "2020-10-01 PARTS" "RPC0805JT100K"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23911,7 +26243,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -23923,7 +26255,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Net tie, 2 pins"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -24007,6 +26339,19 @@
 				)
 			)
 		)
+		(property "2020-10-01 PARTS" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c225aaf3-6730-49f5-afac-b8708fbee22d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Net*Tie*")
 		(path "/89d9f6ac-9a8f-466c-8d02-70d6c6425da4")
 		(sheetname "/")
@@ -24074,7 +26419,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24086,7 +26431,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24831,7 +27176,7 @@
 			(net 25 "USB_SHIELD2")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "649aaeaa-eb61-4f78-a8f1-f368de092e6c")
+			(uuid "0f745c03-5479-4854-90b3-0bc534a4123d")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d_models/c-292303-5-f-3d.stp"
@@ -24910,7 +27255,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kyocera AVX"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24923,7 +27268,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
+		(property "Manufacturer_Part_Number" "C0805C104K5RAC7411"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24949,7 +27294,7 @@
 				)
 			)
 		)
-		(property "mouser" "581-08055C104M4T4A"
+		(property "mouser" "80-C0805C104K5RACLR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25753,7 +28098,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "d5f97826-60f5-47e5-ab1b-c3aff8a829e1")
+			(uuid "26fa3717-eb1d-4549-8f7b-0e5693fb214b")
 		)
 		(pad "2" thru_hole circle
 			(at 94.834 -3.175 270)
@@ -25785,7 +28130,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "4943fc42-a9b1-4dac-a5e2-132ec412e1ed")
+			(uuid "2b2e40dc-5bf2-49fd-af67-a8bdb21bf549")
 		)
 		(pad "3" thru_hole circle
 			(at 5.16 -116.825 90)
@@ -25817,7 +28162,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "a5be6c7e-6ae7-4fc7-b8c7-a77d15353d2e")
+			(uuid "5cf62aba-eb1e-4da2-9686-61136ef9aaaa")
 		)
 		(pad "4" thru_hole circle
 			(at 94.84 -116.825 270)
@@ -25849,24 +28194,24 @@
 					(fill yes)
 				)
 			)
-			(uuid "22e1df72-d866-491d-b1bb-0879763c4f30")
+			(uuid "306c8c1f-7434-4295-b621-d95d301505a2")
 		)
 		(group ""
 			(uuid "14a3c209-9053-45ef-aaa9-514c5881a7af")
 			(members "a9a1ddc2-af3d-485a-afe3-b56c8ed8edf0" "d5f97826-60f5-47e5-ab1b-c3aff8a829e1"
-				"d5f97826-60f5-47e5-ab1b-c3aff8a829e1" "e0a7f061-a9cd-481b-9c4e-32e713c7fc63"
+				"e0a7f061-a9cd-481b-9c4e-32e713c7fc63"
 			)
 		)
 		(group ""
 			(uuid "67dc21a7-abcf-4674-9d17-4c4d4e87d258")
 			(members "89bc5b7e-46e7-4dea-9360-9f7e5c9ac98b" "a5be6c7e-6ae7-4fc7-b8c7-a77d15353d2e"
-				"a5be6c7e-6ae7-4fc7-b8c7-a77d15353d2e" "d4822655-782c-406e-b398-de360c31729c"
+				"d4822655-782c-406e-b398-de360c31729c"
 			)
 		)
 		(group ""
 			(uuid "d1f1cb15-7799-4e41-b3f3-161f7797b0f7")
-			(members "4943fc42-a9b1-4dac-a5e2-132ec412e1ed" "4943fc42-a9b1-4dac-a5e2-132ec412e1ed"
-				"8274bd94-4726-4f87-9f26-31187bdef494" "fcae262a-f7df-45d9-a9f2-6c712cdc4c13"
+			(members "4943fc42-a9b1-4dac-a5e2-132ec412e1ed" "8274bd94-4726-4f87-9f26-31187bdef494"
+				"fcae262a-f7df-45d9-a9f2-6c712cdc4c13"
 			)
 		)
 		(embedded_fonts no)
@@ -25944,7 +28289,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25964,6 +28309,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a1b7d31-8db4-469f-bdb8-fe217ad1edcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d779a592-123e-4c64-b7ba-65ac5a58b99a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17abe797-9902-46c3-8e7a-3924ba067c05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package / Case" "through-hole"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abb33b9a-4563-4ca7-8f90-337ab58631e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bad84d19-4758-4dbf-89c5-c1599fe2a2b8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -26351,10 +28761,23 @@
 				)
 			)
 		)
+		(property "2020-10-01 PARTS" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ab50886-b5e5-4c00-8c21-bd99c990d75c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/c2323847-f316-46a4-bef0-6f042ec48efa")
 		(sheetname "/")
 		(sheetfile "audio_back_plane_35_rca.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 8.89 60.96)
 			(end -8.89 60.96)
@@ -27391,7 +29814,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kyocera AVX"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27404,7 +29827,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
+		(property "Manufacturer_Part_Number" "C0805C104K5RAC7411"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27430,7 +29853,7 @@
 				)
 			)
 		)
-		(property "mouser" "581-08055C104M4T4A"
+		(property "mouser" "80-C0805C104K5RACLR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27590,6 +30013,436 @@
 			)
 		)
 	)
+	(footprint "Capacitor_SMD:CP_Elec_6.3x5.8"
+		(layer "F.Cu")
+		(uuid "e0dcb407-4f3b-484e-b9f2-9cd52d0393b2")
+		(at 232.9 115.69)
+		(descr "SMD capacitor, aluminum electrolytic, Nichicon, 6.3x5.8mm")
+		(tags "capacitor electrolytic")
+		(property "Reference" "C24"
+			(at 0 -4.35 0)
+			(layer "F.SilkS")
+			(uuid "04c87f59-9ad7-4632-8c40-16c0d0e81b83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 0 4.35 0)
+			(layer "F.Fab")
+			(uuid "e37404ec-4e03-41c1-a46b-b35e30163413")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d66ae73-980d-4485-b180-c731ddff01dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "246a281d-2a7d-48f4-9777-780d13e0068d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/dd70f641-d687-4b8b-86ec-7b8e2a756f6d")
+		(sheetname "/")
+		(sheetfile "audio_back_plane_35_rca.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -4.4375 -1.8475)
+			(end -3.65 -1.8475)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "064fe50e-5c1d-46eb-aa0d-c27ddf5fd5c5")
+		)
+		(fp_line
+			(start -4.04375 -2.24125)
+			(end -4.04375 -1.45375)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4c6389bc-bf11-4274-8a91-3d5078dd8127")
+		)
+		(fp_line
+			(start -3.41 -2.345563)
+			(end -3.41 -1.06)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9ad3a865-d0ac-48a0-a787-c904ed36093d")
+		)
+		(fp_line
+			(start -3.41 -2.345563)
+			(end -2.345563 -3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b80d4671-bbc6-4d8c-bb5c-4557f8066610")
+		)
+		(fp_line
+			(start -3.41 2.345563)
+			(end -3.41 1.06)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3128b73b-32ab-461c-bdd9-35e52d5451d4")
+		)
+		(fp_line
+			(start -3.41 2.345563)
+			(end -2.345563 3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b157f030-f424-4c81-b5d9-6f572ffee672")
+		)
+		(fp_line
+			(start -2.345563 -3.41)
+			(end 3.41 -3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5a326570-c6ed-4991-b5ae-28e04ea8dd15")
+		)
+		(fp_line
+			(start -2.345563 3.41)
+			(end 3.41 3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8d97890d-784d-4b83-bce3-53c16bfd413d")
+		)
+		(fp_line
+			(start 3.41 -3.41)
+			(end 3.41 -1.06)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8949dfe9-60e5-46d6-9bbf-f9b6759665d2")
+		)
+		(fp_line
+			(start 3.41 3.41)
+			(end 3.41 1.06)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "df426f1c-a3a7-4846-a178-ddca09231a78")
+		)
+		(fp_line
+			(start -4.7 -1.05)
+			(end -4.7 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "62ba4dfe-4e78-4d21-9ba9-98f0e1300e66")
+		)
+		(fp_line
+			(start -4.7 1.05)
+			(end -3.55 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6cdd1617-02ee-40cd-9f5b-08d5e4b4b352")
+		)
+		(fp_line
+			(start -3.55 -2.4)
+			(end -3.55 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "20d8bf62-e690-4d79-a8a6-f28df86a3e6b")
+		)
+		(fp_line
+			(start -3.55 -2.4)
+			(end -2.4 -3.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0301a691-98b9-40ed-9f8f-d17283ac1bfe")
+		)
+		(fp_line
+			(start -3.55 -1.05)
+			(end -4.7 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6fd1a573-eb77-4dc5-9e89-0036cbfacab2")
+		)
+		(fp_line
+			(start -3.55 1.05)
+			(end -3.55 2.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cce46753-ed7e-4eb9-beae-f1b237880182")
+		)
+		(fp_line
+			(start -3.55 2.4)
+			(end -2.4 3.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ccfd1292-7fac-4ccf-97f9-ff74efd2fb5e")
+		)
+		(fp_line
+			(start -2.4 -3.55)
+			(end 3.55 -3.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1e36feb1-e3fb-4afa-a059-887e8123e8f7")
+		)
+		(fp_line
+			(start -2.4 3.55)
+			(end 3.55 3.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8f4e1dfd-9a88-4953-9dad-90a8dd6271d7")
+		)
+		(fp_line
+			(start 3.55 -3.55)
+			(end 3.55 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "22b63ab7-4775-40df-bf6d-f1fd8f6572f8")
+		)
+		(fp_line
+			(start 3.55 -1.05)
+			(end 4.7 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "82447451-522b-4ffe-acbc-94df85cb1a24")
+		)
+		(fp_line
+			(start 3.55 1.05)
+			(end 3.55 3.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a765f96d-1f81-4440-888e-dce985656e68")
+		)
+		(fp_line
+			(start 4.7 -1.05)
+			(end 4.7 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6dec560b-4e22-4317-971e-bb301fe1e445")
+		)
+		(fp_line
+			(start 4.7 1.05)
+			(end 3.55 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b20136ab-7d37-45a0-ab9d-4fd965f8f32f")
+		)
+		(fp_line
+			(start -3.3 -2.3)
+			(end -3.3 2.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6e6c59d9-018c-42e4-899a-1eddc2533466")
+		)
+		(fp_line
+			(start -3.3 -2.3)
+			(end -2.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b0dfc4ab-3b6d-4efd-a85c-5f8f5b563866")
+		)
+		(fp_line
+			(start -3.3 2.3)
+			(end -2.3 3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4cd0e869-e759-4010-aecc-d542d10fc36a")
+		)
+		(fp_line
+			(start -2.704838 -1.33)
+			(end -2.074838 -1.33)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "083af5dc-be46-4dfa-8099-9b319cf3a017")
+		)
+		(fp_line
+			(start -2.389838 -1.645)
+			(end -2.389838 -1.015)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b2d56b42-93b6-4555-b80d-fd30897da4b6")
+		)
+		(fp_line
+			(start -2.3 -3.3)
+			(end 3.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f4ca4a4e-6b8a-4714-8362-1e8bda86d470")
+		)
+		(fp_line
+			(start -2.3 3.3)
+			(end 3.3 3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1e9ce57c-b679-4081-a32f-c4f2e8695ecf")
+		)
+		(fp_line
+			(start 3.3 -3.3)
+			(end 3.3 3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fe76777a-8136-4058-affe-dffe36534ceb")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.15 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "93f43541-8727-4d0a-bc64-e7ed81e26c8e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7d8c1e41-e477-4531-9b26-30c19e6b0f3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -2.7 0)
+			(size 3.5 1.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15625)
+			(net 176 "unconnected-(C24-Pad1)")
+			(pintype "passive")
+			(uuid "02a46f4f-2caf-4f32-bb3f-5b2a4bf98098")
+		)
+		(pad "2" smd roundrect
+			(at 2.7 0)
+			(size 3.5 1.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15625)
+			(net 177 "unconnected-(C24-Pad2)")
+			(pintype "passive")
+			(uuid "ad69b7b0-2321-4798-8dea-35a77120225b")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_6.3x5.8.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "project_fp:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e2c7b31f-6cbd-4f9f-baee-668ad4c514f3")
@@ -27654,7 +30507,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kyocera AVX"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27667,7 +30520,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
+		(property "Manufacturer_Part_Number" "C0805C104K5RAC7411"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27693,7 +30546,7 @@
 				)
 			)
 		)
-		(property "mouser" "581-08055C104M4T4A"
+		(property "mouser" "80-C0805C104K5RACLR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28368,6 +31221,436 @@
 		)
 		(embedded_fonts no)
 		(model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:CP_Elec_6.3x5.8"
+		(layer "F.Cu")
+		(uuid "eca2abbf-219a-4f26-9ac6-f65b16f5ab0d")
+		(at 232.9 107.54)
+		(descr "SMD capacitor, aluminum electrolytic, Nichicon, 6.3x5.8mm")
+		(tags "capacitor electrolytic")
+		(property "Reference" "C23"
+			(at 0 -4.35 0)
+			(layer "F.SilkS")
+			(uuid "1134ca24-3196-4341-bc6f-41c8c8306810")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 0 4.35 0)
+			(layer "F.Fab")
+			(uuid "73d4b0e7-fcfe-4631-8c51-b8cfcb6305bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cd23dfa-59dd-4762-a43a-6e9e2d2de69f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a44ed111-8dae-414c-ad82-ed6f5bc9c53e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/aa51393e-d196-414e-950b-b143c39d496b")
+		(sheetname "/")
+		(sheetfile "audio_back_plane_35_rca.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -4.4375 -1.8475)
+			(end -3.65 -1.8475)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5e216965-7ff2-4d35-b70b-b7e7bbe04331")
+		)
+		(fp_line
+			(start -4.04375 -2.24125)
+			(end -4.04375 -1.45375)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f78d08bc-815f-48ae-9ba0-991611bcc85f")
+		)
+		(fp_line
+			(start -3.41 -2.345563)
+			(end -3.41 -1.06)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4b37f236-7a1b-4f7c-876b-033f12d4729c")
+		)
+		(fp_line
+			(start -3.41 -2.345563)
+			(end -2.345563 -3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "62837ca7-c25a-4799-ae7c-8745a675abea")
+		)
+		(fp_line
+			(start -3.41 2.345563)
+			(end -3.41 1.06)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "75677e35-8340-4b54-8888-fb0d64c935d8")
+		)
+		(fp_line
+			(start -3.41 2.345563)
+			(end -2.345563 3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0cd58959-dc2b-441f-b612-2b3eba05afdf")
+		)
+		(fp_line
+			(start -2.345563 -3.41)
+			(end 3.41 -3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8b21d9c2-7a9b-4b1e-aad9-f304114c9cf7")
+		)
+		(fp_line
+			(start -2.345563 3.41)
+			(end 3.41 3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d2789d85-7c52-40ec-8f2e-9742468fa728")
+		)
+		(fp_line
+			(start 3.41 -3.41)
+			(end 3.41 -1.06)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b6e9508b-5926-44f0-8c41-e0f782f72807")
+		)
+		(fp_line
+			(start 3.41 3.41)
+			(end 3.41 1.06)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "62274899-5868-48f3-931f-5d3beaed82d8")
+		)
+		(fp_line
+			(start -4.7 -1.05)
+			(end -4.7 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e2d25c2e-840d-4033-a246-5c3bd6b4afae")
+		)
+		(fp_line
+			(start -4.7 1.05)
+			(end -3.55 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "834dd09f-f4a8-4761-ae58-4fd64552a6c8")
+		)
+		(fp_line
+			(start -3.55 -2.4)
+			(end -3.55 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "702aabed-7f89-42b6-8cbb-05b8f2806f56")
+		)
+		(fp_line
+			(start -3.55 -2.4)
+			(end -2.4 -3.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b7ba6720-7318-4f40-a168-4de9d5d184b9")
+		)
+		(fp_line
+			(start -3.55 -1.05)
+			(end -4.7 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "784707a8-16e9-4d53-91b5-6d91fe7a563c")
+		)
+		(fp_line
+			(start -3.55 1.05)
+			(end -3.55 2.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c9e78b5a-c75a-4811-b857-b41879d06553")
+		)
+		(fp_line
+			(start -3.55 2.4)
+			(end -2.4 3.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b152d4ed-b8c2-4f99-bb24-af8917811990")
+		)
+		(fp_line
+			(start -2.4 -3.55)
+			(end 3.55 -3.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "18ad082f-86f3-4bc1-a0bf-5575a914214f")
+		)
+		(fp_line
+			(start -2.4 3.55)
+			(end 3.55 3.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0303c8a5-5899-4c8a-9a3c-d6fe8fd4ae17")
+		)
+		(fp_line
+			(start 3.55 -3.55)
+			(end 3.55 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "58d68c90-28eb-4170-9ba5-14fb05124da6")
+		)
+		(fp_line
+			(start 3.55 -1.05)
+			(end 4.7 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fb9dbf5e-eb1d-45b6-ac6f-83efbf271ed3")
+		)
+		(fp_line
+			(start 3.55 1.05)
+			(end 3.55 3.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6a39c469-4ff6-40d3-9aaa-16a441eb831d")
+		)
+		(fp_line
+			(start 4.7 -1.05)
+			(end 4.7 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5d30f49c-2b71-404b-a5bf-12630458cdcd")
+		)
+		(fp_line
+			(start 4.7 1.05)
+			(end 3.55 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7d007010-109e-4028-87e2-b306e03c04a3")
+		)
+		(fp_line
+			(start -3.3 -2.3)
+			(end -3.3 2.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a8ac6da0-653c-47ac-8624-4b95e9bc719e")
+		)
+		(fp_line
+			(start -3.3 -2.3)
+			(end -2.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9d5e2c21-d85b-4903-91ae-65683a2f65aa")
+		)
+		(fp_line
+			(start -3.3 2.3)
+			(end -2.3 3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8e0bccc1-ccaf-4f51-8081-85c7e2410468")
+		)
+		(fp_line
+			(start -2.704838 -1.33)
+			(end -2.074838 -1.33)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2a1bc754-022c-4b9c-99e2-8ef644f962d5")
+		)
+		(fp_line
+			(start -2.389838 -1.645)
+			(end -2.389838 -1.015)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1da7005a-27d7-41f6-95fa-cfbc57341f50")
+		)
+		(fp_line
+			(start -2.3 -3.3)
+			(end 3.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4e0fc1b9-e64b-49e6-b069-58ec9c398e5d")
+		)
+		(fp_line
+			(start -2.3 3.3)
+			(end 3.3 3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8dfbf7ab-53e4-419a-80eb-9f4c962ce16c")
+		)
+		(fp_line
+			(start 3.3 -3.3)
+			(end 3.3 3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4a4775ca-3901-4e8c-aa30-0022d329fc4a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.15 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "06c625d4-f857-414f-b6b1-5134170d2dd0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0ddc70fe-bba1-40c9-bbc0-1d5c679c9105")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -2.7 0)
+			(size 3.5 1.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15625)
+			(net 174 "unconnected-(C23-Pad1)")
+			(pintype "passive")
+			(uuid "d489cff3-66d0-4b58-b776-a7144363a38a")
+		)
+		(pad "2" smd roundrect
+			(at 2.7 0)
+			(size 3.5 1.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15625)
+			(net 175 "unconnected-(C23-Pad2)")
+			(pintype "passive")
+			(uuid "e94e9e80-29d8-46ad-ba44-1462bb99807f")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_6.3x5.8.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30393,7 +33676,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" "RES SMD 2.21 KOHM 1% 1/5W 0402"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -30405,7 +33688,7 @@
 				)
 			)
 		)
-		(property "Digikey" "P100BYCT-ND"
+		(property "Digikey" "ERJ-PA2F2211X-ND"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -30417,7 +33700,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -30429,7 +33712,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CMP0805AFX-1000ELF"
+		(property "Manufacturer_Part_Number" "RC0805DR-072K2L"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -30453,7 +33736,7 @@
 				)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
+		(property "mouser" "603-RC0805DR-072K2L"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -30665,7 +33948,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 0603"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -30701,7 +33984,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CMP0805AFX-1000ELF"
+		(property "Manufacturer_Part_Number" "CR0805-FX-2200ELF"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -30725,7 +34008,7 @@
 				)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
+		(property "mouser" "652-CR0805FX-2200ELF"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -31233,7 +34516,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kyocera AVX"
+		(property "Manufacturer" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31246,7 +34529,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
+		(property "Manufacturer_Part_Number" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31259,7 +34542,7 @@
 				)
 			)
 		)
-		(property "Package / Case" "C0805"
+		(property "Package / Case" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31272,7 +34555,7 @@
 				)
 			)
 		)
-		(property "mouser" "581-08055C104M4T4A"
+		(property "mouser" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32134,7 +35417,7 @@
 		(path "/45c95cbf-4462-4b70-b368-a80058e66946")
 		(sheetname "/")
 		(sheetfile "audio_back_plane_35_rca.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.4 -1)
 			(end -1.4 -1)

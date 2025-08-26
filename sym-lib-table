@@ -16,4 +16,7 @@
   (lib (name "SN74LVC2G125DCTR")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/SN74LVC2G125DCTR.kicad_sym")(options "")(descr ""))
   (lib (name "74HCT2G125DC_125")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/74HCT2G125DC_125.kicad_sym")(options "")(descr ""))
   (lib (name "JUMPER")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/JUMPER.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS259531DSGT")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/TPS259531DSGT.kicad_sym")(options "")(descr ""))
+  (lib (name "CYPD3177-24LQXQ")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/CYPD3177-24LQXQ.kicad_sym")(options "")(descr ""))
+  (lib (name "SOT26_DIO")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/SOT26_DIO.kicad_sym")(options "")(descr ""))
 )
