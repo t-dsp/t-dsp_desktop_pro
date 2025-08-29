@@ -1,5 +1,5 @@
 Drill report for jlcpcb_1x1.kicad_pcb
-Created on 2025-08-29T08:53:10-0400
+Created on 2025-08-29T08:58:50-0400
 
 Copper Layer Stackup:
     =============================================================
@@ -38,6 +38,6 @@ Drill file 'jlcpcb_1x1-PTH.drl' contains
 Drill file 'jlcpcb_1x1-NPTH.drl' contains
     unplated through holes:
     =============================================================
-    T1  0.500mm  0.0197"  (24 holes)
+    T1  0.500mm  0.0197"  (40 holes)
 
-    Total unplated holes count 24
+    Total unplated holes count 40

@@ -2231,6 +2231,264 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x03_Odd_Even"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x03_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x06_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -4918,6 +5176,404 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FCR6842032T(2):FCR6842032R"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TR"
+				(at -10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "FCR6842032R"
+				(at -10.16 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "project_fp:FCR6842032T"
+				(at -2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "5"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at -2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "10.3 mm"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Everlight Electronics"
+				(at -1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "FCR6842032R_0_0"
+				(rectangle
+					(start -10.16 -7.62)
+					(end 10.16 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FCR6842032T(2):FCR6842032T"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TR"
+				(at -10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "FCR6842032T"
+				(at -10.16 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "project_fp:FCR6842032T"
+				(at -2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "5"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at -2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "10.3 mm"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Everlight Electronics"
+				(at -1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "FCR6842032T_0_0"
+				(rectangle
+					(start -10.16 -7.62)
+					(end 10.16 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -10010,6 +10666,239 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "kikit:Tab"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "T"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Tab"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kikit:Tab"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "KiKit tab annotations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "KiKit"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Tab_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -3.81 -1.27) (xy 3.81 -1.27) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 1.27)
+					(mid -1.642 0.372)
+					(end -2.54 0)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.524 0)
+					(radius 0.0762)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.016 0)
+					(radius 0.0762)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 0)
+					(radius 0.0762)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.0762)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 0)
+					(radius 0.0762)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.0762)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 1.27)
+					(mid 2.168 0.898)
+					(end 2.54 0)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 0)
+					(radius 0.0762)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -16214,6 +17103,18 @@
 		(uuid adfb961f-5dba-4f7f-9ab2-1505dc361d7e)
 	)
 	(rectangle
+		(start 1040.13 525.78)
+		(end 1224.28 636.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c9d3ce79-690e-4e90-8df1-61e4ac6ca55f)
+	)
+	(rectangle
 		(start 613.41 259.08)
 		(end 817.88 444.5)
 		(stroke
@@ -16348,6 +17249,20 @@
 			)
 		)
 		(uuid "2cccc0cb-abe9-43c7-aa4c-3717eafacb0e")
+	)
+	(text "OPTICAL / TOSLINK IO"
+		(exclude_from_sim no)
+		(at 1048.131 553.466 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 10 10)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "41f4e642-9f10-4f31-bec6-fd7f21ce27a2")
 	)
 	(text "PLEASE CONFIRM LEFT/RIGHT PINS"
 		(exclude_from_sim no)
@@ -16765,6 +17680,12 @@
 		(uuid "2386a154-a86d-4d68-8fc6-152a89a8cd6a")
 	)
 	(junction
+		(at 1126.49 579.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "241d10fa-12af-4c0e-b5fc-a11ce0358e4f")
+	)
+	(junction
 		(at 962.66 932.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16813,6 +17734,12 @@
 		(uuid "35978629-1778-48dc-b0f7-b78c17136326")
 	)
 	(junction
+		(at 1126.49 618.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35b0d3b2-8e48-459b-9d28-258307432cda")
+	)
+	(junction
 		(at 102.87 538.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16829,6 +17756,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3dc92725-89a2-434f-abe8-ab7256211c67")
+	)
+	(junction
+		(at 1126.49 589.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ecc585f-ecb7-4d27-85af-08cbdbcc1f48")
 	)
 	(junction
 		(at 509.27 307.34)
@@ -16903,6 +17836,12 @@
 		(uuid "5d23447a-b7c9-4c5c-9bc7-a00332a430db")
 	)
 	(junction
+		(at 1079.5 613.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "638ea56a-54d2-4722-825a-d5451704bf57")
+	)
+	(junction
 		(at 509.27 299.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16961,6 +17900,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "722aac76-a4ac-4438-bb4f-339d2847f632")
+	)
+	(junction
+		(at 1155.7 585.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7548f30c-7448-426f-b50e-a07fbe49b198")
 	)
 	(junction
 		(at 962.66 919.48)
@@ -17093,6 +18038,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96a3a9ff-0405-48eb-b520-dee3f24a6b9d")
+	)
+	(junction
+		(at 1079.5 584.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96f79342-ced6-4144-838f-3e7b2ca6ea19")
+	)
+	(junction
+		(at 1183.64 585.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "977187d7-32e9-4baf-9375-ec93239433f0")
 	)
 	(junction
 		(at 441.96 670.56)
@@ -17321,6 +18278,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9603443-741d-472e-b5d6-bc69dce19212")
+	)
+	(junction
+		(at 1162.05 582.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9e1581e-c2e5-4de6-ad46-cd6027f3c516")
 	)
 	(junction
 		(at 441.96 678.18)
@@ -17959,6 +18922,16 @@
 	)
 	(wire
 		(pts
+			(xy 1153.16 582.93) (xy 1162.05 582.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d0a63b-4bbd-4a86-8e25-dd7a7db18656")
+	)
+	(wire
+		(pts
 			(xy 784.86 567.69) (xy 784.86 566.42)
 		)
 		(stroke
@@ -18056,6 +19029,16 @@
 			(type default)
 		)
 		(uuid "1d4dd6e9-63c3-4018-8ba2-7f06e2d15dc5")
+	)
+	(wire
+		(pts
+			(xy 1073.15 613.41) (xy 1079.5 613.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d793446-689f-4357-a08a-a8e1019152b0")
 	)
 	(wire
 		(pts
@@ -18429,6 +19412,16 @@
 	)
 	(wire
 		(pts
+			(xy 1155.7 585.47) (xy 1170.94 585.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30abb376-381a-4d62-bd45-20a52ad95b59")
+	)
+	(wire
+		(pts
 			(xy 928.37 934.72) (xy 929.64 934.72)
 		)
 		(stroke
@@ -18519,6 +19512,16 @@
 	)
 	(wire
 		(pts
+			(xy 1162.05 582.93) (xy 1170.94 582.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "342bae16-6ce8-4afd-b6f0-3bef801fca42")
+	)
+	(wire
+		(pts
 			(xy 784.86 576.58) (xy 774.7 576.58)
 		)
 		(stroke
@@ -18536,6 +19539,16 @@
 			(type default)
 		)
 		(uuid "34d37311-9926-4f43-a86c-05c31e1e7cb7")
+	)
+	(wire
+		(pts
+			(xy 1126.49 589.28) (xy 1126.49 618.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d8e374-c2e6-433c-82d7-ffd66997edb0")
 	)
 	(wire
 		(pts
@@ -18666,6 +19679,16 @@
 			(type default)
 		)
 		(uuid "3a1477bf-06dd-48bb-bf5c-4bba21c83a97")
+	)
+	(wire
+		(pts
+			(xy 1155.7 585.47) (xy 1155.7 608.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a277ed0-1d6d-4b16-a6fd-1ab60fcb1fe0")
 	)
 	(wire
 		(pts
@@ -18809,6 +19832,16 @@
 	)
 	(wire
 		(pts
+			(xy 1162.05 579.12) (xy 1162.05 582.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40616c86-d632-450e-a1e6-62e66720dcc1")
+	)
+	(wire
+		(pts
 			(xy 483.87 309.88) (xy 496.57 309.88)
 		)
 		(stroke
@@ -18906,6 +19939,16 @@
 			(type default)
 		)
 		(uuid "45211d8c-2bc8-4719-914f-bab49a47f64f")
+	)
+	(wire
+		(pts
+			(xy 1079.5 594.36) (xy 1079.5 589.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4524348d-9ab3-462a-bbcd-29304712a630")
 	)
 	(wire
 		(pts
@@ -19539,6 +20582,16 @@
 	)
 	(wire
 		(pts
+			(xy 1183.64 585.47) (xy 1193.8 585.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "685c1134-1096-4a31-90d3-d1750fc86aab")
+	)
+	(wire
+		(pts
 			(xy 966.47 854.71) (xy 966.47 857.25)
 		)
 		(stroke
@@ -19616,6 +20669,16 @@
 			(type default)
 		)
 		(uuid "6c759b2d-0932-4c09-9491-421e9d918f3e")
+	)
+	(wire
+		(pts
+			(xy 1153.16 585.47) (xy 1155.7 585.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d0cb301-e3e5-4418-b38f-73f21ba29b7b")
 	)
 	(wire
 		(pts
@@ -19866,6 +20929,16 @@
 			(type default)
 		)
 		(uuid "7dfe9f69-8f94-4830-9354-b8c39ad4461e")
+	)
+	(wire
+		(pts
+			(xy 1079.5 621.03) (xy 1079.5 618.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1326cb-f76b-424e-9d89-8f3e78520a4d")
 	)
 	(wire
 		(pts
@@ -20649,6 +21722,16 @@
 	)
 	(wire
 		(pts
+			(xy 1126.49 584.2) (xy 1126.49 589.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2db81b1-0214-4f7c-8df9-80b5043368a2")
+	)
+	(wire
+		(pts
 			(xy 966.47 849.63) (xy 966.47 852.17)
 		)
 		(stroke
@@ -20686,6 +21769,16 @@
 			(type default)
 		)
 		(uuid "a44f26f4-0263-4182-b276-b8a6d96e15b0")
+	)
+	(wire
+		(pts
+			(xy 1117.6 589.28) (xy 1126.49 589.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50e5e70-40cd-4bbb-9ca2-a2a83f07dd93")
 	)
 	(wire
 		(pts
@@ -20979,6 +22072,16 @@
 	)
 	(wire
 		(pts
+			(xy 1117.6 579.12) (xy 1126.49 579.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99f3115-911a-41a4-9aba-f378e3030588")
+	)
+	(wire
+		(pts
 			(xy 509.27 701.04) (xy 515.62 701.04)
 		)
 		(stroke
@@ -20996,6 +22099,16 @@
 			(type default)
 		)
 		(uuid "ba182b93-550d-4fbd-b428-d06be655a199")
+	)
+	(wire
+		(pts
+			(xy 1071.88 584.2) (xy 1079.5 584.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba82757f-c919-40c7-b5d9-825fe13f8546")
 	)
 	(wire
 		(pts
@@ -21096,6 +22209,16 @@
 			(type default)
 		)
 		(uuid "c0a973b7-2b46-4bca-86b3-4d57254c5efc")
+	)
+	(wire
+		(pts
+			(xy 1079.5 613.41) (xy 1087.12 613.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ef95ab-522e-4fe8-b7a7-f8022132c639")
 	)
 	(wire
 		(pts
@@ -21289,6 +22412,16 @@
 	)
 	(wire
 		(pts
+			(xy 1126.49 621.03) (xy 1126.49 618.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c32b8e-ffdb-4eab-b86f-e44a0477b5cb")
+	)
+	(wire
+		(pts
 			(xy 185.42 368.3) (xy 177.8 368.3)
 		)
 		(stroke
@@ -21306,6 +22439,16 @@
 			(type default)
 		)
 		(uuid "ca1e9e7f-230b-4127-a41a-76b5d32d3a12")
+	)
+	(wire
+		(pts
+			(xy 1079.5 584.2) (xy 1087.12 584.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca319b2a-f73c-4ad1-b8f5-b8bb09f69100")
 	)
 	(wire
 		(pts
@@ -21439,6 +22582,16 @@
 	)
 	(wire
 		(pts
+			(xy 1117.6 608.33) (xy 1155.7 608.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d49557aa-99ed-4a3a-9af8-a051c882b85a")
+	)
+	(wire
+		(pts
 			(xy 441.96 668.02) (xy 441.96 670.56)
 		)
 		(stroke
@@ -21486,6 +22639,16 @@
 			(type default)
 		)
 		(uuid "d6a4df43-ba1a-4fec-aa45-21362102fb79")
+	)
+	(wire
+		(pts
+			(xy 1126.49 618.49) (xy 1117.6 618.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6bfd2da-e294-4829-afd6-836c023f76e1")
 	)
 	(wire
 		(pts
@@ -21586,6 +22749,16 @@
 			(type default)
 		)
 		(uuid "de09d98e-9015-49e2-bf93-2ff5a956646b")
+	)
+	(wire
+		(pts
+			(xy 1126.49 579.12) (xy 1162.05 579.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de30099a-d7f4-44db-94bd-b357faf04995")
 	)
 	(wire
 		(pts
@@ -22116,6 +23289,16 @@
 			(type default)
 		)
 		(uuid "fa62f3e2-2cad-4f91-bafa-7a2d700cfbc4")
+	)
+	(wire
+		(pts
+			(xy 1183.64 582.93) (xy 1183.64 585.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb85d6dd-d944-40a1-8fbf-bd04fcc6159a")
 	)
 	(wire
 		(pts
@@ -24451,6 +25634,28 @@
 			)
 		)
 	)
+	(global_label "15_SPDIF_IN"
+		(shape input)
+		(at 247.65 350.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2dbdb640-8e85-4094-b41a-a1b239d9d4dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.3676 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3.3V"
 		(shape input)
 		(at 445.77 387.35 0)
@@ -24552,6 +25757,28 @@
 		(uuid "38992b4c-e773-40fe-a02b-7916c4f7cd16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 919.3977 854.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 1071.88 584.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39051019-92f6-43ad-a584-e2e088b0e3bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1065.4434 584.1206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24704,6 +25931,28 @@
 		(uuid "3e548700-9da4-4bf1-bb76-b42e25fad5d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 482.5134 382.1906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 1073.15 613.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41b22746-418e-4412-a209-ed77d05d09eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1068.5277 613.3306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25276,6 +26525,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 1170.94 588.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c4014d0-0ebb-4c69-b3ac-013b61e35d17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1166.3177 587.9306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -26762,6 +28033,28 @@
 			)
 		)
 	)
+	(global_label "15_SPDIF_IN"
+		(shape input)
+		(at 1153.16 582.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1a697b0-552d-4164-b5f7-e150d1367158")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1139.1034 583.0094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 474.98 589.28 0)
@@ -26806,6 +28099,28 @@
 			)
 		)
 	)
+	(global_label "14_SPDIF_OUT"
+		(shape input)
+		(at 170.18 340.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1e2c958-1031-481c-80ab-0aed6a026b8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.5909 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 459.74 396.24 0)
@@ -26819,6 +28134,28 @@
 		(uuid "a2947253-8fc8-4726-8745-75a70017e643")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 465.9347 396.3194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "15_SPDIF_IN"
+		(shape input)
+		(at 170.18 337.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3688daf-ce6a-4413-824b-8a90a5c7bebe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.8976 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27193,6 +28530,28 @@
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "14_SPDIF_OUT"
+		(shape input)
+		(at 1153.16 585.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3ef4f95-a4d5-4881-973b-0fa58e59ac61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1137.4101 585.5494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
@@ -28289,6 +29648,28 @@
 			)
 		)
 	)
+	(global_label "14_SPDIF_OUT"
+		(shape input)
+		(at 247.65 353.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5b2e4db-eb84-4d13-8f8e-6adcd563e441")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.0609 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "34_RX8_RESET2"
 		(shape input)
 		(at 441.96 662.94 0)
@@ -28372,6 +29753,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 1183.64 588.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7f54dcb-d61c-4fe4-9038-b97b93b259ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1190.0766 588.0894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -29714,7 +31117,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C27834"
+		(property "LCSC" "C2021"
 			(at 695.96 308.61 90)
 			(effects
 				(font
@@ -29751,6 +31154,79 @@
 			(project "audio_back_plane_35_rca"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "CC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kikit:Tab")
+		(at 1125.22 1008.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "093af002-fb62-4ef4-b9e3-f5f02a9d63ca")
+		(property "Reference" "T108"
+			(at 1131.57 1006.4749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tab"
+			(at 1131.57 1009.0149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kikit:Tab"
+			(at 1125.22 1008.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1125.22 1008.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "KiKit tab annotations"
+			(at 1125.22 1008.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 1125.22 1008.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "T108")
 					(unit 1)
 				)
 			)
@@ -31981,6 +33457,111 @@
 		)
 	)
 	(symbol
+		(lib_id "TEENSY_4.0_ESP32_AUDIO-rescue:C_Small-Device")
+		(at 1079.5 615.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "23673310-e2df-467b-96d5-7ac6c06c6beb")
+		(property "Reference" "C25"
+			(at 1077.1632 614.7816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 1077.1632 617.093 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 1079.5 615.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1079.5 615.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1079.5 615.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Kyocera AVX"
+			(at 1079.5 615.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "08055C104M4T4A"
+			(at 1079.5 615.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0805"
+			(at 1079.5 615.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "581-08055C104M4T4A"
+			(at 1079.5 615.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80369e81-2eb7-4ce9-b025-10f5ecdfd628")
+		)
+		(pin "2"
+			(uuid "ae8b67f0-93b5-45e3-9926-535f0ca45be8")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 835.66 953.77 90)
 		(unit 1)
@@ -32105,6 +33686,79 @@
 			(project "audio_back_plane_35_rca"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kikit:Tab")
+		(at 1169.67 1008.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2461ba9e-e2de-4522-b243-9109c2dd5f4c")
+		(property "Reference" "T110"
+			(at 1176.02 1006.4749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tab"
+			(at 1176.02 1009.0149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kikit:Tab"
+			(at 1169.67 1008.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1169.67 1008.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "KiKit tab annotations"
+			(at 1169.67 1008.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 1169.67 1008.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "T110")
 					(unit 1)
 				)
 			)
@@ -33519,7 +35173,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C138019"
+		(property "LCSC" "C17520"
 			(at 439.42 398.78 90)
 			(effects
 				(font
@@ -33556,6 +35210,143 @@
 			(project "audio_back_plane_35_rca"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kikit:Tab")
+		(at 1145.54 1009.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3daec8f3-b177-4939-bd35-b39962866d6c")
+		(property "Reference" "T109"
+			(at 1151.89 1007.7449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tab"
+			(at 1151.89 1010.2849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kikit:Tab"
+			(at 1145.54 1009.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1145.54 1009.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "KiKit tab annotations"
+			(at 1145.54 1009.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 1145.54 1009.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "T109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 1079.5 594.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "3de39c79-b8ed-444b-96ff-0d7206cc8106")
+		(property "Reference" "#PWR0117"
+			(at 1079.5 600.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 1079.627 598.7542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1079.5 594.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1079.5 594.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1079.5 594.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea816f8a-2187-4e2a-96d7-5426e01e9ffa")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -34134,7 +35925,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C138019"
+		(property "LCSC" "C17520"
 			(at 269.24 328.93 90)
 			(effects
 				(font
@@ -34690,7 +36481,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C138019"
+		(property "LCSC" "C17520"
 			(at 231.14 323.85 90)
 			(effects
 				(font
@@ -34926,7 +36717,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C138019"
+		(property "LCSC" "C17520"
 			(at 439.42 391.16 90)
 			(effects
 				(font
@@ -36204,7 +37995,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C138019"
+		(property "LCSC" "C17520"
 			(at 760.73 312.42 90)
 			(effects
 				(font
@@ -36364,6 +38155,70 @@
 			(project "audio_back_plane_35_rca"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "MIDI_OT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 1079.5 621.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "573c60db-3f75-446c-969d-928d9fb279a4")
+		(property "Reference" "#PWR0109"
+			(at 1079.5 627.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 1079.627 625.4242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1079.5 621.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1079.5 621.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1079.5 621.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b09dcc7-4cc7-4a9c-9343-acc145caae0d")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -37265,6 +39120,79 @@
 		)
 	)
 	(symbol
+		(lib_id "kikit:Tab")
+		(at 1193.8 1008.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d6043b6-5cfe-4d7d-b1e0-5ef94367460c")
+		(property "Reference" "T111"
+			(at 1200.15 1006.4749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tab"
+			(at 1200.15 1009.0149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kikit:Tab"
+			(at 1193.8 1008.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1193.8 1008.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "KiKit tab annotations"
+			(at 1193.8 1008.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 1193.8 1008.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "T111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 171.45 322.58 90)
 		(unit 1)
@@ -37583,7 +39511,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C138019"
+		(property "LCSC" "C17520"
 			(at 760.73 297.18 90)
 			(effects
 				(font
@@ -38067,7 +39995,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C27834"
+		(property "LCSC" "C2021"
 			(at 695.96 311.15 90)
 			(effects
 				(font
@@ -38297,6 +40225,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
+		(at 1176.02 585.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "6a08f734-9c82-4a07-847c-f05709e91db6")
+		(property "Reference" "SPDIF_IO1"
+			(at 1177.29 577.4182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "header"
+			(at 1177.29 579.7296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:PinHeader_2x03_P2.54mm_Vertical"
+			(at 1179.83 593.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1176.02 585.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1176.02 585.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package / Case" "through-hole"
+			(at 1176.02 585.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f38013f3-5c2f-4f5a-b616-c89d75e66752")
+		)
+		(pin "2"
+			(uuid "26a4af3e-33dd-43d3-bc78-57812b7db45f")
+		)
+		(pin "3"
+			(uuid "1a69899b-4599-45bc-95fd-59b5647993a0")
+		)
+		(pin "4"
+			(uuid "bb332a54-7fec-40a8-9b87-bb22dc0d1efb")
+		)
+		(pin "5"
+			(uuid "35acf146-186d-4a83-b0ec-6b7691709c89")
+		)
+		(pin "6"
+			(uuid "1b9f65bf-861c-4ef3-8ed8-5b8fb2be1e6c")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "SPDIF_IO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TEENSY_4.0_PCM5242-rescue:GND-power")
 		(at 392.43 708.66 0)
 		(unit 1)
@@ -38449,7 +40464,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C138019"
+		(property "LCSC" "C17520"
 			(at 441.96 387.35 90)
 			(effects
 				(font
@@ -38486,6 +40501,119 @@
 			(project "audio_back_plane_35_rca"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FCR6842032T(2):FCR6842032R")
+		(at 1102.36 584.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "6e32cbdc-f379-4e16-ba96-a1e515d6291b")
+		(property "Reference" "TR1"
+			(at 1102.36 571.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Optical Receiver - FCR6842032R"
+			(at 1102.36 574.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:FCR6842032T"
+			(at 1099.82 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic6/00206440_0.pdf/PLT5%20488.pdf"
+			(at 1102.36 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1102.36 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Everlight Electronics"
+			(at 1101.09 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Label" "OPTICAL IN"
+			(at 1101.471 568.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package / Case" "jack"
+			(at 1102.36 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FCR6842032R"
+			(at 1102.36 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "195d366d-5799-45b2-a979-1be55879ba09")
+		)
+		(pin "2"
+			(uuid "0b7905ea-937e-43ad-be45-81cba4e60406")
+		)
+		(pin "3"
+			(uuid "cc102602-d7a4-4d18-a2d0-118e91d3b5c8")
+		)
+		(pin "4"
+			(uuid "3dd183f3-fd6e-4db6-8976-8e122de249bd")
+		)
+		(pin "5"
+			(uuid "cec32f49-4e9f-496a-b07b-546addec147c")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "TR1")
 					(unit 1)
 				)
 			)
@@ -39397,7 +41525,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C138019"
+		(property "LCSC" "C17520"
 			(at 278.13 328.93 90)
 			(effects
 				(font
@@ -39851,7 +41979,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C138019"
+		(property "LCSC" "C17520"
 			(at 222.25 323.85 90)
 			(effects
 				(font
@@ -42672,6 +44800,110 @@
 		)
 	)
 	(symbol
+		(lib_id "TEENSY_4.0_ESP32_AUDIO-rescue:C_Small-Device")
+		(at 1126.49 581.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "a56d374f-4ef8-4ef0-b59e-36705ffaaa0b")
+		(property "Reference" "C26"
+			(at 1128.8268 580.4916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30pF"
+			(at 1128.8268 582.803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 1126.49 581.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1126.49 581.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1126.49 581.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Kyocera AVX"
+			(at 1126.49 581.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "08055C104M4T4A"
+			(at 1126.49 581.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0805"
+			(at 1126.49 581.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "581-08055C104M4T4A"
+			(at 1126.49 581.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1720e675-c1b1-4cc3-94e5-461cbca97300")
+		)
+		(pin "2"
+			(uuid "13fbe934-61f0-4d08-910f-3639d2c18d4f")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 835.66 834.39 90)
 		(unit 1)
@@ -43021,7 +45253,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C27834"
+		(property "LCSC" "C2021"
 			(at 750.57 400.05 90)
 			(effects
 				(font
@@ -43453,6 +45685,70 @@
 			(project "audio_back_plane_35_rca"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 1193.8 585.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "bb306e79-5df7-42e3-a245-10bf936066f8")
+		(property "Reference" "#PWR0108"
+			(at 1193.8 591.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 1193.927 589.8642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1193.8 585.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1193.8 585.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1193.8 585.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19324b54-130e-4a51-a842-89c634733220")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -44638,7 +46934,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C138019"
+		(property "LCSC" "C17520"
 			(at 195.58 359.41 0)
 			(effects
 				(font
@@ -45027,6 +47323,110 @@
 		)
 	)
 	(symbol
+		(lib_id "TEENSY_4.0_ESP32_AUDIO-rescue:C_Small-Device")
+		(at 1079.5 586.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "ca9037a2-6227-40a0-8bcd-be4372060354")
+		(property "Reference" "C24"
+			(at 1081.8368 585.5716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 1081.8368 587.883 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_fp:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 1079.5 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1079.5 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1079.5 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Kyocera AVX"
+			(at 1079.5 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "08055C104M4T4A"
+			(at 1079.5 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "C0805"
+			(at 1079.5 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "581-08055C104M4T4A"
+			(at 1079.5 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77d9ed95-9212-4c49-bf89-3361fd2beeee")
+		)
+		(pin "2"
+			(uuid "698a0a60-21bf-42d5-88c8-3d9702403b97")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 791.21 387.35 0)
 		(mirror x)
@@ -45117,7 +47517,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C27834"
+		(property "LCSC" "C2021"
 			(at 791.21 387.35 90)
 			(effects
 				(font
@@ -46579,7 +48979,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C138019"
+		(property "LCSC" "C17520"
 			(at 434.34 346.71 90)
 			(effects
 				(font
@@ -47523,6 +49923,70 @@
 			(project "audio_back_plane_35_rca"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "MIC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 1126.49 621.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "e590c5cf-e223-4df7-b3d7-916c9a30f668")
+		(property "Reference" "#PWR0118"
+			(at 1126.49 627.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 1126.617 625.4242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1126.49 621.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1126.49 621.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1126.49 621.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d7dbb54-5f23-4cb4-917d-2ea14b494c43")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -48558,6 +51022,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 242.57 350.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "ef8d151f-b0ef-4f62-9df7-e1cf0d00ce2b")
+		(property "Reference" "SPDIF1"
+			(at 240.03 350.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT HEADER"
+			(at 240.03 353.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_fp:SPDIF1_PinSocket_1x02_P2.54mm_Vertical"
+			(at 242.57 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 242.57 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "TH-HEADER"
+			(at 242.57 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 242.57 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "HEADER"
+			(at 242.57 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "DNP"
+			(at 242.57 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d72afd84-9c25-4fa4-ab56-d5ac68544824")
+		)
+		(pin "2"
+			(uuid "94919929-3782-437e-b675-b7e19263d2c9")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "SPDIF1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "project_lib:74HCT2G34")
 		(at 877.57 610.87 90)
 		(unit 3)
@@ -49076,6 +51646,117 @@
 			(project "audio_back_plane_35_rca"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FCR6842032T(2):FCR6842032T")
+		(at 1102.36 613.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "f564e0c5-8187-4a95-84fe-12a6761816e9")
+		(property "Reference" "TT1"
+			(at 1102.36 600.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Optical Transmitter - FCR6842032T"
+			(at 1102.36 602.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:FCR6842032T"
+			(at 1102.36 621.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic6/00206440_0.pdf/PLT5%20488.pdf"
+			(at 1103.122 618.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1102.36 613.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Everlight Electronics"
+			(at 1102.36 613.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Label" "OPTICAL OUT"
+			(at 1101.471 597.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package / Case" "jack"
+			(at 1102.36 613.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FCR6842032T"
+			(at 1102.36 613.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddd5f87d-dd9a-43b8-8740-25ff09bd733f")
+		)
+		(pin "2"
+			(uuid "3d24ca64-8898-4a21-92dc-4bb372c9b113")
+		)
+		(pin "3"
+			(uuid "2077675b-4d65-4bd8-b725-f0fef34da527")
+		)
+		(pin "4"
+			(uuid "07322bfb-59bc-46c0-aafb-27805fab5cab")
+		)
+		(pin "5"
+			(uuid "a150a7a9-9b51-4649-9110-b4207ed5ae0d")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "TT1")
 					(unit 1)
 				)
 			)
@@ -49817,7 +52498,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C138019"
+		(property "LCSC" "C17520"
 			(at 441.96 368.3 90)
 			(effects
 				(font
