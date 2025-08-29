@@ -20,6 +20,7 @@
 	(property "Value" "header"
 		(at 0 7.41 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "ba6e7562-5e45-4dee-a188-5d9edf0807c0")
 		(effects
 			(font
@@ -138,46 +139,6 @@
 		(uuid "93b03663-aadf-43c7-8fa2-4ac38e71a80f")
 	)
 	(fp_line
-		(start -1.8 -1.8)
-		(end -1.8 6.85)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "ed837c44-fc15-493d-8a4f-ff1fd9e5eb37")
-	)
-	(fp_line
-		(start -1.8 6.85)
-		(end 1.8 6.85)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "74fdb6f1-8dc1-42f2-a35e-340dd551dabb")
-	)
-	(fp_line
-		(start 1.8 -1.8)
-		(end -1.8 -1.8)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "6870d010-5ecb-4d55-9180-fc6dd6152166")
-	)
-	(fp_line
-		(start 1.8 6.85)
-		(end 1.8 -1.8)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "4f4b9c99-c9ec-4111-9a38-f7affb0b4ef7")
-	)
-	(fp_line
 		(start -1.27 -0.635)
 		(end -0.635 -1.27)
 		(stroke
@@ -226,18 +187,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "c76e07a2-9823-4827-bb8f-753ad61a4c01")
-	)
-	(fp_text user "PRG"
-		(at -2.35 -0.3 270)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "1e589299-c248-4597-ad69-103ee8787f0e")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-		)
 	)
 	(fp_text user "G"
 		(at -2.375 2.475 270)

@@ -20,6 +20,7 @@
 	(property "Value" "ESP_I2C_PinHeader_1x04_P2.54mm_Vertical"
 		(at 0 10 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "45bb5cb9-3d70-4208-ace3-c835d6f7d6b1")
 		(effects
 			(font
@@ -112,46 +113,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "f01f5aec-5494-411c-955c-6df651586009")
-	)
-	(fp_line
-		(start -1.77 -1.77)
-		(end -1.77 9.39)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "7638bfaa-0383-4c8a-9feb-07a5a48cd714")
-	)
-	(fp_line
-		(start -1.77 9.39)
-		(end 1.77 9.39)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "bad0b778-3cd0-4152-9017-a3796df50f24")
-	)
-	(fp_line
-		(start 1.77 -1.77)
-		(end -1.77 -1.77)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "c7dca652-797e-4c0e-91f6-d2879cdfcd0c")
-	)
-	(fp_line
-		(start 1.77 9.39)
-		(end 1.77 -1.77)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "28ab8eb0-c820-4364-bc17-ab359808d646")
 	)
 	(fp_line
 		(start -1.27 -0.635)

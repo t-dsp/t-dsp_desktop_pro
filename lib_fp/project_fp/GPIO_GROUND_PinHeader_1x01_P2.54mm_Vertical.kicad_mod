@@ -20,6 +20,7 @@
 	(property "Value" "GPIO_GROUND_PinHeader_1x01_P2.54mm_Vertical"
 		(at 0 2.38 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "eadaeba7-51aa-4693-8957-dec0a3c98610")
 		(effects
 			(font
@@ -114,46 +115,6 @@
 		(uuid "a27ab828-146d-49ef-9ecd-d791868a3904")
 	)
 	(fp_line
-		(start -1.77 -1.77)
-		(end -1.77 1.77)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "b8f68aae-7d43-4970-8e1b-22da8f7ab719")
-	)
-	(fp_line
-		(start -1.77 1.77)
-		(end 1.77 1.77)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "252526c7-b025-47e8-9e36-94ff2708cd89")
-	)
-	(fp_line
-		(start 1.77 -1.77)
-		(end -1.77 -1.77)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "7bf96c6c-2ce6-47ca-92b4-bdb6b30b7a11")
-	)
-	(fp_line
-		(start 1.77 1.77)
-		(end 1.77 -1.77)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "96ca6be8-8894-4543-ad94-e0e204696cfe")
-	)
-	(fp_line
 		(start -1.27 -0.635)
 		(end -0.635 -1.27)
 		(stroke
@@ -215,17 +176,6 @@
 				(bold yes)
 			)
 			(justify left bottom)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 2.75 180)
-		(layer "F.Fab")
-		(uuid "71ccc56c-8709-4ed7-ac9e-e646ebaa0380")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
 		)
 	)
 	(pad "1" thru_hole rect

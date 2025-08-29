@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.33 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "a02acc2e-321f-4671-86f2-9b7c22449d57")
 		(effects
 			(font
@@ -19,6 +20,7 @@
 	(property "Value" "HEADER"
 		(at 0 9.95 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "73d1d0ef-e657-4677-9747-5c044b34ecc8")
 		(effects
 			(font
@@ -137,46 +139,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "3451961e-6ffe-42a2-862c-667da3680c66")
-	)
-	(fp_line
-		(start -1.8 -1.8)
-		(end -1.8 9.4)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "07d63e79-3bd3-4b95-9b21-be6cd81e87e8")
-	)
-	(fp_line
-		(start -1.8 9.4)
-		(end 1.8 9.4)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "a53ebf9c-7f7a-42c7-ac8d-d23ff5bc9421")
-	)
-	(fp_line
-		(start 1.8 -1.8)
-		(end -1.8 -1.8)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "9f9fcd53-d357-4602-9d3e-a435f18c51ab")
-	)
-	(fp_line
-		(start 1.8 9.4)
-		(end 1.8 -1.8)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "9f392b21-e586-440e-ba12-7ca1e9e8a97d")
 	)
 	(fp_line
 		(start -1.27 -0.635)

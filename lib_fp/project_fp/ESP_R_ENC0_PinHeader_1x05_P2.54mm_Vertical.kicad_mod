@@ -20,6 +20,7 @@
 	(property "Value" "header"
 		(at 0.15 12.49 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "153ebdba-3cb5-425e-bf5d-5ab50114f5d1")
 		(effects
 			(font
@@ -124,46 +125,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "66227526-7a92-4d81-b986-cf5a7766215c")
-	)
-	(fp_line
-		(start -1.8 -1.8)
-		(end -1.8 11.95)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "1442efe8-de34-4467-b50b-90c78ea8f4a5")
-	)
-	(fp_line
-		(start -1.8 11.95)
-		(end 1.8 11.95)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "9dafa5a9-40fa-497e-9794-db557e691112")
-	)
-	(fp_line
-		(start 1.8 -1.8)
-		(end -1.8 -1.8)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "504d6e9a-290b-484c-84f7-34374d86ab61")
-	)
-	(fp_line
-		(start 1.8 11.95)
-		(end 1.8 -1.8)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "b0469230-e0e9-4a4a-93e3-d8fd9f79fa27")
 	)
 	(fp_line
 		(start -1.27 -0.635)

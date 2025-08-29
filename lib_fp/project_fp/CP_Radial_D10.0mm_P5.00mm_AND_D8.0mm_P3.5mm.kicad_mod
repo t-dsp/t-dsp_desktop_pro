@@ -6,7 +6,7 @@
 	(descr "CP, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=16mm, Electrolytic Capacitor")
 	(tags "CP Radial series Radial pin pitch 5.00mm diameter 10mm height 16mm Electrolytic Capacitor")
 	(property "Reference" "REF**"
-		(at 2.5 -6.25 0)
+		(at 2.47 -7.2 0)
 		(layer "F.SilkS")
 		(uuid "d9e548bf-107f-44b5-9444-ef6e10159ccb")
 		(effects
@@ -71,6 +71,26 @@
 		)
 		(layer "F.SilkS")
 		(uuid "ef50263a-d998-46db-9bc0-132484adc25f")
+	)
+	(fp_line
+		(start -2.12 -6.31)
+		(end -2.12 -1.79)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e479ed4e-fb2b-4895-bf25-717809159646")
+	)
+	(fp_line
+		(start -2.12 -1.79)
+		(end 6.12 -1.79)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "953396a4-7846-432e-a7b3-0a640d816195")
 	)
 	(fp_line
 		(start 2.5 -5.08)
@@ -1573,6 +1593,16 @@
 		(uuid "c33b81e1-55a2-4989-b823-aae382a1b163")
 	)
 	(fp_line
+		(start 6.12 -6.31)
+		(end -2.12 -6.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e232215-b230-414f-942b-fcdae3b79544")
+	)
+	(fp_line
 		(start 6.14 -3.561)
 		(end 6.14 -1.24)
 		(stroke
@@ -1983,16 +2013,16 @@
 		(layer "F.SilkS")
 		(uuid "24fa9d2b-ce0e-4b1c-bedf-87e0c2809e2b")
 	)
-	(fp_circle
-		(center 2.5 0)
-		(end 7.75 0)
+	(fp_rect
+		(start -2.75 -6.45)
+		(end 7.8 5.25)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "f6c930c6-f6c2-4dc1-89cb-5824284c48a9")
+		(uuid "e0b34ef3-e523-4edd-bae1-faa209541d8a")
 	)
 	(fp_line
 		(start -1.788861 -2.1875)
@@ -2014,6 +2044,56 @@
 		(layer "F.Fab")
 		(uuid "0f26735c-1c26-4917-8677-7a1709e0305b")
 	)
+	(fp_line
+		(start -1.18 -5.2)
+		(end -1.18 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd00187e-14bc-4c25-88b9-b65a9295bad7")
+	)
+	(fp_line
+		(start -1.18 -1.9)
+		(end 6.12 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "40a6b5ad-c6bb-44ba-94c2-d12092f4db0e")
+	)
+	(fp_line
+		(start -0.18 -6.2)
+		(end -1.18 -5.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3319fe0d-d896-423e-96c4-1232f95c6498")
+	)
+	(fp_line
+		(start 6.12 -6.2)
+		(end -0.18 -6.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d283b98-6be3-49db-be0e-1cc96084a335")
+	)
+	(fp_line
+		(start 6.12 -1.9)
+		(end 6.12 -6.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "14c8a06c-91e0-4c00-b565-4d81576b0735")
+	)
 	(fp_circle
 		(center 2.5 0)
 		(end 7.5 0)
@@ -2026,6 +2106,17 @@
 		(uuid "d058475f-b4c5-4ba3-b330-c01f1890d53f")
 	)
 	(fp_text user "${REFERENCE}"
+		(at 2.47 -4.05 0)
+		(layer "F.Fab")
+		(uuid "4e106f4d-008a-4eca-a248-8b858699ee3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
 		(at 2.5 0 0)
 		(layer "F.Fab")
 		(uuid "8eaf28d4-b3eb-47cd-b5e6-7febb8525e41")
@@ -2035,6 +2126,13 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(pad "1" smd roundrect
+		(at -0.7375 -4.05)
+		(size 2.245 2.59)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.111359)
+		(uuid "0fc24488-f1de-490d-a841-6464f3f8093e")
 	)
 	(pad "1" thru_hole roundrect
 		(at 0 0)
@@ -2066,6 +2164,13 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "c99198c4-7ae8-4261-bb36-c4b645956c83")
+	)
+	(pad "2" smd roundrect
+		(at 5.6775 -4.05)
+		(size 2.245 2.59)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.111359)
+		(uuid "3c6f04c9-ec08-4329-b24e-5741ea1e7eb8")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.step"

@@ -20,6 +20,7 @@
 	(property "Value" "BAT2_PinSocket_1x02_P2.54mm_Vertical"
 		(at 0 5.31 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "28466032-0bf1-447d-b188-8100214b9074")
 		(effects
 			(font
@@ -112,46 +113,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "62311b00-ae87-42c8-9fb7-a0d0e72e7fac")
-	)
-	(fp_line
-		(start -1.8 -1.8)
-		(end 1.75 -1.8)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "b10ab2d1-137e-4f05-97ee-00c78696eea3")
-	)
-	(fp_line
-		(start -1.8 4.3)
-		(end -1.8 -1.8)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "b7ec05cf-e8db-4d9d-80c7-512ed782149e")
-	)
-	(fp_line
-		(start 1.75 -1.8)
-		(end 1.75 4.3)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "9ae722cb-ef1c-4f8f-bb3e-30c1b09692fc")
-	)
-	(fp_line
-		(start 1.75 4.3)
-		(end -1.8 4.3)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "fcc79eb6-417d-4b15-a246-6dd866cce4ae")
 	)
 	(fp_line
 		(start -1.27 -1.27)

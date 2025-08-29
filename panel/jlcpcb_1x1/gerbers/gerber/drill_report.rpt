@@ -1,0 +1,43 @@
+Drill report for jlcpcb_1x1.kicad_pcb
+Created on 2025-08-28T23:33:27-0400
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  In3.Cu                    in3
+    L5 :  In4.Cu                    in4
+    L6 :  In5.Cu                    in5
+    L7 :  In6.Cu                    in6
+    L8 :  B.Cu                      back
+
+
+Drill file 'jlcpcb_1x1-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (304 holes)
+    T2  0.400mm  0.0157"  (16 holes)
+    T3  0.600mm  0.0236"  (4 holes)  (with 4 slots)
+    T4  0.750mm  0.0295"  (15 holes)  (with 15 slots)
+    T5  0.800mm  0.0315"  (40 holes)
+    T6  0.920mm  0.0362"  (4 holes)
+    T7  1.000mm  0.0394"  (158 holes)
+    T8  1.100mm  0.0433"  (59 holes)
+    T9  1.300mm  0.0512"  (4 holes)
+    T10  1.400mm  0.0551"  (6 holes)
+    T11  1.500mm  0.0591"  (4 holes)
+    T12  1.700mm  0.0669"  (4 holes)
+    T13  2.200mm  0.0866"  (3 holes)
+    T14  2.300mm  0.0906"  (2 holes)
+    T15  2.450mm  0.0965"  (4 holes)
+
+    Total plated holes count 627
+
+
+Drill file 'jlcpcb_1x1-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.500mm  0.0197"  (24 holes)
+
+    Total unplated holes count 24

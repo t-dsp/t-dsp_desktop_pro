@@ -4118,132 +4118,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:NetTie_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "NT"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_2"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Net tie, 2 pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NetTie_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_2_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -16329,7 +16203,7 @@
 	)
 	(rectangle
 		(start 51.435 257.175)
-		(end 234.315 445.135)
+		(end 292.1 445.135)
 		(stroke
 			(width 0)
 			(type default)
@@ -28821,7 +28695,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f899afa")
 		(property "Reference" "1/4-PHONE1"
 			(at 524.3322 590.1182 0)
@@ -28966,15 +28840,6 @@
 		)
 		(property "Package / Case" "through-hole"
 			(at 916.94 563.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "502-35RAPC4BHN2"
-			(at 918.21 563.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29242,15 +29107,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "603-RC0805DR-072K2L"
-			(at 95.25 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8240abdc-b76d-4044-92e2-74d9d12fd876")
 		)
@@ -29404,15 +29260,6 @@
 			)
 		)
 		(property "Package / Case" "R0805"
-			(at 695.96 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "-"
 			(at 695.96 308.61 0)
 			(effects
 				(font
@@ -29599,24 +29446,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
-			(at 95.25 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
-			(at 95.25 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0b7e649f-e6f0-4c94-86f6-ff72c4a05e4e")
 		)
@@ -29681,15 +29510,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "2020-10-01 PARTS" "RPC0805JT100K"
-			(at 855.98 610.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -29924,15 +29744,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "652-CR0805FX-2200ELF"
-			(at 778.51 566.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ec06a8ae-546f-4ac3-821d-b28014b19def")
 		)
@@ -30021,7 +29832,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1934ba5f-73a3-4c29-9e7c-f1e463ce40cb")
 		(property "Reference" "T_PROG1"
@@ -30323,24 +30134,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
-			(at 172.72 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
-			(at 172.72 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d243b6c0-5dce-4b5b-a1fa-6627f8dae109")
 		)
@@ -30449,7 +30242,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "1d37f3a2-8270-4f6b-9a7e-7a1b6b7f29c0")
 		(property "Reference" "C8"
@@ -30755,24 +30548,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
-			(at 173.99 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
-			(at 173.99 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ff7bed0b-fb25-41ca-b1ce-40b0b2f35ca9")
 		)
@@ -30833,15 +30608,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 381 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
 			(at 381 346.71 0)
 			(effects
 				(font
@@ -31192,25 +30958,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "-"
-			(at 163.83 557.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "-"
-			(at 163.83 557.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
 			(at 163.83 557.53 0)
 			(effects
 				(font
@@ -31306,15 +31054,6 @@
 			)
 		)
 		(property "Package / Case" "C0805"
-			(at 162.56 416.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "581-08055C104M4T4A"
 			(at 162.56 416.56 0)
 			(effects
 				(font
@@ -31557,15 +31296,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "-"
-			(at 958.85 579.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "88d8dbff-4db6-44c7-8d5d-9bf0e488eeca")
 		)
@@ -31665,30 +31395,12 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "502-35RAPC3BH3"
-			(at 533.4 695.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Label" "IN1"
 			(at 533.654 690.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
-			(at 533.4 695.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -31723,7 +31435,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "334c38fa-9ba2-43e9-bbdf-dffeafb4ef22")
 		(property "Reference" "BAT1"
 			(at 87.63 402.5899 0)
@@ -31932,15 +31644,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "652-CR0805FX-2200ELF"
-			(at 877.57 591.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "910b71e0-1176-4ac8-a604-6916c9337067")
 		)
@@ -32037,24 +31740,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "581-08055C104M4T4A"
-			(at 535.94 791.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
-			(at 535.94 791.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d4585aff-07db-4b18-aa9a-f34fc3324317")
 		)
@@ -32065,74 +31750,6 @@
 			(project "audio_back_plane_35_rca"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 515.62 711.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d29a685-c005-4706-973a-507ac0d0cd9d")
-		(property "Reference" "NT1"
-			(at 515.62 706.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 515.62 708.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 515.62 711.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 515.62 711.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 515.62 711.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db73d493-e721-40b8-807e-fd4efe038636")
-		)
-		(pin "2"
-			(uuid "5db21c81-5a18-476b-9d2b-5ef63e7a3aae")
-		)
-		(instances
-			(project ""
-				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
-					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -32209,15 +31826,6 @@
 			)
 		)
 		(property "Digikey" "ERJ-PA2F2211X-ND"
-			(at 439.42 398.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "603-RC0805DR-072K2L"
 			(at 439.42 398.78 0)
 			(effects
 				(font
@@ -32375,36 +31983,6 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1"
-			(at 929.64 730.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "771-HCT2G125DC125"
-			(at 929.64 830.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74HCT2G125DC125?qs=P62ublwmbi%252B%252B1eQ2FD8Fxg%3D%3D"
-			(at 929.64 930.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Nexperia"
 			(at 929.64 1030.2 0)
 			(effects
@@ -32547,15 +32125,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "-"
-			(at 452.12 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f083bc80-8de9-42fc-a2c9-6c3033d7ee4c")
 		)
@@ -32657,15 +32226,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "652-CR0805FX-2200ELF"
-			(at 810.26 552.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "97ab8957-bc45-40d4-a12b-b3596ec82351")
 		)
@@ -32745,24 +32305,6 @@
 				(hide yes)
 			)
 		)
-		(property "TAC5212EVM" "RC0402FR-072K21L"
-			(at 261.62 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REPLACE FOR NEXT BUILD" ""
-			(at 261.62 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C138019"
 			(at 261.62 328.93 90)
 			(effects
@@ -32794,7 +32336,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "45c95cbf-4462-4b70-b368-a80058e66946")
 		(property "Reference" "G2"
 			(at 794.512 283.1084 0)
@@ -32860,15 +32402,6 @@
 			)
 		)
 		(property "Package / Case" "jumper"
-			(at 796.29 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "-"
 			(at 796.29 281.94 0)
 			(effects
 				(font
@@ -33040,15 +32573,6 @@
 		)
 		(property "Package / Case" "through-hole"
 			(at 928.37 539.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "502-35RAPC4BHN2"
-			(at 929.64 539.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33238,24 +32762,6 @@
 				(hide yes)
 			)
 		)
-		(property "TAC5212EVM" "RC0402FR-072K21L"
-			(at 227.33 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REPLACE FOR NEXT BUILD" ""
-			(at 227.33 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C138019"
 			(at 227.33 323.85 90)
 			(effects
@@ -33421,15 +32927,6 @@
 			)
 		)
 		(property "Digikey" "ERJ-PA2F2211X-ND"
-			(at 439.42 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "603-RC0805DR-072K2L"
 			(at 439.42 391.16 0)
 			(effects
 				(font
@@ -33671,15 +33168,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "80-C0805C104K5RACLR"
-			(at 838.2 942.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "bb6729b6-b2a8-49d1-a84d-0f19ac25e315")
 		)
@@ -33775,15 +33263,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "80-C0805C104K5RACLR"
-			(at 835.66 886.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c30c4c13-35ac-4f64-8cd3-48bc61566cb1")
 		)
@@ -33871,15 +33350,6 @@
 			)
 		)
 		(property "Package / Case" "C0805"
-			(at 133.35 416.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "581-08055C104M4T4A"
 			(at 133.35 416.56 0)
 			(effects
 				(font
@@ -34208,106 +33678,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector, 2POS RA SHLD PHJK RE | Switchcraft PJRAS2X1S01X"
 			(at 566.4192 676.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Switchcraft Inc."
-			(at 566.4192 676.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Connector, 2POS RA SHLD PHJK RE | Switchcraft PJRAS2X1S01X"
-			(at 566.4192 676.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Package" "None"
-			(at 566.4192 676.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 566.4192 676.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=eda"
-			(at 566.4192 676.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET" "http://datasheets.diptrace.com/con_rca_jack/pjras2x1s__x_series_cd.pdf"
-			(at 566.4192 676.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=snap"
-			(at 566.4192 676.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "PJRAS2X1S01X"
-			(at 566.4192 676.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 566.4192 676.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Switchcraft"
 			(at 566.4192 676.91 0)
 			(effects
 				(font
@@ -34396,15 +33776,6 @@
 			(effects
 				(font
 					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
-			(at 416.56 703.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -34645,15 +34016,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
-			(at 763.27 313.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "P100BYCT-ND"
 			(at 763.27 313.69 0)
 			(effects
@@ -34774,15 +34136,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "-"
-			(at 957.58 570.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1744e714-088d-430b-b818-c6f9b357dc78")
 		)
@@ -34855,15 +34208,6 @@
 			)
 		)
 		(property "Package / Case" "header"
-			(at 938.53 844.55 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "-"
 			(at 938.53 844.55 0)
 			(effects
 				(font
@@ -34976,7 +34320,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "598fd08a-882e-48d7-84e3-bc7565397896")
 		(property "Reference" "R8"
 			(at 171.069 348.361 90)
@@ -35049,24 +34393,6 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 172.72 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "603-RC0805DR-072K2L"
-			(at 172.72 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
 			(at 172.72 347.98 0)
 			(effects
 				(font
@@ -35259,15 +34585,6 @@
 			)
 		)
 		(property "Package / Case" "C1206"
-			(at 102.87 542.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
 			(at 102.87 542.29 0)
 			(effects
 				(font
@@ -35573,24 +34890,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
-			(at 171.45 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
-			(at 171.45 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0458c972-6acb-4062-867b-4e141e1eca51")
 		)
@@ -35653,15 +34952,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 477.52 788.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
 			(at 477.52 788.67 0)
 			(effects
 				(font
@@ -35760,15 +35050,6 @@
 			)
 		)
 		(property "Package / Case" "R0805"
-			(at 763.27 304.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "652-CMP0805AFX-1000L"
 			(at 763.27 304.8 0)
 			(effects
 				(font
@@ -35945,15 +35226,6 @@
 				)
 			)
 		)
-		(property "2020-10-01 PARTS" "RPC0805JT100K"
-			(at 775.97 549.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "fb55b18b-17b0-42c5-ba87-8f8988e896e6")
 		)
@@ -36042,15 +35314,6 @@
 			)
 		)
 		(property "Package / Case" "R0805"
-			(at 695.96 311.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "-"
 			(at 695.96 311.15 0)
 			(effects
 				(font
@@ -36228,15 +35491,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "80-C0805C104K5RACLR"
-			(at 838.2 1005.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f99e0aa4-6e0c-4635-ac46-b33dd5e96b6d")
 		)
@@ -36388,15 +35642,6 @@
 			)
 		)
 		(property "Digikey" "ERJ-PA2F2211X-ND"
-			(at 441.96 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "603-RC0805DR-072K2L"
 			(at 441.96 387.35 0)
 			(effects
 				(font
@@ -36566,15 +35811,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CR0805-FX-2200ELF"
-			(at 878.84 561.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "652-CR0805FX-2200ELF"
 			(at 878.84 561.34 0)
 			(effects
 				(font
@@ -37017,15 +36253,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "80-C0805C104K5RACLR"
-			(at 791.21 552.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "13d6c411-caf7-4e0b-85aa-3e2c0109618c")
 		)
@@ -37122,15 +36349,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "-"
-			(at 674.37 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "-"
 			(at 674.37 393.7 0)
 			(effects
@@ -37210,24 +36428,6 @@
 			)
 		)
 		(property "Package / Case" "R0402"
-			(at 270.51 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TAC5212EVM" "RC0402FR-072K21L"
-			(at 270.51 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REPLACE FOR NEXT BUILD" ""
 			(at 270.51 328.93 0)
 			(effects
 				(font
@@ -37332,7 +36532,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "79cc7968-bad5-48b1-b964-293bcbc53239")
 		(property "Reference" "D1"
 			(at 474.98 717.0293 0)
@@ -37378,15 +36578,6 @@
 			)
 		)
 		(property "Label" "ESP32"
-			(at 463.55 721.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
 			(at 463.55 721.36 0)
 			(effects
 				(font
@@ -37533,106 +36724,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector, 2POS RA SHLD PHJK RE | Switchcraft PJRAS2X1S01X"
 			(at 524.5092 547.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Switchcraft Inc."
-			(at 524.5092 547.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Connector, 2POS RA SHLD PHJK RE | Switchcraft PJRAS2X1S01X"
-			(at 524.5092 547.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Package" "None"
-			(at 524.5092 547.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 524.5092 547.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=eda"
-			(at 524.5092 547.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET" "http://datasheets.diptrace.com/con_rca_jack/pjras2x1s__x_series_cd.pdf"
-			(at 524.5092 547.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=snap"
-			(at 524.5092 547.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "PJRAS2X1S01X"
-			(at 524.5092 547.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 524.5092 547.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Switchcraft"
 			(at 524.5092 547.37 0)
 			(effects
 				(font
@@ -37719,24 +36820,6 @@
 			)
 		)
 		(property "Package / Case" "R0402"
-			(at 218.44 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TAC5212EVM" "RC0402FR-072K21L"
-			(at 218.44 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REPLACE FOR NEXT BUILD" ""
 			(at 218.44 323.85 0)
 			(effects
 				(font
@@ -37935,15 +37018,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "581-08055C104M4T4A"
-			(at 339.09 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "393f4d22-8ffb-4a4a-83f8-ea023244890c")
 		)
@@ -38041,25 +37115,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "-"
-			(at 496.57 579.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "-"
-			(at 496.57 579.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
 			(at 496.57 579.12 0)
 			(effects
 				(font
@@ -38163,24 +37219,6 @@
 			)
 		)
 		(property "Digikey" "P100BYCT-ND"
-			(at 87.63 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "652-CMP0805AFX-1000L"
-			(at 87.63 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
 			(at 87.63 322.58 0)
 			(effects
 				(font
@@ -38370,15 +37408,6 @@
 				(hide yes)
 			)
 		)
-		(property "2020-10-01 PARTS" ""
-			(at 140.97 543.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7f962b10-45f5-481a-9354-467891d9d98e")
 		)
@@ -38485,25 +37514,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "-"
-			(at 495.3 595.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "-"
-			(at 495.3 595.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
 			(at 495.3 595.63 0)
 			(effects
 				(font
@@ -38599,15 +37610,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0805JR-0747RL"
-			(at 878.84 565.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "603-RC0805JR-0747RL"
 			(at 878.84 565.15 0)
 			(effects
 				(font
@@ -38712,24 +37714,6 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 336.55 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "603-RC0805DR-072K2L"
-			(at 336.55 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
 			(at 336.55 358.14 0)
 			(effects
 				(font
@@ -38904,24 +37888,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "581-08055C104M4T4A"
-			(at 939.8 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
-			(at 939.8 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "cebb2f96-6966-4a56-bbcb-a6e7f17e9a85")
 		)
@@ -38982,106 +37948,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector, 2POS RA SHLD PHJK RE | Switchcraft PJRAS2X1S01X"
 			(at 566.42 662.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Switchcraft Inc."
-			(at 566.42 662.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Connector, 2POS RA SHLD PHJK RE | Switchcraft PJRAS2X1S01X"
-			(at 566.42 662.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Package" "None"
-			(at 566.42 662.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 566.42 662.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=eda"
-			(at 566.42 662.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET" "http://datasheets.diptrace.com/con_rca_jack/pjras2x1s__x_series_cd.pdf"
-			(at 566.42 662.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=snap"
-			(at 566.42 662.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "PJRAS2X1S01X"
-			(at 566.42 662.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 566.42 662.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Switchcraft"
 			(at 566.42 662.94 0)
 			(effects
 				(font
@@ -39194,25 +38070,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "-"
-			(at 515.62 702.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "-"
-			(at 515.62 702.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
 			(at 515.62 702.31 0)
 			(effects
 				(font
@@ -39510,106 +38368,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector, 2POS RA SHLD PHJK RE | Switchcraft PJRAS2X1S01X"
 			(at 524.51 533.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Switchcraft Inc."
-			(at 524.51 533.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Connector, 2POS RA SHLD PHJK RE | Switchcraft PJRAS2X1S01X"
-			(at 524.51 533.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Package" "None"
-			(at 524.51 533.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 524.51 533.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=eda"
-			(at 524.51 533.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET" "http://datasheets.diptrace.com/con_rca_jack/pjras2x1s__x_series_cd.pdf"
-			(at 524.51 533.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJRAS2X1S01X/SWITCHCRAFT/view-part/?ref=snap"
-			(at 524.51 533.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "PJRAS2X1S01X"
-			(at 524.51 533.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 524.51 533.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Switchcraft"
 			(at 524.51 533.4 0)
 			(effects
 				(font
@@ -39800,24 +38568,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 951.23 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
-			(at 951.23 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "53ae44de-c746-4d59-9759-7d14c356a699")
 		)
@@ -40000,24 +38750,6 @@
 			)
 		)
 		(property "Digikey" "P100BYCT-ND"
-			(at 173.99 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "652-CMP0805AFX-1000L"
-			(at 173.99 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
 			(at 173.99 368.3 0)
 			(effects
 				(font
@@ -40415,15 +39147,6 @@
 			)
 		)
 		(property "Package / Case" "R0805"
-			(at 674.37 401.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "-"
 			(at 674.37 401.32 0)
 			(effects
 				(font
@@ -40949,24 +39672,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "652-CMP0805AFX-1000L"
-			(at 87.63 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
-			(at 87.63 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "da75f09f-b3f7-4181-8d5a-4f26b2ac1dfb")
 		)
@@ -40987,9 +39692,9 @@
 		(at 499.11 379.73 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "be9e19a0-8159-41cc-a55c-abd02f6a88f2")
 		(property "Reference" "ILI1"
 			(at 489.712 360.68 0)
@@ -41318,30 +40023,12 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "502-35RAPC3BH3"
-			(at 514.35 572.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Label" "OUT"
 			(at 514.604 566.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
-			(at 514.35 572.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -41440,15 +40127,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "~Teensy4.1"
-			(at 133.35 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
 			(at 133.35 364.49 0)
 			(effects
 				(font
@@ -41878,25 +40556,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "603-RC0805DR-072K2L"
-			(at 195.58 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
-			(at 195.58 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
 			(at 195.58 359.41 0)
 			(effects
 				(font
@@ -41927,7 +40587,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c6d7d376-8188-446b-b388-4ba9cd4c8642")
 		(property "Reference" "D5"
 			(at 1084.58 339.8393 0)
@@ -41973,15 +40633,6 @@
 			)
 		)
 		(property "Label" "ESP32"
-			(at 1073.15 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
 			(at 1073.15 344.17 0)
 			(effects
 				(font
@@ -42161,25 +40812,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "-"
-			(at 505.46 574.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "-"
-			(at 505.46 574.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
 			(at 505.46 574.04 0)
 			(effects
 				(font
@@ -42277,15 +40910,6 @@
 			)
 		)
 		(property "Package / Case" "R0805"
-			(at 715.01 388.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "-"
 			(at 715.01 388.62 0)
 			(effects
 				(font
@@ -42438,15 +41062,6 @@
 			)
 		)
 		(property "Package / Case" "through-hole"
-			(at 789.94 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "-"
 			(at 789.94 332.74 0)
 			(effects
 				(font
@@ -42726,24 +41341,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "-"
-			(at 1167.13 1074.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
-			(at 1167.13 1074.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c6a3061d-4e7c-41f1-9b71-0f9f3a53bc5d")
 		)
@@ -43011,15 +41608,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "80-C0805C104K5RACLR"
-			(at 838.2 820.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c40677ca-d71a-419e-a453-c95ab1dedb57")
 		)
@@ -43187,15 +41775,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0805JR-0747RL"
-			(at 872.49 586.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "603-RC0805JR-0747RL"
 			(at 872.49 586.74 0)
 			(effects
 				(font
@@ -43397,15 +41976,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "667-ERA-6AED152V"
-			(at 806.45 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b3bcc0fd-4b01-4245-aeaa-89005e7afa9a")
 		)
@@ -43501,15 +42071,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "603-RC0805DR-072K2L"
-			(at 434.34 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 434.34 346.71 0)
 			(effects
@@ -43539,7 +42100,7 @@
 		(at 349.25 283.21 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -43694,15 +42255,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "-"
-			(at 791.21 614.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5cf3858a-13a8-46a6-8f24-4de4efa5ba71")
 		)
@@ -43830,25 +42382,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "-"
-			(at 523.24 697.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "-"
-			(at 523.24 697.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
 			(at 523.24 697.23 0)
 			(effects
 				(font
@@ -44017,15 +42551,6 @@
 			)
 		)
 		(property "Package / Case" "jumper"
-			(at 488.95 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "-"
 			(at 488.95 354.33 0)
 			(effects
 				(font
@@ -44240,15 +42765,6 @@
 				(hide yes)
 			)
 		)
-		(property "2020-10-01 PARTS" ""
-			(at 477.52 764.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "5"
 			(uuid "21a0b2f8-9a38-4834-85c6-b6d8549deea2")
 		)
@@ -44441,7 +42957,7 @@
 		(at 491.49 382.27 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "e6962771-844a-4c16-a868-99edf06c690d")
@@ -44586,25 +43102,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "-"
-			(at 486.41 600.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "-"
-			(at 486.41 600.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
 			(at 486.41 600.71 0)
 			(effects
 				(font
@@ -44696,56 +43194,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Global Connector Technology"
-			(at 720.09 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.46 mm"
-			(at 720.09 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARDD" "Manufacturer Recommendations"
-			(at 720.09 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A4"
-			(at 720.09 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "USB4085-GF-A"
-			(at 720.09 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -44890,15 +43338,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0805C104K5RAC7411"
-			(at 863.6 613.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "80-C0805C104K5RACLR"
 			(at 863.6 613.41 0)
 			(effects
 				(font
@@ -45165,15 +43604,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "-"
-			(at 934.72 922.02 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "-"
 			(at 934.72 922.02 0)
 			(effects
@@ -45425,15 +43855,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "603-RC0805DR-072K2L"
-			(at 91.44 330.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2a2fb7f0-6e12-4599-867a-f544f60e1f09")
 		)
@@ -45522,24 +43943,6 @@
 			)
 		)
 		(property "Package / Case" "C0805"
-			(at 535.94 767.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "581-08055C104M4T4A"
-			(at 535.94 767.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "2020-10-01 PARTS" ""
 			(at 535.94 767.08 0)
 			(effects
 				(font
@@ -45795,15 +44198,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "581-08055C104M4T4A"
-			(at 339.09 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "db8149bc-8ec3-4feb-a2e9-03cc52b03108")
 		)
@@ -46050,15 +44444,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "603-RC0805DR-072K2L"
-			(at 441.96 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 441.96 368.3 0)
 			(effects
@@ -46089,7 +44474,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "fa1f03b8-218d-4ab4-93b1-d86d0187610d")
 		(property "Reference" "C6"
@@ -46213,15 +44598,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N4148W_R1_00001"
-			(at 784.86 571.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "241-1N4148W_R1_00001"
 			(at 784.86 571.5 0)
 			(effects
 				(font

@@ -1,0 +1,36 @@
+{
+    "layout": {
+        "hspace": "2mm",
+		"vspace": "1mm",
+        "rows": "1",
+        "cols": "1",
+		"rotation": "0deg"
+    },
+    "framing": {
+        "type": "frame",
+		"mintotalheight": "70.46mm",
+		"mintotalwidth": "70.46mm",
+		"cuts": "h"
+    },
+    "tabs": {
+        "type": "annotation"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "offset": "-0.25mm",
+        "prolong": "0.5mm"
+    },
+    "fiducials": {
+        "type": "4fid",
+		"hoffset": "4mm",
+        "voffset": "4mm"
+    },
+    "text": {
+        "type": "simple",
+        "hoffset": "-15mm",
+        "voffset": "-4mm",
+        "hjustify": "right",
+        "text": "T-DSP_DESKTOP_SOUNDCARD",
+        "anchor": "br"
+    }
+}

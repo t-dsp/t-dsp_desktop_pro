@@ -58,100 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|137903431|173757498|c077c8d7-230b-43e3-8413-fef365bf9871|e3514f60-8a3f-419e-9a31-f659264b980b",
-          "not intended to be populated at the same time."
-        ],
-        [
-          "courtyards_overlap|149903431|173757498|1d64f072-26ac-48db-93e1-d9d4b7d709ab|32b3d088-ac6c-442d-891f-490b759d0691",
-          ""
-        ],
-        [
-          "courtyards_overlap|211235000|128435000|23f31850-725b-47b8-bd36-b13d4d5d1778|94fff3d2-5f6c-46d9-a1fa-ffd3f80d26b4",
-          "GPIO HEADER"
-        ],
-        [
-          "courtyards_overlap|213707500|176762262|0f0da7d0-234a-4e3d-a97d-d8947e88e7fe|4cd72bfa-855a-44d0-9196-1deec90ca540",
-          "GPIO HEADER"
-        ],
-        [
-          "courtyards_overlap|213745000|143645000|8660aa3d-a013-4564-8845-5f057d3c0190|8bcd42f2-724f-44ae-937b-e31cf87496c5",
-          "GPIO HEADER"
-        ],
-        [
-          "courtyards_overlap|213745000|153805000|8660aa3d-a013-4564-8845-5f057d3c0190|c1737404-d4c0-48ef-86d7-822a324e8f8b",
-          "GPIO HEADER"
-        ],
-        [
-          "courtyards_overlap|213745000|166535000|c1737404-d4c0-48ef-86d7-822a324e8f8b|dfcae4ee-3bc3-40e7-83b9-19c9188cfae1",
-          "GPIO HEADER"
-        ],
-        [
-          "courtyards_overlap|213745000|176762262|2e96154c-c1a7-4381-942b-5e24de9bda91|4cd72bfa-855a-44d0-9196-1deec90ca540",
-          "GPIO HEADER"
-        ],
-        [
-          "courtyards_overlap|213754625|166535000|2e96154c-c1a7-4381-942b-5e24de9bda91|dfcae4ee-3bc3-40e7-83b9-19c9188cfae1",
-          "GPIO HEADER"
-        ],
-        [
-          "courtyards_overlap|213775000|128435000|4e2a54ac-88b1-4468-b227-fd16f2fcc6ea|94fff3d2-5f6c-46d9-a1fa-ffd3f80d26b4",
-          "GPIO HEADER"
-        ],
-        [
-          "courtyards_overlap|214320921|130945000|4e2a54ac-88b1-4468-b227-fd16f2fcc6ea|8660aa3d-a013-4564-8845-5f057d3c0190",
-          "GPIO HEADER"
-        ],
-        [
-          "courtyards_overlap|214472869|176762262|4cd72bfa-855a-44d0-9196-1deec90ca540|dfcae4ee-3bc3-40e7-83b9-19c9188cfae1",
-          "GPIO HEADER"
-        ],
-        [
-          "courtyards_overlap|214696886|166535000|8660aa3d-a013-4564-8845-5f057d3c0190|dfcae4ee-3bc3-40e7-83b9-19c9188cfae1",
-          "GPIO HEADER"
-        ],
-        [
-          "courtyards_overlap|214757500|184432262|4cd72bfa-855a-44d0-9196-1deec90ca540|d8372413-232a-4d27-b5e4-51df5c068467",
-          "GPIO HEADER"
-        ],
-        [
-          "courtyards_overlap|214765000|130945000|8660aa3d-a013-4564-8845-5f057d3c0190|94fff3d2-5f6c-46d9-a1fa-ffd3f80d26b4",
-          "GPIO HEADER"
-        ],
-        [
-          "courtyards_overlap|214765000|176762262|0f0da7d0-234a-4e3d-a97d-d8947e88e7fe|dfcae4ee-3bc3-40e7-83b9-19c9188cfae1",
-          "GPIO HEADER"
-        ],
-        [
-          "courtyards_overlap|214795000|166505000|2e96154c-c1a7-4381-942b-5e24de9bda91|8660aa3d-a013-4564-8845-5f057d3c0190",
-          "GPIO HEADER"
-        ],
-        [
-          "courtyards_overlap|216894456|184432262|0f0da7d0-234a-4e3d-a97d-d8947e88e7fe|d8372413-232a-4d27-b5e4-51df5c068467",
-          "GPIO HEADER"
-        ],
-        [
-          "courtyards_overlap|216960543|128435000|23f31850-725b-47b8-bd36-b13d4d5d1778|4e2a54ac-88b1-4468-b227-fd16f2fcc6ea",
-          "GPIO HEADER"
-        ],
-        [
-          "courtyards_overlap|217035757|176762262|0f0da7d0-234a-4e3d-a97d-d8947e88e7fe|2e96154c-c1a7-4381-942b-5e24de9bda91",
-          "GPIO HEADER"
-        ],
-        [
-          "courtyards_overlap|217305000|143645000|4e2a54ac-88b1-4468-b227-fd16f2fcc6ea|8bcd42f2-724f-44ae-937b-e31cf87496c5",
-          "GPIO HEADER"
-        ],
-        [
-          "courtyards_overlap|217335000|153805000|8bcd42f2-724f-44ae-937b-e31cf87496c5|c1737404-d4c0-48ef-86d7-822a324e8f8b",
-          "GPIO HEADER"
-        ],
-        [
-          "courtyards_overlap|217335000|166505000|2e96154c-c1a7-4381-942b-5e24de9bda91|c1737404-d4c0-48ef-86d7-822a324e8f8b",
-          "GPIO HEADER"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -684,9 +591,123 @@
       "ref_range_delimiter": "",
       "string_delimiter": "\""
     },
-    "bom_presets": [],
+    "bom_presets": [
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Digikey",
+            "name": "Digikey",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "LCSC",
+            "name": "LCSC",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DATASHEET",
+            "name": "DATASHEET",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Manufacturer",
+            "name": "Manufacturer",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Package / Case",
+            "name": "Package / Case",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Label",
+            "name": "Label",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Package",
+            "name": "Package",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Manufacturer_Name",
+            "name": "Manufacturer_Name",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Manufacturer_Part_Number",
+            "name": "Manufacturer_Part_Number",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "include_excluded_from_bom": false,
+        "name": "PRESET_1",
+        "sort_asc": true,
+        "sort_field": "Reference"
+      }
+    ],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -716,13 +737,13 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -732,104 +753,26 @@
         },
         {
           "group_by": false,
-          "label": "2020-10-01 PARTS",
-          "name": "2020-10-01 PARTS",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Availability",
-          "name": "Availability",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Check_prices",
-          "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description_1",
-          "name": "Description_1",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Digikey",
           "name": "Digikey",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Label",
-          "name": "Label",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
         },
         {
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PCBWAY_2020-06-09",
-          "name": "PCBWAY_2020-06-09",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PCBWAY_2020-08-27",
-          "name": "PCBWAY_2020-08-27",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PCBWAY_2020_04_18",
-          "name": "PCBWAY_2020_04_18",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
           "show": false
         },
         {
@@ -840,80 +783,14 @@
         },
         {
           "group_by": false,
-          "label": "Price",
-          "name": "Price",
+          "label": "Label",
+          "name": "Label",
           "show": false
         },
         {
           "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SnapEDA_Link",
-          "name": "SnapEDA_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "mouser",
-          "name": "mouser",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SNAPEDA_PN",
-          "name": "SNAPEDA_PN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARDD",
-          "name": "STANDARDD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Price/Stock",
-          "name": "Arrow Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Comments",
-          "name": "Comments",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Part Number",
-          "name": "Arrow Part Number",
+          "label": "Package",
+          "name": "Package",
           "show": false
         },
         {
@@ -921,6 +798,12 @@
           "label": "Manufacturer_Name",
           "name": "Manufacturer_Name",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": true
         }
       ],
       "filter_string": "",

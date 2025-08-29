@@ -20,6 +20,7 @@
 	(property "Value" "TAC5212 GPIO_PinHeader_1x06_P2.54mm_Vertical"
 		(at 0 15.08 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "3184c327-e41f-4056-a1af-62c0ac1c407b")
 		(effects
 			(font
@@ -112,46 +113,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "e83d8265-4f75-4aa6-bf19-f7f70260feb4")
-	)
-	(fp_line
-		(start -1.77 -1.77)
-		(end -1.77 14.47)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "53b796eb-bd59-4723-9720-13292e7f852a")
-	)
-	(fp_line
-		(start -1.77 14.47)
-		(end 1.77 14.47)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "2abae2b9-2e41-42ff-9dce-0a1deefee7fa")
-	)
-	(fp_line
-		(start 1.77 -1.77)
-		(end -1.77 -1.77)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "06006989-43f5-4a1b-8e82-8a2892308d09")
-	)
-	(fp_line
-		(start 1.77 14.47)
-		(end 1.77 -1.77)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "404de67b-b9e9-4688-83ee-765ba396a1b3")
 	)
 	(fp_line
 		(start -1.27 -0.635)
