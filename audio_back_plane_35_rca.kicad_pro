@@ -617,7 +617,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "5v",
+        "name": ".5MM TRACE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -640,8 +640,8 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "5v",
-        "pattern": "5v"
+        "netclass": ".5MM TRACE",
+        "pattern": "5v,12V, 5V_JST, 5V_USB"
       },
       {
         "netclass": "AUDIO",
