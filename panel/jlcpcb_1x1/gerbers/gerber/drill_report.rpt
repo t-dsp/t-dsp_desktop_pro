@@ -1,5 +1,5 @@
 Drill report for jlcpcb_1x1.kicad_pcb
-Created on 2025-08-28T23:33:27-0400
+Created on 2025-08-29T08:53:10-0400
 
 Copper Layer Stackup:
     =============================================================
@@ -16,7 +16,7 @@ Copper Layer Stackup:
 Drill file 'jlcpcb_1x1-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.300mm  0.0118"  (304 holes)
+    T1  0.300mm  0.0118"  (356 holes)
     T2  0.400mm  0.0157"  (16 holes)
     T3  0.600mm  0.0236"  (4 holes)  (with 4 slots)
     T4  0.750mm  0.0295"  (15 holes)  (with 15 slots)
@@ -32,7 +32,7 @@ Drill file 'jlcpcb_1x1-PTH.drl' contains
     T14  2.300mm  0.0906"  (2 holes)
     T15  2.450mm  0.0965"  (4 holes)
 
-    Total plated holes count 627
+    Total plated holes count 679
 
 
 Drill file 'jlcpcb_1x1-NPTH.drl' contains

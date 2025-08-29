@@ -372,6 +372,17 @@
 		(layer "F.Fab")
 		(uuid "36999695-f832-4e88-ad8e-d8cf771c4194")
 	)
+	(fp_text user "${Label}"
+		(at 0.05 25.35 0)
+		(layer "F.SilkS")
+		(uuid "ec2c4e93-48b6-4ab0-8671-f9ed02393207")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at -6.35 -8.115 180)
 		(layer "F.Fab")

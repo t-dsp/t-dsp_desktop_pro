@@ -341,227 +341,7 @@
     "netclass_patterns": [
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-7_OUT1A"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(board_outline1-AGND-Pad50)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-MCLK1+TDM1"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U2-CMD-Pad18)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/SWITCH"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U3-GND-Pad1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(MIDI_IN_1-Pad4)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-5V_JST"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(ILI1-DC)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(R38-Pad2)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/ESP32_IO3"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-9_OUT1C_INPUT"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U2-SD_DATA0{slash}GPIO7-Pad21)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-GND"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U1-23_A9_CRX1_MCLK1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U1-22_A8_CTX1-Pad44)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U9C-VCC)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-7_OUT1A+"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(board_outline2-GND-Pad3)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-SDA1"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-ESP32_3.3V"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-LRCK1+TDM2"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/ESP32_IO21_SDA"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U8-~{2OE}-Pad7)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(ILI1-SDO(MISO))"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-TEENSY_LED+"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(board_outline2-GND-Pad2)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-ESP32_IO0"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-TEENSY_LED"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-ESP32_IO12_SPI_MISO"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-LRCK1+TDM1"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U1-31_CTX3-Pad23)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(D2-K)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-12V"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(board_outline2-GND-Pad4)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U1-27_A13_SCK1-Pad19)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(HPTRS2-Pad4)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(D1-Pin_4)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(PWR1-A)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-BCLK1+TDM1"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-T_BUTTON1"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(board_outline1-MIC_BIAS-Pad48)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-4_BCLK2"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(ILI1-T_CS)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(board_outline1-12V-Pad5)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(1/4-PHONE1-PadT)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U1-VUSB-Pad49)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(USBC1-DN2-PadB7)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-3_LRCLK2"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(ILI1-VCC_(5V))"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-HOST_5V"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-T_BUTTON2"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-DEVICE_D1+"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-BCLK1+TDM2"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-ESP32_LED+"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-MIDI_OUT_4"
+        "pattern": "Board_0-MIDI_THRU_4"
       },
       {
         "netclass": "Board_0-Default",
@@ -569,143 +349,19 @@
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U1-7_RX2_OUT1A)"
+        "pattern": "Board_0-Net-(R38-Pad2)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(ILI1-CS)"
+        "pattern": "Board_0-8_IN1"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(board_outline1-IN2M-Pad35)"
+        "pattern": "Board_0-MIDI_OUT_4"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-32_OUT1B"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(board_outline1-OUT1M-Pad23)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/OUTPUTB"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-MIDI_THRU_4"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(1/4-PHONE1-PadRN)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U1-15_A1_RX3_SPDIF_IN-Pad37)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(R36-Pad2)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(GPI1-Pin_2)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(BAT1-Pin_2)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U1-20_A6_TX5_LRCLK1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(USBC1-CC1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-IOVDD"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-54_ON_OFF"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(ILI1-LED_(3.3V))"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-ESP32_IO13_SPI_MOSI"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(board_outline1-AGND-Pad49)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(BAT1-Pin_1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-MIDI_IN_4"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(board_outline2-GND-Pad1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-USB_SHIELD2"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U3-PR1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U7-GND-Pad4)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(USBC1-SBU1-PadA8)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(board_outline1-SDA-Pad38)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-HOST_D1-"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(HPTRS2-Pad3)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-ESP32_LED"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(USBC1-DP2-PadB6)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U1-14_A0_TX3_SPDIF_OUT-Pad36)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(PWR2-A)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-DEVICE_D1-"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-5V"
+        "pattern": "Board_0-Net-(D2-K)"
       },
       {
         "netclass": "Board_0-Default",
@@ -713,95 +369,23 @@
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(ILI1-SDI(MOSI))"
+        "pattern": "Board_0-Net-(GPI1-Pin_2)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(R15-Pad1)"
+        "pattern": "Board_0-Net-(U1-6_OUT1D)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(1/4-PHONE1-PadTN)"
+        "pattern": "Board_0-Net-(C16-Pad2)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-MCLK1"
+        "pattern": "Board_0-T_BUTTON1"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U1-21_A7_RX5_BCLK1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-53_T_PROG"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(USBC1-CC2)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U1-41_A17)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-6_OUT1D"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-SDA0"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(board_outline1-OUT2M-Pad27)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(1/4-PHONE1-PadR)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/OUTPUTA"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-2_OUT2"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-MIDI_THRU_5"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U2-*GPIO5)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(D1-Pin_1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U2-SD_DATA1{slash}GPIO8-Pad22)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U8-GND-Pad4)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-MIDI_OUT_5"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-5_IN2"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-SN"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(board_outline1-IN1M-Pad31)"
+        "pattern": "Board_0-unconnected-(U4-Pad3)"
       },
       {
         "netclass": "Board_0-Default",
@@ -809,91 +393,35 @@
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-35_TX8_RESET"
+        "pattern": "Board_0-ESP32_LED_OUT"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-ESP32_EN"
+        "pattern": "Board_0-MIDI_IN_4"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-BCLK1"
+        "pattern": "Board_0-7_OUT1A+"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U3-ST)"
+        "pattern": "Board_0-Net-(HPTRS1-Pad4)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-SCL1"
+        "pattern": "Board_0-Net-(ILI1-RESET)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-MCLK2"
+        "pattern": "Board_0-Net-(U1-23_A9_CRX1_MCLK1)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U1-3V3-Pad15)"
+        "pattern": "Board_0-unconnected-(U3-GND-Pad1)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U1-30_CRX3-Pad22)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/ESP32_IO22_SCL"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-LRCK1"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-SCL0"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(HPTRS1-Pad3)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-USB_SHIELD"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-VIN2_SECONDARY"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U2-SD_DATA2{slash}GPIO9-Pad16)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-MIDI_RX"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(D1-Pin_3)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U1-3V3-Pad51)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-ESP32_IO14_SPI_SCK"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(USBC1-SBU2-PadB8)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-3.3V"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U2-SD_DATA3{slash}GPIO10-Pad17)"
+        "pattern": "Board_0-unconnected-(board_outline1-OUT1M-Pad23)"
       },
       {
         "netclass": "Board_0-Default",
@@ -901,11 +429,187 @@
       },
       {
         "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(1/4-PHONE1-PadRN)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(R49-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-MIDI_THRU_5"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(board_outline1-IN1M-Pad31)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-54_ON_OFF"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U9C-VCC)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-DEVICE_D1-"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(board_outline1-OUT2M-Pad27)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-ESP32_LED"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(ILI1-DC)"
+      },
+      {
+        "netclass": "Board_0-Default",
         "pattern": "Board_0-unconnected-(board_outline1-GNDD-Pad39)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(J8-PadT1)"
+        "pattern": "Board_0-ESP32_IO14_SPI_SCK"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(1/4-PHONE1-PadR)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(ILI1-SDI(MOSI))"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-T_BUTTON2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U1-27_A13_SCK1-Pad19)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-53_T_PROG"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U1-21_A7_RX5_BCLK1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(HPTRS1-Pad3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U1-30_CRX3-Pad22)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U1-3V3-Pad15)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-6_OUT1D+"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U1-7_RX2_OUT1A)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/OUTPUTA"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2-SD_DATA1{slash}GPIO8-Pad22)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U2-*GPIO5)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-MCLK1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SCL0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(USBC1-DN2-PadB7)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ESP32_IO21_SDA"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-MIDI_OUT_5"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-ESP32_LED+"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(USBC1-CC2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(BAT1-Pin_1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D1-Pin_1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/AUDIO_IN1P"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(PWR2-A)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(R51-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-34_RX8_RESET2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(1/4-PHONE1-PadT)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-MIDI_RX"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(R50-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(ILI1-SCK)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-5V_USB"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-DEVICE_D1+"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(ILI1-CS)"
       },
       {
         "netclass": "Board_0-Default",
@@ -917,127 +621,51 @@
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-/ESP32_IO1"
+        "pattern": "Board_0-Net-(U8-1Y)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-6_OUT1D+"
+        "pattern": "Board_0-unconnected-(board_outline1-AGND-Pad49)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(board_outline1-SCL-Pad37)"
+        "pattern": "Board_0-TEENSY_LED"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(J8-PadT2)"
+        "pattern": "Board_0-unconnected-(USBC1-SBU2-PadB8)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U1-32_OUT1B)"
+        "pattern": "Board_0-unconnected-(board_outline1-12V-Pad5)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-8_IN1"
+        "pattern": "Board_0-Net-(HPTRS2-Pad4)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-MIDI_IN_5"
+        "pattern": "Board_0-Net-(U5-2Y)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(GPI1-Pin_1)"
+        "pattern": "Board_0-LRCK1"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(MIDI_IN_1-Pad3)"
+        "pattern": "Board_0-ESP32_3.3V"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-ESP32_LED_OUT"
+        "pattern": "Board_0-unconnected-(U2-CMD-Pad18)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-/AUDIO_OUTP"
+        "pattern": "Board_0-Net-(J8-PadT1)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-5V_USB"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(ILI1-RESET)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(D1-Pin_2)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U1-3_LRCLK2)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-HOST_D1+"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(ILI1-SCK)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U1-33_MCLK2)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(R33-Pad2)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(C16-Pad2)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-34_RX8_RESET2"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(R12-Pad1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U1-4_BCLK2)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(ILI1-T_IRQ-Pad14)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-S-GND"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(J2-Pin_1-Pad1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U4-Pad3)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U1-6_OUT1D)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-unconnected-(U8-~{1OE}-Pad1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(HPTRS1-Pad4)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-MIDI_TX_T"
+        "pattern": "Board_0-unconnected-(MIDI_IN_1-Pad4)"
       },
       {
         "netclass": "Board_0-Default",
@@ -1045,7 +673,399 @@
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-/AUDIO_IN1P"
+        "pattern": "Board_0-ESP32_IO0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U6-1Y)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U8-~{2OE}-Pad7)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-VIN2_SECONDARY"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(R36-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2-SD_DATA0{slash}GPIO7-Pad21)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-HOST_D1-"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2-SD_DATA3{slash}GPIO10-Pad17)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2-SD_DATA2{slash}GPIO9-Pad16)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(R15-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(board_outline1-MIC_BIAS-Pad48)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDA0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(ILI1-VCC_(5V))"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(ILI1-LED_(3.3V))"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(PWR1-A)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(USBC1-CC1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/SWITCH"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(GPI1-Pin_1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U1-22_A8_CTX1-Pad44)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(ILI1-T_IRQ-Pad14)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-2_OUT2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D1-Pin_2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U1-33_MCLK2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-35_TX8_RESET"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-MCLK1+TDM1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-ESP32_IO13_SPI_MOSI"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(R48-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U6-2Y)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U1-3_LRCLK2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D1-Pin_4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ESP32_IO22_SCL"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U1-31_CTX3-Pad23)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-ESP32_IO12_SPI_MISO"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(board_outline1-AGND-Pad50)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D1-Pin_3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U1-32_OUT1B)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U5-1Y)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(board_outline1-SCL-Pad37)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(R12-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-BCLK1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(HPTRS2-Pad3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-9_OUT1C_INPUT"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-ESP32_EN"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-5V"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(1/4-PHONE1-PadTN)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U7-1Y)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J2-Pin_1-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(MIDI_IN_1-Pad3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(BAT1-Pin_2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U8-2Y)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-3.3V"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SCL1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-3_LRCLK2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-GND"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ESP32_IO3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(ILI1-SDO(MISO))"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-5_IN2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-USB_SHIELD"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U1-3V3-Pad51)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-BCLK1+TDM1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U1-41_A17)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-7_OUT1A"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/ESP32_IO1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-MIDI_TX_T"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-S-GND"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-LRCK1+TDM2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-6_OUT1D"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J8-PadT2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/OUTPUTB"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U1-VUSB-Pad49)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(USBC1-DP2-PadB6)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-12V"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U1-4_BCLK2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-MCLK2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U3-ST)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-MIDI_IN_5"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-LRCK1+TDM1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U3-PR1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U1-14_A0_TX3_SPDIF_OUT-Pad36)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-4_BCLK2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(R33-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U1-20_A6_TX5_LRCLK1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U8-~{1OE}-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U7-2Y)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-HOST_D1+"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-TEENSY_LED+"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-BCLK1+TDM2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SDA1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-32_OUT1B"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-5V_JST"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-USB_SHIELD2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(ILI1-T_CS)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(USBC1-SBU1-PadA8)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(board_outline1-SDA-Pad38)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U1-15_A1_RX3_SPDIF_IN-Pad37)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-HOST_5V"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-SN"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/AUDIO_OUTP"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(board_outline1-IN2M-Pad35)"
       },
       {
         "netclass": "Board_0-.5MM TRACE",

@@ -17689,6 +17689,16 @@
 	)
 	(wire
 		(pts
+			(xy 1187.45 1083.31) (xy 1184.91 1083.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e5186e-bea6-4a28-a7f0-9e5425b911fa")
+	)
+	(wire
+		(pts
 			(xy 435.61 396.24) (xy 447.04 396.24)
 		)
 		(stroke
@@ -18299,7 +18309,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 285.75) (xy 337.82 285.75)
+			(xy 483.87 327.66) (xy 477.52 327.66)
 		)
 		(stroke
 			(width 0)
@@ -19059,6 +19069,16 @@
 	)
 	(wire
 		(pts
+			(xy 1187.45 1075.69) (xy 1184.91 1075.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b936941-55c6-47a8-9331-6728f7f28d2a")
+	)
+	(wire
+		(pts
 			(xy 990.6 311.15) (xy 990.6 322.58)
 		)
 		(stroke
@@ -19509,6 +19529,16 @@
 	)
 	(wire
 		(pts
+			(xy 1187.45 1079.5) (xy 1184.91 1079.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "680ec8d6-8926-4c56-a05b-55acc36151ab")
+	)
+	(wire
+		(pts
 			(xy 966.47 854.71) (xy 966.47 857.25)
 		)
 		(stroke
@@ -19866,6 +19896,16 @@
 			(type default)
 		)
 		(uuid "8015f4c0-f2b1-49b1-a2fe-9984f687b47b")
+	)
+	(wire
+		(pts
+			(xy 1187.45 1071.88) (xy 1184.91 1071.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80412e27-fa95-4d57-ad06-b0c31057408e")
 	)
 	(wire
 		(pts
@@ -21829,7 +21869,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 280.67) (xy 337.82 280.67)
+			(xy 483.87 322.58) (xy 477.52 322.58)
 		)
 		(stroke
 			(width 0)
@@ -22159,7 +22199,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 283.21) (xy 337.82 283.21)
+			(xy 483.87 325.12) (xy 477.52 325.12)
 		)
 		(stroke
 			(width 0)
@@ -23692,6 +23732,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 1187.45 1083.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13b77228-66a8-46a4-a4fc-d930627ee034")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1193.6447 1083.2306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "34_RX8_RESET2"
 		(shape input)
 		(at 207.01 365.76 0)
@@ -24001,7 +24063,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 337.82 283.21 180)
+		(at 477.52 325.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24011,7 +24073,7 @@
 		)
 		(uuid "1f347611-735f-497b-b667-ec0e23f79448")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 422.91 363.22 0)
+			(at 562.61 405.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24167,6 +24229,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 1187.45 1075.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23fc14aa-d402-45bf-88ea-fe02ec5be1c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1193.6447 1075.6106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -25348,6 +25432,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 1187.45 1071.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "655254c8-557e-403c-8df3-2e999f5e9907")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1193.6447 1071.8006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "6_OUT1D+"
 		(shape input)
 		(at 859.79 1019.81 0)
@@ -25438,7 +25544,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 829.31 969.01 0)
+		(at 830.58 969.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25448,7 +25554,7 @@
 		)
 		(uuid "68538725-f926-4f74-9259-2355549ba69e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 835.5047 968.9306 0)
+			(at 836.7747 968.9306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27724,7 +27830,7 @@
 	)
 	(global_label "ESP32_EN"
 		(shape input)
-		(at 337.82 280.67 180)
+		(at 477.52 322.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27734,7 +27840,7 @@
 		)
 		(uuid "d41a2495-ff07-40d1-904d-6ee28537ef54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.001 280.5906 0)
+			(at 465.701 322.5006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27965,6 +28071,28 @@
 	)
 	(global_label "GND"
 		(shape input)
+		(at 1187.45 1079.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc1bb899-8f5e-49e3-b28b-68bfdea45fdb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1193.6447 1079.4206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
 		(at 643.89 419.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -28119,7 +28247,7 @@
 	)
 	(global_label "ESP32_IO0"
 		(shape input)
-		(at 337.82 285.75 180)
+		(at 477.52 327.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -28129,7 +28257,7 @@
 		)
 		(uuid "e44e73c3-fe20-4729-a3d4-4957d0e7e577")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 325.3358 285.8294 0)
+			(at 465.0358 327.7394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28685,7 +28813,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 337.82 283.21 180)
+		(at 477.52 325.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -28695,7 +28823,7 @@
 		)
 		(uuid "f970da85-e132-4740-ada8-cf7b53f9be08")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 422.91 363.22 0)
+			(at 562.61 405.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28814,6 +28942,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 830.58 1032.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd97a4b5-721f-46c2-b6d6-e94c9cb6e131")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 836.7747 1032.4306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESP32_LED_OUT"
 		(shape input)
 		(at 1068.07 341.63 180)
@@ -28907,6 +29057,51 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC TYPE" "TH-JACK"
+			(at 525.78 599.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "TH-JACK"
+			(at 525.78 599.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 525.78 599.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C368491"
+			(at 525.78 599.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "PHONES"
+			(at 525.78 599.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "R"
@@ -29026,6 +29221,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" ""
+			(at 918.21 579.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 918.21 579.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "79f1b4ab-9d82-47c9-bfa1-7597882e5d2a")
 		)
@@ -29120,7 +29333,7 @@
 		(at 467.36 586.74 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -29160,6 +29373,33 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 467.36 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "HEADER"
+			(at 467.36 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "HEADER"
+			(at 467.36 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 467.36 586.74 0)
 			(effects
 				(font
@@ -29278,6 +29518,24 @@
 			)
 		)
 		(property "LCSC" "C17720"
+			(at 95.25 327.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 95.25 327.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 95.25 327.66 90)
 			(effects
 				(font
@@ -29449,6 +29707,33 @@
 		)
 		(property "Digikey" "-"
 			(at 695.96 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27834"
+			(at 695.96 308.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 695.96 308.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 695.96 308.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29634,6 +29919,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 95.25 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 95.25 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b7e649f-e6f0-4c94-86f6-ff72c4a05e4e")
 		)
@@ -29710,6 +30013,24 @@
 			)
 		)
 		(property "LCSC" "C17477"
+			(at 855.98 610.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 855.98 610.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 855.98 610.87 90)
 			(effects
 				(font
@@ -29796,6 +30117,24 @@
 			)
 		)
 		(property "LCSC" "C49678"
+			(at 750.57 424.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 750.57 424.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 750.57 424.18 0)
 			(effects
 				(font
@@ -29916,6 +30255,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 833.12 900.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 833.12 900.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78e039e3-7e4f-407f-9596-2d71b7b1faf1")
 		)
@@ -29938,7 +30295,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "12eab97e-0dc9-4b66-acf2-1964bbb8c2dc")
 		(property "Reference" "C7"
 			(at 465.582 624.586 0)
@@ -29986,6 +30343,33 @@
 			)
 		)
 		(property "Package / Case" "RADIAL D10-P5 OR D8-P3.5 OR 1206 TANT"
+			(at 458.47 623.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2064"
+			(at 458.47 623.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "TH-CAP"
+			(at 458.47 623.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 458.47 623.57 0)
 			(effects
 				(font
@@ -30098,6 +30482,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 778.51 566.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 778.51 566.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec06a8ae-546f-4ac3-821d-b28014b19def")
 		)
@@ -30118,7 +30520,7 @@
 		(at 154.94 419.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(uuid "16c47641-09c2-458a-a594-a845d008a611")
@@ -30164,6 +30566,24 @@
 				)
 			)
 		)
+		(property "LCSC TYPE" ""
+			(at 154.94 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 154.94 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b86a927f-d635-45c5-aefd-66e9f6b33b7b")
 		)
@@ -30198,7 +30618,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "header"
+		(property "Value" "TEENSY SWITCH HEADER"
 			(at 83.566 386.0799 0)
 			(effects
 				(font
@@ -30233,7 +30653,34 @@
 				)
 			)
 		)
-		(property "Package / Case" "through-hole"
+		(property "Package / Case" "HEADER"
+			(at 81.28 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "TH-HEADER"
+			(at 81.28 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 81.28 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "DNP"
 			(at 81.28 384.81 0)
 			(effects
 				(font
@@ -30265,7 +30712,7 @@
 		(at 107.95 406.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(uuid "1969bd8e-c330-4778-af36-5c68cd750676")
@@ -30313,6 +30760,24 @@
 				)
 			)
 		)
+		(property "LCSC TYPE" ""
+			(at 107.95 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 107.95 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c50e3d3-5c5c-4e87-969c-7425809ecc1f")
 		)
@@ -30333,9 +30798,9 @@
 		(at 452.12 339.09 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "1b7d8166-b126-4564-a757-7793197736d6")
 		(property "Reference" "#ESP32_SPI1"
 			(at 461.264 336.55 0)
@@ -30377,6 +30842,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC TYPE" "HEADER"
+			(at 452.12 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "HEADER"
+			(at 452.12 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 452.12 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -30497,6 +30989,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 172.72 317.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 172.72 317.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d243b6c0-5dce-4b5b-a1fa-6627f8dae109")
 		)
@@ -30531,7 +31041,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST-XH Connector"
+		(property "Value" "JST-EH Connector - S02B-PASK-2"
 			(at 636.778 419.0746 0)
 			(effects
 				(font
@@ -30540,7 +31050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "project_fp:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
 			(at 638.81 416.56 0)
 			(effects
 				(font
@@ -30566,7 +31076,7 @@
 				)
 			)
 		)
-		(property "Package / Case" "through-hole"
+		(property "Package / Case" "TH-JACK"
 			(at 638.81 416.56 0)
 			(effects
 				(font
@@ -30576,6 +31086,42 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "JST-XH"
+			(at 638.81 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "TH-JACK"
+			(at 638.81 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 638.81 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C265094"
+			(at 638.81 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "12V"
 			(at 638.81 416.56 0)
 			(effects
 				(font
@@ -30604,7 +31150,7 @@
 		(at 461.01 637.54 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(uuid "1d37f3a2-8270-4f6b-9a7e-7a1b6b7f29c0")
@@ -30645,6 +31191,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 461.01 637.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD DNP"
+			(at 461.01 637.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 461.01 637.54 0)
 			(effects
 				(font
@@ -30740,6 +31304,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 505.46 544.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 505.46 544.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0caeeee-7dd8-4b0c-97b7-0fc4c5b7c3e0")
 		)
@@ -30826,6 +31408,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C84270"
+			(at 772.16 297.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 772.16 297.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 772.16 297.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "245f5880-28ed-49ac-84aa-086be50cea4f")
 		)
@@ -30836,6 +31445,108 @@
 			(project "audio_back_plane_35_rca"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "PWR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 1181.1 1079.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21faa5a7-66dd-4e82-b9a8-1903f31ff78f")
+		(property "Reference" "R50"
+			(at 1181.1 1074.2422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0 ohm"
+			(at 1181.1 1076.5536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 1181.1 1077.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 1181.1 1079.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1181.1 1079.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package / Case" "R0805"
+			(at 1181.1 1079.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17477"
+			(at 1181.1 1079.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 1181.1 1079.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 1181.1 1079.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "457170af-2587-417b-aa20-29a5319332a3")
+		)
+		(pin "2"
+			(uuid "44ee6f6a-32c7-4b6a-bb4e-a0359b4414cf")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -30938,6 +31649,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 173.99 325.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 173.99 325.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff7bed0b-fb25-41ca-b1ce-40b0b2f35ca9")
 		)
@@ -30998,6 +31727,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 381 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 381 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 381 346.71 0)
 			(effects
 				(font
@@ -31200,6 +31947,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 739.14 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 739.14 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51ebdb2e-388e-46c0-b98d-16699f69d33a")
 		)
@@ -31312,6 +32077,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 835.66 953.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 835.66 953.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "954abc86-c170-4fcc-a041-3dabf06dca41")
 		)
@@ -31392,6 +32175,24 @@
 			)
 		)
 		(property "LCSC" "C17477"
+			(at 215.9 321.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 215.9 321.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 215.9 321.31 90)
 			(effects
 				(font
@@ -31505,6 +32306,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" ""
+			(at 163.83 557.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 163.83 557.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ead2f44a-824c-427d-8724-66c60a41a84a")
 		)
@@ -31609,6 +32428,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 162.56 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 162.56 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8762a36b-ebd9-43ea-b44c-0e3485025840")
 		)
@@ -31629,7 +32466,7 @@
 		(at 535.94 796.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(uuid "28c5df5a-bf22-47cc-987f-c4132320f351")
@@ -31694,7 +32531,7 @@
 		(at 539.75 981.71 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(uuid "2b0b8691-2943-491e-a9eb-d7bc30cb0ae5")
@@ -31733,6 +32570,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 539.75 981.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 539.75 981.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 539.75 981.71 0)
 			(effects
 				(font
@@ -31843,6 +32698,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" ""
+			(at 958.85 579.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 958.85 579.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88d8dbff-4db6-44c7-8d5d-9bf0e488eeca")
 		)
@@ -31880,7 +32753,7 @@
 				)
 			)
 		)
-		(property "Value" "through-hole"
+		(property "Value" "3.5mm TRS - 35RAPC3BH3"
 			(at 533.019 685.419 0)
 			(effects
 				(font
@@ -31933,7 +32806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "35RAPC3BH3"
+		(property "Package / Case" "TH-JACK"
 			(at 533.4 695.96 0)
 			(effects
 				(font
@@ -31948,6 +32821,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC TYPE" "TH-JACK"
+			(at 533.4 695.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 533.4 695.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4991754"
+			(at 533.4 695.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -31993,7 +32893,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BAT"
+		(property "Value" "BAT HEADER"
 			(at 87.63 405.1299 0)
 			(effects
 				(font
@@ -32021,6 +32921,42 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 90.17 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "TH-HEADER"
+			(at 90.17 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 90.17 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "HEADER"
+			(at 90.17 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "DNP"
 			(at 90.17 402.59 0)
 			(effects
 				(font
@@ -32141,6 +33077,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 836.93 1017.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 836.93 1017.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36a11612-79cc-4910-b506-0d4a7571c664")
 		)
@@ -32203,6 +33157,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 1028.7 1170.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 1028.7 1170.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 1028.7 1170.94 0)
 			(effects
 				(font
@@ -32312,6 +33284,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 877.57 591.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 877.57 591.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "910b71e0-1176-4ac8-a604-6916c9337067")
 		)
@@ -32332,7 +33322,7 @@
 		(at 535.94 791.21 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(uuid "38ee68cb-b257-4e8b-854f-806d04caf6dd")
@@ -32400,6 +33390,24 @@
 			)
 		)
 		(property "Package / Case" "C0805"
+			(at 535.94 791.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 535.94 791.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 535.94 791.21 0)
 			(effects
 				(font
@@ -32520,6 +33528,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 439.42 398.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 439.42 398.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ed2d2c4-dda3-4dd8-a6c6-69e1be5d19d2")
 		)
@@ -32600,6 +33626,24 @@
 			)
 		)
 		(property "LCSC" "C17477"
+			(at 262.89 326.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 262.89 326.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 262.89 326.39 90)
 			(effects
 				(font
@@ -32707,6 +33751,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C547558"
+			(at 905.51 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 905.51 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 905.51 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f74eef7c-ff25-4711-9ef2-0dd07ca47992")
 		)
@@ -32758,7 +33829,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "header"
+		(property "Value" "ESP32 I2C HEADER"
 			(at 453.517 399.542 0)
 			(effects
 				(font
@@ -32820,7 +33891,34 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "through-hole"
+		(property "Package / Case" "HEADER"
+			(at 452.12 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "TH-HEADER"
+			(at 452.12 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 452.12 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "DNP"
 			(at 452.12 393.7 0)
 			(effects
 				(font
@@ -32939,6 +34037,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 810.26 552.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 810.26 552.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97ab8957-bc45-40d4-a12b-b3596ec82351")
 		)
@@ -33019,6 +34135,24 @@
 			)
 		)
 		(property "LCSC" "C138019"
+			(at 269.24 328.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 269.24 328.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 269.24 328.93 90)
 			(effects
 				(font
@@ -33124,6 +34258,24 @@
 			)
 		)
 		(property "Digikey" "-"
+			(at 796.29 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 796.29 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 796.29 281.94 0)
 			(effects
 				(font
@@ -33284,7 +34436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "through-hole"
+		(property "Package / Case" "TH-JACK"
 			(at 928.37 539.75 0)
 			(effects
 				(font
@@ -33295,6 +34447,33 @@
 		)
 		(property "Label" "MIDI IN"
 			(at 929.64 542.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4991754"
+			(at 929.64 554.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "TH-JACK"
+			(at 929.64 554.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 929.64 554.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33380,6 +34559,33 @@
 			)
 		)
 		(property "Package / Case" "SOT-583-8"
+			(at 775.97 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3235557"
+			(at 775.97 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 775.97 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 775.97 386.08 0)
 			(effects
 				(font
@@ -33493,6 +34699,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 231.14 323.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 231.14 323.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e25b36e-4c5f-4869-a32e-2c1fa321f7a7")
 		)
@@ -33573,6 +34797,24 @@
 			)
 		)
 		(property "LCSC" "C17477"
+			(at 722.63 416.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 722.63 416.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 722.63 416.56 90)
 			(effects
 				(font
@@ -33685,6 +34927,24 @@
 			)
 		)
 		(property "LCSC" "C138019"
+			(at 439.42 391.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 439.42 391.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 439.42 391.16 90)
 			(effects
 				(font
@@ -33926,6 +35186,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 838.2 942.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 838.2 942.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb6729b6-b2a8-49d1-a84d-0f19ac25e315")
 		)
@@ -34030,6 +35308,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 835.66 886.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 835.66 886.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c30c4c13-35ac-4f64-8cd3-48bc61566cb1")
 		)
@@ -34126,6 +35422,24 @@
 			)
 		)
 		(property "LCSC" "C49678"
+			(at 133.35 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 133.35 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 133.35 416.56 0)
 			(effects
 				(font
@@ -34285,6 +35599,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 798.83 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 798.83 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9fd54b9b-173b-47c1-afb1-9cf38624b220")
 		)
@@ -34306,8 +35638,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4fdc4b88-52a0-4a85-a1fc-bd38d65679ac")
 		(property "Reference" "#EPROG1"
@@ -34481,7 +35813,34 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "PJRAS2X1S01X"
+		(property "Package / Case" "TH-JACK"
+			(at 566.4192 676.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "TH-JACK"
+			(at 566.4192 676.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 566.4192 676.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4992338"
 			(at 566.4192 676.91 0)
 			(effects
 				(font
@@ -34516,7 +35875,7 @@
 		(at 416.56 703.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -34569,6 +35928,24 @@
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "PCB"
+			(at 416.56 703.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 416.56 703.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -34836,6 +36213,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 760.73 312.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 760.73 312.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1228a386-4bf7-4c80-ab93-f59eb4930359")
 		)
@@ -34938,6 +36333,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" ""
+			(at 957.58 570.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 957.58 570.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1744e714-088d-430b-b818-c6f9b357dc78")
 		)
@@ -34975,7 +36388,7 @@
 				)
 			)
 		)
-		(property "Value" "header"
+		(property "Value" "I2S /I2C EXPANSION HEADER"
 			(at 949.96 830.58 0)
 			(effects
 				(font
@@ -35009,7 +36422,7 @@
 				)
 			)
 		)
-		(property "Package / Case" "header"
+		(property "Package / Case" "HEADER"
 			(at 938.53 844.55 0)
 			(effects
 				(font
@@ -35041,6 +36454,33 @@
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "TH-HEADER"
+			(at 938.53 844.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 938.53 844.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "DNP"
+			(at 938.53 844.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -35212,6 +36652,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 172.72 347.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 172.72 347.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a5234f4-1ad2-4412-a1cb-8e5655dbfaea")
 		)
@@ -35246,7 +36704,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST-XH Connector"
+		(property "Value" "JST-EH Connector - S02B-PASK-2"
 			(at 636.778 387.3246 0)
 			(effects
 				(font
@@ -35255,7 +36713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "project_fp:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
 			(at 638.81 384.81 0)
 			(effects
 				(font
@@ -35281,7 +36739,7 @@
 				)
 			)
 		)
-		(property "Package / Case" "through-hole"
+		(property "Package / Case" "TH-JACK"
 			(at 638.81 384.81 0)
 			(effects
 				(font
@@ -35291,6 +36749,42 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "JST-XH"
+			(at 638.81 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "TH-JACK"
+			(at 638.81 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 638.81 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C265094"
+			(at 638.81 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "5V"
 			(at 638.81 384.81 0)
 			(effects
 				(font
@@ -35395,7 +36889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "C1206"
+		(property "Package / Case" "C0805"
 			(at 102.87 542.29 0)
 			(effects
 				(font
@@ -35405,6 +36899,24 @@
 			)
 		)
 		(property "LCSC" "C1848"
+			(at 102.87 542.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 102.87 542.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 102.87 542.29 0)
 			(effects
 				(font
@@ -35719,6 +37231,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 836.93 1019.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 836.93 1019.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7de4985-6f17-4357-a9ae-d7a669e37148")
 		)
@@ -35831,6 +37361,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 171.45 322.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 171.45 322.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0458c972-6acb-4062-867b-4e141e1eca51")
 		)
@@ -35851,7 +37399,7 @@
 		(at 477.52 788.67 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -35893,6 +37441,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 477.52 788.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 477.52 788.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 477.52 788.67 0)
 			(effects
 				(font
@@ -36026,6 +37592,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 760.73 297.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 760.73 297.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "65bf0ee5-3efa-44f4-8f1f-6ce133f1d54a")
 		)
@@ -36105,6 +37689,33 @@
 			)
 		)
 		(property "Package / Case" "SK6812-32228SMD"
+			(at 988.06 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5378721"
+			(at 988.06 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 988.06 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 988.06 386.08 0)
 			(effects
 				(font
@@ -36231,6 +37842,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 835.66 956.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 835.66 956.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c96fb75c-9e2e-4b31-9b6d-fcee3cfb6f2c")
 		)
@@ -36307,6 +37936,24 @@
 			)
 		)
 		(property "LCSC" "C17477"
+			(at 775.97 549.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 775.97 549.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 775.97 549.91 90)
 			(effects
 				(font
@@ -36413,6 +38060,33 @@
 		)
 		(property "Digikey" "-"
 			(at 695.96 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27834"
+			(at 695.96 311.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 695.96 311.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 695.96 311.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36581,6 +38255,24 @@
 			)
 		)
 		(property "LCSC" "C49678"
+			(at 838.2 1005.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 838.2 1005.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 838.2 1005.84 0)
 			(effects
 				(font
@@ -36766,6 +38458,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 441.96 387.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 441.96 387.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a85664e-085b-4dae-b682-43869490d5ea")
 		)
@@ -36935,6 +38645,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 878.84 561.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 878.84 561.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b17111b8-8825-49d3-92a3-96b20d506e4c")
 		)
@@ -37021,7 +38749,7 @@
 		(at 334.01 339.09 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -37068,6 +38796,24 @@
 				)
 			)
 		)
+		(property "LCSC TYPE" ""
+			(at 334.01 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 334.01 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ca5b37e-b874-4a95-8966-bf91c18da04a")
 		)
@@ -37088,7 +38834,7 @@
 		(at 480.06 685.8 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -37128,6 +38874,33 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 480.06 685.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "HEADER"
+			(at 480.06 685.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "HEADER"
+			(at 480.06 685.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 480.06 685.8 0)
 			(effects
 				(font
@@ -37204,6 +38977,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 1151.89 1172.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 1151.89 1172.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 1151.89 1172.21 0)
 			(effects
 				(font
@@ -37378,6 +39169,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 791.21 552.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 791.21 552.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "13d6c411-caf7-4e0b-85aa-3e2c0109618c")
 		)
@@ -37492,6 +39301,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 750.57 392.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 750.57 392.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20678dc7-036d-4ec4-8f14-304dd06b5636")
 		)
@@ -37571,6 +39398,24 @@
 			)
 		)
 		(property "LCSC" "C138019"
+			(at 278.13 328.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 278.13 328.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 278.13 328.93 90)
 			(effects
 				(font
@@ -37664,7 +39509,7 @@
 		(at 463.55 721.36 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "79cc7968-bad5-48b1-b964-293bcbc53239")
@@ -37712,6 +39557,24 @@
 			)
 		)
 		(property "Label" "ESP32"
+			(at 463.55 721.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 463.55 721.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 463.55 721.36 0)
 			(effects
 				(font
@@ -37867,7 +39730,34 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "PJRAS2X1S01X"
+		(property "Package / Case" "TH-JACK"
+			(at 524.5092 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "TH-JACK"
+			(at 524.5092 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 524.5092 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4992338"
 			(at 524.5092 547.37 0)
 			(effects
 				(font
@@ -37970,6 +39860,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 222.25 323.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 222.25 323.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "13532ad8-843d-4349-8158-eb42f369abe9")
 		)
@@ -38049,6 +39957,33 @@
 		)
 		(property "Manufacturer_Part_Number" "through-hole"
 			(at 769.62 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C84270"
+			(at 769.62 312.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 769.62 312.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 769.62 312.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38152,6 +40087,24 @@
 			)
 		)
 		(property "LCSC" "C49678"
+			(at 339.09 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 339.09 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 339.09 342.9 0)
 			(effects
 				(font
@@ -38266,6 +40219,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" ""
+			(at 496.57 579.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 496.57 579.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8406ca6d-34ea-4553-b730-30defb0e0c48")
 		)
@@ -38370,6 +40341,24 @@
 			)
 		)
 		(property "LCSC" "C17720"
+			(at 87.63 322.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 87.63 322.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 87.63 322.58 90)
 			(effects
 				(font
@@ -38550,7 +40539,34 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "through-hole"
+		(property "Package / Case" "TH-JACK"
+			(at 140.97 543.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "TH-JACK"
+			(at 140.97 543.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 140.97 543.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3197809"
 			(at 140.97 543.56 0)
 			(effects
 				(font
@@ -38674,6 +40690,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" ""
+			(at 495.3 595.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 495.3 595.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49b04f49-9837-4b2c-8f1a-94d5e24446f5")
 		)
@@ -38770,6 +40804,24 @@
 			)
 		)
 		(property "LCSC" "C17557"
+			(at 878.84 565.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 878.84 565.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 878.84 565.15 90)
 			(effects
 				(font
@@ -38890,6 +40942,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 833.12 897.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 833.12 897.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "13f1fe99-e52f-450c-a18b-2f310b89c64a")
 		)
@@ -38913,7 +40983,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "8d49cb4b-e44a-4a23-9d4a-db15ccb4ba93")
 		(property "Reference" "R18"
 			(at 334.899 358.521 90)
@@ -38923,7 +40993,7 @@
 				)
 			)
 		)
-		(property "Value" "470 ohm"
+		(property "Value" "220 ohm"
 			(at 336.169 357.632 90)
 			(effects
 				(font
@@ -38987,6 +41057,33 @@
 		)
 		(property "Digikey" ""
 			(at 336.55 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 336.55 358.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17557"
+			(at 336.55 358.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 336.55 358.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39073,6 +41170,24 @@
 			)
 		)
 		(property "LCSC" "C17720"
+			(at 500.38 530.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 500.38 530.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 500.38 530.86 90)
 			(effects
 				(font
@@ -39187,6 +41302,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 939.8 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 939.8 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cebb2f96-6966-4a56-bbcb-a6e7f17e9a85")
 		)
@@ -39256,7 +41389,34 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "PJRAS2X1S01X"
+		(property "Package / Case" "TH-JACK"
+			(at 566.42 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "TH-JACK"
+			(at 566.42 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 566.42 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4992338"
 			(at 566.42 662.94 0)
 			(effects
 				(font
@@ -39377,6 +41537,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" ""
+			(at 515.62 702.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 515.62 702.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14cc94b9-fdcb-422e-90f1-0c9667e83906")
 		)
@@ -39462,7 +41640,7 @@
 		(at 478.79 977.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(uuid "99422eda-c06e-443a-a6cb-e694ae127861")
@@ -39501,6 +41679,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 478.79 977.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 478.79 977.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 478.79 977.9 0)
 			(effects
 				(font
@@ -39593,6 +41789,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C899473"
+			(at 802.64 568.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 802.64 568.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 802.64 568.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04300b3e-6620-4612-b81a-60ade25a8b7c")
 		)
@@ -39675,7 +41898,34 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "PJRAS2X1S01X"
+		(property "Package / Case" "TH-JACK"
+			(at 524.51 533.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "TH-JACK"
+			(at 524.51 533.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 524.51 533.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4992338"
 			(at 524.51 533.4 0)
 			(effects
 				(font
@@ -39712,7 +41962,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9d3cdf0f-b28d-4ff5-a4e0-6f58f4bb4e5e")
 		(property "Reference" "ESP_R_ENC1"
@@ -39757,6 +42007,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 452.12 410.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 452.12 410.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -39874,6 +42142,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 951.23 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 951.23 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53ae44de-c746-4d59-9759-7d14c356a699")
 		)
@@ -39944,6 +42230,33 @@
 			)
 		)
 		(property "Package / Case" "SOP65P400X130-8N"
+			(at 810.26 902.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C206035"
+			(at 810.26 902.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 810.26 902.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 810.26 902.97 0)
 			(effects
 				(font
@@ -40073,6 +42386,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 173.99 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 173.99 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17720"
+			(at 173.99 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80adc263-653b-4ff4-9c2b-9b53c1917dec")
 		)
@@ -40143,6 +42483,33 @@
 			)
 		)
 		(property "Package / Case" "SOP65P400X130-8N"
+			(at 812.8 958.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C206035"
+			(at 812.8 958.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 812.8 958.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 812.8 958.85 0)
 			(effects
 				(font
@@ -40248,6 +42615,33 @@
 			)
 		)
 		(property "Package / Case" "SK6812-32228SMD"
+			(at 990.6 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5378721"
+			(at 990.6 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 990.6 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 990.6 330.2 0)
 			(effects
 				(font
@@ -40366,6 +42760,24 @@
 			)
 		)
 		(property "LCSC" "C17720"
+			(at 835.66 834.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 835.66 834.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 835.66 834.39 90)
 			(effects
 				(font
@@ -40609,6 +43021,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C27834"
+			(at 750.57 400.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 750.57 400.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 750.57 400.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "647dd30f-99a4-4a35-a5e4-c8300ecc8b81")
 		)
@@ -40669,6 +43108,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 640.08 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 640.08 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 640.08 320.04 0)
 			(effects
 				(font
@@ -40903,7 +43360,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b9dc8040-4358-4bc8-a9e3-5f8ab5cf2712")
 		(property "Reference" "C9"
 			(at 475.742 638.556 0)
@@ -40959,6 +43416,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2064"
+			(at 468.63 637.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "TH-CAP"
+			(at 468.63 637.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 468.63 637.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "77e03c0d-0591-4061-ba82-510ce710f7e1")
 		)
@@ -40979,9 +43463,9 @@
 		(at 162.56 420.37 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "be05f32f-7e3b-4cca-9a0c-47560221a770")
 		(property "Reference" "#PWR05"
 			(at 162.56 426.72 0)
@@ -41135,6 +43619,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 87.63 320.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 87.63 320.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "da75f09f-b3f7-4181-8d5a-4f26b2ac1dfb")
 		)
@@ -41212,6 +43714,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" ""
+			(at 499.11 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 499.11 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02297bbb-ab4c-4b32-b01f-a1a47b5f8881")
 		)
@@ -41269,8 +43789,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "bfa45a22-fdb0-47a4-a9b1-63900ef86180")
 		(property "Reference" "#ESP32_I2S1"
 			(at 462.534 353.06 0)
@@ -41312,6 +43832,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "mouser" ""
+			(at 452.12 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -41393,6 +43922,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" ""
+			(at 1108.71 1172.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 1108.71 1172.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb1b757d-ee3a-4ca4-b0b9-00f46a56f3a9")
 		)
@@ -41424,7 +43971,7 @@
 				)
 			)
 		)
-		(property "Value" "through-hole"
+		(property "Value" "3.5mm TRS - 35RAPC3BH3"
 			(at 515.239 562.229 0)
 			(effects
 				(font
@@ -41477,7 +44024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "35RAPC3BH3"
+		(property "Package / Case" "TH-JACK"
 			(at 514.35 572.77 0)
 			(effects
 				(font
@@ -41492,6 +44039,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC TYPE" "TH-JACK"
+			(at 514.35 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 514.35 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4991754"
+			(at 514.35 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -41590,6 +44164,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "~Teensy4.1"
+			(at 133.35 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 133.35 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 133.35 364.49 0)
 			(effects
 				(font
@@ -41878,7 +44470,7 @@
 		(at 424.18 989.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(uuid "c6492115-f82b-4e20-9777-711504bf78b0")
@@ -41917,6 +44509,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 424.18 989.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 424.18 989.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 424.18 989.33 0)
 			(effects
 				(font
@@ -42037,6 +44647,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 195.58 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 195.58 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4e87614a-0a94-4679-b5b3-3cc4e6872bde")
 		)
@@ -42061,7 +44689,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "c6d7d376-8188-446b-b388-4ba9cd4c8642")
-		(property "Reference" "D5"
+		(property "Reference" "J12"
 			(at 1084.58 339.8393 0)
 			(effects
 				(font
@@ -42069,7 +44697,7 @@
 				)
 			)
 		)
-		(property "Value" "HEADER"
+		(property "Value" "RGB LED HEADEER"
 			(at 1084.58 342.3793 0)
 			(effects
 				(font
@@ -42113,6 +44741,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "TH-HEADER"
+			(at 1073.15 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "HEADER"
+			(at 1073.15 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 1073.15 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "DNP"
+			(at 1073.15 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59773e15-9708-4e2f-b758-b82cabbc3289")
 		)
@@ -42128,7 +44792,7 @@
 		(instances
 			(project "audio_back_plane_35_rca"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
-					(reference "D5")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -42197,6 +44861,24 @@
 			)
 		)
 		(property "LCSC" "C15850"
+			(at 739.14 424.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 739.14 424.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 739.14 424.18 0)
 			(effects
 				(font
@@ -42311,6 +44993,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" ""
+			(at 505.46 574.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 505.46 574.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "701ea469-5481-4b18-8c2c-d8828ac468bd")
 		)
@@ -42417,6 +45117,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C27834"
+			(at 791.21 387.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 791.21 387.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 791.21 387.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4df2d122-fed3-4473-9a5d-c7317a497435")
 		)
@@ -42502,9 +45229,9 @@
 		(at 789.94 332.74 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d16b605a-3809-4fa5-8f4f-4d70058d52c6")
 		(property "Reference" "USB_THRU1"
 			(at 790.575 340.36 0)
@@ -42587,6 +45314,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" ""
+			(at 789.94 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 789.94 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "448b8797-39b9-4744-881a-76a43c4cf02a")
 		)
@@ -42616,7 +45361,7 @@
 		(at 125.73 419.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -42661,6 +45406,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 125.73 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 125.73 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -42748,7 +45511,7 @@
 		(at 1167.13 1074.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -42831,6 +45594,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "PCB"
+			(at 1167.13 1074.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 1167.13 1074.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6a3061d-4e7c-41f1-9b71-0f9f3a53bc5d")
 		)
@@ -42857,9 +45638,9 @@
 		(at 501.65 302.26 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d2d23c4b-e583-4c53-8cf6-62afc3961e45")
 		(property "Reference" "#SAI1"
@@ -43107,6 +45888,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 838.2 820.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 838.2 820.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c40677ca-d71a-419e-a453-c95ab1dedb57")
 		)
@@ -43127,7 +45926,7 @@
 		(at 383.54 977.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -43168,6 +45967,24 @@
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
 			(at 383.54 993.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 383.54 977.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 383.54 977.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43291,6 +46108,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 872.49 586.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 872.49 586.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5bfe528-3f75-48e8-9349-3dfac19feee9")
 		)
@@ -43377,6 +46212,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C547568"
+			(at 859.79 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 859.79 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 859.79 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57de8bf8-049c-4237-a181-f88d41b3a241")
 		)
@@ -43400,6 +46262,108 @@
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "U9")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 1181.1 1071.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4f5d2cf-f84d-4b0f-9514-613d1b546dfc")
+		(property "Reference" "R48"
+			(at 1181.1 1066.6222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0 ohm"
+			(at 1181.1 1068.9336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 1181.1 1070.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 1181.1 1071.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1181.1 1071.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package / Case" "R0805"
+			(at 1181.1 1071.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17477"
+			(at 1181.1 1071.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 1181.1 1071.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 1181.1 1071.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "866f82c9-53d7-405e-b0f2-6d45123d04f5")
+		)
+		(pin "2"
+			(uuid "639026f7-27d3-4882-b780-bcb69976e81e")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "R48")
+					(unit 1)
 				)
 			)
 		)
@@ -43485,6 +46449,24 @@
 			)
 		)
 		(property "LCSC" "C4310"
+			(at 806.45 576.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 806.45 576.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 806.45 576.58 90)
 			(effects
 				(font
@@ -43606,6 +46588,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 434.34 346.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 434.34 346.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b8aac9c-831f-4d0b-9af2-1fc86eb86b03")
 		)
@@ -43622,35 +46622,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 349.25 283.21 0)
+		(lib_id "Device:R")
+		(at 1181.1 1083.31 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8a5c30a-e31f-4e5e-892f-a64982c90e5b")
-		(property "Reference" "ESP_PROG1"
-			(at 351.79 281.9399 0)
+		(uuid "d6d70e4e-b583-42c2-ba2b-513b061a97c2")
+		(property "Reference" "R51"
+			(at 1181.1 1078.0522 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "header"
-			(at 351.79 284.4799 0)
+		(property "Value" "0 ohm"
+			(at 1181.1 1080.3636 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "project_fp:E_PROG1_PinHeader_1x03_P2.54mm_Vertical"
-			(at 349.25 283.21 0)
+		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 1181.1 1081.532 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43659,7 +46656,112 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 349.25 283.21 0)
+			(at 1181.1 1083.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1181.1 1083.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package / Case" "R0805"
+			(at 1181.1 1083.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17477"
+			(at 1181.1 1083.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 1181.1 1083.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 1181.1 1083.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5df24490-e551-4d01-b76b-cb41340a74ab")
+		)
+		(pin "2"
+			(uuid "62c164d6-7cb3-48fb-9e3c-c9d52ed3935e")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 488.95 325.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "d8a5c30a-e31f-4e5e-892f-a64982c90e5b")
+		(property "Reference" "ESP_PROG1"
+			(at 491.49 323.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "header"
+			(at 491.49 326.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_fp:E_PROG1_PinHeader_1x03_P2.54mm_Vertical"
+			(at 488.95 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 488.95 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43668,7 +46770,25 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 349.25 283.21 0)
+			(at 488.95 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 488.95 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 488.95 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43701,7 +46821,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d8d470b0-d198-4ce0-94f7-93f6e47446f0")
 		(property "Reference" "MIDI_IO1"
 			(at 792.48 604.0882 0)
@@ -43773,6 +46893,24 @@
 			)
 		)
 		(property "Package / Case" "through-hole"
+			(at 791.21 614.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 791.21 614.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 791.21 614.68 0)
 			(effects
 				(font
@@ -43917,6 +47055,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" ""
+			(at 523.24 697.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 523.24 697.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f969cdf-15e0-4cbc-b239-cb361082ee26")
 		)
@@ -43937,9 +47093,9 @@
 		(at 133.35 420.37 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "dc295451-fd40-4dbe-9f95-d663ba61d49f")
 		(property "Reference" "#PWR03"
 			(at 133.35 426.72 0)
@@ -44085,6 +47241,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" ""
+			(at 488.95 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 488.95 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8fbf35b-e1e1-4867-8ced-96f8ccbfc23e")
 		)
@@ -44150,6 +47324,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 1073.15 1170.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 1073.15 1170.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 1073.15 1170.94 0)
 			(effects
 				(font
@@ -44241,7 +47433,7 @@
 		(at 477.52 764.54 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -44283,6 +47475,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 477.52 764.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 477.52 764.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 477.52 764.54 0)
 			(effects
 				(font
@@ -44386,6 +47596,33 @@
 				)
 			)
 		)
+		(property "LCSC" "C547568"
+			(at 863.6 561.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 863.6 561.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 863.6 561.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9fb9ec8-addd-4ff3-a088-254b7ea6078a")
 		)
@@ -44418,7 +47655,7 @@
 		(at 535.94 772.16 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(uuid "e67c7e39-e12f-4460-9983-61ab3e080f08")
@@ -44532,6 +47769,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" ""
+			(at 491.49 382.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 491.49 382.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "396dde98-1967-4ed2-b6d9-545d5eed1bba")
 		)
@@ -44637,6 +47892,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" ""
+			(at 486.41 600.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 486.41 600.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01271d92-2374-4fc8-8024-17c8412a1b38")
 		)
@@ -44714,7 +47987,34 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "through-hole"
+		(property "Package / Case" "TH-JACK"
+			(at 720.09 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7095263"
+			(at 720.09 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "TH-JACK"
+			(at 720.09 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 720.09 318.77 0)
 			(effects
 				(font
@@ -44889,6 +48189,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 835.66 831.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 835.66 831.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97ce72f0-ee78-4383-9f43-fd11267944e7")
 		)
@@ -44993,6 +48311,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 863.6 613.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 863.6 613.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d0850bc2-617c-430e-838f-b5e8183b2b65")
 		)
@@ -45027,7 +48363,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "header"
+		(property "Value" "ESP32 GPI HEADER"
 			(at 434.594 422.9099 0)
 			(effects
 				(font
@@ -45062,7 +48398,34 @@
 				)
 			)
 		)
-		(property "Package / Case" "through-hole"
+		(property "Package / Case" "HEADER"
+			(at 431.8 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "TH-HEADER"
+			(at 431.8 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 431.8 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "DNP"
 			(at 431.8 421.64 0)
 			(effects
 				(font
@@ -45087,6 +48450,108 @@
 			(project "audio_back_plane_35_rca"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "GPI1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 1181.1 1075.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed74f346-2492-41ce-9ba8-86cf71c6abf9")
+		(property "Reference" "R49"
+			(at 1181.1 1070.4322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0 ohm"
+			(at 1180.846 1072.896 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 1181.1 1073.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 1181.1 1075.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1181.1 1075.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package / Case" "R0805"
+			(at 1181.1 1075.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17477"
+			(at 1181.1 1075.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 1181.1 1075.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 1181.1 1075.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43a66dbe-5ff6-44ea-8cb8-02fb54932594")
+		)
+		(pin "2"
+			(uuid "f774b9f7-433b-48b1-8974-b8a584b41967")
+		)
+		(instances
+			(project "audio_back_plane_35_rca"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -45163,6 +48628,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C547568"
+			(at 877.57 610.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 877.57 610.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 877.57 610.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a719b74-9295-4ac1-9717-00bafdae0283")
 		)
@@ -45208,7 +48700,7 @@
 				)
 			)
 		)
-		(property "Value" "header"
+		(property "Value" "I2S /I2C EXPANSION HEADER"
 			(at 946.15 908.05 0)
 			(effects
 				(font
@@ -45242,7 +48734,7 @@
 				)
 			)
 		)
-		(property "Package / Case" "header"
+		(property "Package / Case" "HEADER"
 			(at 934.72 922.02 0)
 			(effects
 				(font
@@ -45274,6 +48766,33 @@
 			(effects
 				(font
 					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "TH-HEADER"
+			(at 934.72 922.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 934.72 922.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "DNP"
+			(at 934.72 922.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -45352,7 +48871,7 @@
 		(at 330.2 306.07 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -45397,6 +48916,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 330.2 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 330.2 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -45511,6 +49048,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 91.44 330.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 91.44 330.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a2fb7f0-6e12-4599-867a-f544f60e1f09")
 		)
@@ -45531,7 +49086,7 @@
 		(at 535.94 767.08 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(uuid "f628d9bf-b6da-4628-aa8b-c4ae97fc4f6b")
@@ -45599,6 +49154,24 @@
 			)
 		)
 		(property "Package / Case" "C0805"
+			(at 535.94 767.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" ""
+			(at 535.94 767.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 535.94 767.08 0)
 			(effects
 				(font
@@ -45685,6 +49258,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C206035"
+			(at 812.8 836.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 812.8 836.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 812.8 836.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b780ce0a-fa8f-4f7f-bf9f-f89bf2bb18ad")
 		)
@@ -45736,7 +49336,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "GROUND HEADER"
 			(at 494.665 439.42 0)
 			(effects
 				(font
@@ -45763,6 +49363,42 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 494.03 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "TH-HEADER"
+			(at 494.03 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "HEADER"
+			(at 494.03 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 494.03 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "DNP"
 			(at 494.03 441.96 0)
 			(effects
 				(font
@@ -45872,6 +49508,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 339.09 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 339.09 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db8149bc-8ec3-4feb-a2e9-03cc52b03108")
 		)
@@ -45942,6 +49596,33 @@
 			)
 		)
 		(property "Package / Case" "SOP65P400X130-8N"
+			(at 812.8 1022.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C206035"
+			(at 812.8 1022.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 812.8 1022.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 812.8 1022.35 0)
 			(effects
 				(font
@@ -46145,6 +49826,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC TYPE" "SMD"
+			(at 441.96 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 441.96 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f43125f3-43c7-4c59-9837-54a1b704be9d")
 		)
@@ -46165,7 +49864,7 @@
 		(at 450.85 623.57 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(uuid "fa1f03b8-218d-4ab4-93b1-d86d0187610d")
@@ -46206,6 +49905,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 450.85 623.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD DNP"
+			(at 450.85 623.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 450.85 623.57 0)
 			(effects
 				(font
@@ -46299,6 +50016,33 @@
 			)
 		)
 		(property "Package / Case" "SOD-123-2 - 2.675 mm x 1.6 mm x 1.15 mm body"
+			(at 784.86 571.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 784.86 571.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 784.86 571.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
 			(at 784.86 571.5 0)
 			(effects
 				(font
