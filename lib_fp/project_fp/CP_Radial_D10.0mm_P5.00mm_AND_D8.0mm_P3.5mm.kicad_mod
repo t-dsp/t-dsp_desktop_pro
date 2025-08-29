@@ -52,17 +52,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_rect
-		(start 3.5 -1)
-		(end 5 1)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "afab98a3-53f4-443f-af9d-d844e13bf08c")
-	)
 	(fp_line
 		(start -2.979646 -2.875)
 		(end -1.979646 -2.875)
@@ -2063,6 +2052,12 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "4d5f189d-25e1-486b-aeb6-902dba028e9a")
+	)
+	(pad "2" smd rect
+		(at 4.25 0)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1addd5cb-154a-4ab4-8fd7-5cc20f82ea0d")
 	)
 	(pad "2" thru_hole circle
 		(at 5 0)

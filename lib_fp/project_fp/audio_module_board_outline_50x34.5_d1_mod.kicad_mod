@@ -898,7 +898,7 @@
 			)
 		)
 	)
-	(fp_text user "MB"
+	(fp_text user "G"
 		(at 35 -4.405 90)
 		(unlocked yes)
 		(layer "F.SilkS")

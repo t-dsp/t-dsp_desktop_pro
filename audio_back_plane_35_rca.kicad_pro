@@ -60,6 +60,14 @@
       ],
       "drc_exclusions": [
         [
+          "courtyards_overlap|137903431|173757498|c077c8d7-230b-43e3-8413-fef365bf9871|e3514f60-8a3f-419e-9a31-f659264b980b",
+          "not intended to be populated at the same time."
+        ],
+        [
+          "courtyards_overlap|149903431|173757498|1d64f072-26ac-48db-93e1-d9d4b7d709ab|32b3d088-ac6c-442d-891f-490b759d0691",
+          ""
+        ],
+        [
           "courtyards_overlap|211235000|128435000|23f31850-725b-47b8-bd36-b13d4d5d1778|94fff3d2-5f6c-46d9-a1fa-ffd3f80d26b4",
           "GPIO HEADER"
         ],

@@ -252,7 +252,7 @@
 		)
 	)
 	(fp_text user "CS"
-		(at -2.35 30.942645 270)
+		(at -2.35 25.525 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "2ecc46f8-697c-424b-8e8f-546cfc42475f")
@@ -397,7 +397,7 @@
 		)
 	)
 	(fp_text user "DO"
-		(at -2.35 25.525 270)
+		(at -2.35 30.942645 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "fc54c57a-fec6-4b7a-a9ee-d9b9752b1aa2")
