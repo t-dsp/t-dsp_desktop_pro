@@ -810,6 +810,24 @@
           "label": "mouser",
           "name": "mouser",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TAC5212EVM",
+          "name": "TAC5212EVM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "REPLACE FOR NEXT BUILD",
+          "name": "REPLACE FOR NEXT BUILD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC NOTES",
+          "name": "LCSC NOTES",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -817,7 +835,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Package / Case"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
