@@ -40229,8 +40229,8 @@
 		(at 1176.02 585.47 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp yes)
 		(uuid "6a08f734-9c82-4a07-847c-f05709e91db6")
 		(property "Reference" "SPDIF_IO1"
@@ -40249,7 +40249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_fp:PinHeader_2x03_P2.54mm_Vertical"
+		(property "Footprint" "project_fp:SPDIF_PinHeader_2x03_P2.54mm_Horizontal"
 			(at 1179.83 593.09 0)
 			(effects
 				(font
@@ -51027,8 +51027,8 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(uuid "ef8d151f-b0ef-4f62-9df7-e1cf0d00ce2b")
 		(property "Reference" "SPDIF1"
@@ -51040,7 +51040,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BAT HEADER"
+		(property "Value" "SPDF 2 PIN HEADER"
 			(at 240.03 353.0599 0)
 			(effects
 				(font
