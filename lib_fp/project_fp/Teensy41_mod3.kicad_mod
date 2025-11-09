@@ -855,7 +855,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d_models/Teensy_4.1_Assembly.STEP"
 		(offset
-			(xyz 0 -30.5 8.5)
+			(xyz 0 -30.5 11)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -884,6 +884,28 @@
 		)
 		(rotate
 			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x24_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 7.5 -1 11)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 180 -0)
+		)
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x24_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz -7.5 -1.5 11)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 180 -0)
 		)
 	)
 )

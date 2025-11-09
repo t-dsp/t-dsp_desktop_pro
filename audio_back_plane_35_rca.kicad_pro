@@ -572,7 +572,7 @@
       "plot": "gerbers/2025-03-25_audio_backplane_desktop_1",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "audio_back_plane_35_rca.step",
       "svg": "",
       "vrml": ""
     },

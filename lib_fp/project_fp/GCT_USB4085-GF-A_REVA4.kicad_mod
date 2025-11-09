@@ -503,7 +503,7 @@
 	)
 	(model "${KIPRJMOD}/3d_models/USB4085-GF-A.stp"
 		(offset
-			(xyz -12 -2 1.4)
+			(xyz -12 -2 1.9)
 		)
 		(scale
 			(xyz 1 1 1)
