@@ -4,6 +4,11 @@
 
 A desktop audio backplane (100mm x 120mm) that serves as the central hub for the T-DSP modular audio ecosystem. Hosts a Teensy 4.1, ESP32, and T-DSP TAC5212 pro audio codec module on an 8-layer PCB designed for studio-quality signal integrity.
 
+![T-DSP Desktop Pro - 3D Front](documentation/t-dsp-desktop-pro-3d-angle_front.png)
+
+![T-DSP Desktop Pro - 3D Top](documentation/t-dsp-desktop-pro-3d-top.png)
+![T-DSP Desktop Pro - 3D Bottom](documentation/t-dsp-desktop-pro-3d-bottom.png)
+
 ## About T-DSP
 
 T-DSP is an open modular audio platform designed for musicians, engineers, and developers who want powerful digital signal processing in a flexible, hackable format. Built around the [Teensy](https://www.pjrc.com/teensy/) microcontroller and the [Teensy Audio Library](https://www.pjrc.com/teensy/td_libs_Audio.html), T-DSP combines studio-quality audio with a growing library of open-source modules for mixing, synthesis, effects, and more.
@@ -21,6 +26,8 @@ The Desktop Pro is a **backplane PCB** -- the main board that T-DSP audio module
 - **Teensy 4.1** -- ARM Cortex-M7 running the Teensy Audio Library for real-time DSP (mixing, effects, synthesis, routing)
 - **ESP32** -- WiFi/Bluetooth connectivity for remote control, configuration, and streaming
 - **T-DSP TAC5212 Module** -- Professional stereo audio codec (ADC + DAC) with mic preamp, line, and instrument inputs
+
+![T-DSP Desktop Pro - 3D Back](documentation/t-dsp-desktop-pro-3d-angle_back.png)
 
 ## Audio Connectivity
 
@@ -54,6 +61,8 @@ The Desktop Pro is a **backplane PCB** -- the main board that T-DSP audio module
 
 ## Board Design
 
+![T-DSP Desktop Pro - PCB Layout](documentation/t-dsp-desktop-pro-pcb-layout.png)
+
 - **8-layer PCB** with dedicated ground and power planes for low-noise analog performance
 - **100mm x 120mm** board dimensions
 - LDO voltage regulation for clean analog power
@@ -68,8 +77,8 @@ The Desktop Pro is a **backplane PCB** -- the main board that T-DSP audio module
 |-----------|----------|
 | `/3d_models/` | 3D models for PCB components |
 | `/bom/` | [Interactive BOM](https://t-dsp.github.io/t-dsp_desktop_pro/bom/ibom.html) and bill of materials |
+| `/documentation/` | [Schematic PDF](documentation/t-dsp-desktop-pro-schematic.pdf), board images, and reference docs |
 | `/gerbers/` | Manufacturing-ready Gerber output files |
-| `/lib_docs/` | Component datasheets and reference documents |
 | `/lib_fp/` | Custom KiCad footprint libraries |
 | `/lib_sch/` | Custom KiCad schematic symbol libraries |
 | `/panel/` | Panelized board layouts for production |
