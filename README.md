@@ -39,17 +39,27 @@ The Desktop Pro is a **backplane PCB** that hosts a Teensy 4.1, ESP32, and T-DSP
 | U5-U8 | SN74LVC2G125DCTR | Dual bus buffers (4x) |
 | U9 | 74HCT2G17GW | Dual Schmitt trigger buffers (3x) |
 
-## Audio Connectivity
+## Connectivity
 
-### Analog I/O
-- **3.5mm TRS jacks** -- Stereo audio inputs and outputs
-- **6.35mm (1/4") phone jack** -- Headphone/monitor output (16-300 ohm)
-- **MIDI I/O** -- 3.5mm TRS MIDI input and output with optical isolation (H11L1)
-
-### Digital I/O
+### Audio I/O
+- **RCA outputs** -- Stereo analog audio output
+- **RCA inputs** -- Stereo analog audio input
+- **Headphone output** -- 1/4" (6.35mm) or 3.5mm headphone jack
 - **S/PDIF** -- Digital audio input and output
-- **USB-C or USB-B** -- Teensy device/programming interface (shared footprint, populate one)
+
+### USB
+- **USB-C or USB-B** -- Power and USB Audio to Teensy (shared footprint, populate one)
 - **USB-A** -- USB host connector
+
+### MIDI
+- **MIDI input** -- 3.5mm TRS with optical isolation (H11L1)
+- **MIDI GPIO** -- Configurable for MIDI in, out, or thru
+
+### Power
+- **Dual power input** -- Onboard (USB) or offboard power supply via TPS2116 power multiplexer
+
+### Storage
+- **SD card** -- Accessible via Teensy 4.1 built-in SD slot
 
 ## Expansion
 
@@ -62,11 +72,12 @@ The Desktop Pro is a **backplane PCB** that hosts a Teensy 4.1, ESP32, and T-DSP
 
 ## User Interface
 
-- **Tactile buttons** (SW1-SW8) for control and navigation
-- **Rotary encoder** for parameter adjustment and menu navigation
+The backplane exposes a GPIO header for flexible UI connectivity, supporting popular interface options for the Teensy Audio Library.
+
+- **GPIO header** -- Active-low buttons, rotary encoder, and display connections
 - **OLED display** (128x64, SSD1306) for status and menus
 - **3.2" TFT touchscreen** (ILI9341) header for advanced UI (optional)
-- **SK6812 addressable LEDs** for visual status indication
+- **SK6812 addressable LEDs** for ESP32 and Teensy status indication
 
 ## Board Design
 
