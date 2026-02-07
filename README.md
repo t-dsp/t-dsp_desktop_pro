@@ -20,7 +20,7 @@ Join the community, contribute to the library, or grab a module and start patchi
 
 ## Overview
 
-The Desktop Pro is a **backplane PCB** -- the main board that T-DSP audio modules solder or plug into. It provides all the connectors, processing, networking, and user interface for a complete desktop audio device. You supply the T-DSP codec module; the backplane handles everything else.
+The Desktop Pro is a **backplane PCB** that hosts a Teensy 4.1, ESP32, and T-DSP codec module alongside supporting ICs to create a complete audio development platform. It provides all the connectors, processing, networking, and user interface needed to build desktop audio devices.
 
 ## Processing
 
