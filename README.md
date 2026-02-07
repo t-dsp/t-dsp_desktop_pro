@@ -37,9 +37,8 @@ The Desktop Pro is a **backplane PCB** -- the main board that T-DSP audio module
 
 ### Digital I/O
 - **S/PDIF** -- Digital audio input and output
-- **USB-C** -- Primary host/device audio interface
+- **USB-C or USB-B** -- Teensy device/programming interface (shared footprint, populate one)
 - **USB-A** -- USB host connector
-- **USB-B** -- Device/programming interface
 
 ## Expansion
 
