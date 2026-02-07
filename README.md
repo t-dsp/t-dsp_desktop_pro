@@ -5,6 +5,7 @@
 A desktop audio backplane (100mm x 120mm) that serves as the central hub for the T-DSP modular audio ecosystem. Hosts a Teensy 4.1, ESP32, and T-DSP TAC5212 pro audio codec module on an 8-layer PCB designed for studio-quality signal integrity.
 
 ![T-DSP Desktop Pro - 3D Front](documentation/t-dsp-desktop-pro-3d-angle_front.png)
+![T-DSP Desktop Pro - 3D Back](documentation/t-dsp-desktop-pro-3d-angle_back.png)
 
 ![T-DSP Desktop Pro - 3D Top](documentation/t-dsp-desktop-pro-3d-top.png)
 ![T-DSP Desktop Pro - 3D Bottom](documentation/t-dsp-desktop-pro-3d-bottom.png)
@@ -26,8 +27,6 @@ The Desktop Pro is a **backplane PCB** -- the main board that T-DSP audio module
 - **Teensy 4.1** -- ARM Cortex-M7 running the Teensy Audio Library for real-time DSP (mixing, effects, synthesis, routing)
 - **ESP32** -- WiFi/Bluetooth connectivity for remote control, configuration, and streaming
 - **T-DSP TAC5212 Module** -- Professional stereo audio codec (ADC + DAC) with mic preamp, line, and instrument inputs
-
-![T-DSP Desktop Pro - 3D Back](documentation/t-dsp-desktop-pro-3d-angle_back.png)
 
 ## Audio Connectivity
 
