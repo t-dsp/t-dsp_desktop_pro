@@ -24,9 +24,20 @@ The Desktop Pro is a **backplane PCB** -- the main board that T-DSP audio module
 
 ## Processing
 
-- **Teensy 4.1** -- ARM Cortex-M7 running the Teensy Audio Library for real-time DSP (mixing, effects, synthesis, routing)
-- **ESP32** -- WiFi/Bluetooth connectivity for remote control, configuration, and streaming
+- **Teensy 4.1** -- ARM Cortex-M7 running the Teensy Audio Library for real-time audio processing (mixing, effects, synthesis, routing). Also receives USB Audio.
+- **ESP32** -- UI controller, WiFi/Bluetooth connectivity. Runs the display, buttons, and encoder, and sends commands to the Teensy over serial.
 - **T-DSP TAC5212 Module** -- Professional stereo audio codec (ADC + DAC) with mic preamp, line, and instrument inputs
+
+## On-Board ICs
+
+| Ref | Part | Function |
+|-----|------|----------|
+| U1 | Teensy 4.1 | Audio DSP (ARM Cortex-M7) |
+| U2 | ESP32-DevKitC | UI controller, WiFi/Bluetooth |
+| U3 | TPS2116DRL | Power multiplexer (dual input selection) |
+| U4 | H11L1SM | Optoisolator (MIDI input) |
+| U5-U8 | SN74LVC2G125DCTR | Dual bus buffers (4x) |
+| U9 | 74HCT2G17GW | Dual Schmitt trigger buffers (3x) |
 
 ## Audio Connectivity
 
@@ -64,8 +75,6 @@ The Desktop Pro is a **backplane PCB** -- the main board that T-DSP audio module
 - **8-layer PCB** with dedicated ground and power planes for low-noise analog performance
 - **100mm x 120mm** board dimensions
 - LDO voltage regulation for clean analog power
-- TVS protection on audio outputs
-- Ferrite bead RF filtering on audio inputs
 - Buffered digital outputs for reliable module distribution
 - Separate analog and digital ground domains
 
