@@ -1,9 +1,0 @@
-Manufacturer=Nexperia
-PartNumber=74HCT2G125DC,125
-PartCategory=Integrated Circuit
-PackageCategory=Small Outline Packages
-PinCount=8
-Version=8.1
-Released=2019-11-12 07:41:52
-Downloaded=2025-08-24 13:41:01
-3D=Y
