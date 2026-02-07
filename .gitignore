@@ -28,3 +28,10 @@ fp-info-cache
 *.xml
 *.csv
 *.lck
+*.pro
+
+# Reference materials (third-party datasheets, service manuals, etc.)
+documentation/_reference/
+
+# Unused 3D models (dev board bundles, zip archives, etc.)
+3d_models/_unused/
