@@ -33,5 +33,8 @@ fp-info-cache
 # Reference materials (third-party datasheets, service manuals, etc.)
 documentation/_reference/
 
+# Downloaded component libraries (raw third-party downloads)
+lib_dl/
+
 # Unused 3D models (dev board bundles, zip archives, etc.)
 3d_models/_unused/
