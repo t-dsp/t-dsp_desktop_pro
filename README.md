@@ -95,11 +95,13 @@ The backplane exposes a GPIO header for flexible UI connectivity, supporting pop
 |-----------|----------|
 | `/3d_models/` | 3D models for PCB components |
 | `/bom/` | [Interactive BOM](https://t-dsp.github.io/t-dsp_desktop_pro/bom/ibom.html) and bill of materials |
-| `/documentation/` | [Schematic PDF](documentation/t-dsp-desktop-pro-schematic.pdf), board images, and reference docs |
+| `/documentation/` | [Schematic PDF](documentation/t-dsp-desktop-pro-schematic.pdf), [3D Model (STL)](documentation/t-dsp_desktop_pro.stl), board images, and reference docs |
 | `/gerbers/` | Manufacturing-ready Gerber output files |
 | `/lib_fp/` | Custom KiCad footprint libraries |
 | `/lib_sch/` | Custom KiCad schematic symbol libraries |
 | `/panel/` | Panelized board layouts for production |
+
+View the design files directly in your browser with KiCanvas: [Schematic](https://kicanvas.org/?github=https://github.com/t-dsp/t-dsp_desktop_pro/blob/main/t-dsp_desktop_pro.kicad_sch) | [PCB](https://kicanvas.org/?github=https://github.com/t-dsp/t-dsp_desktop_pro/blob/main/t-dsp_desktop_pro.kicad_pcb)
 
 ## Status
 
