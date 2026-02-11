@@ -883,5 +883,8 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "DATE": "2026-02-11",
+    "REVISION": "v0.5"
+  }
 }

@@ -38,3 +38,6 @@ lib_dl/
 
 # Unused 3D models (dev board bundles, zip archives, etc.)
 3d_models/_unused/
+
+# KiBot local manufacturing output (generated via Docker)
+manufacturing/

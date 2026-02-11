@@ -48,15 +48,15 @@ The Desktop Pro is a **backplane PCB** that hosts a Teensy 4.1, ESP32, and T-DSP
 - **S/PDIF** -- Digital audio input and output
 
 ### USB
-- **USB-C or USB-B** -- Power and USB Audio to Teensy (shared footprint, populate one)
-- **USB-A** -- USB host connector
+- **USB-C DEVICE** -- Power and USB Audio to Teensy (shared footprint, populate one)
+- **USB-A HOST** -- USB host connector
 
 ### MIDI
 - **MIDI input** -- 3.5mm TRS with optical isolation (H11L1)
 - **MIDI GPIO** -- Configurable for MIDI in, out, or thru
 
 ### Power
-- **Dual power input** -- Onboard (USB) or offboard power supply via TPS2116 power multiplexer
+- **Dual power input** -- Onboard (USB) or offboard power supply via TPS2116 power multiplexer via JST-XH header 
 
 ### Storage
 - **SD card** -- Accessible via Teensy 4.1 built-in SD slot
@@ -66,18 +66,19 @@ The Desktop Pro is a **backplane PCB** that hosts a Teensy 4.1, ESP32, and T-DSP
 - **2x TDM expansion headers** (2x10 pin, 2.54mm) -- Connect T-DSP audio modules
   - TDM digital audio bus (BCLK, LRCK, DATA_IN, DATA_OUT, MCLK)
   - I2C control bus (SDA, SCL)
-  - Power rails (5V, 12V, GND)
+  - Power rails (3.3V, 5V, 12V, GND)
+  - Control pins (Held-high, Held-low)
 - Modules can be soldered directly or socketed with pin headers
 - Multiple modules can be chained on the same TDM bus
 
 ## User Interface
 
-The backplane exposes a GPIO header for flexible UI connectivity, supporting popular interface options for the Teensy Audio Library.
+The backplane exposes interface-ready GPIO headers for flexible UI connectivity, supporting popular interface options compatible with the ESP32.
 
-- **GPIO header** -- Active-low buttons, rotary encoder, and display connections
-- **OLED display** (128x64, SSD1306) for status and menus
-- **3.2" TFT touchscreen** (ILI9341) header for advanced UI (optional)
-- **SK6812 addressable LEDs** for ESP32 and Teensy status indication
+- **GPIO header** — Active-low buttons, rotary encoder, and display connections for tactile UI
+- **OLED display header** (128×64, SSD1306) — Status and menu-driven UI
+- **3.2" TFT touchscreen header** (ILI9341) — Touchscreen UI
+- **SK6812 addressable LED header** — ESP32 and Teensy status indication, plus LED strip control
 
 ## Board Design
 
