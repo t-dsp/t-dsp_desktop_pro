@@ -56,13 +56,15 @@ jobs:
 
       - name: Prepare GitHub Pages content
         run: |
-          mkdir -p _site
+          mkdir -p _site/renders
           cp manufacturing/t-dsp_desktop_pro/*_ibom.html _site/ibom.html
+          cp manufacturing/t-dsp_desktop_pro/*3D_blender*.png _site/renders/
+          cp pages/gallery.html _site/gallery.html
 
       - uses: actions/upload-pages-artifact@v3
 
   deploy-pages:
-    name: Deploy iBOM to GitHub Pages
+    name: Deploy to GitHub Pages
     if: github.ref == 'refs/heads/main'
     needs: generate
     runs-on: ubuntu-latest
