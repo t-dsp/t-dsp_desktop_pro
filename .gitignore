@@ -41,3 +41,13 @@ lib_dl/
 
 # KiBot local manufacturing output (generated via Docker)
 manufacturing/
+
+# Local tool configs
+.claude/
+ibom.config.ini
+
+# KiCad project backups
+*.kicad_pro-bak
+
+# Windows artifacts
+nul
