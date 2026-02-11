@@ -1,0 +1,97 @@
+name: Manufacturing Files
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '*.kicad_pcb'
+      - '*.kicad_sch'
+      - '.kibot.yaml'
+      - '.github/workflows/manufacturing.yml'
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  generate:
+    name: Generate manufacturing outputs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: INTI-CMNB/KiBot@v2_k9
+        with:
+          config: .kibot.yaml
+          board: t-dsp_desktop_pro.kicad_pcb
+          schema: t-dsp_desktop_pro.kicad_sch
+          dir: manufacturing
+          targets: JLCPCB_gerbers JLCPCB_drill JLCPCB_position JLCPCB_bom generic_bom schematic_pdf pcb_pdf interactive_bom pcb_spec
+          verbose: 2
+
+      - name: Generate 3D renders
+        uses: docker://ghcr.io/inti-cmnb/kicad9_auto_full:latest
+        with:
+          args: kibot -c .kibot.yaml -b t-dsp_desktop_pro.kicad_pcb -e t-dsp_desktop_pro.kicad_sch -d manufacturing 3d_renders 3d_renders_smd
+
+      - name: Generate manufacturing ZIP
+        uses: INTI-CMNB/KiBot@v2_k9
+        with:
+          config: .kibot.yaml
+          board: t-dsp_desktop_pro.kicad_pcb
+          schema: t-dsp_desktop_pro.kicad_sch
+          dir: manufacturing
+          targets: manufacturing_zip
+          verbose: 2
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: manufacturing-files
+          path: manufacturing/t-dsp_desktop_pro/
+          if-no-files-found: error
+
+      - name: Prepare GitHub Pages content
+        run: |
+          mkdir -p _site
+          cp manufacturing/t-dsp_desktop_pro/*_ibom.html _site/ibom.html
+
+      - uses: actions/upload-pages-artifact@v3
+
+  deploy-pages:
+    name: Deploy iBOM to GitHub Pages
+    if: github.ref == 'refs/heads/main'
+    needs: generate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  release:
+    name: Attach to GitHub Release
+    if: startsWith(github.ref, 'refs/tags/')
+    needs: generate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: manufacturing-files
+          path: manufacturing/t-dsp_desktop_pro/
+
+      - name: Find release files
+        id: find_files
+        run: |
+          ZIP=$(ls manufacturing/t-dsp_desktop_pro/*.zip 2>/dev/null | head -1)
+          echo "zip_path=$ZIP" >> "$GITHUB_OUTPUT"
+
+      - name: Upload release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${{ github.ref_name }}" "${{ steps.find_files.outputs.zip_path }}" --clobber --repo "${{ github.repository }}"

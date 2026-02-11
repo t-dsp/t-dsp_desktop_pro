@@ -1,0 +1,347 @@
+# KiBot configuration for JLCPCB manufacturing outputs
+# Project: T-DSP Desktop Pro
+# Board: 8-layer (F.Cu, In1.Cu, In2.Cu, In3.Cu, In4.Cu, In5.Cu, In6.Cu, B.Cu)
+
+kibot:
+  version: 1
+
+global:
+  # Write resolved text variables into the PCB's cache so ${REVISION} renders
+  # on silkscreen. Side effect: modifies the PCB file during build. In CI this
+  # is harmless (file is discarded). Locally, run: git checkout -- *.kicad_pcb
+  invalidate_pcb_text_cache: 'no'
+  update_pcb_text_cache: 'yes'
+  # Many schematic symbols carry the KiCad DNP attribute for BOM purposes.
+  # Prevent KiBot from stripping their 3D models during Blender renders.
+  kicad_dnp_applies_to_3D: false
+
+preflight:
+  set_text_variables:
+    - name: REVISION
+      command: git describe --tags --always
+    - name: DATE
+      command: date +%Y-%m-%d
+
+filters:
+  - name: only_jlc_parts
+    comment: 'Only parts with LCSC code'
+    type: generic
+    include_only:
+      - column: 'LCSC'
+        regex: '^C\d+'
+
+  - name: exclude_tht
+    comment: 'Exclude through-hole components for SMD-only 3D renders'
+    type: generic
+    exclude_tht: true
+
+variants:
+  - name: rotated
+    comment: 'JLCPCB rotation correction'
+    type: kibom
+    variant: rotated
+    pre_transform: _rot_footprint_jlcpcb
+
+outputs:
+  - name: JLCPCB_gerbers
+    comment: Gerbers compatible with JLCPCB
+    type: gerber
+    dir: t-dsp_desktop_pro
+    options:
+      exclude_edge_layer: true
+      exclude_pads_from_silkscreen: true
+      plot_sheet_reference: false
+      plot_footprint_refs: false
+      plot_footprint_values: false
+      force_plot_invisible_refs_vals: false
+      tent_vias: true
+      use_protel_extensions: true
+      create_gerber_job_file: true
+      disable_aperture_macros: true
+      gerber_precision: 4.6
+      use_gerber_x2_attributes: false
+      use_gerber_net_attributes: false
+      line_width: 0.1
+      subtract_mask_from_silk: true
+      inner_extension_pattern: '.g%n'
+    layers:
+      - F.Cu
+      - B.Cu
+      - In1.Cu
+      - In2.Cu
+      - In3.Cu
+      - In4.Cu
+      - In5.Cu
+      - In6.Cu
+      - F.SilkS
+      - B.SilkS
+      - F.Mask
+      - B.Mask
+      - F.Paste
+      - B.Paste
+      - Edge.Cuts
+
+  - name: JLCPCB_drill
+    comment: Drill files compatible with JLCPCB
+    type: excellon
+    dir: t-dsp_desktop_pro
+    options:
+      pth_and_npth_single_file: false
+      pth_id: '-PTH'
+      npth_id: '-NPTH'
+      metric_units: true
+      map: gerber
+      route_mode_for_oval_holes: false
+      output: "%f%i.%x"
+
+  - name: JLCPCB_position
+    comment: Pick and place file, JLCPCB style
+    type: position
+    dir: t-dsp_desktop_pro
+    options:
+      variant: rotated
+      output: '%f_cpl.%x'
+      format: CSV
+      units: millimeters
+      separate_files_for_front_and_back: false
+      only_smd: false
+      columns:
+        - id: Ref
+          name: Designator
+        - Val
+        - Package
+        - id: PosX
+          name: "Mid X"
+        - id: PosY
+          name: "Mid Y"
+        - id: Rot
+          name: Rotation
+        - id: Side
+          name: Layer
+
+  - name: JLCPCB_bom
+    comment: BoM for JLCPCB
+    type: bom
+    dir: t-dsp_desktop_pro
+    options:
+      output: '%f_bom_JLCPCB.%x'
+      exclude_filter: 'only_jlc_parts'
+      ref_separator: ','
+      columns:
+        - field: Value
+          name: Comment
+        - field: References
+          name: Designator
+        - Footprint
+        - field: 'LCSC'
+          name: 'LCSC Part #'
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+        quote_all: true
+
+  - name: generic_bom
+    comment: Full BoM for general use (PCBWay, etc.)
+    type: bom
+    dir: t-dsp_desktop_pro
+    options:
+      output: '%f_bom_generic.%x'
+      ref_separator: ','
+      columns:
+        - field: References
+          name: Designator
+        - field: Value
+          name: Value
+        - field: Footprint
+          name: Footprint
+        - field: Quantity Per PCB
+          name: Qty
+        - field: 'Package / Case'
+          name: Package
+        - field: 'LCSC'
+          name: LCSC
+        - field: 'Manufacturer'
+          name: Manufacturer
+        - field: 'Manufacturer_Part_Number'
+          name: MPN
+        - field: 'Description'
+          name: Description
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+        quote_all: true
+
+  - name: schematic_pdf
+    comment: Schematic PDF for reference
+    type: pdf_sch_print
+    dir: t-dsp_desktop_pro
+    options:
+      output: '%f_schematic.%x'
+
+  - name: pcb_pdf
+    comment: PCB layout PDF for reference
+    type: pcb_print
+    dir: t-dsp_desktop_pro
+    options:
+      output: '%f_pcb.%x'
+      pages:
+        - layers:
+            - layer: F.Cu
+              plot_footprint_refs: false
+            - layer: F.SilkS
+              plot_footprint_refs: false
+            - layer: Edge.Cuts
+          sheet: 'Front Copper'
+        - layers:
+            - layer: In1.Cu
+            - layer: Edge.Cuts
+          sheet: 'Inner 1'
+        - layers:
+            - layer: In2.Cu
+            - layer: Edge.Cuts
+          sheet: 'Inner 2'
+        - layers:
+            - layer: In3.Cu
+            - layer: Edge.Cuts
+          sheet: 'Inner 3'
+        - layers:
+            - layer: In4.Cu
+            - layer: Edge.Cuts
+          sheet: 'Inner 4'
+        - layers:
+            - layer: In5.Cu
+            - layer: Edge.Cuts
+          sheet: 'Inner 5'
+        - layers:
+            - layer: In6.Cu
+            - layer: Edge.Cuts
+          sheet: 'Inner 6'
+        - layers:
+            - layer: B.Cu
+              plot_footprint_refs: false
+            - layer: B.SilkS
+              plot_footprint_refs: false
+            - layer: Edge.Cuts
+          sheet: 'Back Copper'
+
+  - name: interactive_bom
+    comment: Interactive HTML BOM
+    type: ibom
+    dir: t-dsp_desktop_pro
+    options:
+      output: '%f_ibom.%x'
+
+  - name: 3d_renders
+    comment: 3D renders with all components (through-hole + SMD)
+    type: blender_export
+    dir: t-dsp_desktop_pro
+    options:
+      pcb3d:
+        download: true
+        download_lcsc: true
+      render_options:
+        resolution_x: 1920
+        resolution_y: 1080
+        samples: 10
+        transparent_background: true
+        auto_crop: true
+      point_of_view:
+        - view: top
+          file_id: _th_top
+        - view: bottom
+          file_id: _th_bottom
+        - view: front
+          file_id: _th_front
+        - view: rear
+          file_id: _th_rear
+        - view: left
+          file_id: _th_left
+        - view: right
+          file_id: _th_right
+        - view: top
+          file_id: _th_top_iso
+          rotate_x: 30
+          rotate_z: -30
+        - view: bottom
+          file_id: _th_bottom_iso
+          rotate_x: -30
+          rotate_z: -30
+      outputs:
+        - type: render
+
+  - name: 3d_renders_smd
+    comment: 3D renders without through-hole components
+    type: blender_export
+    dir: t-dsp_desktop_pro
+    options:
+      pcb3d:
+        download: true
+        download_lcsc: true
+        exclude_filter: exclude_tht
+      render_options:
+        resolution_x: 1920
+        resolution_y: 1080
+        samples: 10
+        transparent_background: true
+        auto_crop: true
+      point_of_view:
+        - view: top
+          file_id: _smd_top
+        - view: bottom
+          file_id: _smd_bottom
+        - view: front
+          file_id: _smd_front
+        - view: rear
+          file_id: _smd_rear
+        - view: left
+          file_id: _smd_left
+        - view: right
+          file_id: _smd_right
+        - view: top
+          file_id: _smd_top_iso
+          rotate_x: 30
+          rotate_z: -30
+        - view: bottom
+          file_id: _smd_bottom_iso
+          rotate_x: -30
+          rotate_z: -30
+      outputs:
+        - type: render
+
+  - name: pcb_spec
+    comment: PCB specifications and layer stackup for manufacturer
+    type: report
+    dir: t-dsp_desktop_pro
+    options:
+      template: simple
+      output: '%f_pcb_spec.%x'
+
+  - name: manufacturing_zip
+    comment: ZIP file with all manufacturing files
+    type: compress
+    dir: t-dsp_desktop_pro
+    options:
+      output: '%f-manufacturing_%r.%x'
+      files:
+        - from_output: JLCPCB_gerbers
+          dest: /
+        - from_output: JLCPCB_drill
+          dest: /
+        - from_output: JLCPCB_position
+          dest: /
+        - from_output: JLCPCB_bom
+          dest: /
+        - from_output: generic_bom
+          dest: /
+        - from_output: schematic_pdf
+          dest: /
+        - from_output: pcb_pdf
+          dest: /
+        - from_output: interactive_bom
+          dest: /
+        - from_output: pcb_spec
+          dest: /
+        - from_output: 3d_renders
+          dest: /3d_renders
+        - from_output: 3d_renders_smd
+          dest: /3d_renders_smd
