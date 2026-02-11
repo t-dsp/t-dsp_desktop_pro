@@ -10,6 +10,8 @@ A desktop audio backplane (100mm x 120mm) that serves as the central hub for the
 ![T-DSP Desktop Pro - 3D Top](documentation/t-dsp-desktop-pro-3d-top.png)
 ![T-DSP Desktop Pro - 3D Bottom](documentation/t-dsp-desktop-pro-3d-bottom.png)
 
+**[View 3D Render Gallery](https://t-dsp.github.io/t-dsp_desktop_pro/gallery.html)** — interactive slideshow of all board views
+
 ## About T-DSP
 
 T-DSP is an open modular audio platform designed for musicians, engineers, and developers who want powerful digital signal processing in a flexible, hackable format. Built around the [Teensy](https://www.pjrc.com/teensy/) microcontroller and the [Teensy Audio Library](https://www.pjrc.com/teensy/td_libs_Audio.html), T-DSP combines studio-quality audio with a growing library of open-source modules for mixing, synthesis, effects, and more.
