@@ -11573,6 +11573,1206 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lib_sch:t-dsp_desktop_pro"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 40.64 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "t-dsp_desktop_pro"
+				(at 1.27 -40.64 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x31, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 11.176 -44.958 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "t-dsp_desktop_pro_1_1"
+				(rectangle
+					(start -32.385 39.37)
+					(end 32.385 -39.37)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -36.195 38.1 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 35.56 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 33.02 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 30.48 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 27.94 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 25.4 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 22.86 0)
+					(length 3.81)
+					(name "Pin_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 20.32 0)
+					(length 3.81)
+					(name "Pin_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 17.78 0)
+					(length 3.81)
+					(name "Pin_17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 15.24 0)
+					(length 3.81)
+					(name "Pin_19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 12.7 0)
+					(length 3.81)
+					(name "Pin_21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 10.16 0)
+					(length 3.81)
+					(name "Pin_23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 7.62 0)
+					(length 3.81)
+					(name "Pin_25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 5.08 0)
+					(length 3.81)
+					(name "Pin_27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 2.54 0)
+					(length 3.81)
+					(name "Pin_29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 0 0)
+					(length 3.81)
+					(name "Pin_31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 -2.54 0)
+					(length 3.81)
+					(name "Pin_33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 -5.08 0)
+					(length 3.81)
+					(name "Pin_35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 -7.62 0)
+					(length 3.81)
+					(name "Pin_37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 -10.16 0)
+					(length 3.81)
+					(name "Pin_39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 -12.7 0)
+					(length 3.81)
+					(name "Pin_41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 -15.24 0)
+					(length 3.81)
+					(name "Pin_43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 -17.78 0)
+					(length 3.81)
+					(name "Pin_45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 -20.32 0)
+					(length 3.81)
+					(name "Pin_47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 -22.86 0)
+					(length 3.81)
+					(name "Pin_49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 -25.4 0)
+					(length 3.81)
+					(name "Pin_51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 -27.94 0)
+					(length 3.81)
+					(name "Pin_53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 -30.48 0)
+					(length 3.81)
+					(name "Pin_55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 -33.02 0)
+					(length 3.81)
+					(name "Pin_57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 -35.56 0)
+					(length 3.81)
+					(name "Pin_59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -36.195 -38.1 0)
+					(length 3.81)
+					(name "Pin_61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 38.1 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 35.56 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 33.02 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 30.48 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 27.94 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 25.4 180)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 22.86 180)
+					(length 3.81)
+					(name "Pin_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 20.32 180)
+					(length 3.81)
+					(name "Pin_16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 17.78 180)
+					(length 3.81)
+					(name "Pin_18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 15.24 180)
+					(length 3.81)
+					(name "Pin_20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 12.7 180)
+					(length 3.81)
+					(name "Pin_22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 10.16 180)
+					(length 3.81)
+					(name "Pin_24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 7.62 180)
+					(length 3.81)
+					(name "Pin_26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 5.08 180)
+					(length 3.81)
+					(name "Pin_28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 2.54 180)
+					(length 3.81)
+					(name "Pin_30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 0 180)
+					(length 3.81)
+					(name "Pin_32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 -2.54 180)
+					(length 3.81)
+					(name "Pin_34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 -5.08 180)
+					(length 3.81)
+					(name "Pin_36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 -7.62 180)
+					(length 3.81)
+					(name "Pin_38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 -10.16 180)
+					(length 3.81)
+					(name "Pin_40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 -12.7 180)
+					(length 3.81)
+					(name "Pin_42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 -15.24 180)
+					(length 3.81)
+					(name "Pin_44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 -17.78 180)
+					(length 3.81)
+					(name "Pin_46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 -20.32 180)
+					(length 3.81)
+					(name "Pin_48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 -22.86 180)
+					(length 3.81)
+					(name "Pin_50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 -25.4 180)
+					(length 3.81)
+					(name "Pin_52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 -27.94 180)
+					(length 3.81)
+					(name "Pin_54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 -30.48 180)
+					(length 3.81)
+					(name "Pin_56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 -33.02 180)
+					(length 3.81)
+					(name "Pin_58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 -35.56 180)
+					(length 3.81)
+					(name "Pin_60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 36.195 -38.1 180)
+					(length 3.81)
+					(name "Pin_62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -18234,6 +19434,12 @@
 		(uuid "0913c37b-6a53-42c4-878f-d4236a085811")
 	)
 	(junction
+		(at 85.09 350.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b524092-c32d-4e61-a033-9a6ee9728232")
+	)
+	(junction
 		(at 222.25 330.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18448,6 +19654,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "517d21b5-d7b7-4d5a-8369-bd59c3802711")
+	)
+	(junction
+		(at 83.82 363.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51f444d7-0f62-4f8e-bc5b-2a5a1726c74a")
 	)
 	(junction
 		(at 802.64 549.91)
@@ -18930,10 +20142,22 @@
 		(uuid "dcf1e772-3a09-49a3-b5da-0617f0644dbc")
 	)
 	(junction
+		(at 83.82 365.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1d3f6a2-935e-4b6c-b58a-b27093370e35")
+	)
+	(junction
 		(at 269.24 332.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e23cded6-9bf5-4513-8dec-bdc5650b51f3")
+	)
+	(junction
+		(at 85.09 347.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3332ba3-b8de-4ead-8105-160e92d38ee7")
 	)
 	(junction
 		(at 133.35 419.1)
@@ -19117,6 +20341,16 @@
 			(type default)
 		)
 		(uuid "00ca30a8-21dc-4363-9596-0a434f914761")
+	)
+	(wire
+		(pts
+			(xy 83.82 365.76) (xy 91.44 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01139b60-689b-4132-a47a-2cf5d5e87ada")
 	)
 	(wire
 		(pts
@@ -19630,7 +20864,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 363.22) (xy 105.41 363.22)
+			(xy 66.04 363.22) (xy 83.82 363.22)
 		)
 		(stroke
 			(width 0)
@@ -21140,6 +22374,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 350.52) (xy 85.09 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d789627-52c8-4bb7-a442-31068e92bb9b")
+	)
+	(wire
+		(pts
 			(xy 161.29 330.2) (xy 222.25 330.2)
 		)
 		(stroke
@@ -21187,6 +22431,16 @@
 			(type default)
 		)
 		(uuid "5f87030a-df51-4f52-b5d3-5ec34f9d5f5d")
+	)
+	(wire
+		(pts
+			(xy 69.85 347.98) (xy 85.09 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa4cff5-a68a-4c8f-8790-86f8c2743319")
 	)
 	(wire
 		(pts
@@ -21567,6 +22821,16 @@
 			(type default)
 		)
 		(uuid "76afc381-6d7b-487b-bb94-dca573486fc1")
+	)
+	(wire
+		(pts
+			(xy 85.09 350.52) (xy 105.41 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7704c72d-561b-4447-a7a9-5dcc673e395a")
 	)
 	(wire
 		(pts
@@ -21970,7 +23234,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 365.76) (xy 91.44 365.76)
+			(xy 66.04 365.76) (xy 83.82 365.76)
 		)
 		(stroke
 			(width 0)
@@ -23060,6 +24324,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 347.98) (xy 105.41 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c56c34d9-f74d-42e9-bc7c-89bdd76eda87")
+	)
+	(wire
+		(pts
 			(xy 107.95 397.51) (xy 107.95 401.32)
 		)
 		(stroke
@@ -24087,6 +25361,16 @@
 			(type default)
 		)
 		(uuid "fa62f3e2-2cad-4f91-bafa-7a2d700cfbc4")
+	)
+	(wire
+		(pts
+			(xy 83.82 363.22) (xy 105.41 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa893573-3ef6-41ff-93f1-e62f986a17c1")
 	)
 	(wire
 		(pts
@@ -25266,7 +26550,7 @@
 	)
 	(global_label "T_BUTTON1"
 		(shape input)
-		(at 105.41 347.98 180)
+		(at 69.85 347.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25276,7 +26560,7 @@
 		)
 		(uuid "03004d43-f61f-44b6-a07e-fbb374cee063")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.817 347.98 0)
+			(at 57.257 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25932,28 +27216,6 @@
 		(uuid "1be13e5e-b292-47d9-8d5f-3ee2560d3960")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 919.3372 852.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IN2_JACK_DETECT"
-		(shape input)
-		(at 105.41 353.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1cc6efa3-644c-41bd-a0d4-1e1967668466")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.9754 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29607,7 +30869,7 @@
 	)
 	(global_label "T_BUTTON2"
 		(shape input)
-		(at 105.41 350.52 180)
+		(at 69.85 350.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -29617,7 +30879,7 @@
 		)
 		(uuid "b1bb2531-29ad-4ca4-a99a-1d3f69129eae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.817 350.52 0)
+			(at 57.257 350.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31702,15 +32964,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 525.78 599.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C368491"
 			(at 525.78 599.44 0)
 			(effects
@@ -31763,7 +33016,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "013df670-b3e5-4906-afc1-86156f7b2c71")
 		(property "Reference" "MIDI_OUT_1"
 			(at 919.0228 569.4426 0)
@@ -31828,7 +33081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package / Case" "through-hole"
+		(property "Package / Case" "TH-JACK"
 			(at 916.94 563.88 0)
 			(effects
 				(font
@@ -31847,15 +33100,6 @@
 			)
 		)
 		(property "LCSC TYPE" ""
-			(at 918.21 579.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 918.21 579.12 0)
 			(effects
 				(font
@@ -32024,15 +33268,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 467.36 586.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "544df30d-1f72-4913-b806-01d76c835639")
 		)
@@ -32152,15 +33387,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 95.25 327.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 95.25 327.66 90)
 			(effects
 				(font
@@ -32357,15 +33583,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 695.96 308.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "cd1121f3-c17d-400e-81ed-29ebe9772103")
 		)
@@ -32388,7 +33605,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "093af002-fb62-4ef4-b9e3-f5f02a9d63ca")
 		(property "Reference" "T108"
@@ -32437,6 +33654,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 1125.22 1008.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "TAB"
 			(at 1125.22 1008.38 0)
 			(effects
 				(font
@@ -32527,7 +33753,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "0a696409-966e-4462-b55d-0a3d647d8121")
 		(property "Reference" "R5"
 			(at 96.6853 367.7359 90)
@@ -32618,15 +33844,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 95.25 368.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 95.25 368.3 90)
 			(effects
 				(font
@@ -32728,15 +33945,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 855.98 610.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "db76de73-db8a-4b09-9b48-5f5608d41d72")
 		)
@@ -32824,15 +34032,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 750.57 424.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 750.57 424.18 0)
 			(effects
 				(font
@@ -32962,15 +34161,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 833.12 900.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "78e039e3-7e4f-407f-9596-2d71b7b1faf1")
 		)
@@ -33059,15 +34249,6 @@
 			)
 		)
 		(property "LCSC TYPE" "TH-CAP"
-			(at 458.47 623.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 458.47 623.57 0)
 			(effects
 				(font
@@ -33189,15 +34370,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 778.51 566.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ec06a8ae-546f-4ac3-821d-b28014b19def")
 		)
@@ -33273,7 +34445,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "TH-SWITCH"
 			(at 154.94 419.1 0)
 			(effects
 				(font
@@ -33361,15 +34533,6 @@
 			)
 		)
 		(property "LCSC TYPE" "TH-HEADER"
-			(at 81.28 384.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 81.28 384.81 0)
 			(effects
 				(font
@@ -33467,7 +34630,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "BATTERY"
 			(at 107.95 406.4 0)
 			(effects
 				(font
@@ -33696,15 +34859,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 172.72 317.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d243b6c0-5dce-4b5b-a1fa-6627f8dae109")
 		)
@@ -33727,7 +34881,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "1d19df6f-3a37-4dce-b5c1-7814af28df67")
 		(property "Reference" "R52"
 			(at 93.599 365.379 90)
@@ -33818,15 +34972,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 95.25 365.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 95.25 365.76 90)
 			(effects
 				(font
@@ -33931,15 +35076,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 638.81 416.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C265094"
 			(at 638.81 416.56 0)
 			(effects
@@ -34036,7 +35172,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "7343-15"
 			(at 461.01 637.54 0)
 			(effects
 				(font
@@ -34133,15 +35269,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 505.46 544.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 505.46 544.83 90)
 			(effects
 				(font
@@ -34254,15 +35381,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 772.16 297.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "245f5880-28ed-49ac-84aa-086be50cea4f")
 		)
@@ -34348,15 +35466,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 1181.1 1079.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 1181.1 1079.5 90)
 			(effects
 				(font
@@ -34486,15 +35595,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 173.99 325.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ff7bed0b-fb25-41ca-b1ce-40b0b2f35ca9")
 		)
@@ -34572,7 +35672,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "HEADER"
 			(at 381 346.71 0)
 			(effects
 				(font
@@ -34784,15 +35884,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 739.14 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "51ebdb2e-388e-46c0-b98d-16699f69d33a")
 		)
@@ -34881,15 +35972,6 @@
 			)
 		)
 		(property "Package / Case" "C0805"
-			(at 1079.5 615.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "581-08055C104M4T4A"
 			(at 1079.5 615.95 0)
 			(effects
 				(font
@@ -35019,15 +36101,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 835.66 953.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "954abc86-c170-4fcc-a041-3dabf06dca41")
 		)
@@ -35050,7 +36123,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2461ba9e-e2de-4522-b243-9109c2dd5f4c")
 		(property "Reference" "T110"
@@ -35099,6 +36172,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 1169.67 1008.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "TAB"
 			(at 1169.67 1008.38 0)
 			(effects
 				(font
@@ -35161,6 +36243,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 782.32 655.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "HEADER"
 			(at 782.32 655.32 0)
 			(effects
 				(font
@@ -35284,15 +36375,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 215.9 321.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "fc429d40-203d-4c5a-bd47-23abc3156951")
 		)
@@ -35407,15 +36489,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 163.83 557.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ead2f44a-824c-427d-8724-66c60a41a84a")
 		)
@@ -35521,15 +36594,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 162.56 416.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 162.56 416.56 0)
 			(effects
 				(font
@@ -35679,7 +36743,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "TH-SWITCH"
 			(at 539.75 981.71 0)
 			(effects
 				(font
@@ -35710,7 +36774,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "2c95d192-6ef4-45c6-99f7-25c856a441cf")
 		(property "Reference" "MIDI_OT2"
 			(at 958.85 575.945 0)
@@ -35799,15 +36863,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 958.85 579.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "88d8dbff-4db6-44c7-8d5d-9bf0e488eeca")
 		)
@@ -35881,24 +36936,6 @@
 			)
 		)
 		(property "Package / Case" "C0805"
-			(at 984.25 878.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TAC5212EVM" ""
-			(at 984.25 878.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REPLACE FOR NEXT BUILD" ""
 			(at 984.25 878.84 0)
 			(effects
 				(font
@@ -36038,15 +37075,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 533.4 695.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C4991754"
 			(at 533.4 695.96 0)
 			(effects
@@ -36136,15 +37164,6 @@
 			)
 		)
 		(property "LCSC TYPE" "TH-HEADER"
-			(at 90.17 402.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 90.17 402.59 0)
 			(effects
 				(font
@@ -36292,15 +37311,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 836.93 1017.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "36a11612-79cc-4910-b506-0d4a7571c664")
 		)
@@ -36323,7 +37333,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "37e62073-1e53-436f-bb41-4d0560dbf27a")
 		(property "Reference" "H1"
@@ -36380,7 +37390,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "HOLE"
 			(at 1028.7 1170.94 0)
 			(effects
 				(font
@@ -36499,15 +37509,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 877.57 591.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "910b71e0-1176-4ac8-a604-6916c9337067")
 		)
@@ -36605,15 +37606,6 @@
 			)
 		)
 		(property "LCSC TYPE" ""
-			(at 535.94 791.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 535.94 791.21 0)
 			(effects
 				(font
@@ -36808,15 +37800,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 447.04 398.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9ed2d2c4-dda3-4dd8-a6c6-69e1be5d19d2")
 		)
@@ -36839,7 +37822,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3daec8f3-b177-4939-bd35-b39962866d6c")
 		(property "Reference" "T109"
@@ -36888,6 +37871,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 1145.54 1009.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "TAB"
 			(at 1145.54 1009.65 0)
 			(effects
 				(font
@@ -37051,15 +38043,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 262.89 326.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "68787c9b-8b91-4ac5-ad82-beb5cc034475")
 		)
@@ -37169,15 +38152,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 905.51 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 905.51 335.28 0)
 			(effects
 				(font
@@ -37317,15 +38291,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 459.74 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "DNP"
 			(at 459.74 393.7 0)
 			(effects
@@ -37454,15 +38419,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 810.26 552.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "97ab8957-bc45-40d4-a12b-b3596ec82351")
 		)
@@ -37552,15 +38508,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 269.24 328.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 269.24 328.93 90)
 			(effects
 				(font
@@ -37675,15 +38622,6 @@
 			)
 		)
 		(property "LCSC TYPE" ""
-			(at 796.29 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 796.29 281.94 0)
 			(effects
 				(font
@@ -37880,15 +38818,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 929.64 554.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9ffa5a6b-c669-4b90-9656-50faa214c642")
 		)
@@ -37985,15 +38914,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 775.97 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 775.97 386.08 0)
 			(effects
 				(font
@@ -38116,15 +39036,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 231.14 323.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7e25b36e-4c5f-4869-a32e-2c1fa321f7a7")
 		)
@@ -38214,15 +39125,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 722.63 416.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 722.63 416.56 90)
 			(effects
 				(font
@@ -38352,15 +39254,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 447.04 391.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3d576b66-09ea-4042-ab45-5f8c10dad726")
 		)
@@ -38436,6 +39329,74 @@
 			(project "t-dsp_desktop_pro"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 78.74 363.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "4bd928c2-3ec8-4428-b2ae-1674ee9a8049")
+		(property "Reference" "J13"
+			(at 78.74 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 78.74 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:PinHeader_1x02_P2.54mm_Vertical_NO_CTYD"
+			(at 78.74 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 78.74 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49ead479-1efb-4f08-bf41-0e67f9efc05b")
+		)
+		(pin "1"
+			(uuid "f392b18e-e385-4c3f-9a6e-02c3d936e950")
+		)
+		(instances
+			(project ""
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -38603,15 +39564,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 838.2 942.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "bb6729b6-b2a8-49d1-a84d-0f19ac25e315")
 		)
@@ -38725,15 +39677,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 835.66 886.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c30c4c13-35ac-4f64-8cd3-48bc61566cb1")
 		)
@@ -38839,15 +39782,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 133.35 416.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 133.35 416.56 0)
 			(effects
 				(font
@@ -39008,15 +39942,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 798.83 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 798.83 383.54 0)
 			(effects
 				(font
@@ -39304,15 +40229,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 566.4192 676.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C4992338"
 			(at 566.4192 676.91 0)
 			(effects
@@ -39406,15 +40322,6 @@
 			)
 		)
 		(property "LCSC TYPE" "PCB"
-			(at 416.56 703.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 416.56 703.58 0)
 			(effects
 				(font
@@ -39695,15 +40602,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 760.73 312.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1228a386-4bf7-4c80-ab93-f59eb4930359")
 		)
@@ -39726,7 +40624,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "5627bd45-b504-40e9-b932-11614bd8dff0")
 		(property "Reference" "MIDI_OT1"
 			(at 957.58 567.055 0)
@@ -39807,15 +40705,6 @@
 			)
 		)
 		(property "LCSC TYPE" ""
-			(at 957.58 570.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 957.58 570.23 0)
 			(effects
 				(font
@@ -39996,15 +40885,6 @@
 			)
 		)
 		(property "LCSC TYPE" "TH-HEADER"
-			(at 938.53 844.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 938.53 844.55 0)
 			(effects
 				(font
@@ -40198,15 +41078,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 172.72 347.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0a5234f4-1ad2-4412-a1cb-8e5655dbfaea")
 		)
@@ -40295,15 +41166,6 @@
 			)
 		)
 		(property "LCSC TYPE" "TH-JACK"
-			(at 638.81 384.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 638.81 384.81 0)
 			(effects
 				(font
@@ -40445,15 +41307,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 102.87 542.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 102.87 542.29 0)
 			(effects
 				(font
@@ -40777,15 +41630,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 836.93 1019.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c7de4985-6f17-4357-a9ae-d7a669e37148")
 		)
@@ -40808,7 +41652,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5d6043b6-5cfe-4d7d-b1e0-5ef94367460c")
 		(property "Reference" "T111"
@@ -40857,6 +41701,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 1193.8 1008.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "TAB"
 			(at 1193.8 1008.38 0)
 			(effects
 				(font
@@ -40980,15 +41833,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 171.45 322.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0458c972-6acb-4062-867b-4e141e1eca51")
 		)
@@ -41068,7 +41912,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "SMD-MIC"
 			(at 477.52 788.67 0)
 			(effects
 				(font
@@ -41211,15 +42055,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 760.73 297.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "65bf0ee5-3efa-44f4-8f1f-6ce133f1d54a")
 		)
@@ -41242,7 +42077,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "611ad7ea-fbd7-45c3-a282-5bc4e3af51e3")
 		(property "Reference" "J18"
@@ -41280,6 +42115,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 1186.18 601.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "HEADER"
 			(at 1186.18 601.98 0)
 			(effects
 				(font
@@ -41391,15 +42235,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 988.06 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 988.06 386.08 0)
 			(effects
 				(font
@@ -41535,15 +42370,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 835.66 956.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c96fb75c-9e2e-4b31-9b6d-fcee3cfb6f2c")
 		)
@@ -41629,15 +42455,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 775.97 549.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 775.97 549.91 90)
 			(effects
 				(font
@@ -41761,15 +42578,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 695.96 311.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 695.96 311.15 90)
 			(effects
 				(font
@@ -41956,15 +42764,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 838.2 1005.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f99e0aa4-6e0c-4635-ac46-b33dd5e96b6d")
 		)
@@ -41988,7 +42787,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "66f0ae9d-acdd-4de4-9b2e-1df4e6fcfdb1")
 		(property "Reference" "J14"
 			(at 58.42 364.4899 0)
@@ -42027,6 +42826,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 60.96 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "HEADER"
 			(at 60.96 365.76 0)
 			(effects
 				(font
@@ -42303,15 +43111,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 441.96 387.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 441.96 387.35 90)
 			(effects
 				(font
@@ -42611,15 +43410,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 878.84 561.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b17111b8-8825-49d3-92a3-96b20d506e4c")
 		)
@@ -42762,7 +43552,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "TH-SWITCH"
 			(at 334.01 339.09 0)
 			(effects
 				(font
@@ -42857,15 +43647,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 480.06 685.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e0c26920-e0b6-4c94-849b-01177e161492")
 		)
@@ -42894,7 +43675,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "73e856ce-cd09-490a-8ef0-cd7c1f3bc93d")
 		(property "Reference" "H4"
@@ -42951,7 +43732,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "HOLE"
 			(at 1151.89 1172.21 0)
 			(effects
 				(font
@@ -43127,15 +43908,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 791.21 552.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 791.21 552.45 0)
 			(effects
 				(font
@@ -43333,15 +44105,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 750.57 392.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "20678dc7-036d-4ec4-8f14-304dd06b5636")
 		)
@@ -43430,15 +44193,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 278.13 328.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 278.13 328.93 90)
 			(effects
 				(font
@@ -43597,7 +44351,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "HEADER"
 			(at 463.55 721.36 0)
 			(effects
 				(font
@@ -43837,15 +44591,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 524.5092 547.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C4992338"
 			(at 524.5092 547.37 0)
 			(effects
@@ -43958,15 +44703,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 222.25 323.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "13532ad8-843d-4349-8158-eb42f369abe9")
 		)
@@ -44063,15 +44799,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 769.62 312.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 769.62 312.42 90)
 			(effects
 				(font
@@ -44193,15 +44920,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 339.09 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "393f4d22-8ffb-4a4a-83f8-ea023244890c")
 		)
@@ -44224,7 +44942,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "83fb38c9-eb7c-43b9-8bba-c0985f2fef49")
 		(property "Reference" "J4"
@@ -44309,15 +45027,6 @@
 			)
 		)
 		(property "LCSC TYPE" ""
-			(at 496.57 579.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 496.57 579.12 90)
 			(effects
 				(font
@@ -44447,15 +45156,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 87.63 322.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1cb15c08-7309-4cc2-8e11-093c81ece1bf")
 		)
@@ -44531,80 +45231,6 @@
 			(project "t-dsp_desktop_pro"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
-		(at 889 843.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86799e4b-8b7c-4587-b029-a6fe9403dc00")
-		(property "Reference" "J13"
-			(at 890.27 836.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x02_Odd_Even"
-			(at 890.27 839.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 889 843.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 889 843.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 889 843.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "b6b536ae-b15c-48b1-a579-2351cbd7fe58")
-		)
-		(pin "3"
-			(uuid "190da32b-2625-43b8-afe8-daf371e9ab81")
-		)
-		(pin "1"
-			(uuid "e6ed9f60-cee5-4182-8b15-3f5190833f31")
-		)
-		(pin "2"
-			(uuid "a8428b40-2999-4cbd-ba20-91487c25c0f9")
-		)
-		(instances
-			(project ""
-				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
-					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -44720,15 +45346,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 140.97 543.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C3197809"
 			(at 140.97 543.56 0)
 			(effects
@@ -44769,7 +45386,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "89d9f6ac-9a8f-466c-8d02-70d6c6425da4")
 		(property "Reference" "J3"
@@ -44854,15 +45471,6 @@
 			)
 		)
 		(property "LCSC TYPE" ""
-			(at 495.3 595.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 495.3 595.63 90)
 			(effects
 				(font
@@ -44984,15 +45592,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 878.84 565.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a9892d4e-5e42-45da-b86f-eee0777dcefb")
 		)
@@ -45106,15 +45705,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 833.12 897.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 833.12 897.89 90)
 			(effects
 				(font
@@ -45245,15 +45835,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 336.55 358.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "93321fb8-efaa-4875-bd18-42aefa23053e")
 		)
@@ -45342,15 +45923,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 500.38 530.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 500.38 530.86 90)
 			(effects
 				(font
@@ -45474,15 +46046,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 939.8 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "cebb2f96-6966-4a56-bbcb-a6e7f17e9a85")
 		)
@@ -45570,15 +46133,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 566.42 662.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C4992338"
 			(at 566.42 662.94 0)
 			(effects
@@ -45610,13 +46164,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 80.01 347.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "9082c94f-8882-4308-a91b-4d871562f4c8")
+		(property "Reference" "J16"
+			(at 80.01 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 80.01 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:PinHeader_1x02_P2.54mm_Vertical_NO_CTYD"
+			(at 80.01 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 80.01 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "530df08b-6aaa-4a84-87e5-f95edd2d7db7")
+		)
+		(pin "1"
+			(uuid "20ff2e24-9919-4f1c-bd42-38880200f1a2")
+		)
+		(instances
+			(project "t-dsp_desktop_pro"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "project_sch:NetTie_2_mod")
 		(at 515.62 702.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9191b0d9-ad4a-4dfe-a74f-86d9ed70dc5e")
 		(property "Reference" "J6"
@@ -45709,15 +46331,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 515.62 702.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "14cc94b9-fdcb-422e-90f1-0c9667e83906")
 		)
@@ -45788,24 +46401,6 @@
 			)
 		)
 		(property "Package / Case" "C0805"
-			(at 988.06 854.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TAC5212EVM" ""
-			(at 988.06 854.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REPLACE FOR NEXT BUILD" ""
 			(at 988.06 854.71 0)
 			(effects
 				(font
@@ -45955,15 +46550,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 996.95 855.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ef613467-df2d-4f8f-9765-9f144e910f2c")
 		)
@@ -46105,7 +46691,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "TH-SWITCH"
 			(at 478.79 977.9 0)
 			(effects
 				(font
@@ -46216,15 +46802,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 802.64 568.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "04300b3e-6620-4612-b81a-60ade25a8b7c")
 		)
@@ -46325,15 +46902,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 524.51 533.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C4992338"
 			(at 524.51 533.4 0)
 			(effects
@@ -46419,15 +46987,6 @@
 			)
 		)
 		(property "LCSC TYPE" ""
-			(at 452.12 410.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 452.12 410.21 0)
 			(effects
 				(font
@@ -46560,15 +47119,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 951.23 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "53ae44de-c746-4d59-9759-7d14c356a699")
 		)
@@ -46657,15 +47207,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 810.26 902.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 810.26 902.97 0)
 			(effects
 				(font
@@ -46804,15 +47345,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 173.99 368.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C17720"
 			(at 173.99 368.3 90)
 			(effects
@@ -46910,15 +47442,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 812.8 958.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 812.8 958.85 0)
 			(effects
 				(font
@@ -47050,15 +47573,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 990.6 330.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5847a7cb-b073-427b-8522-b11ea5c3c829")
 		)
@@ -47152,15 +47666,6 @@
 			)
 		)
 		(property "Package / Case" "C0805"
-			(at 1126.49 581.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "581-08055C104M4T4A"
 			(at 1126.49 581.66 0)
 			(effects
 				(font
@@ -47282,15 +47787,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 835.66 834.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 835.66 834.39 90)
 			(effects
 				(font
@@ -47552,15 +48048,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 750.57 400.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "647dd30f-99a4-4a35-a5e4-c8300ecc8b81")
 		)
@@ -47638,7 +48125,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "TH-JACK"
 			(at 640.08 320.04 0)
 			(effects
 				(font
@@ -47947,15 +48434,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 468.63 637.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "77e03c0d-0591-4061-ba82-510ce710f7e1")
 		)
@@ -48205,15 +48683,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 87.63 320.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "da75f09f-b3f7-4181-8d5a-4f26b2ac1dfb")
 		)
@@ -48292,15 +48761,6 @@
 			)
 		)
 		(property "LCSC TYPE" ""
-			(at 499.11 379.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 499.11 379.73 0)
 			(effects
 				(font
@@ -48451,7 +48911,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bfe7f61e-af49-4e7e-a2e6-acd8891a9d24")
 		(property "Reference" "H3"
@@ -48508,7 +48968,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "HOLE"
 			(at 1108.71 1172.21 0)
 			(effects
 				(font
@@ -48637,15 +49097,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 995.68 877.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "42102677-670e-48c2-b654-322d7f7be51d")
 		)
@@ -48751,15 +49202,6 @@
 			)
 		)
 		(property "LCSC TYPE" "TH-JACK"
-			(at 514.35 572.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 514.35 572.77 0)
 			(effects
 				(font
@@ -48882,15 +49324,6 @@
 			)
 		)
 		(property "LCSC TYPE" ""
-			(at 133.35 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 133.35 364.49 0)
 			(effects
 				(font
@@ -49300,7 +49733,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "TH-SWITCH"
 			(at 424.18 989.33 0)
 			(effects
 				(font
@@ -49430,15 +49863,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 195.58 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4e87614a-0a94-4679-b5b3-3cc4e6872bde")
 		)
@@ -49525,15 +49949,6 @@
 			)
 		)
 		(property "Package / Case" "HEADER"
-			(at 1073.15 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 1073.15 344.17 0)
 			(effects
 				(font
@@ -49652,15 +50067,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 739.14 424.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0a1ca999-9fed-4741-b187-d7b43d2acc42")
 		)
@@ -49683,7 +50089,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c9ba5427-b0ad-48ab-896d-7d1489d726b6")
 		(property "Reference" "J5"
@@ -49768,15 +50174,6 @@
 			)
 		)
 		(property "LCSC TYPE" ""
-			(at 505.46 574.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 505.46 574.04 90)
 			(effects
 				(font
@@ -49880,15 +50277,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "581-08055C104M4T4A"
-			(at 1079.5 586.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "77d9ed95-9212-4c49-bf89-3361fd2beeee")
 		)
@@ -49899,6 +50287,254 @@
 			(project "t-dsp_desktop_pro"
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib_sch:t-dsp_desktop_pro")
+		(at 1544.955 745.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb1f9ac7-90bb-4a44-aa5a-76be45aeac26")
+		(property "Reference" "J20"
+			(at 1544.955 701.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "t-dsp_desktop_pro"
+			(at 1544.955 703.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1544.955 745.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 1544.955 745.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x31, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 1556.131 790.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "43"
+			(uuid "0df971ea-ebc7-4b03-bcc9-06140bfb052c")
+		)
+		(pin "10"
+			(uuid "ba92dead-6f6c-4b6e-89a3-166607d09ade")
+		)
+		(pin "45"
+			(uuid "45136406-26d1-4afb-9140-1066b1b1cd0a")
+		)
+		(pin "61"
+			(uuid "8bac8b1a-0735-4daa-9569-c29051d6ae83")
+		)
+		(pin "51"
+			(uuid "3b261fa5-3ea7-4530-9005-43fafbe0b5d9")
+		)
+		(pin "47"
+			(uuid "f9100b8c-7afd-4f3a-bd4c-bac065a048d4")
+		)
+		(pin "4"
+			(uuid "d0c86b14-001a-4b62-aeba-80c571047568")
+		)
+		(pin "59"
+			(uuid "3dd31cf1-ec91-4417-a536-c5f2db1fa170")
+		)
+		(pin "24"
+			(uuid "1a6ccbf3-863a-466b-8da8-5ad0e9c7748e")
+		)
+		(pin "42"
+			(uuid "00303d5c-68ce-4a26-9a30-dc327baff4b1")
+		)
+		(pin "36"
+			(uuid "77b9289c-d056-46c7-8984-15c39be8c0e1")
+		)
+		(pin "49"
+			(uuid "e82361ce-bce1-4e25-9f90-2dc15d27417f")
+		)
+		(pin "8"
+			(uuid "4f394533-603a-4d41-b7cf-621780f014c6")
+		)
+		(pin "55"
+			(uuid "c83c39c5-7db2-441d-893b-3ac85724b786")
+		)
+		(pin "14"
+			(uuid "b286d8ea-82f7-4a03-91fe-3cf53d62b215")
+		)
+		(pin "53"
+			(uuid "386742e7-e968-4f72-9529-28a2906de696")
+		)
+		(pin "57"
+			(uuid "0386f3c8-9322-41f1-bf43-fbd0f361632b")
+		)
+		(pin "20"
+			(uuid "ddac4aab-686e-453d-b1d7-aeb3ab007c6f")
+		)
+		(pin "2"
+			(uuid "8efd8930-bab4-4cc3-88df-83a5f5e085c4")
+		)
+		(pin "6"
+			(uuid "7bc117a5-416f-4f0c-9a5f-d67b2cd17907")
+		)
+		(pin "18"
+			(uuid "ecd2d5e4-19ab-4fba-a640-9dcb5bd8b82c")
+		)
+		(pin "28"
+			(uuid "1667b9e2-783b-4cbc-9772-75975122da89")
+		)
+		(pin "30"
+			(uuid "a8ac25c4-7bc8-40c3-b81a-6cd4513fe6e7")
+		)
+		(pin "22"
+			(uuid "284a627d-01d0-481d-921e-b8693a2129c8")
+		)
+		(pin "26"
+			(uuid "24623db2-a58d-40cd-9fbd-d5987849a613")
+		)
+		(pin "32"
+			(uuid "8f241c93-6ea5-450e-ba08-e60068fd8685")
+		)
+		(pin "34"
+			(uuid "593631eb-eb10-4bdf-b2fa-621eef5c9e32")
+		)
+		(pin "12"
+			(uuid "0d0aa1a7-1eab-45b3-901d-5dbb9a57e72a")
+		)
+		(pin "16"
+			(uuid "bc05d6b3-8948-4cc6-a9a8-acb8428704b9")
+		)
+		(pin "38"
+			(uuid "a05c3bbc-f51a-43b2-8620-b465b2b960b4")
+		)
+		(pin "40"
+			(uuid "5b8a7f11-3177-495b-91cc-378afd761c41")
+		)
+		(pin "52"
+			(uuid "c8a7a594-8945-4c69-83be-76d529aa6327")
+		)
+		(pin "58"
+			(uuid "7b81c18e-9eb8-4413-a773-6d4bec27e4b7")
+		)
+		(pin "44"
+			(uuid "30c682aa-71c5-443a-9ec3-4c99f3f939f9")
+		)
+		(pin "46"
+			(uuid "dddbcab1-7241-466f-8163-3b2df46f75dd")
+		)
+		(pin "48"
+			(uuid "af4304d1-f001-4105-a2bd-5471c330a721")
+		)
+		(pin "60"
+			(uuid "e0ea6ad8-5155-496a-81ad-ba73889462e7")
+		)
+		(pin "62"
+			(uuid "0711ebf9-c15d-448e-8ca9-b63fbf6721a0")
+		)
+		(pin "56"
+			(uuid "dab1c72c-d7b1-476d-a5b3-b68c25e1275e")
+		)
+		(pin "54"
+			(uuid "477634fd-ba88-46a2-9c6a-45d17a9d5856")
+		)
+		(pin "50"
+			(uuid "7a81efbb-2dab-40ff-8fc9-292777a0fe93")
+		)
+		(pin "41"
+			(uuid "1713a94a-b164-403b-b40d-7e2b95d358f0")
+		)
+		(pin "15"
+			(uuid "b74aa59d-afd7-4df8-85ec-ee648cf4cd92")
+		)
+		(pin "3"
+			(uuid "1f8db3cb-a897-44b8-981c-d97b2c65e30b")
+		)
+		(pin "11"
+			(uuid "88747d93-7cd8-4776-aca8-83f8700d6022")
+		)
+		(pin "23"
+			(uuid "01015cea-6dbc-4dee-b977-e6bfe6b37d48")
+		)
+		(pin "27"
+			(uuid "6d64b60f-6131-4e4c-8964-65e498a87ba6")
+		)
+		(pin "21"
+			(uuid "921126f0-0aee-4f82-838b-72a72e095298")
+		)
+		(pin "5"
+			(uuid "96fb8914-d5f4-4703-b8e1-f78376b7085d")
+		)
+		(pin "7"
+			(uuid "2c0f4917-72a8-4d74-9c1e-b6f3b46f840b")
+		)
+		(pin "13"
+			(uuid "f4b7258a-a60f-4443-9fc8-687991eb7cfa")
+		)
+		(pin "25"
+			(uuid "3d4c2051-2aa8-4f4f-af7d-887e03d73ec5")
+		)
+		(pin "29"
+			(uuid "1e273a98-0640-4bfc-b658-427ef9ed3760")
+		)
+		(pin "31"
+			(uuid "d78f8a6c-d1f6-4c23-8f3e-a578192dbea3")
+		)
+		(pin "17"
+			(uuid "37194b8d-7fdd-4478-b676-cd68b8a86ace")
+		)
+		(pin "37"
+			(uuid "42f19c34-4788-4473-94e4-93e4eed13ba8")
+		)
+		(pin "39"
+			(uuid "e9dfe9da-a58b-4e85-88c9-bbc0b314c986")
+		)
+		(pin "19"
+			(uuid "3f54f530-bd77-4169-aed9-e48608bef5d9")
+		)
+		(pin "33"
+			(uuid "cc0308fd-218d-4d1d-bb73-bb222582116a")
+		)
+		(pin "35"
+			(uuid "8e6bcc87-03ea-47f0-a041-2d6d4ff25aae")
+		)
+		(pin "9"
+			(uuid "9e3f3d70-6f11-42f3-958d-3f88c6111fd6")
+		)
+		(pin "1"
+			(uuid "8c2112d2-9697-4d95-b33d-890e4ecddcd6")
+		)
+		(instances
+			(project ""
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -50005,15 +50641,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 791.21 387.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 791.21 387.35 90)
 			(effects
 				(font
@@ -50201,15 +50828,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 789.94 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "448b8797-39b9-4744-881a-76a43c4cf02a")
 		)
@@ -50295,7 +50913,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "TH-SWITCH"
 			(at 125.73 419.1 0)
 			(effects
 				(font
@@ -50473,15 +51091,6 @@
 			)
 		)
 		(property "LCSC TYPE" "PCB"
-			(at 1167.13 1074.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 1167.13 1074.42 0)
 			(effects
 				(font
@@ -50775,15 +51384,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 838.2 820.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c40677ca-d71a-419e-a453-c95ab1dedb57")
 		)
@@ -50861,7 +51461,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "TH-SWITCH"
 			(at 383.54 977.9 0)
 			(effects
 				(font
@@ -50995,15 +51595,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 872.49 586.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d5bfe528-3f75-48e8-9349-3dfac19feee9")
 		)
@@ -51100,15 +51691,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 859.79 586.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 859.79 586.74 0)
 			(effects
 				(font
@@ -51222,15 +51804,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 1181.1 1071.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "866f82c9-53d7-405e-b0f2-6d45123d04f5")
 		)
@@ -51336,15 +51909,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 806.45 576.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 806.45 576.58 90)
 			(effects
 				(font
@@ -51475,15 +52039,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 434.34 346.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6b8aac9c-831f-4d0b-9af2-1fc86eb86b03")
 		)
@@ -51577,15 +52132,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 1181.1 1083.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5df24490-e551-4d01-b76b-cb41340a74ab")
 		)
@@ -51657,15 +52203,6 @@
 			)
 		)
 		(property "LCSC TYPE" ""
-			(at 488.95 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 488.95 325.12 0)
 			(effects
 				(font
@@ -51788,15 +52325,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 791.21 614.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5cf3858a-13a8-46a6-8f24-4de4efa5ba71")
 		)
@@ -51849,7 +52377,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d9de1f98-6004-4ff6-9b54-d4187bff31ff")
 		(property "Reference" "J7"
@@ -51934,15 +52462,6 @@
 			)
 		)
 		(property "LCSC TYPE" ""
-			(at 523.24 697.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 523.24 697.23 90)
 			(effects
 				(font
@@ -52038,7 +52557,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dd7eda90-1fe6-444b-a156-f72e3ab5b1d3")
 		(property "Reference" "ILI_VCC1"
 			(at 488.95 351.155 0)
@@ -52128,15 +52647,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 488.95 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e8fbf35b-e1e1-4867-8ced-96f8ccbfc23e")
 		)
@@ -52162,7 +52672,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "df667a67-466f-44a1-956d-d0ce4cfd267a")
 		(property "Reference" "H2"
@@ -52219,7 +52729,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "HOLE"
 			(at 1073.15 1170.94 0)
 			(effects
 				(font
@@ -52331,15 +52841,6 @@
 			)
 		)
 		(property "LCSC TYPE" ""
-			(at 151.13 603.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 151.13 603.25 0)
 			(effects
 				(font
@@ -52502,7 +53003,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "SMD-MIC"
 			(at 477.52 764.54 0)
 			(effects
 				(font
@@ -52688,15 +53189,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 863.6 561.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c9fb9ec8-addd-4ff3-a088-254b7ea6078a")
 		)
@@ -52852,7 +53344,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "R0805"
 			(at 491.49 382.27 90)
 			(effects
 				(font
@@ -52883,7 +53375,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e7b919f7-f078-42df-81c4-ab69f5497a32")
 		(property "Reference" "J1"
 			(at 487.68 599.4399 90)
@@ -52975,15 +53467,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 486.41 600.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "01271d92-2374-4fc8-8024-17c8412a1b38")
 		)
@@ -53006,7 +53489,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e7e16d4c-43f4-4ba9-908c-5fb2dc0a153d")
 		(property "Reference" "J15"
@@ -53046,6 +53529,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 87.63 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "HEADER"
 			(at 87.63 373.38 0)
 			(effects
 				(font
@@ -53147,15 +53639,6 @@
 			)
 		)
 		(property "LCSC TYPE" "TH-JACK"
-			(at 720.09 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 720.09 318.77 0)
 			(effects
 				(font
@@ -53339,15 +53822,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 835.66 831.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "97ce72f0-ee78-4383-9f43-fd11267944e7")
 		)
@@ -53461,15 +53935,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 863.6 613.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d0850bc2-617c-430e-838f-b5e8183b2b65")
 		)
@@ -53549,15 +54014,6 @@
 			)
 		)
 		(property "LCSC TYPE" "TH-HEADER"
-			(at 431.8 421.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 431.8 421.64 0)
 			(effects
 				(font
@@ -53674,15 +54130,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 1181.1 1075.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "43a66dbe-5ff6-44ea-8cb8-02fb54932594")
 		)
@@ -53754,15 +54201,6 @@
 			)
 		)
 		(property "LCSC TYPE" "TH-HEADER"
-			(at 242.57 350.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 242.57 350.52 0)
 			(effects
 				(font
@@ -53893,15 +54331,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 877.57 610.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7a719b74-9295-4ac1-9717-00bafdae0283")
 		)
@@ -54018,15 +54447,6 @@
 			)
 		)
 		(property "LCSC TYPE" "TH-HEADER"
-			(at 934.72 922.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 934.72 922.02 0)
 			(effects
 				(font
@@ -54174,7 +54594,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "TH-SWITCH"
 			(at 330.2 306.07 0)
 			(effects
 				(font
@@ -54296,15 +54716,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 91.44 330.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 91.44 330.2 90)
 			(effects
 				(font
@@ -54529,15 +54940,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 535.94 767.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "38f65d1d-7712-4043-9fc2-34d7f7cc565d")
 		)
@@ -54626,15 +55028,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 812.8 836.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 812.8 836.93 0)
 			(effects
 				(font
@@ -54739,15 +55132,6 @@
 			)
 		)
 		(property "Package / Case" "HEADER"
-			(at 494.03 441.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 494.03 441.96 0)
 			(effects
 				(font
@@ -54875,15 +55259,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 339.09 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "db8149bc-8ec3-4feb-a2e9-03cc52b03108")
 		)
@@ -54972,15 +55347,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 812.8 1022.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 812.8 1022.35 0)
 			(effects
 				(font
@@ -55193,15 +55559,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 441.96 368.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f43125f3-43c7-4c59-9837-54a1b704be9d")
 		)
@@ -55323,15 +55680,6 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
-			(at 438.15 393.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "36a03f85-c054-47d1-b287-4ec7faaf88b6")
 		)
@@ -55410,7 +55758,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" ""
+		(property "Package / Case" "7343-15"
 			(at 450.85 623.57 0)
 			(effects
 				(font
@@ -55522,15 +55870,6 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 784.86 571.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
 			(at 784.86 571.5 0)
 			(effects
 				(font
