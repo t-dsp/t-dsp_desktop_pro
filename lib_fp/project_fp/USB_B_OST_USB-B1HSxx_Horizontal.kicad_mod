@@ -59,7 +59,7 @@
   (pad "4" thru_hole circle (at 2 -1.27) (size 1.7 1.7) (drill 0.92) (layers "*.Cu" "*.Mask") (tstamp 8abc8635-6129-404a-865f-d3a89e6cf4a8))
   (pad "5" thru_hole circle (at 4.71 -6.04) (size 3.5 3.5) (drill 2.33) (layers "*.Cu" "*.Mask") (tstamp fa390a26-e0ca-4135-a406-da145f6367bc))
   (pad "5" thru_hole circle (at 4.71 6) (size 3.5 3.5) (drill 2.33) (layers "*.Cu" "*.Mask") (tstamp 5c840013-dcc4-4405-859b-8686bc05a8de))
-  (model "E:/OneDrive/Desktop/teensy41_audio_project_board/teensy41_audio_project_board/3d_models/USB-B1HS - USB-B1H Interconnect USB Type B.stp"
+  (model "${KIPRJMOD}/3d_models/USB-B1HS - USB-B1H Interconnect USB Type B.stp"
     (offset (xyz -1 0 5.7))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

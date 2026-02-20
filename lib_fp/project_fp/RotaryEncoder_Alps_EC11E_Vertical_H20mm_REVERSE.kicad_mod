@@ -407,7 +407,7 @@
 		(remove_unused_layers no)
 		(uuid "e48a1431-9d04-4550-98ea-a5003bf2d39f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC11E_Vertical_H20mm.wrl"
+	(model "\/3d_models/RotaryEncoder_Alps_EC11E_Vertical_H20mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
