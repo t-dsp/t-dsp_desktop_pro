@@ -138,46 +138,6 @@
 		(uuid "281957d4-677e-4a50-bf7d-400b7a982fdd")
 	)
 	(fp_line
-		(start -1.8 -1.8)
-		(end -1.8 34.8)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "fabd9e08-dcd8-415b-bb5b-f9f4432de403")
-	)
-	(fp_line
-		(start -1.8 34.8)
-		(end 1.8 34.8)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "78dee9f3-71c0-4b29-af00-f163bb252d09")
-	)
-	(fp_line
-		(start 1.8 -1.8)
-		(end -1.8 -1.8)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "2da3042e-3ebc-47c3-a4e0-d527a586edb2")
-	)
-	(fp_line
-		(start 1.8 34.8)
-		(end 1.8 -1.8)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "b0d923c6-5fc9-47cd-a5c4-3814a3eb75bb")
-	)
-	(fp_line
 		(start -1.27 -0.635)
 		(end -0.635 -1.27)
 		(stroke
@@ -532,7 +492,7 @@
 		(uuid "3b5bc24d-1bbf-417d-b7a9-78d687338262")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x14_P2.54mm_Vertical.wrl"
+	(model "${KIPRJMOD}/3d_models/PinHeader_1x14_P2.54mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

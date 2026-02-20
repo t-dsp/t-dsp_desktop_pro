@@ -280,7 +280,7 @@
 		(remove_unused_layers no)
 		(uuid "37db0390-9a01-46a5-afbc-ad1cbaae159f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.00mm.3dshapes/PinHeader_1x04_P1.00mm_Vertical.wrl"
+	(model "\/3d_models/PinHeader_1x04_P1.00mm_Vertical.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -292,7 +292,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_Clear.step"
+	(model "\/3d_models/LED_D5.0mm_Clear.step"
 		(offset
 			(xyz -2 0 3)
 		)

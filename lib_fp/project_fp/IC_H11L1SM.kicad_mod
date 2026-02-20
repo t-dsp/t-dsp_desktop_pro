@@ -253,4 +253,15 @@
 		(uuid "9d3d934d-de34-4f88-aa79-947e240f1a64")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d_models/H11L1SM.step"
+		(offset
+			(xyz 0 0 3.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
 )

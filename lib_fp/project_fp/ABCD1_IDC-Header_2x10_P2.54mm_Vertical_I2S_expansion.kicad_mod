@@ -128,7 +128,7 @@
   (pad "18" thru_hole circle (at 2.54 20.32) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp d80f8e42-63b0-4b2f-ac72-539ad77f4227))
   (pad "19" thru_hole circle (at 0 22.86) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 15a1326d-50e0-438e-9d63-35186d2f130e))
   (pad "20" thru_hole circle (at 2.54 22.86) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 43642153-2b21-4ded-aea1-925f545f4bf0))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x10_P2.54mm_Vertical.wrl"
+  (model "${KIPRJMOD}/3d_models/IDC-Header_2x10_P2.54mm_Vertical.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

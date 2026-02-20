@@ -79,7 +79,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp a0b0390f-e8ce-4706-b06f-45327eefd28b))
   (pad "1" thru_hole roundrect (at 0 0) (size 1.7 2) (drill 1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.1470588235) (tstamp 41da5690-3ff3-4088-ae56-81a87453c697))
   (pad "2" thru_hole oval (at 2.5 0) (size 1.7 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp d99904bf-8d97-4159-9c5a-155cb67b9742))
-  (model "${KISYS3DMOD}/Connector_JST.3dshapes/JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical.wrl"
+  (model "${KIPRJMOD}/3d_models/JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

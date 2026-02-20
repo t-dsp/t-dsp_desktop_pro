@@ -242,7 +242,7 @@
 		(uuid "c8852e69-c2f2-422d-b042-a47c512acf78")
 	)
 	(embedded_fonts no)
-	(model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+	(model "${KIPRJMOD}/3d_models/C_0805_2012Metric.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

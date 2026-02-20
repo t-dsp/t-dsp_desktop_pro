@@ -234,7 +234,7 @@
 		(uuid "93623b7e-44e0-47c5-8e59-2ccbd00a3623")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-363_SC-70-6.wrl"
+	(model "${KIPRJMOD}/3d_models/SOT-363_SC-70-6.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -664,7 +664,7 @@
 		(uuid "0bcafdec-1ddc-4f1c-b967-8ce22528e15d")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Display.3dshapes/Adafruit_SSD1306.wrl"
+	(model "\/3d_models/Adafruit_SSD1306.wrl"
 		(offset
 			(xyz 0 0 3)
 		)

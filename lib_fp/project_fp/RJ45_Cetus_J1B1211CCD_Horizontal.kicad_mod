@@ -94,7 +94,7 @@
   (pad "12" thru_hole circle (at 10.77 9.73) (size 1.5 1.5) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp bdcb62f7-a515-4fed-a391-94128ebe7d91))
   (pad "13" thru_hole circle (at -3.43 3.3) (size 2.5 2.5) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp 2b202fc7-d394-4515-ac0a-1ac7ff08ef09))
   (pad "14" thru_hole circle (at 12.32 3.3) (size 2.5 2.5) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp beb68c4c-171b-4b1f-a3b3-88e0a4d0c63c))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Cetus_J1B1211CCD.wrl"
+  (model "\/3d_models/RJ45_Cetus_J1B1211CCD.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

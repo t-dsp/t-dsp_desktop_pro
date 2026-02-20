@@ -306,7 +306,7 @@
 		(remove_unused_layers no)
 		(uuid "cd5f30f8-d235-491d-a48c-feb81ae90c2c")
 	)
-	(model "E:/OneDrive/Desktop/teensy41_audio_project_board/teensy41_audio_project_board/3d_models/USB-B1HS - USB-B1H Interconnect USB Type B.stp"
+	(model "${KIPRJMOD}/3d_models/USB-B1HS - USB-B1H Interconnect USB Type B.stp"
 		(offset
 			(xyz -1 0 5.7)
 		)

@@ -708,7 +708,7 @@
 		(remove_unused_layers no)
 		(uuid "5cb3c167-6c27-4c39-9beb-d495d3c17f02")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display.3dshapes/Adafruit_SSD1306.wrl"
+	(model "\/3d_models/Adafruit_SSD1306.wrl"
 		(offset
 			(xyz 0 0 3)
 		)

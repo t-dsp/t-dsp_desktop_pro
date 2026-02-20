@@ -1902,7 +1902,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x10_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/3d_models/IDC-Header_2x10_P2.54mm_Vertical.step"
 		(hide yes)
 		(offset
 			(xyz 4 2 0)
@@ -1938,7 +1938,7 @@
 			(xyz 90 0 180)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/3d_models/PinHeader_1x08_P2.54mm_Vertical.step"
 		(hide yes)
 		(offset
 			(xyz 17.25 24.5 -1.5)
@@ -1950,7 +1950,7 @@
 			(xyz -180 0 90)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/3d_models/PinHeader_1x08_P2.54mm_Vertical.step"
 		(hide yes)
 		(offset
 			(xyz 17.25 2 -1.5)
@@ -1986,7 +1986,7 @@
 			(xyz 90 0 0)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x09_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/3d_models/PinHeader_1x09_P2.54mm_Vertical.step"
 		(hide yes)
 		(offset
 			(xyz 17.25 22 -1.5)
@@ -1998,7 +1998,7 @@
 			(xyz -180 0 90)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x10_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/3d_models/PinSocket_2x10_P2.54mm_Vertical.step"
 		(hide yes)
 		(offset
 			(xyz 4.5 2 -1.5)
@@ -2010,7 +2010,7 @@
 			(xyz -180 0 0)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/3d_models/PinHeader_1x03_P2.54mm_Vertical.step"
 		(hide yes)
 		(offset
 			(xyz 40 7 -1.5)
@@ -2022,7 +2022,7 @@
 			(xyz 180 0 0)
 		)
 	)
-	(model "C:/github/kicad/tac5212_audio_board_single_ended/3d_models/T-DSP_TAC5212_PRO_AUDIO_MODULE.step"
+	(model "${KIPRJMOD}/3d_models/T-DSP_TAC5212_PRO_AUDIO_MODULE.step"
 		(offset
 			(xyz 2 2 9)
 		)
@@ -2033,7 +2033,7 @@
 			(xyz -0 -0 -0)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/3d_models/PinSocket_1x08_P2.54mm_Vertical.step"
 		(offset
 			(xyz 17.25 24.5 0)
 		)
@@ -2044,7 +2044,7 @@
 			(xyz 0 0 -90)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/3d_models/PinSocket_1x08_P2.54mm_Vertical.step"
 		(offset
 			(xyz 17.25 22 0)
 		)
@@ -2055,7 +2055,7 @@
 			(xyz 0 0 -90)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x10_P2.54mm_Vertical.wrl"
+	(model "${KIPRJMOD}/3d_models/PinHeader_2x10_P2.54mm_Vertical.wrl"
 		(offset
 			(xyz 2 24.5 0)
 		)

@@ -26,7 +26,7 @@
   (fp_circle (center 0 0) (end 0.5 0) (layer "F.Fab") (width 0.12) (fill none) (tstamp d2466bec-26fc-4500-b255-d218f1fd4784))
   (pad "1" thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 9e660aa6-4568-4e28-a998-0c5af3593bdf))
   (pad "2" smd circle (at 0 0) (size 2 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c6d07b5c-c62e-4dd1-9d82-2bee9a387dda))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.wrl"
+  (model "\/3d_models/Pin_D1.0mm_L10.0mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
