@@ -374,7 +374,7 @@
 		(uuid "15661ff7-006e-4478-8747-3f6ceea0c573")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+	(model "${KIPRJMOD}/3d_models/D_SOD-123.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

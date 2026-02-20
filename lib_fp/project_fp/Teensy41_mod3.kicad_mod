@@ -864,7 +864,7 @@
 			(xyz -0 -0 -90)
 		)
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x24_P2.54mm_Vertical.wrl"
+	(model "${KIPRJMOD}/3d_models/PinSocket_1x24_P2.54mm_Vertical.wrl"
 		(offset
 			(xyz -7.5 -1.5 0)
 		)
@@ -875,7 +875,7 @@
 			(xyz -0 -0 -0)
 		)
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x24_P2.54mm_Vertical.wrl"
+	(model "${KIPRJMOD}/3d_models/PinSocket_1x24_P2.54mm_Vertical.wrl"
 		(offset
 			(xyz 7.5 -1.5 0)
 		)
@@ -886,7 +886,7 @@
 			(xyz -0 -0 -0)
 		)
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x24_P2.54mm_Vertical.wrl"
+	(model "${KIPRJMOD}/3d_models/PinHeader_1x24_P2.54mm_Vertical.wrl"
 		(offset
 			(xyz 7.5 -1 11)
 		)
@@ -897,7 +897,7 @@
 			(xyz -0 180 -0)
 		)
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x24_P2.54mm_Vertical.wrl"
+	(model "${KIPRJMOD}/3d_models/PinHeader_1x24_P2.54mm_Vertical.wrl"
 		(offset
 			(xyz -7.5 -1.5 11)
 		)
