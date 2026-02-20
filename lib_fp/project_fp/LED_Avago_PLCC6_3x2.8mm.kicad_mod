@@ -33,7 +33,7 @@
   (pad "4" smd rect (at 1.475 0.9) (size 1.6 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6d3b5c2a-523b-4ced-8d7e-4f406a1c793b))
   (pad "5" smd rect (at 1.475 0) (size 1.6 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 94e3e859-5d03-4485-bbc3-accee9d3238a))
   (pad "6" smd rect (at 1.475 -0.9) (size 1.6 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 725d33e7-ffdf-48ec-ae6f-cb8a894bd148))
-  (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Avago_PLCC6_3x2.8mm.wrl"
+  (model "\/3d_models/LED_Avago_PLCC6_3x2.8mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

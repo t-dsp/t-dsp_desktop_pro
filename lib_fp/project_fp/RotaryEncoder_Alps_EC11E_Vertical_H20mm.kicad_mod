@@ -384,7 +384,7 @@
 		(uuid "cd00044d-ce13-40e1-b7f6-def31bacb911")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC11E_Vertical_H20mm.wrl"
+	(model "\/3d_models/RotaryEncoder_Alps_EC11E_Vertical_H20mm.wrl"
 		(offset
 			(xyz 1 0 0)
 		)

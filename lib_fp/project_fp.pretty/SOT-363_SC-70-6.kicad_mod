@@ -245,7 +245,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "fc168b65-67ac-4926-86ee-0100fb9f3b67")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-363_SC-70-6.wrl"
+	(model "${KIPRJMOD}/3d_models/SOT-363_SC-70-6.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

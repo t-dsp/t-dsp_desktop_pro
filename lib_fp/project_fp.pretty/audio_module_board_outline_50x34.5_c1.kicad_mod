@@ -1644,7 +1644,7 @@
 			"95f0096d-1111-4c1b-98e3-4e6cd8c0e9d1"
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x10_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/3d_models/IDC-Header_2x10_P2.54mm_Vertical.step"
 		(offset
 			(xyz 4.5 2 0)
 		)
@@ -1677,7 +1677,7 @@
 			(xyz 90 0 180)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/3d_models/PinHeader_1x08_P2.54mm_Vertical.step"
 		(offset
 			(xyz 17.25 24.5 -1.5)
 		)
@@ -1688,7 +1688,7 @@
 			(xyz -180 0 90)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/3d_models/PinHeader_1x08_P2.54mm_Vertical.step"
 		(offset
 			(xyz 17.25 2 -1.5)
 		)

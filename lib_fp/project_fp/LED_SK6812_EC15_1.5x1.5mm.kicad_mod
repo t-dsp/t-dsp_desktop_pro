@@ -241,7 +241,7 @@
 		(uuid "08c1e1b5-c9dc-4b89-afd6-f512c9b68cf3")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_SK6812_EC15_1.5x1.5mm.wrl"
+	(model "\/3d_models/LED_SK6812_EC15_1.5x1.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
