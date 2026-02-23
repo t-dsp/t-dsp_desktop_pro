@@ -707,7 +707,7 @@
       }
     ],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -728,21 +728,15 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Package / Case",
-          "name": "Package / Case",
+          "label": "Description",
+          "name": "Description",
           "show": true
         },
         {
@@ -759,6 +753,30 @@
         },
         {
           "group_by": false,
+          "label": "LCSC NOTES",
+          "name": "LCSC NOTES",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC_Manufacturer",
+          "name": "LCSC_Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC_MPN",
+          "name": "LCSC_MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Package / Case",
+          "name": "Package / Case",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -771,8 +789,8 @@
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": true
         },
         {
@@ -807,17 +825,59 @@
         },
         {
           "group_by": false,
-          "label": "LCSC NOTES",
-          "name": "LCSC NOTES",
-          "show": true
+          "label": "Part Number 2020-08-26",
+          "name": "Part Number 2020-08-26",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number 2020-09-07",
+          "name": "Part Number 2020-09-07",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "REPLACE FOR NEXT BUILD",
+          "name": "REPLACE FOR NEXT BUILD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TAC5212EVM",
+          "name": "TAC5212EVM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number 2020-05-29",
+          "name": "Part Number 2020-05-29",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
         }
       ],
-      "filter_string": "RLED",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -866,7 +926,7 @@
     ]
   ],
   "text_variables": {
-    "DATE": "2026-02-20",
-    "REVISION": "v0.6-3-g253387f"
+    "DATE": "2026-02-23",
+    "REVISION": "v0.7"
   }
 }

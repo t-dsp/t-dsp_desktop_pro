@@ -19,4 +19,8 @@
   (lib (name "TPS259531DSGT")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/TPS259531DSGT.kicad_sym")(options "")(descr ""))
   (lib (name "CYPD3177-24LQXQ")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/CYPD3177-24LQXQ.kicad_sym")(options "")(descr ""))
   (lib (name "SOT26_DIO")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/SOT26_DIO.kicad_sym")(options "")(descr ""))
+  (lib (name "kikit")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/kikit.kicad_sym")(options "")(descr ""))
+  (lib (name "SI2301CDS-T1-BE3")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/SI2301CDS-T1-BE3.kicad_sym")(options "")(descr ""))
+  (lib (name "TPD1E10B06DPYT")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/TPD1E10B06DPYT.kicad_sym")(options "")(descr ""))
+  (lib (name "DMG2307L-7")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/DMG2307L-7.kicad_sym")(options "")(descr ""))
 )
