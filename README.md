@@ -2,15 +2,16 @@
 
 **Part of the [T-DSP](https://t-dsp.com) open modular audio platform.**
 
-A desktop audio backplane (100mm x 120mm) that serves as the central hub for the T-DSP modular audio ecosystem. Hosts a Teensy 4.1, ESP32, and T-DSP TAC5212 pro audio codec module on an 8-layer PCB designed for studio-quality signal integrity.
+A desktop audio backplane (120mm x 100mm) that serves as the central hub for the T-DSP modular audio ecosystem. Hosts a Teensy 4.1, ESP32, and T-DSP TAC5212 pro audio codec module on an 8-layer PCB designed for studio-quality signal integrity.
 
-![T-DSP Desktop Pro - 3D Front](documentation/t-dsp-desktop-pro-3d-angle_front.png)
-![T-DSP Desktop Pro - 3D Back](documentation/t-dsp-desktop-pro-3d-angle_back.png)
+[![T-DSP Desktop Pro - Top Isometric](https://t-dsp.github.io/t-dsp_desktop_pro/renders/t-dsp_desktop_pro-3D_blender_th_top_iso.png)](https://t-dsp.github.io/t-dsp_desktop_pro/gallery.html)
 
-![T-DSP Desktop Pro - 3D Top](documentation/t-dsp-desktop-pro-3d-top.png)
-![T-DSP Desktop Pro - 3D Bottom](documentation/t-dsp-desktop-pro-3d-bottom.png)
+| | |
+|:---:|:---:|
+| [![Top](https://t-dsp.github.io/t-dsp_desktop_pro/renders/t-dsp_desktop_pro-3D_blender_th_top.png)](https://t-dsp.github.io/t-dsp_desktop_pro/gallery.html) | [![Bottom](https://t-dsp.github.io/t-dsp_desktop_pro/renders/t-dsp_desktop_pro-3D_blender_th_bottom.png)](https://t-dsp.github.io/t-dsp_desktop_pro/gallery.html) |
+| [![Front](https://t-dsp.github.io/t-dsp_desktop_pro/renders/t-dsp_desktop_pro-3D_blender_th_front.png)](https://t-dsp.github.io/t-dsp_desktop_pro/gallery.html) | [![Rear](https://t-dsp.github.io/t-dsp_desktop_pro/renders/t-dsp_desktop_pro-3D_blender_th_rear.png)](https://t-dsp.github.io/t-dsp_desktop_pro/gallery.html) |
 
-**[View 3D Render Gallery](https://t-dsp.github.io/t-dsp_desktop_pro/gallery.html)** — interactive slideshow of all board views
+**[View 3D Render Gallery](https://t-dsp.github.io/t-dsp_desktop_pro/gallery.html)** -- interactive slideshow of all board views
 
 ## About T-DSP
 
@@ -39,7 +40,11 @@ The Desktop Pro is a **backplane PCB** that hosts a Teensy 4.1, ESP32, and T-DSP
 | U3 | TPS2116DRL | Power multiplexer (dual input selection) |
 | U4 | H11L1SM | Optoisolator (MIDI input) |
 | U5-U8 | SN74LVC2G125DCTR | Dual bus buffers (4x) |
-| U9 | 74HCT2G17GW | Dual Schmitt trigger buffers (3x) |
+| U9 | 74HCT2G17GW | Dual Schmitt trigger buffer |
+| U10 | TPD4E02B04DQA | USB ESD protection (4-channel) |
+| IC1 | 74HCT2G125DC | Logic level shifter |
+| D5 | TPD1E10B06DPYT | VBUS ESD protection |
+| Q1, Q2 | DMG2307L-7 | P-FET reverse polarity protection |
 
 ## Connectivity
 
@@ -50,7 +55,7 @@ The Desktop Pro is a **backplane PCB** that hosts a Teensy 4.1, ESP32, and T-DSP
 - **S/PDIF** -- Digital audio input and output
 
 ### USB
-- **USB-C DEVICE** -- Power and USB Audio to Teensy (shared footprint, populate one)
+- **USB-C DEVICE** -- Power and USB Audio to Teensy with ESD protection (TPD4E02B04 + TPD1E10B06)
 - **USB-A HOST** -- USB host connector
 
 ### MIDI
@@ -58,7 +63,9 @@ The Desktop Pro is a **backplane PCB** that hosts a Teensy 4.1, ESP32, and T-DSP
 - **MIDI GPIO** -- Configurable for MIDI in, out, or thru
 
 ### Power
-- **Dual power input** -- Onboard (USB) or offboard power supply via TPS2116 power multiplexer via JST-XH header 
+- **Dual power input** -- USB-C or external supply via JST-XH header, with TPS2116 power multiplexer for automatic switchover
+- **Reverse polarity protection** -- P-channel MOSFET (DMG2307L-7) on both 5V and 12V inputs
+- **Power indicators** -- LED indicators for 5V and 12V rails
 
 ### Storage
 - **SD card** -- Accessible via Teensy 4.1 built-in SD slot
@@ -77,17 +84,15 @@ The Desktop Pro is a **backplane PCB** that hosts a Teensy 4.1, ESP32, and T-DSP
 
 The backplane exposes interface-ready GPIO headers for flexible UI connectivity, supporting popular interface options compatible with the ESP32.
 
-- **GPIO header** — Active-low buttons, rotary encoder, and display connections for tactile UI
-- **OLED display header** (128×64, SSD1306) — Status and menu-driven UI
-- **3.2" TFT touchscreen header** (ILI9341) — Touchscreen UI
-- **SK6812 addressable LED header** — ESP32 and Teensy status indication, plus LED strip control
+- **GPIO header** -- Active-low buttons, rotary encoder, and display connections for tactile UI
+- **OLED display header** (128x64, SSD1306) -- Status and menu-driven UI
+- **3.2" TFT touchscreen header** (ILI9341) -- Touchscreen UI
+- **SK6812 addressable LED header** -- ESP32 and Teensy status indication, plus LED strip control
 
 ## Board Design
 
-![T-DSP Desktop Pro - PCB Layout](documentation/t-dsp-desktop-pro-pcb-layout.png)
-
 - **8-layer PCB** with dedicated ground and power planes for low-noise analog performance
-- **100mm x 120mm** board dimensions
+- **120mm x 100mm** board dimensions
 - LDO voltage regulation for clean analog power
 - Buffered digital outputs for reliable module distribution
 - Separate analog and digital ground domains
@@ -97,18 +102,18 @@ The backplane exposes interface-ready GPIO headers for flexible UI connectivity,
 | Directory | Contents |
 |-----------|----------|
 | `/3d_models/` | 3D models for PCB components |
-| `/bom/` | [Interactive BOM](https://t-dsp.github.io/t-dsp_desktop_pro/bom/ibom.html) and bill of materials |
-| `/documentation/` | [Schematic PDF](documentation/t-dsp-desktop-pro-schematic.pdf), [3D Model (STL)](documentation/t-dsp_desktop_pro.stl), board images, and reference docs |
-| `/gerbers/` | Manufacturing-ready Gerber output files |
+| `/documentation/` | [Schematic PDF](documentation/t-dsp-desktop-pro-schematic.pdf), board images, and reference docs |
 | `/lib_fp/` | Custom KiCad footprint libraries |
 | `/lib_sch/` | Custom KiCad schematic symbol libraries |
+| `/manufacturing/` | CI-generated manufacturing outputs (gerbers, BOM, pick & place, PDFs) |
 | `/panel/` | Panelized board layouts for production |
+| `/pages/` | [3D Render Gallery](https://t-dsp.github.io/t-dsp_desktop_pro/gallery.html), [Interactive BOM](https://t-dsp.github.io/t-dsp_desktop_pro/ibom.html) |
 
 View the design files directly in your browser with KiCanvas: [Schematic](https://kicanvas.org/?github=https://github.com/t-dsp/t-dsp_desktop_pro/blob/main/t-dsp_desktop_pro.kicad_sch) | [PCB](https://kicanvas.org/?github=https://github.com/t-dsp/t-dsp_desktop_pro/blob/main/t-dsp_desktop_pro.kicad_pcb)
 
 ## Status
 
-This board is under active development. The current revision addresses analog output stage redesign for low-impedance headphone drive and signal routing improvements from earlier prototypes.
+This board is under active development. The current revision includes USB-C ESD protection, reverse polarity protection, and boot pin corrections from the pre-production review.
 
 If you build one, we'd love to hear how it goes -- please open an issue or reach out with your findings.
 

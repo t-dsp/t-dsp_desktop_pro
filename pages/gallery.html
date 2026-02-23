@@ -84,22 +84,32 @@
 <script>
 (function() {
   var prefix = 'renders/t-dsp_desktop_pro-3D_blender_';
-  var views = [
-    { id: 'top',        label: 'Top' },
-    { id: 'bottom',     label: 'Bottom' },
-    { id: 'front',      label: 'Front' },
-    { id: 'rear',       label: 'Rear' },
-    { id: 'left',       label: 'Left' },
-    { id: 'right',      label: 'Right' },
-    { id: 'top_iso',    label: 'Top Isometric' },
-    { id: 'bottom_iso', label: 'Bottom Isometric' }
-  ];
+  var viewSets = {
+    th: [
+      { id: 'top',        label: 'Top' },
+      { id: 'bottom',     label: 'Bottom' },
+      { id: 'front',      label: 'Front' },
+      { id: 'rear',       label: 'Rear' },
+      { id: 'left',       label: 'Left' },
+      { id: 'right',      label: 'Right' },
+      { id: 'top_iso',    label: 'Top Isometric' },
+      { id: 'bottom_iso', label: 'Bottom Isometric' }
+    ],
+    smd: [
+      { id: 'top',        label: 'Top' },
+      { id: 'bottom',     label: 'Bottom' },
+      { id: 'top_iso',    label: 'Top Isometric' },
+      { id: 'bottom_iso', label: 'Bottom Isometric' }
+    ]
+  };
 
   var currentSet = 'th';
   var currentIdx = 0;
 
+  function getViews() { return viewSets[currentSet]; }
+
   function getImages() {
-    return views.map(function(v) {
+    return getViews().map(function(v) {
       return { src: prefix + currentSet + '_' + v.id + '.png', label: v.label };
     });
   }
@@ -129,7 +139,7 @@
   }
 
   function navigate(dir) {
-    var len = views.length;
+    var len = getViews().length;
     currentIdx = (currentIdx + dir + len) % len;
     render();
   }
@@ -138,7 +148,7 @@
   document.querySelector('.next').onclick = function() { navigate(1); };
 
   document.querySelectorAll('.tab').forEach(function(t) {
-    t.onclick = function() { currentSet = t.dataset.set; render(); };
+    t.onclick = function() { currentSet = t.dataset.set; currentIdx = 0; render(); };
   });
 
   document.addEventListener('keydown', function(e) {

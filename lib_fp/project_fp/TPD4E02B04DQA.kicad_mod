@@ -258,7 +258,7 @@
 		(uuid "5c26946b-97a0-4fc9-9e28-6b817dfd0888")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3d_models/asdf.step"
+	(model "${KIPRJMOD}/3d_models/TPD4E02B04DQA.step"
 		(offset
 			(xyz 0 0 0)
 		)

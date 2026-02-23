@@ -38301,24 +38301,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Switchcraft"
-			(at 901.7 887.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "35RAPC4BHN2"
-			(at 901.7 887.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "TH-JACK"
 			(at 900.43 887.73 0)
 			(effects
@@ -38615,34 +38597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 95.25 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 95.25 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 95.25 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
 			(at 95.25 327.66 0)
 			(effects
 				(font
@@ -38886,34 +38841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "-"
-			(at 689.61 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0805W8F5101T5E"
-			(at 689.61 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 689.61 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "-"
 			(at 689.61 325.12 0)
 			(effects
 				(font
@@ -39191,34 +39119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 95.25 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 95.25 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 95.25 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
 			(at 95.25 368.3 0)
 			(effects
 				(font
@@ -39619,34 +39520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 496.57 859.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 496.57 859.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 496.57 859.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
 			(at 496.57 859.79 0)
 			(effects
 				(font
@@ -40061,24 +39935,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 762 890.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CR0805-FX-2200ELF"
-			(at 762 890.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C17557"
 			(at 762 890.27 90)
 			(effects
@@ -40197,46 +40053,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "621-DMG2307L-7"
-			(at 1075.69 967.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG2307L-7?qs=T%2FOtf55vL7clPxTh0Ja5sg%3D%3D"
-			(at 1075.69 1067.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 1075.69 1167.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DMG2307L-7"
-			(at 1075.69 1267.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C102620"
 			(at 1064.26 468.63 0)
 			(effects
@@ -40265,6 +40081,15 @@
 			)
 		)
 		(property "LCSC_Manufacturer" "DIODES"
+			(at 1064.26 468.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "SOT-23"
 			(at 1064.26 468.63 0)
 			(effects
 				(font
@@ -40765,34 +40590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 172.72 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 172.72 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 172.72 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
 			(at 172.72 317.5 0)
 			(effects
 				(font
@@ -40904,34 +40702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 95.25 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 95.25 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 95.25 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
 			(at 95.25 365.76 0)
 			(effects
 				(font
@@ -41010,7 +40781,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST-XH Connector -"
+		(property "Value" "JST-XH Connector"
 			(at 1026.668 497.8146 0)
 			(effects
 				(font
@@ -41019,7 +40790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "project_fp:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
 			(at 1028.7 495.3 0)
 			(effects
 				(font
@@ -41028,7 +40799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 1028.7 495.3 0)
 			(effects
 				(font
@@ -41037,7 +40808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 1028.7 495.3 0)
 			(effects
 				(font
@@ -41046,15 +40817,6 @@
 			)
 		)
 		(property "Package / Case" "TH-JACK"
-			(at 1028.7 495.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "JST-XH"
 			(at 1028.7 495.3 0)
 			(effects
 				(font
@@ -41404,15 +41166,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "through-hole"
-			(at 811.53 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C84270"
 			(at 811.53 321.31 90)
 			(effects
@@ -41628,34 +41381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 454.66 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 454.66 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 454.66 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
 			(at 454.66 334.01 0)
 			(effects
 				(font
@@ -41767,34 +41493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 173.99 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 173.99 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 173.99 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
 			(at 173.99 325.12 0)
 			(effects
 				(font
@@ -42233,24 +41932,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kyocera AVX"
-			(at 773.43 748.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
-			(at 773.43 748.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "C0805"
 			(at 773.43 748.03 0)
 			(effects
@@ -42339,33 +42020,6 @@
 			)
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 488.95 417.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "-"
-			(at 488.95 417.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 488.95 417.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "~jumper"
 			(at 488.95 417.83 0)
 			(effects
 				(font
@@ -42480,34 +42134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 499.11 913.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 499.11 913.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 499.11 913.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
 			(at 499.11 913.13 0)
 			(effects
 				(font
@@ -43014,34 +42641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "-"
-			(at 836.93 546.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "~jumper"
-			(at 836.93 546.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "jumper"
-			(at 836.93 546.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "-"
 			(at 836.93 546.1 0)
 			(effects
 				(font
@@ -43143,24 +42743,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Manufacturer" "Kyocera AVX"
-			(at 162.56 416.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
-			(at 162.56 416.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(property "Package / Case" "C0805"
@@ -43442,33 +43024,6 @@
 				)
 			)
 		)
-		(property "Digikey" "-"
-			(at 942.34 902.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 942.34 902.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "~jumper"
-			(at 942.34 902.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "jumper"
 			(at 942.34 902.97 0)
 			(effects
@@ -43595,15 +43150,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC NOTES" ""
-			(at 647.7 838.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC_MPN" "CL21A476MQYNNNE"
 			(at 647.7 838.2 0)
 			(effects
@@ -43692,24 +43238,6 @@
 		)
 		(property "Description" ""
 			(at 275.59 693.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Switchcraft"
-			(at 275.59 693.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "35RAPC3BH3"
-			(at 275.59 671.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43961,34 +43489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 500.38 976.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 500.38 976.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 500.38 976.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
 			(at 500.38 976.63 0)
 			(effects
 				(font
@@ -44213,24 +43714,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 861.06 915.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CR0805-FX-2200ELF"
-			(at 861.06 915.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C17557"
 			(at 861.06 915.67 90)
 			(effects
@@ -44328,24 +43811,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 278.13 788.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Kyocera AVX"
-			(at 278.13 788.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
 			(at 278.13 788.67 0)
 			(effects
 				(font
@@ -44522,34 +43987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0805DR-072K2L"
-			(at 441.96 398.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 441.96 398.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "ERJ-PA2F2211X-ND"
-			(at 441.96 398.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 441.96 398.78 0)
 			(effects
 				(font
@@ -45008,26 +44446,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 463.55 1261.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "74HCT2G125DC,125"
-			(at 463.55 1361.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "SOP50P310X100-8N"
 			(at 439.42 566.42 0)
 			(effects
@@ -45159,33 +44577,6 @@
 				)
 			)
 		)
-		(property "Digikey" "-"
-			(at 461.01 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 461.01 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "-"
-			(at 461.01 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "HEADER"
 			(at 461.01 393.7 0)
 			(effects
@@ -45310,24 +44701,6 @@
 			(effects
 				(font
 					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 793.75 876.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CR0805-FX-2200ELF"
-			(at 793.75 876.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -45552,34 +44925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "-"
-			(at 753.11 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "~jumper"
-			(at 753.11 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "jumper"
-			(at 753.11 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "-"
 			(at 753.11 323.85 0)
 			(effects
 				(font
@@ -45742,24 +45088,6 @@
 		)
 		(property "Description" "Audio Jack - Conn 3.5MM Stereo Jack F 5 POS Solder RA Thru-Hole 5 Terminal 1 Port"
 			(at 913.13 861.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Switchcraft"
-			(at 913.13 863.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "35RAPC4BHN2"
-			(at 913.13 863.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46116,7 +45444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:USON-10_2.5x1.0mm_P0.5mm"
+		(property "Footprint" "project_fp:TPD4E02B04DQA"
 			(at 693.42 335.28 0)
 			(effects
 				(font
@@ -46172,6 +45500,15 @@
 			)
 		)
 		(property "Package / Case" "USON-10(1x2.5)"
+			(at 701.04 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
 			(at 701.04 335.28 0)
 			(effects
 				(font
@@ -46386,34 +45723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0805DR-072K2L"
-			(at 441.96 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 441.96 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "ERJ-PA2F2211X-ND"
-			(at 441.96 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 441.96 391.16 0)
 			(effects
 				(font
@@ -46768,24 +46078,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 501.65 901.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "C0805C104K5RAC7411"
-			(at 501.65 901.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C49678"
 			(at 501.65 901.7 0)
 			(effects
@@ -46899,24 +46191,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 499.11 845.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "C0805C104K5RAC7411"
-			(at 499.11 845.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C49678"
 			(at 499.11 845.82 0)
 			(effects
@@ -47019,24 +46293,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Manufacturer" "Kyocera AVX"
-			(at 133.35 416.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
-			(at 133.35 416.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(property "Package / Case" "C0805"
@@ -47191,7 +46447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "project_fp:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 1104.9 374.65 0)
 			(effects
 				(font
@@ -47888,34 +47144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 1112.52 463.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 1112.52 463.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 1112.52 463.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
 			(at 1112.52 463.55 0)
 			(effects
 				(font
@@ -48089,33 +47318,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Digikey" "-"
-			(at 941.07 894.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 941.07 894.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "~jumper"
-			(at 941.07 894.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(property "Package / Case" "jumper"
@@ -48297,33 +47499,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "-"
-			(at 601.98 803.91 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 601.98 803.91 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "-"
-			(at 601.98 803.91 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC TYPE" "TH-HEADER"
 			(at 601.98 803.91 0)
 			(effects
@@ -48482,34 +47657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 172.72 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 172.72 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 172.72 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
 			(at 172.72 347.98 0)
 			(effects
 				(font
@@ -48588,7 +47736,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST-XH Connector -"
+		(property "Value" "JST-XH Connector"
 			(at 1026.668 466.0646 0)
 			(effects
 				(font
@@ -48597,7 +47745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "project_fp:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
 			(at 1028.7 463.55 0)
 			(effects
 				(font
@@ -48606,7 +47754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 1028.7 463.55 0)
 			(effects
 				(font
@@ -48615,7 +47763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 1028.7 463.55 0)
 			(effects
 				(font
@@ -48624,15 +47772,6 @@
 			)
 		)
 		(property "Package / Case" "TH-JACK"
-			(at 1028.7 463.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "JST-XH"
 			(at 1028.7 463.55 0)
 			(effects
 				(font
@@ -48747,33 +47886,6 @@
 			)
 		)
 		(property "Description" "1uF ±10% 50V Ceramic Capacitor X7R 0805"
-			(at 775.97 530.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "13-CC1206MKX5R5BB107CT-ND"
-			(at 775.97 530.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 775.97 530.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CC1206MKX5R5BB107"
 			(at 775.97 530.86 0)
 			(effects
 				(font
@@ -49103,46 +48215,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "621-DMG2307L-7"
-			(at 1076.96 996.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG2307L-7?qs=T%2FOtf55vL7clPxTh0Ja5sg%3D%3D"
-			(at 1076.96 1096.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 1076.96 1196.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DMG2307L-7"
-			(at 1076.96 1296.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C102620"
 			(at 1065.53 497.84 0)
 			(effects
@@ -49171,6 +48243,15 @@
 			)
 		)
 		(property "LCSC_Manufacturer" "DIODES"
+			(at 1065.53 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "SOT-23"
 			(at 1065.53 497.84 0)
 			(effects
 				(font
@@ -49249,34 +48330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 500.38 979.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 500.38 979.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 500.38 979.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
 			(at 500.38 979.17 0)
 			(effects
 				(font
@@ -49488,34 +48542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 171.45 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 171.45 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 171.45 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
 			(at 171.45 322.58 0)
 			(effects
 				(font
@@ -49747,34 +48774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 800.1 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 800.1 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 800.1 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
 			(at 800.1 321.31 0)
 			(effects
 				(font
@@ -50125,34 +49125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 499.11 915.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 499.11 915.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 499.11 915.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
 			(at 499.11 915.67 0)
 			(effects
 				(font
@@ -50377,34 +49350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "-"
-			(at 689.61 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0805W8F5101T5E"
-			(at 689.61 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 689.61 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "-"
 			(at 689.61 342.9 0)
 			(effects
 				(font
@@ -50583,24 +49529,6 @@
 			)
 		)
 		(property "Package / Case" "C0805"
-			(at 501.65 965.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 501.65 965.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "C0805C104K5RAC7411"
 			(at 501.65 965.2 0)
 			(effects
 				(font
@@ -51095,34 +50023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 441.96 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 441.96 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 441.96 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
 			(at 441.96 387.35 0)
 			(effects
 				(font
@@ -51235,16 +50136,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Everlight Electronics"
-			(at 795.02 708.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "Label" "OPTICAL IN"
 			(at 795.401 700.532 0)
 			(effects
@@ -51254,15 +50145,6 @@
 			)
 		)
 		(property "Package / Case" "jack"
-			(at 796.29 716.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "FCR6842032R"
 			(at 796.29 716.28 0)
 			(effects
 				(font
@@ -51436,24 +50318,6 @@
 			(effects
 				(font
 					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 862.33 885.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CR0805-FX-2200ELF"
-			(at 862.33 885.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -52121,24 +50985,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 774.7 876.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "C0805C104K5RAC7411"
-			(at 774.7 876.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C49678"
 			(at 774.7 876.3 0)
 			(effects
@@ -52375,34 +51221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "-"
-			(at 1056.64 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJ-PB6D5101V"
-			(at 1056.64 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 1056.64 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "-"
 			(at 1056.64 383.54 0)
 			(effects
 				(font
@@ -53259,15 +52078,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "through-hole"
-			(at 1121.41 463.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C84270"
 			(at 1121.41 463.55 90)
 			(effects
@@ -53370,24 +52180,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Manufacturer" "Kyocera AVX"
-			(at 339.09 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
-			(at 339.09 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(property "Package / Case" "C0805"
@@ -53512,15 +52304,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "through-hole"
-			(at 1123.95 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C84270"
 			(at 1123.95 501.65 90)
 			(effects
@@ -53627,34 +52410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "-"
-			(at 238.76 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "~jumper"
-			(at 238.76 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "jumper"
-			(at 238.76 576.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "-"
 			(at 238.76 576.58 0)
 			(effects
 				(font
@@ -53757,34 +52513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 87.63 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 87.63 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 87.63 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
 			(at 87.63 322.58 0)
 			(effects
 				(font
@@ -53957,33 +52686,6 @@
 			)
 		)
 		(property "Description" "CONN RCPT USB2.0 TYPEA 4POS R/A"
-			(at 814.07 532.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "380-1412-ND"
-			(at 814.07 532.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Stewart Connector"
-			(at 814.07 532.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SS-52100-001"
 			(at 814.07 532.13 0)
 			(effects
 				(font
@@ -54238,34 +52940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "-"
-			(at 237.49 593.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "~jumper"
-			(at 237.49 593.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "jumper"
-			(at 237.49 593.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "-"
 			(at 237.49 593.09 0)
 			(effects
 				(font
@@ -54378,24 +53053,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 862.33 889 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CR0805-FX-2200ELF"
-			(at 862.33 889 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C17557"
 			(at 862.33 889 90)
 			(effects
@@ -54499,34 +53156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 496.57 857.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 496.57 857.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 496.57 857.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
 			(at 496.57 857.25 0)
 			(effects
 				(font
@@ -54639,34 +53269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 336.55 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 336.55 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 336.55 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
 			(at 336.55 358.14 0)
 			(effects
 				(font
@@ -54793,46 +53396,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-TPD1E10B06DPYT"
-			(at 1161.67 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD1E10B06DPYT?qs=UFc95S4Z4Cb%2FoocwzxSV0g%3D%3D"
-			(at 1261.67 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 1361.67 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPD1E10B06DPYT"
-			(at 1461.67 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C5155810"
 			(at 668.02 320.04 90)
 			(effects
@@ -54861,6 +53424,15 @@
 			)
 		)
 		(property "Package / Case" "DFN1006-2"
+			(at 668.02 320.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
 			(at 668.02 320.04 90)
 			(effects
 				(font
@@ -55045,24 +53617,6 @@
 			)
 		)
 		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0805 (100nF = 0.1uF)"
-			(at 473.71 557.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Kyocera AVX"
-			(at 473.71 557.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
 			(at 473.71 557.53 0)
 			(effects
 				(font
@@ -55410,34 +53964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "-"
-			(at 257.81 699.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "~jumper"
-			(at 257.81 699.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "jumper"
-			(at 257.81 699.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "-"
 			(at 257.81 699.77 0)
 			(effects
 				(font
@@ -55560,15 +54087,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC NOTES" ""
-			(at 651.51 814.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC_MPN" "CL21A476MQYNNNE"
 			(at 651.51 814.07 0)
 			(effects
@@ -55657,33 +54175,6 @@
 			)
 		)
 		(property "Description" "1uF ±10% 50V Ceramic Capacitor X7R 0805"
-			(at 660.4 815.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "13-CC1206MKX5R5BB107CT-ND"
-			(at 660.4 815.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 660.4 815.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CC1206MKX5R5BB107"
 			(at 660.4 815.34 0)
 			(effects
 				(font
@@ -55972,15 +54463,6 @@
 			)
 		)
 		(property "Package / Case" "6-SMD, Gull Wing (6.5 X 7.12)"
-			(at 786.13 892.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "H11L1SM "
 			(at 786.13 892.81 0)
 			(effects
 				(font
@@ -56333,24 +54815,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 485.14 557.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 485.14 557.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "C0805"
 			(at 485.14 557.53 0)
 			(effects
@@ -56595,34 +55059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 173.99 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 173.99 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 173.99 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
 			(at 173.99 368.3 0)
 			(effects
 				(font
@@ -57060,24 +55497,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kyocera AVX"
-			(at 820.42 713.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
-			(at 820.42 713.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "C0805"
 			(at 820.42 713.74 0)
 			(effects
@@ -57172,34 +55591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 499.11 793.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 499.11 793.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 499.11 793.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
 			(at 499.11 793.75 0)
 			(effects
 				(font
@@ -57378,34 +55770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "-"
-			(at 1056.64 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0805W8F5101T5E"
-			(at 1056.64 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 1056.64 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "-"
 			(at 1056.64 391.16 0)
 			(effects
 				(font
@@ -58067,34 +56432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 87.63 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 87.63 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 87.63 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
 			(at 87.63 320.04 0)
 			(effects
 				(font
@@ -58535,33 +56873,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "13-CC1206MKX5R5BB107CT-ND"
-			(at 659.13 836.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 659.13 836.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CC1206MKX5R5BB107"
-			(at 659.13 836.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "C0805"
 			(at 659.13 836.93 0)
 			(effects
@@ -58668,24 +56979,6 @@
 		)
 		(property "Description" ""
 			(at 256.54 570.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Switchcraft"
-			(at 256.54 570.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "35RAPC3BH3"
-			(at 256.54 548.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58824,24 +57117,6 @@
 			)
 		)
 		(property "Package / Case" "development-tool"
-			(at 133.35 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "PJRC"
-			(at 133.35 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "~Teensy4.1"
 			(at 133.35 364.49 0)
 			(effects
 				(font
@@ -59467,34 +57742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0805DR-072K2L"
-			(at 195.58 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 195.58 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "ERJ-PA2F2211X-ND"
-			(at 195.58 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 195.58 359.41 0)
 			(effects
 				(font
@@ -59849,34 +58097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "-"
-			(at 247.65 571.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "~jumper"
-			(at 247.65 571.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "jumper"
-			(at 247.65 571.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "-"
 			(at 247.65 571.5 0)
 			(effects
 				(font
@@ -59980,24 +58201,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kyocera AVX"
-			(at 773.43 718.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
-			(at 773.43 718.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "C0805"
 			(at 773.43 718.82 0)
 			(effects
@@ -60095,34 +58298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "-"
-			(at 1097.28 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0805W8F5101T5E"
-			(at 1097.28 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 1097.28 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "-"
 			(at 1097.28 378.46 0)
 			(effects
 				(font
@@ -60302,33 +58478,6 @@
 			)
 		)
 		(property "Package / Case" "through-hole"
-			(at 826.77 353.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "-"
-			(at 826.77 353.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 826.77 353.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "-"
 			(at 826.77 353.06 0)
 			(effects
 				(font
@@ -60611,33 +58760,6 @@
 		)
 		(property "Description" "Generic connector, double row, 02x31, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 1138.936 847.598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "-"
-			(at 1127.76 802.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 1127.76 802.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "~BOARD"
-			(at 1127.76 802.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61245,24 +59367,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 501.65 779.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "C0805C104K5RAC7411"
-			(at 501.65 779.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C49678"
 			(at 501.65 779.78 0)
 			(effects
@@ -61492,24 +59596,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 855.98 910.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CR0805-FX-2200ELF"
-			(at 855.98 910.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C17557"
 			(at 855.98 910.59 90)
 			(effects
@@ -61615,15 +59701,6 @@
 			)
 		)
 		(property "Package / Case" "SOT-363, SC-70-6"
-			(at 843.28 910.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "74HCT2G17GW,125"
 			(at 843.28 910.59 0)
 			(effects
 				(font
@@ -61868,24 +59945,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
-			(at 789.94 900.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERA-6AED152V"
-			(at 789.94 900.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C4310"
 			(at 789.94 900.43 90)
 			(effects
@@ -61990,34 +60049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 434.34 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 434.34 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 434.34 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
 			(at 434.34 346.71 0)
 			(effects
 				(font
@@ -62339,33 +60371,6 @@
 				)
 			)
 		)
-		(property "Digikey" "-"
-			(at 774.7 938.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 774.7 938.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "-"
-			(at 774.7 938.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "through-hole"
 			(at 774.7 938.53 0)
 			(effects
@@ -62502,34 +60507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "-"
-			(at 265.43 694.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "~jumper"
-			(at 265.43 694.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "jumper"
-			(at 265.43 694.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "-"
 			(at 265.43 694.69 0)
 			(effects
 				(font
@@ -62690,33 +60668,6 @@
 			)
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 491.49 407.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "-"
-			(at 491.49 407.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 491.49 407.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "~jumper"
 			(at 491.49 407.67 0)
 			(effects
 				(font
@@ -63058,33 +61009,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "-"
-			(at 824.23 591.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 824.23 591.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "-"
-			(at 824.23 591.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC TYPE" ""
 			(at 824.23 591.82 0)
 			(effects
@@ -63400,61 +61324,7 @@
 				(hide yes)
 			)
 		)
-		(property "TAC5212EVM" "n/a"
-			(at 449.58 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REPLACE FOR NEXT BUILD" ""
-			(at 449.58 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" ""
-			(at 449.58 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC NOTES" ""
-			(at 449.58 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number 2020-05-29" ""
-			(at 449.58 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number 2020-08-26" ""
-			(at 449.58 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number 2020-09-07" ""
 			(at 449.58 391.16 0)
 			(effects
 				(font
@@ -63596,14 +61466,6 @@
 		)
 		(property "Package / Case" "SOT-363, SC-70-6"
 			(at 847.598 873.506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "74HCT2G17GW,125"
-			(at 847.09 870.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63906,34 +61768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "-"
-			(at 228.6 598.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "~jumper"
-			(at 228.6 598.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "jumper"
-			(at 228.6 598.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "-"
 			(at 228.6 598.17 0)
 			(effects
 				(font
@@ -64315,34 +62150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 499.11 791.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 499.11 791.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 499.11 791.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
 			(at 499.11 791.21 0)
 			(effects
 				(font
@@ -64464,24 +62272,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 847.09 937.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "C0805C104K5RAC7411"
-			(at 847.09 937.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C49678"
 			(at 847.09 937.26 0)
 			(effects
@@ -64587,34 +62377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 1115.06 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 1115.06 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 1115.06 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
 			(at 1115.06 501.65 0)
 			(effects
 				(font
@@ -65185,15 +62948,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "74HCT2G17GW,125"
-			(at 861.06 934.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C547568"
 			(at 861.06 934.72 90)
 			(effects
@@ -65310,33 +63064,6 @@
 			)
 		)
 		(property "Package / Case" "HEADER"
-			(at 598.17 881.38 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "-"
-			(at 598.17 881.38 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 598.17 881.38 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "-"
 			(at 598.17 881.38 0)
 			(effects
 				(font
@@ -65605,34 +63332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 91.44 330.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 91.44 330.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 91.44 330.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
 			(at 91.44 330.2 0)
 			(effects
 				(font
@@ -65743,16 +63443,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Everlight Electronics"
-			(at 796.29 745.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "Label" "OPTICAL OUT"
 			(at 795.401 729.742 0)
 			(effects
@@ -65762,15 +63452,6 @@
 			)
 		)
 		(property "Package / Case" "jack"
-			(at 796.29 745.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "FCR6842032T"
 			(at 796.29 745.49 0)
 			(effects
 				(font
@@ -65867,24 +63548,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 278.13 764.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Kyocera AVX"
-			(at 278.13 764.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
 			(at 278.13 764.54 0)
 			(effects
 				(font
@@ -66239,24 +63902,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kyocera AVX"
-			(at 339.09 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "08055C104M4T4A"
-			(at 339.09 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "C0805"
 			(at 339.09 309.88 0)
 			(effects
@@ -66566,34 +64211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 441.96 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Package / Case" "R0805"
-			(at 441.96 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 441.96 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
 			(at 441.96 368.3 0)
 			(effects
 				(font
@@ -66807,24 +64425,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Manufacturer" "Panjit"
-			(at 768.35 895.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1N4148W_R1_00001"
-			(at 768.35 895.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(property "Package / Case" "SOD-123-2 - 2.675 mm x 1.6 mm x 1.15 mm body"

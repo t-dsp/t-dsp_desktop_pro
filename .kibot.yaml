@@ -289,14 +289,6 @@ outputs:
           file_id: _smd_top
         - view: bottom
           file_id: _smd_bottom
-        - view: front
-          file_id: _smd_front
-        - view: rear
-          file_id: _smd_rear
-        - view: left
-          file_id: _smd_left
-        - view: right
-          file_id: _smd_right
         - view: top
           file_id: _smd_top_iso
           rotate_x: 30
@@ -321,7 +313,7 @@ outputs:
     type: compress
     dir: t-dsp_desktop_pro
     options:
-      output: '%f-manufacturing_%r.%x'
+      output: '%f-manufacturing.%x'
       files:
         - from_output: JLCPCB_gerbers
           dest: /

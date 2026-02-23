@@ -707,8 +707,14 @@
       }
     ],
     "bom_settings": {
-      "exclude_dnp": true,
+      "exclude_dnp": false,
       "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
         {
           "group_by": false,
           "label": "Qty",
@@ -725,7 +731,7 @@
           "group_by": false,
           "label": "Label",
           "name": "Label",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -753,15 +759,9 @@
         },
         {
           "group_by": false,
-          "label": "LCSC NOTES",
-          "name": "LCSC NOTES",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "LCSC_Manufacturer",
           "name": "LCSC_Manufacturer",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -773,7 +773,7 @@
           "group_by": false,
           "label": "Package / Case",
           "name": "Package / Case",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -785,85 +785,13 @@
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Digikey",
-          "name": "Digikey",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Part Number 2020-08-26",
-          "name": "Part Number 2020-08-26",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Part Number 2020-09-07",
-          "name": "Part Number 2020-09-07",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "REPLACE FOR NEXT BUILD",
-          "name": "REPLACE FOR NEXT BUILD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "TAC5212EVM",
-          "name": "TAC5212EVM",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Part Number 2020-05-29",
-          "name": "Part Number 2020-05-29",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
         },
         {
           "group_by": false,
