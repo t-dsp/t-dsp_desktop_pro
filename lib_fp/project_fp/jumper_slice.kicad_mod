@@ -1,29 +1,93 @@
-(footprint "jumper_slice" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 5EB366B2)
-  (descr "net tie")
-  (tags "net tie")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0.575 -0.925) (layer "F.SilkS")
-    (effects (font (size 0.8 0.8) (thickness 0.18)))
-    (tstamp 7d7fc4b3-8423-457d-a262-7bd2ee280ea5)
-  )
-  (fp_text value "jumper_slice" (at 0.5 -2.5) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 9daa99a0-bd6c-416c-ba0c-633e504247e5)
-  )
-  (fp_poly (pts
-      (xy 0.254 0.229)
-      (xy -0.254 0.229)
-      (xy -0.254 -0.229)
-      (xy 0.254 -0.229)
-    ) (layer "F.Cu") (width 0.01) (fill solid) (tstamp 87ead61e-2b82-4caf-b5b2-fd7f98061cb5))
-  (fp_poly (pts
-      (xy 0.254 0.254)
-      (xy -0.254 0.254)
-      (xy -0.254 -0.254)
-      (xy 0.254 -0.254)
-    ) (layer "F.Mask") (width 0.01) (fill solid) (tstamp 891542a1-7d2d-494c-90f9-4200e239b55d))
-  (pad "1" smd rect (at -0.5 0 180) (size 0.508 0.508) (layers "F.Cu" "F.Mask") (tstamp 545d02f8-246c-4422-bdcb-7e06adcfc89f))
-  (pad "2" smd rect (at 0.5 0 180) (size 0.508 0.508) (layers "F.Cu" "F.Mask") (tstamp 3d8a6cf8-2b53-4981-9032-733e586436a4))
+(footprint "jumper_slice"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "net tie")
+	(tags "net tie")
+	(property "Reference" "REF**"
+		(at 0.575 -0.925 0)
+		(layer "F.SilkS")
+		(uuid "7d7fc4b3-8423-457d-a262-7bd2ee280ea5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.18)
+			)
+		)
+	)
+	(property "Value" "jumper_slice"
+		(at 0.5 -2.5 0)
+		(layer "F.Fab")
+		(uuid "9daa99a0-bd6c-416c-ba0c-633e504247e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce426501-6920-4e1f-a8a4-1fdd42d4125d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3485a747-e03b-48df-adc5-5d5209155c77")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd allow_soldermask_bridges)
+	(net_tie_pad_groups "1, 2")
+	(fp_poly
+		(pts
+			(xy 0.254 0.229) (xy -0.254 0.229) (xy -0.254 -0.229) (xy 0.254 -0.229)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "87ead61e-2b82-4caf-b5b2-fd7f98061cb5")
+	)
+	(fp_poly
+		(pts
+			(xy 0.254 0.254) (xy -0.254 0.254) (xy -0.254 -0.254) (xy 0.254 -0.254)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "891542a1-7d2d-494c-90f9-4200e239b55d")
+	)
+	(pad "1" smd rect
+		(at -0.5 0 180)
+		(size 0.508 0.508)
+		(layers "F.Cu" "F.Mask")
+		(uuid "545d02f8-246c-4422-bdcb-7e06adcfc89f")
+	)
+	(pad "2" smd rect
+		(at 0.5 0 180)
+		(size 0.508 0.508)
+		(layers "F.Cu" "F.Mask")
+		(uuid "3d8a6cf8-2b53-4981-9032-733e586436a4")
+	)
+	(embedded_fonts no)
 )
