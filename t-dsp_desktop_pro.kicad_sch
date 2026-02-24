@@ -23376,6 +23376,12 @@
 		(uuid "97b6d443-5369-4a22-b406-88b9e1d5e72e")
 	)
 	(junction
+		(at 205.74 365.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a01c669-467a-4872-9d1e-32a4be17dbc6")
+	)
+	(junction
 		(at 184.15 668.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -23392,12 +23398,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c9a130b-c5df-47ed-8142-0e4d2229212f")
-	)
-	(junction
-		(at 195.58 363.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d418895-fa91-4cf9-a20d-bb9e9f97735a")
 	)
 	(junction
 		(at 1036.32 412.75)
@@ -23590,6 +23590,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca7cd822-bb15-4392-833c-fc968c5c9b64")
+	)
+	(junction
+		(at 204.47 363.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbb3e0cc-382c-41ab-9be3-cdbbdd1c6b0f")
 	)
 	(junction
 		(at 1056.64 412.75)
@@ -24654,6 +24660,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 363.22) (xy 207.01 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eacff0d-1204-4254-aab0-f9c24e6958cd")
+	)
+	(wire
+		(pts
 			(xy 99.06 368.3) (xy 105.41 368.3)
 		)
 		(stroke
@@ -24751,16 +24767,6 @@
 			(type default)
 		)
 		(uuid "22da58a2-0e75-499b-9f54-f89186377077")
-	)
-	(wire
-		(pts
-			(xy 195.58 363.22) (xy 207.01 363.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22e3803a-81c6-45c4-983c-7edc983e71df")
 	)
 	(wire
 		(pts
@@ -27704,7 +27710,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 370.84) (xy 187.96 368.3)
+			(xy 187.96 382.27) (xy 187.96 368.3)
 		)
 		(stroke
 			(width 0)
@@ -27964,7 +27970,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 365.76) (xy 161.29 365.76)
+			(xy 207.01 365.76) (xy 205.74 365.76)
 		)
 		(stroke
 			(width 0)
@@ -28654,6 +28660,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 365.76) (xy 161.29 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c83ca026-e5dc-4a83-907f-fa36ee808c32")
+	)
+	(wire
+		(pts
 			(xy 494.03 899.16) (xy 501.65 899.16)
 		)
 		(stroke
@@ -28704,7 +28720,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 370.84) (xy 187.96 370.84)
+			(xy 189.23 382.27) (xy 187.96 382.27)
 		)
 		(stroke
 			(width 0)
@@ -28741,6 +28757,16 @@
 			(type default)
 		)
 		(uuid "ca9112c6-c2a3-4d8f-8340-c3e850fc3416")
+	)
+	(wire
+		(pts
+			(xy 205.74 365.76) (xy 205.74 368.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caedd526-7f0f-4b21-a8ea-d4ed75a31f99")
 	)
 	(wire
 		(pts
@@ -29374,6 +29400,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 360.68) (xy 204.47 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea921b89-ea42-4d5a-b929-d0dc37516bf5")
+	)
+	(wire
+		(pts
 			(xy 228.6 596.9) (xy 252.73 596.9)
 		)
 		(stroke
@@ -29874,7 +29910,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 363.22) (xy 161.29 363.22)
+			(xy 161.29 363.22) (xy 204.47 363.22)
 		)
 		(stroke
 			(width 0)
@@ -33818,7 +33854,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 185.42 374.65 180)
+		(at 198.12 368.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -33828,7 +33864,7 @@
 		)
 		(uuid "4c11111b-2794-4752-9aa2-ce58db21814a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.51 454.66 0)
+			(at 283.21 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35126,7 +35162,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 195.58 355.6 180)
+		(at 196.85 360.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -35136,7 +35172,7 @@
 		)
 		(uuid "71590480-a411-4b4f-807c-2768cef6d104")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.1434 355.6794 0)
+			(at 189.7524 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44216,6 +44252,118 @@
 			(project ""
 				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
 					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 368.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27c1fba8-563d-4dd3-9364-d4c38a6c7ee3")
+		(property "Reference" "R54"
+			(at 201.93 368.3 90)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 202.438 371.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 201.93 370.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10kΩ ±1% 125mW 0805 Thick Film Resistor"
+			(at 201.93 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0805"
+			(at 201.93 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 201.93 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC TYPE" "SMD"
+			(at 201.93 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_MPN" "0805W8F1002T5E"
+			(at 201.93 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Manufacturer" "UNI-ROYAL"
+			(at 201.93 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4e380b0-e6c5-42c2-8572-a90da029f786")
+		)
+		(pin "2"
+			(uuid "1af36fb8-47be-4575-940e-979cd09da5e1")
+		)
+		(instances
+			(project "t-dsp_desktop_pro"
+				(path "/6a0ff39d-771d-410f-9e7c-006586d81d16"
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -59946,7 +60094,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 195.58 359.41 0)
+		(at 200.66 360.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -59954,15 +60102,15 @@
 		(dnp no)
 		(uuid "c6b09ccc-c60a-435b-b175-f2a853a7932c")
 		(property "Reference" "R11"
-			(at 200.025 357.505 0)
+			(at 200.914 360.68 90)
 			(effects
 				(font
 					(size 0.9906 0.9906)
 				)
 			)
 		)
-		(property "Value" "2.21k ohm"
-			(at 209.55 359.41 0)
+		(property "Value" "10k"
+			(at 200.406 358.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59970,7 +60118,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 193.802 359.41 90)
+			(at 200.66 362.458 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59979,7 +60127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 359.41 0)
+			(at 200.66 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59987,8 +60135,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2kΩ ±1% 125mW 0805 Thick Film Resistor"
-			(at 195.58 359.41 0)
+		(property "Description" "10kΩ ±1% 125mW 0805 Thick Film Resistor"
+			(at 200.66 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59997,7 +60145,7 @@
 			)
 		)
 		(property "Package / Case" "R0805"
-			(at 195.58 359.41 0)
+			(at 200.66 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60005,8 +60153,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17520"
-			(at 195.58 359.41 0)
+		(property "LCSC" "C17414"
+			(at 200.66 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60015,7 +60163,7 @@
 			)
 		)
 		(property "LCSC TYPE" "SMD"
-			(at 195.58 359.41 0)
+			(at 200.66 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60023,8 +60171,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_MPN" "0805W8F2201T5E"
-			(at 195.58 359.41 0)
+		(property "LCSC_MPN" "0805W8F1002T5E"
+			(at 200.66 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60033,7 +60181,7 @@
 			)
 		)
 		(property "LCSC_Manufacturer" "UNI-ROYAL"
-			(at 195.58 359.41 0)
+			(at 200.66 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64693,7 +64841,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 194.31 370.84 0)
+		(at 194.31 382.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64702,7 +64850,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea7a30df-3e66-4b4a-bc2b-9add64873e39")
 		(property "Reference" "J19"
-			(at 196.85 369.5699 0)
+			(at 196.85 380.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64711,7 +64859,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 196.85 372.1099 0)
+			(at 196.85 383.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64720,7 +64868,7 @@
 			)
 		)
 		(property "Footprint" "project_fp:OUT1B_PinHeader_1x01_P2.54mm_Vertical"
-			(at 194.31 370.84 0)
+			(at 194.31 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64729,7 +64877,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 370.84 0)
+			(at 194.31 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64738,7 +64886,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 194.31 370.84 0)
+			(at 194.31 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64747,7 +64895,7 @@
 			)
 		)
 		(property "Package / Case" "HEADER"
-			(at 194.31 370.84 0)
+			(at 194.31 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64756,7 +64904,7 @@
 			)
 		)
 		(property "LCSC" "DNP"
-			(at 194.31 370.84 0)
+			(at 194.31 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64765,7 +64913,7 @@
 			)
 		)
 		(property "LCSC_MPN" ""
-			(at 194.31 370.84 0)
+			(at 194.31 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64774,7 +64922,7 @@
 			)
 		)
 		(property "LCSC_Manufacturer" ""
-			(at 194.31 370.84 0)
+			(at 194.31 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
