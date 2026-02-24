@@ -89,11 +89,14 @@ jobs:
           name: manufacturing-files
           path: manufacturing/t-dsp_desktop_pro/
 
-      - name: Find release files
+      - name: Rename ZIP with tag version
         id: find_files
         run: |
-          ZIP=$(ls manufacturing/t-dsp_desktop_pro/*.zip 2>/dev/null | head -1)
-          echo "zip_path=$ZIP" >> "$GITHUB_OUTPUT"
+          TAG="${{ github.ref_name }}"
+          SRC=$(ls manufacturing/t-dsp_desktop_pro/*.zip 2>/dev/null | head -1)
+          DEST="manufacturing/t-dsp_desktop_pro/t-dsp_desktop_pro-manufacturing-${TAG}.zip"
+          mv "$SRC" "$DEST"
+          echo "zip_path=$DEST" >> "$GITHUB_OUTPUT"
 
       - name: Create release and upload assets
         env:

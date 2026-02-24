@@ -1335,6 +1335,17 @@
 		)
 		(symbol "HPTRS1_0_1"
 			(rectangle
+				(start -5.715 3.81)
+				(end 20.955 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
 				(start -5.08 -5.08)
 				(end -6.35 -7.62)
 				(stroke
@@ -1347,7 +1358,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 0) (xy 2.54 0)
+					(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 0) (xy 18.415 0)
 				)
 				(stroke
 					(width 0.254)
@@ -1383,7 +1394,19 @@
 			)
 			(polyline
 				(pts
-					(xy 2.413 -5.08) (xy 1.778 -5.08) (xy 1.778 -7.366) (xy 2.032 -6.858)
+					(xy 5.715 2.54) (xy -2.54 2.54) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17.78 -2.54) (xy 0.508 -2.54) (xy 0.508 -0.254) (xy 0.254 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -1395,45 +1418,22 @@
 			)
 			(polyline
 				(pts
-					(xy 2.413 -7.747) (xy 1.143 -7.747) (xy 0.508 -7.112) (xy -0.127 -7.747)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 2.54 3.81)
-				(end -5.08 -10.16)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -2.54) (xy 0.508 -2.54) (xy 0.508 -0.254) (xy 0.254 -0.762)
+					(xy 19.05 -5.08) (xy 1.778 -5.08) (xy 1.778 -7.366) (xy 2.032 -6.858)
 				)
 				(stroke
 					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 19.05 -7.62) (xy 1.143 -7.747) (xy 0.508 -7.112) (xy -0.127 -7.747)
+				)
+				(stroke
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -1442,8 +1442,35 @@
 			)
 		)
 		(symbol "HPTRS1_1_1"
+			(text "RING / RIGHT / -"
+				(at 1.524 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "TIP / LEFT / +"
+				(at 4.318 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "SLEEVE / GND"
+				(at 6.096 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
 			(pin passive line
-				(at 5.08 2.54 180)
+				(at 23.495 2.54 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -1461,7 +1488,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
+				(at 23.495 0 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -1479,7 +1506,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -2.54 180)
+				(at 23.495 -2.54 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -1497,7 +1524,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -5.08 180)
+				(at 23.495 -5.08 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -1515,7 +1542,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -7.62 180)
+				(at 23.495 -7.62 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -9254,5 +9281,218 @@
 			)
 		)
 		(embedded_fonts no)
+	)
+	(symbol "ZPYxx"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ZPYxx"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 0 -4.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85790/zpy3v9.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1300mW Zener Diode, DO-41"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "zener diode"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D*DO?41*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ZPYxx_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ZPYxx_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SMBJ5.0CA"
+		(extends "ZPYxx")
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMBJ5.0CA"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
+			(at 0 -4.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "TVS diode"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*SMBJ5.0CA*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 )
