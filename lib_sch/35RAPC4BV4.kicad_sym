@@ -1,0 +1,131 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "35RAPC4BV4" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at -5.08 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "35RAPC4BV4" (id 1) (at -5.08 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "35RAPC4BV4:SWITCHCRAFT_35RAPC4BV4" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "G" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HIEGHT" "12.573mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Switchcraft Inc." (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "35RAPC4BV4_0_0"
+      (polyline
+        (pts (xy 5.08 2.54) (xy -1.27 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 5.08) (xy -5.08 2.413)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 2.413) (xy -4.445 2.413)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -4.445 2.413) (xy -4.445 -2.286)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -4.445 -2.286) (xy -5.715 -2.286)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.715 2.413) (xy -5.08 2.413)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 2.54) (xy -1.905 1.143)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.905 1.143) (xy -2.54 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.254 -5.08) (xy -0.381 -3.683)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.381 -3.683) (xy -1.016 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.778 -2.54) (xy 5.08 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.778 -2.54) (xy 1.778 -4.318)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts
+          (xy 1.778 -4.826)
+          (xy 1.524 -3.556)
+          (xy 2.032 -3.556)
+          (xy 1.778 -4.826)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 1.778 0.0) (xy 5.08 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.778 0.0) (xy 1.778 1.778)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts
+          (xy 1.778 2.286)
+          (xy 1.524 1.016)
+          (xy 2.032 1.016)
+          (xy 1.778 2.286)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (rectangle (start -6.10788064516 -3.68832580645) (end 4.68711935484 6.47167419355)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at 7.62 5.08 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 2.54 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 -5.08 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 -2.54 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

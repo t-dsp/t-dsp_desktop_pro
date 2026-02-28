@@ -384,18 +384,7 @@
 		(uuid "cd00044d-ce13-40e1-b7f6-def31bacb911")
 	)
 	(embedded_fonts no)
-	(model "\/3d_models/RotaryEncoder_Alps_EC11E_Vertical_H20mm.wrl"
-		(offset
-			(xyz 1 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KIPRJMOD}/lib_dl/EC11E15204A3.stp"
+	(model "${KIPRJMOD}/3d_models/EC11E15204A3.stp"
 		(offset
 			(xyz 7.5 -2.5 0)
 		)
