@@ -1,0 +1,138 @@
+(footprint "Teensy41_board_outline"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 10.16 30.48 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "62c0f0db-a018-44b9-9500-6b7f694ae476")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Teensy 4.1"
+		(at 0.53 30.48 90)
+		(layer "F.Fab")
+		(uuid "0498c956-ab7f-4585-ad01-5fbf861a5af6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4dfc92d-faf1-45df-870b-99a5afc6d91a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f012aad2-1c90-4221-96c1-688c5133e4df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "PJRC"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4bc98e1c-8b31-4362-a37d-6f983356d8d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "~Teensy4.1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3352368d-791f-4d8f-8f43-340875ce27b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package / Case" "development-tool"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1307ece-9ab9-4749-b6d8-55cb22ef50d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "exclude_from_bom" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b69be72-e3d3-49bb-b409-75a6cce2440a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_bom)
+	(fp_rect
+		(start 0 0)
+		(end 26.46 60.96)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "1b7eceaa-ad01-40fc-a3a3-1151213f2a05")
+	)
+	(fp_text user "-8.89"
+		(at 0.53 0 270)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "72495a50-8c57-47a8-8c3d-0daf61724ec7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "-30.48"
+		(at 20.85 0 270)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "9f0b6395-0c96-4497-ad63-92f60a85ead6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
